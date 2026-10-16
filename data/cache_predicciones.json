@@ -1153,5 +1153,224 @@
     "gv": 1
    }
   ]
+ },
+ "559662": {
+  "obtenido": "2026-10-16T05:38:04.882602+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-02-01T19:45:00Z",
+    "local": "Strasbourg",
+    "visita": "PSG",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "fecha": "2025-10-17T18:45:00Z",
+    "local": "PSG",
+    "visita": "Strasbourg",
+    "gl": 3,
+    "gv": 3
+   },
+   {
+    "fecha": "2025-05-03T15:00:00Z",
+    "local": "Strasbourg",
+    "visita": "PSG",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "fecha": "2024-10-19T19:00:00Z",
+    "local": "PSG",
+    "visita": "Strasbourg",
+    "gl": 4,
+    "gv": 2
+   },
+   {
+    "fecha": "2024-02-02T20:00:00Z",
+    "local": "Strasbourg",
+    "visita": "PSG",
+    "gl": 1,
+    "gv": 2
+   }
+  ]
+ },
+ "558571": {
+  "obtenido": "2026-10-16T05:38:04.882602+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-05-23T16:00:00Z",
+    "local": "Bologna",
+    "visita": "Inter",
+    "gl": 3,
+    "gv": 3
+   },
+   {
+    "fecha": "2026-01-04T19:45:00Z",
+    "local": "Inter",
+    "visita": "Bologna",
+    "gl": 3,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-04-20T16:00:00Z",
+    "local": "Bologna",
+    "visita": "Inter",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-01-15T19:45:00Z",
+    "local": "Inter",
+    "visita": "Bologna",
+    "gl": 2,
+    "gv": 2
+   },
+   {
+    "fecha": "2024-03-09T17:00:00Z",
+    "local": "Bologna",
+    "visita": "Inter",
+    "gl": 0,
+    "gv": 1
+   }
+  ]
+ },
+ "560607": {
+  "obtenido": "2026-10-16T05:38:04.882602+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-01-25T14:00:00Z",
+    "local": "Newcastle",
+    "visita": "Aston Villa",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "fecha": "2025-08-16T11:30:00Z",
+    "local": "Aston Villa",
+    "visita": "Newcastle",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-04-19T16:30:00Z",
+    "local": "Aston Villa",
+    "visita": "Newcastle",
+    "gl": 4,
+    "gv": 1
+   },
+   {
+    "fecha": "2024-12-26T15:00:00Z",
+    "local": "Newcastle",
+    "visita": "Aston Villa",
+    "gl": 3,
+    "gv": 0
+   }
+  ]
+ },
+ "559659": {
+  "obtenido": "2026-10-16T05:38:04.882602+00:00",
+  "h2h": [
+   {
+    "fecha": "2023-01-28T16:00:00Z",
+    "local": "Troyes",
+    "visita": "RC Lens",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "fecha": "2022-09-09T19:00:00Z",
+    "local": "RC Lens",
+    "visita": "Troyes",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2022-05-14T19:00:00Z",
+    "local": "Troyes",
+    "visita": "RC Lens",
+    "gl": 1,
+    "gv": 3
+   },
+   {
+    "fecha": "2021-11-05T20:00:00Z",
+    "local": "RC Lens",
+    "visita": "Troyes",
+    "gl": 4,
+    "gv": 0
+   }
+  ]
+ },
+ "564711": {
+  "obtenido": "2026-10-16T05:38:04.882602+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-05-10T14:15:00Z",
+    "local": "Athletic",
+    "visita": "Valencia",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-09-20T19:00:00Z",
+    "local": "Valencia",
+    "visita": "Athletic",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-05-18T17:00:00Z",
+    "local": "Valencia",
+    "visita": "Athletic",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "fecha": "2024-08-28T17:00:00Z",
+    "local": "Athletic",
+    "visita": "Valencia",
+    "gl": 1,
+    "gv": 0
+   }
+  ]
+ },
+ "555041": {
+  "obtenido": "2026-10-16T05:38:04.882602+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-04-19T19:00:00Z",
+    "local": "Coritiba",
+    "visita": "Mineiro",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "fecha": "2023-10-08T21:30:00Z",
+    "local": "Mineiro",
+    "visita": "Coritiba",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "fecha": "2023-05-20T21:30:00Z",
+    "local": "Coritiba",
+    "visita": "Mineiro",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "fecha": "2022-08-14T14:00:00Z",
+    "local": "Coritiba",
+    "visita": "Mineiro",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "fecha": "2022-04-24T00:00:00Z",
+    "local": "Mineiro",
+    "visita": "Coritiba",
+    "gl": 2,
+    "gv": 2
+   }
+  ]
  }
 }
