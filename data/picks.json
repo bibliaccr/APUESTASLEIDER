@@ -1,1 +1,5477 @@
-{ "generado": null, "llamadas_usadas": 0, "avisos": [], "partidos": [] }
+{
+ "generado": "2026-10-16T04:04:47.746521+00:00",
+ "llamadas_usadas": 16,
+ "avisos": [],
+ "partidos": [
+  {
+   "id": 558872,
+   "fecha": "2026-10-16T18:00:00Z",
+   "liga": {
+    "id": "DED",
+    "nombre": "Eredivisie",
+    "pais": "Países Bajos",
+    "logo": "https://crests.football-data.org/ED.png"
+   },
+   "local": {
+    "id": 673,
+    "nombre": "Heerenveen",
+    "logo": "https://crests.football-data.org/673.png"
+   },
+   "visitante": {
+    "id": 670,
+    "nombre": "Excelsior",
+    "logo": "https://crests.football-data.org/670.png"
+   },
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 82,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    }
+   ],
+   "nivel_max": "confiada",
+   "analisis": {
+    "percent": {
+     "home": 29.9,
+     "draw": 23.2,
+     "away": 46.9
+    },
+    "mas15": 82.2,
+    "menos35": 61.4,
+    "mas25": 60.9,
+    "ambos": 62.0,
+    "goles_esp": {
+     "home": 1.38,
+     "away": 1.77
+    },
+    "ultimos5": {
+     "home": 33,
+     "away": 33
+    },
+    "forma": {
+     "home": 50,
+     "away": 50
+    },
+    "gf": {
+     "home": 1.38,
+     "away": 2.0
+    },
+    "gc": {
+     "home": 1.38,
+     "away": 1.75
+    },
+    "jugados": {
+     "home": 8,
+     "away": 8
+    },
+    "h2h": [
+     {
+      "fecha": "2026-03-07T20:00:00Z",
+      "local": "Excelsior",
+      "visita": "Heerenveen",
+      "gl": 1,
+      "gv": 2
+     },
+     {
+      "fecha": "2025-10-04T19:00:00Z",
+      "local": "Heerenveen",
+      "visita": "Excelsior",
+      "gl": 2,
+      "gv": 1
+     },
+     {
+      "fecha": "2024-01-19T19:00:00Z",
+      "local": "Excelsior",
+      "visita": "Heerenveen",
+      "gl": 3,
+      "gv": 0
+     },
+     {
+      "fecha": "2023-09-23T19:00:00Z",
+      "local": "Heerenveen",
+      "visita": "Excelsior",
+      "gl": 0,
+      "gv": 3
+     },
+     {
+      "fecha": "2023-05-13T18:00:00Z",
+      "local": "Heerenveen",
+      "visita": "Excelsior",
+      "gl": 0,
+      "gv": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": 565828,
+   "fecha": "2026-10-16T18:30:00Z",
+   "liga": {
+    "id": "BL1",
+    "nombre": "Bundesliga",
+    "pais": "Alemania",
+    "logo": "https://crests.football-data.org/BL1.png"
+   },
+   "local": {
+    "id": 19,
+    "nombre": "Frankfurt",
+    "logo": "https://crests.football-data.org/19.png"
+   },
+   "visitante": {
+    "id": 1,
+    "nombre": "1. FC Köln",
+    "logo": "https://crests.football-data.org/1.png"
+   },
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 92,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada",
+     "ajuste": "Bajó de nivel: hay pocos partidos jugados esta temporada."
+    }
+   ],
+   "nivel_max": "confiada",
+   "analisis": {
+    "percent": {
+     "home": 50.3,
+     "draw": 19.7,
+     "away": 30.0
+    },
+    "mas15": 91.8,
+    "menos35": 40.6,
+    "mas25": 78.2,
+    "ambos": 75.5,
+    "goles_esp": {
+     "home": 2.34,
+     "away": 1.8
+    },
+    "ultimos5": {
+     "home": 33,
+     "away": 47
+    },
+    "forma": {
+     "home": 42,
+     "away": 58
+    },
+    "gf": {
+     "home": 1.8,
+     "away": 1.6
+    },
+    "gc": {
+     "home": 3.2,
+     "away": 2.0
+    },
+    "jugados": {
+     "home": 5,
+     "away": 5
+    },
+    "h2h": [
+     {
+      "fecha": "2026-04-05T15:30:00Z",
+      "local": "Frankfurt",
+      "visita": "1. FC Köln",
+      "gl": 2,
+      "gv": 2
+     },
+     {
+      "fecha": "2025-11-22T17:30:00Z",
+      "local": "1. FC Köln",
+      "visita": "Frankfurt",
+      "gl": 3,
+      "gv": 4
+     },
+     {
+      "fecha": "2024-02-03T17:30:00Z",
+      "local": "1. FC Köln",
+      "visita": "Frankfurt",
+      "gl": 2,
+      "gv": 0
+     },
+     {
+      "fecha": "2023-09-03T13:30:00Z",
+      "local": "Frankfurt",
+      "visita": "1. FC Köln",
+      "gl": 1,
+      "gv": 1
+     },
+     {
+      "fecha": "2023-02-12T16:30:00Z",
+      "local": "1. FC Köln",
+      "visita": "Frankfurt",
+      "gl": 3,
+      "gv": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": 558573,
+   "fecha": "2026-10-16T18:45:00Z",
+   "liga": {
+    "id": "SA",
+    "nombre": "Serie A",
+    "pais": "Italia",
+    "logo": "https://crests.football-data.org/c111.png"
+   },
+   "local": {
+    "id": 470,
+    "nombre": "Frosinone",
+    "logo": "https://crests.football-data.org/470.png"
+   },
+   "visitante": {
+    "id": 471,
+    "nombre": "Sassuolo",
+    "logo": "https://crests.football-data.org/471.png"
+   },
+   "picks": [],
+   "nivel_max": null,
+   "analisis": {
+    "percent": {
+     "home": 47.8,
+     "draw": 23.6,
+     "away": 28.6
+    },
+    "mas15": 80.4,
+    "menos35": 64.3,
+    "mas25": 58.1,
+    "ambos": 59.6,
+    "goles_esp": {
+     "home": 1.73,
+     "away": 1.29
+    },
+    "ultimos5": {
+     "home": 67,
+     "away": 53
+    },
+    "forma": {
+     "home": 56,
+     "away": 44
+    },
+    "gf": {
+     "home": 1.5,
+     "away": 1.67
+    },
+    "gc": {
+     "home": 1.17,
+     "away": 1.67
+    },
+    "jugados": {
+     "home": 6,
+     "away": 6
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 559661,
+   "fecha": "2026-10-16T18:45:00Z",
+   "liga": {
+    "id": "FL1",
+    "nombre": "Ligue 1",
+    "pais": "Francia",
+    "logo": "https://crests.football-data.org/FL1.png"
+   },
+   "local": {
+    "id": 535,
+    "nombre": "Le Mans",
+    "logo": "https://crests.football-data.org/535.png"
+   },
+   "visitante": {
+    "id": 511,
+    "nombre": "Toulouse",
+    "logo": "https://crests.football-data.org/511.png"
+   },
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 87,
+     "texto": "Más de 1.5 goles",
+     "nivel": "media",
+     "ajuste": "Bajó de nivel: hay pocos partidos jugados esta temporada."
+    }
+   ],
+   "nivel_max": "media",
+   "analisis": {
+    "percent": {
+     "home": 50.1,
+     "draw": 21.3,
+     "away": 28.6
+    },
+    "mas15": 87.2,
+    "menos35": 52.0,
+    "mas25": 69.3,
+    "ambos": 68.2,
+    "goles_esp": {
+     "home": 2.06,
+     "away": 1.52
+    },
+    "ultimos5": {
+     "home": 33,
+     "away": 40
+    },
+    "forma": {
+     "home": 45,
+     "away": 55
+    },
+    "gf": {
+     "home": 1.67,
+     "away": 1.5
+    },
+    "gc": {
+     "home": 2.0,
+     "away": 1.83
+    },
+    "jugados": {
+     "home": 6,
+     "away": 6
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 564716,
+   "fecha": "2026-10-16T19:00:00Z",
+   "liga": {
+    "id": "PD",
+    "nombre": "LaLiga",
+    "pais": "España",
+    "logo": "https://crests.football-data.org/laliga.png"
+   },
+   "local": {
+    "id": 560,
+    "nombre": "Deportivo",
+    "logo": "https://crests.football-data.org/560.png"
+   },
+   "visitante": {
+    "id": 88,
+    "nombre": "Levante",
+    "logo": "https://crests.football-data.org/88.png"
+   },
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 85,
+     "texto": "Más de 1.5 goles",
+     "nivel": "media",
+     "ajuste": "Bajó de nivel: hay pocos partidos jugados esta temporada."
+    }
+   ],
+   "nivel_max": "media",
+   "analisis": {
+    "percent": {
+     "home": 57.1,
+     "draw": 20.7,
+     "away": 22.2
+    },
+    "mas15": 85.0,
+    "menos35": 56.5,
+    "mas25": 65.4,
+    "ambos": 62.9,
+    "goles_esp": {
+     "home": 2.11,
+     "away": 1.26
+    },
+    "ultimos5": {
+     "home": 33,
+     "away": 33
+    },
+    "forma": {
+     "home": 50,
+     "away": 50
+    },
+    "gf": {
+     "home": 1.5,
+     "away": 1.57
+    },
+    "gc": {
+     "home": 1.38,
+     "away": 2.14
+    },
+    "jugados": {
+     "home": 8,
+     "away": 7
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 561883,
+   "fecha": "2026-10-16T19:00:00Z",
+   "liga": {
+    "id": "ELC",
+    "nombre": "Championship",
+    "pais": "Inglaterra",
+    "logo": "https://crests.football-data.org/ELC.png"
+   },
+   "local": {
+    "id": 328,
+    "nombre": "Burnley",
+    "logo": "https://crests.football-data.org/328.png"
+   },
+   "visitante": {
+    "id": 76,
+    "nombre": "Wolverhampton",
+    "logo": "https://crests.football-data.org/76.png"
+   },
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 86,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    }
+   ],
+   "nivel_max": "confiada",
+   "analisis": {
+    "percent": {
+     "home": 36.8,
+     "draw": 22.2,
+     "away": 41.0
+    },
+    "mas15": 86.4,
+    "menos35": 53.6,
+    "mas25": 68.0,
+    "ambos": 68.2,
+    "goles_esp": {
+     "home": 1.7,
+     "away": 1.8
+    },
+    "ultimos5": {
+     "home": 40,
+     "away": 47
+    },
+    "forma": {
+     "home": 46,
+     "away": 54
+    },
+    "gf": {
+     "home": 1.5,
+     "away": 1.78
+    },
+    "gc": {
+     "home": 1.9,
+     "away": 1.56
+    },
+    "jugados": {
+     "home": 10,
+     "away": 9
+    },
+    "h2h": [
+     {
+      "fecha": "2026-05-24T15:00:00Z",
+      "local": "Burnley",
+      "visita": "Wolverhampton",
+      "gl": 1,
+      "gv": 1
+     },
+     {
+      "fecha": "2025-10-26T14:00:00Z",
+      "local": "Wolverhampton",
+      "visita": "Burnley",
+      "gl": 2,
+      "gv": 3
+     },
+     {
+      "fecha": "2024-04-02T18:45:00Z",
+      "local": "Burnley",
+      "visita": "Wolverhampton",
+      "gl": 1,
+      "gv": 1
+     },
+     {
+      "fecha": "2023-12-05T19:30:00Z",
+      "local": "Wolverhampton",
+      "visita": "Burnley",
+      "gl": 1,
+      "gv": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": 555047,
+   "fecha": "2026-10-16T23:00:00Z",
+   "liga": {
+    "id": "BSA",
+    "nombre": "Brasileirão Serie A",
+    "pais": "Brasil",
+    "logo": "https://crests.football-data.org/bsa.png"
+   },
+   "local": {
+    "id": 4364,
+    "nombre": "Mirassol",
+    "logo": "https://crests.football-data.org/4364.png"
+   },
+   "visitante": {
+    "id": 6684,
+    "nombre": "Internacional",
+    "logo": "https://crests.football-data.org/6684.png"
+   },
+   "picks": [],
+   "nivel_max": null,
+   "analisis": {
+    "percent": {
+     "home": 41.7,
+     "draw": 28.0,
+     "away": 30.3
+    },
+    "mas15": 67.4,
+    "menos35": 79.5,
+    "mas25": 40.9,
+    "ambos": 46.7,
+    "goles_esp": {
+     "home": 1.28,
+     "away": 1.04
+    },
+    "ultimos5": {
+     "home": 53,
+     "away": 47
+    },
+    "forma": {
+     "home": 53,
+     "away": 47
+    },
+    "gf": {
+     "home": 1.13,
+     "away": 1.1
+    },
+    "gc": {
+     "home": 1.47,
+     "away": 1.27
+    },
+    "jugados": {
+     "home": 30,
+     "away": 30
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 560603,
+   "fecha": "2026-10-17T11:30:00Z",
+   "liga": {
+    "id": "PL",
+    "nombre": "Premier League",
+    "pais": "Inglaterra",
+    "logo": "https://crests.football-data.org/PL.png"
+   },
+   "local": {
+    "id": 62,
+    "nombre": "Everton",
+    "logo": "https://crests.football-data.org/62.png"
+   },
+   "visitante": {
+    "id": 61,
+    "nombre": "Chelsea",
+    "logo": "https://crests.football-data.org/61.png"
+   },
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 84,
+     "texto": "Más de 1.5 goles",
+     "nivel": "media",
+     "ajuste": "Bajó de nivel: hay pocos partidos jugados esta temporada."
+    }
+   ],
+   "nivel_max": "media",
+   "analisis": {
+    "percent": {
+     "home": 49.8,
+     "draw": 22.2,
+     "away": 28.1
+    },
+    "mas15": 84.5,
+    "menos35": 57.5,
+    "mas25": 64.6,
+    "ambos": 64.4,
+    "goles_esp": {
+     "home": 1.92,
+     "away": 1.4
+    },
+    "ultimos5": {
+     "home": 47,
+     "away": 47
+    },
+    "forma": {
+     "home": 50,
+     "away": 50
+    },
+    "gf": {
+     "home": 1.33,
+     "away": 2.5
+    },
+    "gc": {
+     "home": 0.83,
+     "away": 2.17
+    },
+    "jugados": {
+     "home": 6,
+     "away": 6
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 561884,
+   "fecha": "2026-10-17T11:30:00Z",
+   "liga": {
+    "id": "ELC",
+    "nombre": "Championship",
+    "pais": "Inglaterra",
+    "logo": "https://crests.football-data.org/ELC.png"
+   },
+   "local": {
+    "id": 384,
+    "nombre": "Millwall",
+    "logo": "https://crests.football-data.org/384.png"
+   },
+   "visitante": {
+    "id": 1126,
+    "nombre": "Lincoln City",
+    "logo": "https://crests.football-data.org/1126.png"
+   },
+   "picks": [
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 82,
+     "texto": "Millwall gana o empata",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "1x2",
+     "lado": "home",
+     "prob": 60,
+     "texto": "Gana Millwall",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 77,
+     "texto": "Más de 1.5 goles",
+     "nivel": "media"
+    }
+   ],
+   "nivel_max": "confiada",
+   "analisis": {
+    "percent": {
+     "home": 60.3,
+     "draw": 22.0,
+     "away": 17.7
+    },
+    "mas15": 77.0,
+    "menos35": 69.1,
+    "mas25": 53.2,
+    "ambos": 50.9,
+    "goles_esp": {
+     "home": 1.89,
+     "away": 0.91
+    },
+    "ultimos5": {
+     "home": 33,
+     "away": 40
+    },
+    "forma": {
+     "home": 45,
+     "away": 55
+    },
+    "gf": {
+     "home": 1.6,
+     "away": 0.7
+    },
+    "gc": {
+     "home": 1.6,
+     "away": 1.7
+    },
+    "jugados": {
+     "home": 10,
+     "away": 10
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 561887,
+   "fecha": "2026-10-17T11:30:00Z",
+   "liga": {
+    "id": "ELC",
+    "nombre": "Championship",
+    "pais": "Inglaterra",
+    "logo": "https://crests.football-data.org/ELC.png"
+   },
+   "local": {
+    "id": 343,
+    "nombre": "Middlesbrough",
+    "logo": "https://crests.football-data.org/343.png"
+   },
+   "visitante": {
+    "id": 715,
+    "nombre": "Cardiff",
+    "logo": "https://crests.football-data.org/715.png"
+   },
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 85,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "1x2",
+     "lado": "home",
+     "prob": 53,
+     "texto": "Gana Middlesbrough",
+     "nivel": "media"
+    }
+   ],
+   "nivel_max": "confiada",
+   "analisis": {
+    "percent": {
+     "home": 53.0,
+     "draw": 21.4,
+     "away": 25.6
+    },
+    "mas15": 85.3,
+    "menos35": 55.9,
+    "mas25": 65.9,
+    "ambos": 64.7,
+    "goles_esp": {
+     "home": 2.03,
+     "away": 1.36
+    },
+    "ultimos5": {
+     "home": 73,
+     "away": 47
+    },
+    "forma": {
+     "home": 61,
+     "away": 39
+    },
+    "gf": {
+     "home": 2.0,
+     "away": 1.6
+    },
+    "gc": {
+     "home": 1.4,
+     "away": 1.5
+    },
+    "jugados": {
+     "home": 10,
+     "away": 10
+    },
+    "h2h": [
+     {
+      "fecha": "2025-01-04T15:00:00Z",
+      "local": "Middlesbrough",
+      "visita": "Cardiff",
+      "gl": 1,
+      "gv": 1
+     },
+     {
+      "fecha": "2024-08-31T11:30:00Z",
+      "local": "Cardiff",
+      "visita": "Middlesbrough",
+      "gl": 0,
+      "gv": 2
+     },
+     {
+      "fecha": "2024-04-27T14:00:00Z",
+      "local": "Cardiff",
+      "visita": "Middlesbrough",
+      "gl": 1,
+      "gv": 4
+     },
+     {
+      "fecha": "2023-10-03T18:45:00Z",
+      "local": "Middlesbrough",
+      "visita": "Cardiff",
+      "gl": 2,
+      "gv": 0
+     },
+     {
+      "fecha": "2023-02-11T15:00:00Z",
+      "local": "Cardiff",
+      "visita": "Middlesbrough",
+      "gl": 1,
+      "gv": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": 561889,
+   "fecha": "2026-10-17T11:30:00Z",
+   "liga": {
+    "id": "ELC",
+    "nombre": "Championship",
+    "pais": "Inglaterra",
+    "logo": "https://crests.football-data.org/ELC.png"
+   },
+   "local": {
+    "id": 346,
+    "nombre": "Watford",
+    "logo": "https://crests.football-data.org/346.png"
+   },
+   "visitante": {
+    "id": 348,
+    "nombre": "Charlton",
+    "logo": "https://crests.football-data.org/348.png"
+   },
+   "picks": [],
+   "nivel_max": null,
+   "analisis": {
+    "percent": {
+     "home": 30.6,
+     "draw": 28.3,
+     "away": 41.1
+    },
+    "mas15": 66.6,
+    "menos35": 80.2,
+    "mas25": 40.0,
+    "ambos": 46.1,
+    "goles_esp": {
+     "home": 1.04,
+     "away": 1.25
+    },
+    "ultimos5": {
+     "home": 20,
+     "away": 27
+    },
+    "forma": {
+     "home": 43,
+     "away": 57
+    },
+    "gf": {
+     "home": 0.8,
+     "away": 1.0
+    },
+    "gc": {
+     "home": 1.9,
+     "away": 1.3
+    },
+    "jugados": {
+     "home": 10,
+     "away": 10
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 564710,
+   "fecha": "2026-10-17T12:00:00Z",
+   "liga": {
+    "id": "PD",
+    "nombre": "LaLiga",
+    "pais": "España",
+    "logo": "https://crests.football-data.org/laliga.png"
+   },
+   "local": {
+    "id": 80,
+    "nombre": "Espanyol",
+    "logo": "https://crests.football-data.org/80.png"
+   },
+   "visitante": {
+    "id": 78,
+    "nombre": "Atleti",
+    "logo": "https://crests.football-data.org/78.png"
+   },
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 78,
+     "texto": "Más de 1.5 goles",
+     "nivel": "media"
+    }
+   ],
+   "nivel_max": "media",
+   "analisis": {
+    "percent": {
+     "home": 30.8,
+     "draw": 24.6,
+     "away": 44.6
+    },
+    "mas15": 78.1,
+    "menos35": 67.5,
+    "mas25": 54.8,
+    "ambos": 57.6,
+    "goles_esp": {
+     "home": 1.28,
+     "away": 1.59
+    },
+    "ultimos5": {
+     "home": 33,
+     "away": 80
+    },
+    "forma": {
+     "home": 29,
+     "away": 71
+    },
+    "gf": {
+     "home": 1.38,
+     "away": 2.25
+    },
+    "gc": {
+     "home": 1.38,
+     "away": 1.0
+    },
+    "jugados": {
+     "home": 8,
+     "away": 8
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 558575,
+   "fecha": "2026-10-17T13:00:00Z",
+   "liga": {
+    "id": "SA",
+    "nombre": "Serie A",
+    "pais": "Italia",
+    "logo": "https://crests.football-data.org/c111.png"
+   },
+   "local": {
+    "id": 454,
+    "nombre": "Venezia FC",
+    "logo": "https://crests.football-data.org/454.png"
+   },
+   "visitante": {
+    "id": 113,
+    "nombre": "Napoli",
+    "logo": "https://crests.football-data.org/113.png"
+   },
+   "picks": [
+    {
+     "mercado": "doble",
+     "lado": "away",
+     "prob": 83,
+     "texto": "Napoli gana o empata",
+     "nivel": "media",
+     "ajuste": "Bajó de nivel: hay pocos partidos jugados esta temporada."
+    },
+    {
+     "mercado": "1x2",
+     "lado": "away",
+     "prob": 63,
+     "texto": "Gana Napoli",
+     "nivel": "media",
+     "ajuste": "Bajó de nivel: hay pocos partidos jugados esta temporada."
+    }
+   ],
+   "nivel_max": "media",
+   "analisis": {
+    "percent": {
+     "home": 17.0,
+     "draw": 20.2,
+     "away": 62.8
+    },
+    "mas15": 81.6,
+    "menos35": 62.4,
+    "mas25": 60.0,
+    "ambos": 55.5,
+    "goles_esp": {
+     "home": 1.0,
+     "away": 2.11
+    },
+    "ultimos5": {
+     "home": 0,
+     "away": 47
+    },
+    "forma": {
+     "home": 0,
+     "away": 100
+    },
+    "gf": {
+     "home": 0.83,
+     "away": 1.67
+    },
+    "gc": {
+     "home": 2.67,
+     "away": 1.0
+    },
+    "jugados": {
+     "home": 6,
+     "away": 6
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 565821,
+   "fecha": "2026-10-17T13:30:00Z",
+   "liga": {
+    "id": "BL1",
+    "nombre": "Bundesliga",
+    "pais": "Alemania",
+    "logo": "https://crests.football-data.org/BL1.png"
+   },
+   "local": {
+    "id": 28,
+    "nombre": "Union Berlin",
+    "logo": "https://crests.football-data.org/28.png"
+   },
+   "visitante": {
+    "id": 4,
+    "nombre": "Dortmund",
+    "logo": "https://crests.football-data.org/4.png"
+   },
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 86,
+     "texto": "Más de 1.5 goles",
+     "nivel": "media",
+     "ajuste": "Bajó de nivel: hay pocos partidos jugados esta temporada."
+    },
+    {
+     "mercado": "1x2",
+     "lado": "away",
+     "prob": 58,
+     "texto": "Gana Dortmund",
+     "nivel": "media",
+     "ajuste": "Bajó de nivel: hay pocos partidos jugados esta temporada."
+    }
+   ],
+   "nivel_max": "media",
+   "analisis": {
+    "percent": {
+     "home": 21.5,
+     "draw": 20.2,
+     "away": 58.3
+    },
+    "mas15": 86.0,
+    "menos35": 54.4,
+    "mas25": 67.3,
+    "ambos": 63.9,
+    "goles_esp": {
+     "home": 1.27,
+     "away": 2.19
+    },
+    "ultimos5": {
+     "home": 27,
+     "away": 87
+    },
+    "forma": {
+     "home": 24,
+     "away": 76
+    },
+    "gf": {
+     "home": 1.0,
+     "away": 2.2
+    },
+    "gc": {
+     "home": 3.4,
+     "away": 0.8
+    },
+    "jugados": {
+     "home": 5,
+     "away": 5
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 565822,
+   "fecha": "2026-10-17T13:30:00Z",
+   "liga": {
+    "id": "BL1",
+    "nombre": "Bundesliga",
+    "pais": "Alemania",
+    "logo": "https://crests.football-data.org/BL1.png"
+   },
+   "local": {
+    "id": 7,
+    "nombre": "HSV",
+    "logo": "https://crests.football-data.org/7.png"
+   },
+   "visitante": {
+    "id": 10,
+    "nombre": "Stuttgart",
+    "logo": "https://crests.football-data.org/10.png"
+   },
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 86,
+     "texto": "Más de 1.5 goles",
+     "nivel": "media",
+     "ajuste": "Bajó de nivel: hay pocos partidos jugados esta temporada."
+    }
+   ],
+   "nivel_max": "media",
+   "analisis": {
+    "percent": {
+     "home": 39.0,
+     "draw": 22.4,
+     "away": 38.6
+    },
+    "mas15": 86.1,
+    "menos35": 54.2,
+    "mas25": 67.4,
+    "ambos": 67.9,
+    "goles_esp": {
+     "home": 1.74,
+     "away": 1.73
+    },
+    "ultimos5": {
+     "home": 40,
+     "away": 40
+    },
+    "forma": {
+     "home": 50,
+     "away": 50
+    },
+    "gf": {
+     "home": 1.0,
+     "away": 1.6
+    },
+    "gc": {
+     "home": 3.0,
+     "away": 1.8
+    },
+    "jugados": {
+     "home": 5,
+     "away": 5
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 565823,
+   "fecha": "2026-10-17T13:30:00Z",
+   "liga": {
+    "id": "BL1",
+    "nombre": "Bundesliga",
+    "pais": "Alemania",
+    "logo": "https://crests.football-data.org/BL1.png"
+   },
+   "local": {
+    "id": 12,
+    "nombre": "Bremen",
+    "logo": "https://crests.football-data.org/12.png"
+   },
+   "visitante": {
+    "id": 29,
+    "nombre": "SC Paderborn",
+    "logo": "https://crests.football-data.org/29.png"
+   },
+   "picks": [
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 83,
+     "texto": "Bremen gana o empata",
+     "nivel": "media",
+     "ajuste": "Bajó de nivel: hay pocos partidos jugados esta temporada."
+    },
+    {
+     "mercado": "1x2",
+     "lado": "home",
+     "prob": 63,
+     "texto": "Gana Bremen",
+     "nivel": "media",
+     "ajuste": "Bajó de nivel: hay pocos partidos jugados esta temporada."
+    }
+   ],
+   "nivel_max": "media",
+   "analisis": {
+    "percent": {
+     "home": 62.7,
+     "draw": 20.3,
+     "away": 17.0
+    },
+    "mas15": 81.2,
+    "menos35": 63.1,
+    "mas25": 59.3,
+    "ambos": 54.9,
+    "goles_esp": {
+     "home": 2.09,
+     "away": 0.99
+    },
+    "ultimos5": {
+     "home": 53,
+     "away": 27
+    },
+    "forma": {
+     "home": 67,
+     "away": 33
+    },
+    "gf": {
+     "home": 2.0,
+     "away": 0.6
+    },
+    "gc": {
+     "home": 2.0,
+     "away": 1.4
+    },
+    "jugados": {
+     "home": 5,
+     "away": 5
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 565824,
+   "fecha": "2026-10-17T13:30:00Z",
+   "liga": {
+    "id": "BL1",
+    "nombre": "Bundesliga",
+    "pais": "Alemania",
+    "logo": "https://crests.football-data.org/BL1.png"
+   },
+   "local": {
+    "id": 719,
+    "nombre": "Elversberg",
+    "logo": "https://crests.football-data.org/719.png"
+   },
+   "visitante": {
+    "id": 16,
+    "nombre": "Augsburg",
+    "logo": "https://crests.football-data.org/16.png"
+   },
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 87,
+     "texto": "Más de 1.5 goles",
+     "nivel": "media",
+     "ajuste": "Bajó de nivel: hay pocos partidos jugados esta temporada."
+    }
+   ],
+   "nivel_max": "media",
+   "analisis": {
+    "percent": {
+     "home": 47.2,
+     "draw": 21.6,
+     "away": 31.2
+    },
+    "mas15": 87.2,
+    "menos35": 52.0,
+    "mas25": 69.3,
+    "ambos": 68.7,
+    "goles_esp": {
+     "home": 1.99,
+     "away": 1.59
+    },
+    "ultimos5": {
+     "home": 47,
+     "away": 53
+    },
+    "forma": {
+     "home": 47,
+     "away": 53
+    },
+    "gf": {
+     "home": 1.6,
+     "away": 2.6
+    },
+    "gc": {
+     "home": 1.6,
+     "away": 1.6
+    },
+    "jugados": {
+     "home": 5,
+     "away": 5
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 565829,
+   "fecha": "2026-10-17T13:30:00Z",
+   "liga": {
+    "id": "BL1",
+    "nombre": "Bundesliga",
+    "pais": "Alemania",
+    "logo": "https://crests.football-data.org/BL1.png"
+   },
+   "local": {
+    "id": 6,
+    "nombre": "Schalke",
+    "logo": "https://crests.football-data.org/6.png"
+   },
+   "visitante": {
+    "id": 15,
+    "nombre": "Mainz",
+    "logo": "https://crests.football-data.org/15.png"
+   },
+   "picks": [],
+   "nivel_max": null,
+   "analisis": {
+    "percent": {
+     "home": 44.7,
+     "draw": 23.5,
+     "away": 31.8
+    },
+    "mas15": 81.8,
+    "menos35": 62.1,
+    "mas25": 60.3,
+    "ambos": 61.9,
+    "goles_esp": {
+     "home": 1.71,
+     "away": 1.41
+    },
+    "ultimos5": {
+     "home": 33,
+     "away": 47
+    },
+    "forma": {
+     "home": 42,
+     "away": 58
+    },
+    "gf": {
+     "home": 0.8,
+     "away": 2.6
+    },
+    "gc": {
+     "home": 1.2,
+     "away": 2.0
+    },
+    "jugados": {
+     "home": 5,
+     "away": 5
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 560602,
+   "fecha": "2026-10-17T14:00:00Z",
+   "liga": {
+    "id": "PL",
+    "nombre": "Premier League",
+    "pais": "Inglaterra",
+    "logo": "https://crests.football-data.org/PL.png"
+   },
+   "local": {
+    "id": 63,
+    "nombre": "Fulham",
+    "logo": "https://crests.football-data.org/63.png"
+   },
+   "visitante": {
+    "id": 322,
+    "nombre": "Hull City",
+    "logo": "https://crests.football-data.org/322.png"
+   },
+   "picks": [],
+   "nivel_max": null,
+   "analisis": {
+    "percent": {
+     "home": 30.4,
+     "draw": 27.0,
+     "away": 42.6
+    },
+    "mas15": 70.3,
+    "menos35": 76.8,
+    "mas25": 44.4,
+    "ambos": 49.4,
+    "goles_esp": {
+     "home": 1.1,
+     "away": 1.35
+    },
+    "ultimos5": {
+     "home": 13,
+     "away": 40
+    },
+    "forma": {
+     "home": 25,
+     "away": 75
+    },
+    "gf": {
+     "home": 1.0,
+     "away": 1.33
+    },
+    "gc": {
+     "home": 1.67,
+     "away": 1.0
+    },
+    "jugados": {
+     "home": 6,
+     "away": 6
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 560610,
+   "fecha": "2026-10-17T14:00:00Z",
+   "liga": {
+    "id": "PL",
+    "nombre": "Premier League",
+    "pais": "Inglaterra",
+    "logo": "https://crests.football-data.org/PL.png"
+   },
+   "local": {
+    "id": 65,
+    "nombre": "Man City",
+    "logo": "https://crests.football-data.org/65.png"
+   },
+   "visitante": {
+    "id": 349,
+    "nombre": "Ipswich Town",
+    "logo": "https://crests.football-data.org/349.png"
+   },
+   "picks": [
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 89,
+     "texto": "Man City gana o empata",
+     "nivel": "confiada",
+     "ajuste": "Bajó de nivel: hay pocos partidos jugados esta temporada."
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 89,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada",
+     "ajuste": "Bajó de nivel: hay pocos partidos jugados esta temporada."
+    },
+    {
+     "mercado": "1x2",
+     "lado": "home",
+     "prob": 74,
+     "texto": "Gana Man City",
+     "nivel": "confiada",
+     "ajuste": "Bajó de nivel: hay pocos partidos jugados esta temporada."
+    }
+   ],
+   "nivel_max": "confiada",
+   "analisis": {
+    "percent": {
+     "home": 73.9,
+     "draw": 14.8,
+     "away": 11.3
+    },
+    "mas15": 89.3,
+    "menos35": 47.2,
+    "mas25": 73.2,
+    "ambos": 60.2,
+    "goles_esp": {
+     "home": 2.78,
+     "away": 1.03
+    },
+    "ultimos5": {
+     "home": 100,
+     "away": 40
+    },
+    "forma": {
+     "home": 71,
+     "away": 29
+    },
+    "gf": {
+     "home": 2.67,
+     "away": 1.5
+    },
+    "gc": {
+     "home": 0.83,
+     "away": 2.0
+    },
+    "jugados": {
+     "home": 6,
+     "away": 6
+    },
+    "h2h": [
+     {
+      "fecha": "2025-01-19T16:30:00Z",
+      "local": "Ipswich Town",
+      "visita": "Man City",
+      "gl": 0,
+      "gv": 6
+     },
+     {
+      "fecha": "2024-08-24T14:00:00Z",
+      "local": "Man City",
+      "visita": "Ipswich Town",
+      "gl": 4,
+      "gv": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": 560611,
+   "fecha": "2026-10-17T14:00:00Z",
+   "liga": {
+    "id": "PL",
+    "nombre": "Premier League",
+    "pais": "Inglaterra",
+    "logo": "https://crests.football-data.org/PL.png"
+   },
+   "local": {
+    "id": 402,
+    "nombre": "Brentford",
+    "logo": "https://crests.football-data.org/402.png"
+   },
+   "visitante": {
+    "id": 64,
+    "nombre": "Liverpool",
+    "logo": "https://crests.football-data.org/64.png"
+   },
+   "picks": [],
+   "nivel_max": null,
+   "analisis": {
+    "percent": {
+     "home": 54.7,
+     "draw": 23.9,
+     "away": 21.4
+    },
+    "mas15": 74.8,
+    "menos35": 71.8,
+    "mas25": 50.2,
+    "ambos": 51.0,
+    "goles_esp": {
+     "home": 1.71,
+     "away": 0.97
+    },
+    "ultimos5": {
+     "home": 47,
+     "away": 53
+    },
+    "forma": {
+     "home": 47,
+     "away": 53
+    },
+    "gf": {
+     "home": 2.0,
+     "away": 1.17
+    },
+    "gc": {
+     "home": 1.0,
+     "away": 1.17
+    },
+    "jugados": {
+     "home": 6,
+     "away": 6
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 561881,
+   "fecha": "2026-10-17T14:00:00Z",
+   "liga": {
+    "id": "ELC",
+    "nombre": "Championship",
+    "pais": "Inglaterra",
+    "logo": "https://crests.football-data.org/ELC.png"
+   },
+   "local": {
+    "id": 68,
+    "nombre": "Norwich",
+    "logo": "https://crests.football-data.org/68.png"
+   },
+   "visitante": {
+    "id": 325,
+    "nombre": "Portsmouth",
+    "logo": "https://crests.football-data.org/325.png"
+   },
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 84,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    }
+   ],
+   "nivel_max": "confiada",
+   "analisis": {
+    "percent": {
+     "home": 43.1,
+     "draw": 22.8,
+     "away": 34.1
+    },
+    "mas15": 84.3,
+    "menos35": 57.7,
+    "mas25": 64.4,
+    "ambos": 65.3,
+    "goles_esp": {
+     "home": 1.77,
+     "away": 1.55
+    },
+    "ultimos5": {
+     "home": 20,
+     "away": 53
+    },
+    "forma": {
+     "home": 27,
+     "away": 73
+    },
+    "gf": {
+     "home": 1.7,
+     "away": 1.33
+    },
+    "gc": {
+     "home": 2.0,
+     "away": 1.44
+    },
+    "jugados": {
+     "home": 10,
+     "away": 9
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 561882,
+   "fecha": "2026-10-17T14:00:00Z",
+   "liga": {
+    "id": "ELC",
+    "nombre": "Championship",
+    "pais": "Inglaterra",
+    "logo": "https://crests.football-data.org/ELC.png"
+   },
+   "local": {
+    "id": 340,
+    "nombre": "Southampton",
+    "logo": "https://crests.football-data.org/340.png"
+   },
+   "visitante": {
+    "id": 60,
+    "nombre": "Bolton",
+    "logo": "https://crests.football-data.org/60.png"
+   },
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 86,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 85,
+     "texto": "Southampton gana o empata",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "1x2",
+     "lado": "home",
+     "prob": 67,
+     "texto": "Gana Southampton",
+     "nivel": "confiada"
+    }
+   ],
+   "nivel_max": "confiada",
+   "analisis": {
+    "percent": {
+     "home": 66.8,
+     "draw": 18.0,
+     "away": 15.2
+    },
+    "mas15": 85.9,
+    "menos35": 54.7,
+    "mas25": 67.0,
+    "ambos": 59.3,
+    "goles_esp": {
+     "home": 2.39,
+     "away": 1.06
+    },
+    "ultimos5": {
+     "home": 80,
+     "away": 60
+    },
+    "forma": {
+     "home": 57,
+     "away": 43
+    },
+    "gf": {
+     "home": 2.1,
+     "away": 1.5
+    },
+    "gc": {
+     "home": 1.0,
+     "away": 1.8
+    },
+    "jugados": {
+     "home": 10,
+     "away": 10
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 561885,
+   "fecha": "2026-10-17T14:00:00Z",
+   "liga": {
+    "id": "ELC",
+    "nombre": "Championship",
+    "pais": "Inglaterra",
+    "logo": "https://crests.football-data.org/ELC.png"
+   },
+   "local": {
+    "id": 387,
+    "nombre": "Bristol City",
+    "logo": "https://crests.football-data.org/387.png"
+   },
+   "visitante": {
+    "id": 356,
+    "nombre": "Sheffield Utd",
+    "logo": "https://crests.football-data.org/356.png"
+   },
+   "picks": [],
+   "nivel_max": null,
+   "analisis": {
+    "percent": {
+     "home": 39.9,
+     "draw": 26.2,
+     "away": 33.9
+    },
+    "mas15": 73.6,
+    "menos35": 73.2,
+    "mas25": 48.6,
+    "ambos": 53.2,
+    "goles_esp": {
+     "home": 1.37,
+     "away": 1.25
+    },
+    "ultimos5": {
+     "home": 27,
+     "away": 40
+    },
+    "forma": {
+     "home": 40,
+     "away": 60
+    },
+    "gf": {
+     "home": 1.2,
+     "away": 1.4
+    },
+    "gc": {
+     "home": 1.4,
+     "away": 1.4
+    },
+    "jugados": {
+     "home": 10,
+     "away": 10
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 561886,
+   "fecha": "2026-10-17T14:00:00Z",
+   "liga": {
+    "id": "ELC",
+    "nombre": "Championship",
+    "pais": "Inglaterra",
+    "logo": "https://crests.football-data.org/ELC.png"
+   },
+   "local": {
+    "id": 332,
+    "nombre": "Birmingham",
+    "logo": "https://crests.football-data.org/332.png"
+   },
+   "visitante": {
+    "id": 69,
+    "nombre": "QPR",
+    "logo": "https://crests.football-data.org/69.png"
+   },
+   "picks": [],
+   "nivel_max": null,
+   "analisis": {
+    "percent": {
+     "home": 41.3,
+     "draw": 27.2,
+     "away": 31.5
+    },
+    "mas15": 70.1,
+    "menos35": 77.0,
+    "mas25": 44.2,
+    "ambos": 49.4,
+    "goles_esp": {
+     "home": 1.32,
+     "away": 1.12
+    },
+    "ultimos5": {
+     "home": 67,
+     "away": 47
+    },
+    "forma": {
+     "home": 59,
+     "away": 41
+    },
+    "gf": {
+     "home": 1.7,
+     "away": 1.5
+    },
+    "gc": {
+     "home": 1.1,
+     "away": 0.9
+    },
+    "jugados": {
+     "home": 10,
+     "away": 10
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 561888,
+   "fecha": "2026-10-17T14:00:00Z",
+   "liga": {
+    "id": "ELC",
+    "nombre": "Championship",
+    "pais": "Inglaterra",
+    "logo": "https://crests.football-data.org/ELC.png"
+   },
+   "local": {
+    "id": 342,
+    "nombre": "Derby County",
+    "logo": "https://crests.football-data.org/342.png"
+   },
+   "visitante": {
+    "id": 70,
+    "nombre": "Stoke",
+    "logo": "https://crests.football-data.org/70.png"
+   },
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 80,
+     "texto": "Más de 1.5 goles",
+     "nivel": "media"
+    }
+   ],
+   "nivel_max": "media",
+   "analisis": {
+    "percent": {
+     "home": 27.7,
+     "draw": 23.4,
+     "away": 48.8
+    },
+    "mas15": 80.4,
+    "menos35": 64.2,
+    "mas25": 58.2,
+    "ambos": 59.4,
+    "goles_esp": {
+     "home": 1.27,
+     "away": 1.75
+    },
+    "ultimos5": {
+     "home": 13,
+     "away": 67
+    },
+    "forma": {
+     "home": 17,
+     "away": 83
+    },
+    "gf": {
+     "home": 0.9,
+     "away": 1.7
+    },
+    "gc": {
+     "home": 1.9,
+     "away": 1.6
+    },
+    "jugados": {
+     "home": 10,
+     "away": 10
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 561890,
+   "fecha": "2026-10-17T14:00:00Z",
+   "liga": {
+    "id": "ELC",
+    "nombre": "Championship",
+    "pais": "Inglaterra",
+    "logo": "https://crests.football-data.org/ELC.png"
+   },
+   "local": {
+    "id": 72,
+    "nombre": "Swansea",
+    "logo": "https://crests.football-data.org/72.png"
+   },
+   "visitante": {
+    "id": 563,
+    "nombre": "West Ham",
+    "logo": "https://crests.football-data.org/563.png"
+   },
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 79,
+     "texto": "Más de 1.5 goles",
+     "nivel": "media"
+    }
+   ],
+   "nivel_max": "media",
+   "analisis": {
+    "percent": {
+     "home": 39.4,
+     "draw": 24.6,
+     "away": 36.0
+    },
+    "mas15": 79.0,
+    "menos35": 66.4,
+    "mas25": 56.0,
+    "ambos": 59.0,
+    "goles_esp": {
+     "home": 1.5,
+     "away": 1.43
+    },
+    "ultimos5": {
+     "home": 80,
+     "away": 73
+    },
+    "forma": {
+     "home": 52,
+     "away": 48
+    },
+    "gf": {
+     "home": 1.6,
+     "away": 2.9
+    },
+    "gc": {
+     "home": 0.7,
+     "away": 1.2
+    },
+    "jugados": {
+     "home": 10,
+     "away": 10
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 561891,
+   "fecha": "2026-10-17T14:00:00Z",
+   "liga": {
+    "id": "ELC",
+    "nombre": "Championship",
+    "pais": "Inglaterra",
+    "logo": "https://crests.football-data.org/ELC.png"
+   },
+   "local": {
+    "id": 74,
+    "nombre": "West Brom",
+    "logo": "https://crests.football-data.org/74.png"
+   },
+   "visitante": {
+    "id": 59,
+    "nombre": "Blackburn",
+    "logo": "https://crests.football-data.org/59.png"
+   },
+   "picks": [],
+   "nivel_max": null,
+   "analisis": {
+    "percent": {
+     "home": 42.3,
+     "draw": 27.6,
+     "away": 30.1
+    },
+    "mas15": 68.5,
+    "menos35": 78.5,
+    "mas25": 42.2,
+    "ambos": 47.7,
+    "goles_esp": {
+     "home": 1.31,
+     "away": 1.06
+    },
+    "ultimos5": {
+     "home": 47,
+     "away": 67
+    },
+    "forma": {
+     "home": 41,
+     "away": 59
+    },
+    "gf": {
+     "home": 1.2,
+     "away": 1.5
+    },
+    "gc": {
+     "home": 1.0,
+     "away": 1.3
+    },
+    "jugados": {
+     "home": 10,
+     "away": 10
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 561892,
+   "fecha": "2026-10-17T14:00:00Z",
+   "liga": {
+    "id": "ELC",
+    "nombre": "Championship",
+    "pais": "Inglaterra",
+    "logo": "https://crests.football-data.org/ELC.png"
+   },
+   "local": {
+    "id": 404,
+    "nombre": "Wrexham",
+    "logo": "https://crests.football-data.org/404.png"
+   },
+   "visitante": {
+    "id": 1081,
+    "nombre": "Preston NE",
+    "logo": "https://crests.football-data.org/1081.png"
+   },
+   "picks": [
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 79,
+     "texto": "Wrexham gana o empata",
+     "nivel": "media"
+    },
+    {
+     "mercado": "1x2",
+     "lado": "home",
+     "prob": 55,
+     "texto": "Gana Wrexham",
+     "nivel": "media"
+    }
+   ],
+   "nivel_max": "media",
+   "analisis": {
+    "percent": {
+     "home": 54.6,
+     "draw": 24.3,
+     "away": 21.1
+    },
+    "mas15": 73.4,
+    "menos35": 73.5,
+    "mas25": 48.3,
+    "ambos": 49.4,
+    "goles_esp": {
+     "home": 1.67,
+     "away": 0.94
+    },
+    "ultimos5": {
+     "home": 33,
+     "away": 7
+    },
+    "forma": {
+     "home": 83,
+     "away": 17
+    },
+    "gf": {
+     "home": 1.1,
+     "away": 0.8
+    },
+    "gc": {
+     "home": 1.5,
+     "away": 2.0
+    },
+    "jugados": {
+     "home": 10,
+     "away": 10
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 564708,
+   "fecha": "2026-10-17T14:15:00Z",
+   "liga": {
+    "id": "PD",
+    "nombre": "LaLiga",
+    "pais": "España",
+    "logo": "https://crests.football-data.org/laliga.png"
+   },
+   "local": {
+    "id": 94,
+    "nombre": "Villarreal",
+    "logo": "https://crests.football-data.org/94.png"
+   },
+   "visitante": {
+    "id": 285,
+    "nombre": "Elche",
+    "logo": "https://crests.football-data.org/285.png"
+   },
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 87,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "1x2",
+     "lado": "home",
+     "prob": 59,
+     "texto": "Gana Villarreal",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 79,
+     "texto": "Villarreal gana o empata",
+     "nivel": "media"
+    }
+   ],
+   "nivel_max": "confiada",
+   "analisis": {
+    "percent": {
+     "home": 58.9,
+     "draw": 19.9,
+     "away": 21.2
+    },
+    "mas15": 86.6,
+    "menos35": 53.4,
+    "mas25": 68.2,
+    "ambos": 64.5,
+    "goles_esp": {
+     "home": 2.23,
+     "away": 1.28
+    },
+    "ultimos5": {
+     "home": 40,
+     "away": 33
+    },
+    "forma": {
+     "home": 55,
+     "away": 45
+    },
+    "gf": {
+     "home": 1.62,
+     "away": 1.38
+    },
+    "gc": {
+     "home": 1.62,
+     "away": 2.12
+    },
+    "jugados": {
+     "home": 8,
+     "away": 8
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 558871,
+   "fecha": "2026-10-17T14:30:00Z",
+   "liga": {
+    "id": "DED",
+    "nombre": "Eredivisie",
+    "pais": "Países Bajos",
+    "logo": "https://crests.football-data.org/ED.png"
+   },
+   "local": {
+    "id": 680,
+    "nombre": "Den Haag",
+    "logo": "https://crests.football-data.org/680.png"
+   },
+   "visitante": {
+    "id": 674,
+    "nombre": "PSV",
+    "logo": "https://crests.football-data.org/674.png"
+   },
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 94,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
+    },
+    {
+     "mercado": "doble",
+     "lado": "away",
+     "prob": 93,
+     "texto": "PSV gana o empata",
+     "nivel": "super"
+    },
+    {
+     "mercado": "1x2",
+     "lado": "away",
+     "prob": 82,
+     "texto": "Gana PSV",
+     "nivel": "super"
+    }
+   ],
+   "nivel_max": "super",
+   "analisis": {
+    "percent": {
+     "home": 7.2,
+     "draw": 10.5,
+     "away": 82.2
+    },
+    "mas15": 93.7,
+    "menos35": 34.7,
+    "mas25": 82.3,
+    "ambos": 62.2,
+    "goles_esp": {
+     "home": 1.03,
+     "away": 3.44
+    },
+    "ultimos5": {
+     "home": 20,
+     "away": 80
+    },
+    "forma": {
+     "home": 20,
+     "away": 80
+    },
+    "gf": {
+     "home": 1.12,
+     "away": 3.25
+    },
+    "gc": {
+     "home": 2.38,
+     "away": 1.25
+    },
+    "jugados": {
+     "home": 8,
+     "away": 8
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 559662,
+   "fecha": "2026-10-17T15:15:00Z",
+   "liga": {
+    "id": "FL1",
+    "nombre": "Ligue 1",
+    "pais": "Francia",
+    "logo": "https://crests.football-data.org/FL1.png"
+   },
+   "local": {
+    "id": 576,
+    "nombre": "Strasbourg",
+    "logo": "https://crests.football-data.org/576.png"
+   },
+   "visitante": {
+    "id": 524,
+    "nombre": "PSG",
+    "logo": "https://crests.football-data.org/524.png"
+   },
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 87,
+     "texto": "Más de 1.5 goles",
+     "nivel": "media",
+     "ajuste": "Bajó de nivel: hay pocos partidos jugados esta temporada."
+    }
+   ],
+   "nivel_max": "media",
+   "analisis": {
+    "percent": {
+     "home": 41.2,
+     "draw": 22.2,
+     "away": 36.7
+    },
+    "mas15": 86.7,
+    "menos35": 53.1,
+    "mas25": 68.4,
+    "ambos": 68.6,
+    "goles_esp": {
+     "home": 1.82,
+     "away": 1.71
+    },
+    "ultimos5": {
+     "home": 47,
+     "away": 67
+    },
+    "forma": {
+     "home": 41,
+     "away": 59
+    },
+    "gf": {
+     "home": 1.83,
+     "away": 1.83
+    },
+    "gc": {
+     "home": 2.0,
+     "away": 1.33
+    },
+    "jugados": {
+     "home": 6,
+     "away": 6
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 558571,
+   "fecha": "2026-10-17T16:00:00Z",
+   "liga": {
+    "id": "SA",
+    "nombre": "Serie A",
+    "pais": "Italia",
+    "logo": "https://crests.football-data.org/c111.png"
+   },
+   "local": {
+    "id": 103,
+    "nombre": "Bologna",
+    "logo": "https://crests.football-data.org/103.png"
+   },
+   "visitante": {
+    "id": 108,
+    "nombre": "Inter",
+    "logo": "https://crests.football-data.org/108.png"
+   },
+   "picks": [],
+   "nivel_max": null,
+   "analisis": {
+    "percent": {
+     "home": 23.0,
+     "draw": 22.4,
+     "away": 54.6
+    },
+    "mas15": 80.7,
+    "menos35": 63.9,
+    "mas25": 58.5,
+    "ambos": 58.0,
+    "goles_esp": {
+     "home": 1.15,
+     "away": 1.89
+    },
+    "ultimos5": {
+     "home": 33,
+     "away": 87
+    },
+    "forma": {
+     "home": 28,
+     "away": 72
+    },
+    "gf": {
+     "home": 0.83,
+     "away": 3.0
+    },
+    "gc": {
+     "home": 1.17,
+     "away": 1.33
+    },
+    "jugados": {
+     "home": 6,
+     "away": 6
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 560607,
+   "fecha": "2026-10-17T16:30:00Z",
+   "liga": {
+    "id": "PL",
+    "nombre": "Premier League",
+    "pais": "Inglaterra",
+    "logo": "https://crests.football-data.org/PL.png"
+   },
+   "local": {
+    "id": 67,
+    "nombre": "Newcastle",
+    "logo": "https://crests.football-data.org/67.png"
+   },
+   "visitante": {
+    "id": 58,
+    "nombre": "Aston Villa",
+    "logo": "https://crests.football-data.org/58.png"
+   },
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 85,
+     "texto": "Más de 1.5 goles",
+     "nivel": "media",
+     "ajuste": "Bajó de nivel: hay pocos partidos jugados esta temporada."
+    }
+   ],
+   "nivel_max": "media",
+   "analisis": {
+    "percent": {
+     "home": 51.1,
+     "draw": 21.9,
+     "away": 27.0
+    },
+    "mas15": 84.6,
+    "menos35": 57.1,
+    "mas25": 64.9,
+    "ambos": 64.3,
+    "goles_esp": {
+     "home": 1.96,
+     "away": 1.38
+    },
+    "ultimos5": {
+     "home": 47,
+     "away": 33
+    },
+    "forma": {
+     "home": 58,
+     "away": 42
+    },
+    "gf": {
+     "home": 1.67,
+     "away": 1.0
+    },
+    "gc": {
+     "home": 2.17,
+     "away": 1.83
+    },
+    "jugados": {
+     "home": 6,
+     "away": 6
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 564713,
+   "fecha": "2026-10-17T16:30:00Z",
+   "liga": {
+    "id": "PD",
+    "nombre": "LaLiga",
+    "pais": "España",
+    "logo": "https://crests.football-data.org/laliga.png"
+   },
+   "local": {
+    "id": 90,
+    "nombre": "Real Betis",
+    "logo": "https://crests.football-data.org/90.png"
+   },
+   "visitante": {
+    "id": 81,
+    "nombre": "Barça",
+    "logo": "https://crests.football-data.org/81.png"
+   },
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 88,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
+    },
+    {
+     "mercado": "1x2",
+     "lado": "away",
+     "prob": 58,
+     "texto": "Gana Barça",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "doble",
+     "lado": "away",
+     "prob": 78,
+     "texto": "Barça gana o empata",
+     "nivel": "media"
+    }
+   ],
+   "nivel_max": "super",
+   "analisis": {
+    "percent": {
+     "home": 22.4,
+     "draw": 19.6,
+     "away": 58.0
+    },
+    "mas15": 88.4,
+    "menos35": 49.4,
+    "mas25": 71.5,
+    "ambos": 67.7,
+    "goles_esp": {
+     "home": 1.39,
+     "away": 2.31
+    },
+    "ultimos5": {
+     "home": 87,
+     "away": 100
+    },
+    "forma": {
+     "home": 46,
+     "away": 54
+    },
+    "gf": {
+     "home": 1.75,
+     "away": 4.25
+    },
+    "gc": {
+     "home": 1.12,
+     "away": 0.88
+    },
+    "jugados": {
+     "home": 8,
+     "away": 8
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 565825,
+   "fecha": "2026-10-17T16:30:00Z",
+   "liga": {
+    "id": "BL1",
+    "nombre": "Bundesliga",
+    "pais": "Alemania",
+    "logo": "https://crests.football-data.org/BL1.png"
+   },
+   "local": {
+    "id": 5,
+    "nombre": "Bayern",
+    "logo": "https://crests.football-data.org/5.png"
+   },
+   "visitante": {
+    "id": 721,
+    "nombre": "RB Leipzig",
+    "logo": "https://crests.football-data.org/721.png"
+   },
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 89,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada",
+     "ajuste": "Bajó de nivel: hay pocos partidos jugados esta temporada."
+    },
+    {
+     "mercado": "1x2",
+     "lado": "home",
+     "prob": 61,
+     "texto": "Gana Bayern",
+     "nivel": "media",
+     "ajuste": "Bajó de nivel: hay pocos partidos jugados esta temporada."
+    }
+   ],
+   "nivel_max": "confiada",
+   "analisis": {
+    "percent": {
+     "home": 60.9,
+     "draw": 18.9,
+     "away": 20.2
+    },
+    "mas15": 88.7,
+    "menos35": 48.7,
+    "mas25": 72.1,
+    "ambos": 67.0,
+    "goles_esp": {
+     "home": 2.4,
+     "away": 1.34
+    },
+    "ultimos5": {
+     "home": 73,
+     "away": 60
+    },
+    "forma": {
+     "home": 55,
+     "away": 45
+    },
+    "gf": {
+     "home": 3.2,
+     "away": 3.0
+    },
+    "gc": {
+     "home": 0.8,
+     "away": 1.0
+    },
+    "jugados": {
+     "home": 5,
+     "away": 5
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 558869,
+   "fecha": "2026-10-17T18:00:00Z",
+   "liga": {
+    "id": "DED",
+    "nombre": "Eredivisie",
+    "pais": "Países Bajos",
+    "logo": "https://crests.football-data.org/ED.png"
+   },
+   "local": {
+    "id": 1912,
+    "nombre": "Telstar",
+    "logo": "https://crests.football-data.org/1912.png"
+   },
+   "visitante": {
+    "id": 675,
+    "nombre": "Feyenoord",
+    "logo": "https://crests.football-data.org/675.png"
+   },
+   "picks": [
+    {
+     "mercado": "doble",
+     "lado": "away",
+     "prob": 93,
+     "texto": "Feyenoord gana o empata",
+     "nivel": "super"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 88,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
+    },
+    {
+     "mercado": "1x2",
+     "lado": "away",
+     "prob": 81,
+     "texto": "Gana Feyenoord",
+     "nivel": "super"
+    }
+   ],
+   "nivel_max": "super",
+   "analisis": {
+    "percent": {
+     "home": 7.0,
+     "draw": 12.2,
+     "away": 80.8
+    },
+    "mas15": 88.3,
+    "menos35": 49.6,
+    "mas25": 71.3,
+    "ambos": 50.9,
+    "goles_esp": {
+     "home": 0.77,
+     "away": 2.92
+    },
+    "ultimos5": {
+     "home": 20,
+     "away": 87
+    },
+    "forma": {
+     "home": 19,
+     "away": 81
+    },
+    "gf": {
+     "home": 0.88,
+     "away": 3.38
+    },
+    "gc": {
+     "home": 1.75,
+     "away": 0.88
+    },
+    "jugados": {
+     "home": 8,
+     "away": 8
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 558572,
+   "fecha": "2026-10-17T18:45:00Z",
+   "liga": {
+    "id": "SA",
+    "nombre": "Serie A",
+    "pais": "Italia",
+    "logo": "https://crests.football-data.org/c111.png"
+   },
+   "local": {
+    "id": 100,
+    "nombre": "Roma",
+    "logo": "https://crests.football-data.org/100.png"
+   },
+   "visitante": {
+    "id": 107,
+    "nombre": "Genoa",
+    "logo": "https://crests.football-data.org/107.png"
+   },
+   "picks": [
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 92,
+     "texto": "Roma gana o empata",
+     "nivel": "confiada",
+     "ajuste": "Bajó de nivel: hay pocos partidos jugados esta temporada."
+    },
+    {
+     "mercado": "1x2",
+     "lado": "home",
+     "prob": 76,
+     "texto": "Gana Roma",
+     "nivel": "confiada",
+     "ajuste": "Bajó de nivel: hay pocos partidos jugados esta temporada."
+    }
+   ],
+   "nivel_max": "confiada",
+   "analisis": {
+    "percent": {
+     "home": 76.1,
+     "draw": 15.6,
+     "away": 8.3
+    },
+    "mas15": 80.9,
+    "menos35": 63.5,
+    "mas25": 58.9,
+    "ambos": 43.7,
+    "goles_esp": {
+     "home": 2.4,
+     "away": 0.66
+    },
+    "ultimos5": {
+     "home": 73,
+     "away": 27
+    },
+    "forma": {
+     "home": 73,
+     "away": 27
+    },
+    "gf": {
+     "home": 2.33,
+     "away": 0.83
+    },
+    "gc": {
+     "home": 0.5,
+     "away": 1.83
+    },
+    "jugados": {
+     "home": 6,
+     "away": 6
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 559659,
+   "fecha": "2026-10-17T18:45:00Z",
+   "liga": {
+    "id": "FL1",
+    "nombre": "Ligue 1",
+    "pais": "Francia",
+    "logo": "https://crests.football-data.org/FL1.png"
+   },
+   "local": {
+    "id": 531,
+    "nombre": "Troyes",
+    "logo": "https://crests.football-data.org/531.png"
+   },
+   "visitante": {
+    "id": 546,
+    "nombre": "RC Lens",
+    "logo": "https://crests.football-data.org/546.png"
+   },
+   "picks": [],
+   "nivel_max": null,
+   "analisis": {
+    "percent": {
+     "home": 27.1,
+     "draw": 23.1,
+     "away": 49.8
+    },
+    "mas15": 81.0,
+    "menos35": 63.3,
+    "mas25": 59.1,
+    "ambos": 60.0,
+    "goles_esp": {
+     "home": 1.27,
+     "away": 1.8
+    },
+    "ultimos5": {
+     "home": 20,
+     "away": 27
+    },
+    "forma": {
+     "home": 43,
+     "away": 57
+    },
+    "gf": {
+     "home": 0.67,
+     "away": 1.83
+    },
+    "gc": {
+     "home": 2.17,
+     "away": 1.67
+    },
+    "jugados": {
+     "home": 6,
+     "away": 6
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 559660,
+   "fecha": "2026-10-17T18:45:00Z",
+   "liga": {
+    "id": "FL1",
+    "nombre": "Ligue 1",
+    "pais": "Francia",
+    "logo": "https://crests.football-data.org/FL1.png"
+   },
+   "local": {
+    "id": 521,
+    "nombre": "Lille",
+    "logo": "https://crests.football-data.org/521.png"
+   },
+   "visitante": {
+    "id": 512,
+    "nombre": "Brest",
+    "logo": "https://crests.football-data.org/512.png"
+   },
+   "picks": [],
+   "nivel_max": null,
+   "analisis": {
+    "percent": {
+     "home": 53.1,
+     "draw": 23.8,
+     "away": 23.1
+    },
+    "mas15": 76.5,
+    "menos35": 69.7,
+    "mas25": 52.5,
+    "ambos": 53.5,
+    "goles_esp": {
+     "home": 1.73,
+     "away": 1.05
+    },
+    "ultimos5": {
+     "home": 67,
+     "away": 47
+    },
+    "forma": {
+     "home": 59,
+     "away": 41
+    },
+    "gf": {
+     "home": 1.5,
+     "away": 2.0
+    },
+    "gc": {
+     "home": 0.67,
+     "away": 1.5
+    },
+    "jugados": {
+     "home": 6,
+     "away": 6
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 564711,
+   "fecha": "2026-10-17T19:00:00Z",
+   "liga": {
+    "id": "PD",
+    "nombre": "LaLiga",
+    "pais": "España",
+    "logo": "https://crests.football-data.org/laliga.png"
+   },
+   "local": {
+    "id": 95,
+    "nombre": "Valencia",
+    "logo": "https://crests.football-data.org/95.png"
+   },
+   "visitante": {
+    "id": 77,
+    "nombre": "Athletic",
+    "logo": "https://crests.football-data.org/77.png"
+   },
+   "picks": [],
+   "nivel_max": null,
+   "analisis": {
+    "percent": {
+     "home": 27.7,
+     "draw": 28.0,
+     "away": 44.3
+    },
+    "mas15": 66.4,
+    "menos35": 80.4,
+    "mas25": 39.8,
+    "ambos": 45.3,
+    "goles_esp": {
+     "home": 0.97,
+     "away": 1.31
+    },
+    "ultimos5": {
+     "home": 27,
+     "away": 53
+    },
+    "forma": {
+     "home": 33,
+     "away": 67
+    },
+    "gf": {
+     "home": 0.75,
+     "away": 1.17
+    },
+    "gc": {
+     "home": 1.88,
+     "away": 1.0
+    },
+    "jugados": {
+     "home": 8,
+     "away": 6
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 558868,
+   "fecha": "2026-10-17T19:00:00Z",
+   "liga": {
+    "id": "DED",
+    "nombre": "Eredivisie",
+    "pais": "Países Bajos",
+    "logo": "https://crests.football-data.org/ED.png"
+   },
+   "local": {
+    "id": 6806,
+    "nombre": "Sparta",
+    "logo": "https://crests.football-data.org/6806.png"
+   },
+   "visitante": {
+    "id": 672,
+    "nombre": "Willem II",
+    "logo": "https://crests.football-data.org/672.png"
+   },
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 89,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
+    }
+   ],
+   "nivel_max": "super",
+   "analisis": {
+    "percent": {
+     "home": 48.3,
+     "draw": 21.0,
+     "away": 30.7
+    },
+    "mas15": 88.8,
+    "menos35": 48.6,
+    "mas25": 72.1,
+    "ambos": 70.8,
+    "goles_esp": {
+     "home": 2.09,
+     "away": 1.65
+    },
+    "ultimos5": {
+     "home": 13,
+     "away": 7
+    },
+    "forma": {
+     "home": 67,
+     "away": 33
+    },
+    "gf": {
+     "home": 1.62,
+     "away": 0.88
+    },
+    "gc": {
+     "home": 2.5,
+     "away": 2.88
+    },
+    "jugados": {
+     "home": 8,
+     "away": 8
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 555043,
+   "fecha": "2026-10-17T21:00:00Z",
+   "liga": {
+    "id": "BSA",
+    "nombre": "Brasileirão Serie A",
+    "pais": "Brasil",
+    "logo": "https://crests.football-data.org/bsa.png"
+   },
+   "local": {
+    "id": 1770,
+    "nombre": "Botafogo",
+    "logo": "https://crests.football-data.org/1770.png"
+   },
+   "visitante": {
+    "id": 1772,
+    "nombre": "Chapecoense",
+    "logo": "https://crests.football-data.org/1772_large.png"
+   },
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 86,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 85,
+     "texto": "Botafogo gana o empata",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "1x2",
+     "lado": "home",
+     "prob": 67,
+     "texto": "Gana Botafogo",
+     "nivel": "confiada"
+    }
+   ],
+   "nivel_max": "confiada",
+   "analisis": {
+    "percent": {
+     "home": 67.3,
+     "draw": 17.7,
+     "away": 15.0
+    },
+    "mas15": 86.4,
+    "menos35": 53.6,
+    "mas25": 67.9,
+    "ambos": 60.0,
+    "goles_esp": {
+     "home": 2.43,
+     "away": 1.07
+    },
+    "ultimos5": {
+     "home": 33,
+     "away": 27
+    },
+    "forma": {
+     "home": 56,
+     "away": 44
+    },
+    "gf": {
+     "home": 1.43,
+     "away": 1.03
+    },
+    "gc": {
+     "home": 1.6,
+     "away": 2.1
+    },
+    "jugados": {
+     "home": 30,
+     "away": 29
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 555041,
+   "fecha": "2026-10-17T21:30:00Z",
+   "liga": {
+    "id": "BSA",
+    "nombre": "Brasileirão Serie A",
+    "pais": "Brasil",
+    "logo": "https://crests.football-data.org/bsa.png"
+   },
+   "local": {
+    "id": 1766,
+    "nombre": "Mineiro",
+    "logo": "https://crests.football-data.org/1766.png"
+   },
+   "visitante": {
+    "id": 4241,
+    "nombre": "Coritiba",
+    "logo": "https://crests.football-data.org/4241.png"
+   },
+   "picks": [
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 80,
+     "texto": "Mineiro gana o empata",
+     "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 77,
+     "texto": "Más de 1.5 goles",
+     "nivel": "media"
+    },
+    {
+     "mercado": "1x2",
+     "lado": "home",
+     "prob": 58,
+     "texto": "Gana Mineiro",
+     "nivel": "media"
+    }
+   ],
+   "nivel_max": "media",
+   "analisis": {
+    "percent": {
+     "home": 57.7,
+     "draw": 22.7,
+     "away": 19.6
+    },
+    "mas15": 76.8,
+    "menos35": 69.3,
+    "mas25": 53.0,
+    "ambos": 52.0,
+    "goles_esp": {
+     "home": 1.83,
+     "away": 0.97
+    },
+    "ultimos5": {
+     "home": 73,
+     "away": 13
+    },
+    "forma": {
+     "home": 85,
+     "away": 15
+    },
+    "gf": {
+     "home": 1.37,
+     "away": 1.27
+    },
+    "gc": {
+     "home": 1.17,
+     "away": 1.6
+    },
+    "jugados": {
+     "home": 30,
+     "away": 30
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 555040,
+   "fecha": "2026-10-17T22:30:00Z",
+   "liga": {
+    "id": "BSA",
+    "nombre": "Brasileirão Serie A",
+    "pais": "Brasil",
+    "logo": "https://crests.football-data.org/bsa.png"
+   },
+   "local": {
+    "id": 1768,
+    "nombre": "Paranaense",
+    "logo": "https://crests.football-data.org/1768.png"
+   },
+   "visitante": {
+    "id": 1769,
+    "nombre": "Palmeiras",
+    "logo": "https://crests.football-data.org/1769.png"
+   },
+   "picks": [],
+   "nivel_max": null,
+   "analisis": {
+    "percent": {
+     "home": 32.6,
+     "draw": 27.6,
+     "away": 39.8
+    },
+    "mas15": 68.9,
+    "menos35": 78.1,
+    "mas25": 42.8,
+    "ambos": 48.5,
+    "goles_esp": {
+     "home": 1.12,
+     "away": 1.27
+    },
+    "ultimos5": {
+     "home": 53,
+     "away": 73
+    },
+    "forma": {
+     "home": 42,
+     "away": 58
+    },
+    "gf": {
+     "home": 1.63,
+     "away": 1.73
+    },
+    "gc": {
+     "home": 1.17,
+     "away": 0.73
+    },
+    "jugados": {
+     "home": 30,
+     "away": 30
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 555049,
+   "fecha": "2026-10-18T00:00:00Z",
+   "liga": {
+    "id": "BSA",
+    "nombre": "Brasileirão Serie A",
+    "pais": "Brasil",
+    "logo": "https://crests.football-data.org/bsa.png"
+   },
+   "local": {
+    "id": 1776,
+    "nombre": "São Paulo",
+    "logo": "https://crests.football-data.org/1776.png"
+   },
+   "visitante": {
+    "id": 1780,
+    "nombre": "Vasco da Gama",
+    "logo": "https://crests.football-data.org/1780.png"
+   },
+   "picks": [],
+   "nivel_max": null,
+   "analisis": {
+    "percent": {
+     "home": 49.1,
+     "draw": 26.4,
+     "away": 24.5
+    },
+    "mas15": 69.5,
+    "menos35": 77.5,
+    "mas25": 43.5,
+    "ambos": 47.2,
+    "goles_esp": {
+     "home": 1.47,
+     "away": 0.95
+    },
+    "ultimos5": {
+     "home": 40,
+     "away": 67
+    },
+    "forma": {
+     "home": 38,
+     "away": 62
+    },
+    "gf": {
+     "home": 1.17,
+     "away": 1.24
+    },
+    "gc": {
+     "home": 1.17,
+     "away": 1.45
+    },
+    "jugados": {
+     "home": 30,
+     "away": 29
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 558867,
+   "fecha": "2026-10-18T10:15:00Z",
+   "liga": {
+    "id": "DED",
+    "nombre": "Eredivisie",
+    "pais": "Países Bajos",
+    "logo": "https://crests.football-data.org/ED.png"
+   },
+   "local": {
+    "id": 684,
+    "nombre": "Zwolle",
+    "logo": "https://crests.football-data.org/684.png"
+   },
+   "visitante": {
+    "id": 718,
+    "nombre": "Go Ahead",
+    "logo": "https://crests.football-data.org/718.png"
+   },
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 92,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
+    },
+    {
+     "mercado": "1x2",
+     "lado": "away",
+     "prob": 74,
+     "texto": "Gana Go Ahead",
+     "nivel": "super"
+    },
+    {
+     "mercado": "doble",
+     "lado": "away",
+     "prob": 88,
+     "texto": "Go Ahead gana o empata",
+     "nivel": "confiada"
+    }
+   ],
+   "nivel_max": "super",
+   "analisis": {
+    "percent": {
+     "home": 12.0,
+     "draw": 14.3,
+     "away": 73.6
+    },
+    "mas15": 91.7,
+    "menos35": 40.9,
+    "mas25": 78.0,
+    "ambos": 65.4,
+    "goles_esp": {
+     "home": 1.17,
+     "away": 2.96
+    },
+    "ultimos5": {
+     "home": 7,
+     "away": 27
+    },
+    "forma": {
+     "home": 20,
+     "away": 80
+    },
+    "gf": {
+     "home": 0.75,
+     "away": 2.38
+    },
+    "gc": {
+     "home": 2.62,
+     "away": 2.12
+    },
+    "jugados": {
+     "home": 8,
+     "away": 8
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 558574,
+   "fecha": "2026-10-18T10:30:00Z",
+   "liga": {
+    "id": "SA",
+    "nombre": "Serie A",
+    "pais": "Italia",
+    "logo": "https://crests.football-data.org/c111.png"
+   },
+   "local": {
+    "id": 115,
+    "nombre": "Udinese",
+    "logo": "https://crests.football-data.org/115.png"
+   },
+   "visitante": {
+    "id": 5890,
+    "nombre": "Lecce",
+    "logo": "https://crests.football-data.org/5890.png"
+   },
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 85,
+     "texto": "Más de 1.5 goles",
+     "nivel": "media",
+     "ajuste": "Bajó de nivel: hay pocos partidos jugados esta temporada."
+    }
+   ],
+   "nivel_max": "media",
+   "analisis": {
+    "percent": {
+     "home": 49.9,
+     "draw": 22.1,
+     "away": 28.0
+    },
+    "mas15": 84.6,
+    "menos35": 57.2,
+    "mas25": 64.8,
+    "ambos": 64.6,
+    "goles_esp": {
+     "home": 1.93,
+     "away": 1.41
+    },
+    "ultimos5": {
+     "home": 20,
+     "away": 20
+    },
+    "forma": {
+     "home": 50,
+     "away": 50
+    },
+    "gf": {
+     "home": 1.5,
+     "away": 1.0
+    },
+    "gc": {
+     "home": 2.17,
+     "away": 2.0
+    },
+    "jugados": {
+     "home": 6,
+     "away": 6
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 564715,
+   "fecha": "2026-10-18T12:00:00Z",
+   "liga": {
+    "id": "PD",
+    "nombre": "LaLiga",
+    "pais": "España",
+    "logo": "https://crests.football-data.org/laliga.png"
+   },
+   "local": {
+    "id": 79,
+    "nombre": "Osasuna",
+    "logo": "https://crests.football-data.org/79.png"
+   },
+   "visitante": {
+    "id": 5335,
+    "nombre": "Santander",
+    "logo": "https://crests.football-data.org/5335.png"
+   },
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 90,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
+    }
+   ],
+   "nivel_max": "super",
+   "analisis": {
+    "percent": {
+     "home": 46.3,
+     "draw": 20.8,
+     "away": 32.9
+    },
+    "mas15": 89.8,
+    "menos35": 46.0,
+    "mas25": 74.2,
+    "ambos": 72.7,
+    "goles_esp": {
+     "home": 2.1,
+     "away": 1.76
+    },
+    "ultimos5": {
+     "home": 7,
+     "away": 27
+    },
+    "forma": {
+     "home": 20,
+     "away": 80
+    },
+    "gf": {
+     "home": 1.0,
+     "away": 1.62
+    },
+    "gc": {
+     "home": 2.25,
+     "away": 2.88
+    },
+    "jugados": {
+     "home": 8,
+     "away": 8
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 558865,
+   "fecha": "2026-10-18T12:30:00Z",
+   "liga": {
+    "id": "DED",
+    "nombre": "Eredivisie",
+    "pais": "Países Bajos",
+    "logo": "https://crests.football-data.org/ED.png"
+   },
+   "local": {
+    "id": 1909,
+    "nombre": "Cambuur",
+    "logo": "https://crests.football-data.org/1909.png"
+   },
+   "visitante": {
+    "id": 682,
+    "nombre": "AZ",
+    "logo": "https://crests.football-data.org/682.png"
+   },
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 88,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
+    },
+    {
+     "mercado": "1x2",
+     "lado": "away",
+     "prob": 72,
+     "texto": "Gana AZ",
+     "nivel": "super"
+    },
+    {
+     "mercado": "doble",
+     "lado": "away",
+     "prob": 88,
+     "texto": "AZ gana o empata",
+     "nivel": "confiada"
+    }
+   ],
+   "nivel_max": "super",
+   "analisis": {
+    "percent": {
+     "home": 12.1,
+     "draw": 15.7,
+     "away": 72.2
+    },
+    "mas15": 88.2,
+    "menos35": 49.7,
+    "mas25": 71.2,
+    "ambos": 59.5,
+    "goles_esp": {
+     "home": 1.02,
+     "away": 2.66
+    },
+    "ultimos5": {
+     "home": 53,
+     "away": 67
+    },
+    "forma": {
+     "home": 44,
+     "away": 56
+    },
+    "gf": {
+     "home": 1.38,
+     "away": 2.25
+    },
+    "gc": {
+     "home": 2.38,
+     "away": 1.0
+    },
+    "jugados": {
+     "home": 8,
+     "away": 8
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 560604,
+   "fecha": "2026-10-18T13:00:00Z",
+   "liga": {
+    "id": "PL",
+    "nombre": "Premier League",
+    "pais": "Inglaterra",
+    "logo": "https://crests.football-data.org/PL.png"
+   },
+   "local": {
+    "id": 1044,
+    "nombre": "Bournemouth",
+    "logo": "https://crests.football-data.org/bournemouth.png"
+   },
+   "visitante": {
+    "id": 71,
+    "nombre": "Sunderland",
+    "logo": "https://crests.football-data.org/71.png"
+   },
+   "picks": [],
+   "nivel_max": null,
+   "analisis": {
+    "percent": {
+     "home": 45.4,
+     "draw": 23.5,
+     "away": 31.1
+    },
+    "mas15": 81.4,
+    "menos35": 62.7,
+    "mas25": 59.7,
+    "ambos": 61.3,
+    "goles_esp": {
+     "home": 1.71,
+     "away": 1.38
+    },
+    "ultimos5": {
+     "home": 20,
+     "away": 27
+    },
+    "forma": {
+     "home": 43,
+     "away": 57
+    },
+    "gf": {
+     "home": 1.17,
+     "away": 1.0
+    },
+    "gc": {
+     "home": 2.17,
+     "away": 2.0
+    },
+    "jugados": {
+     "home": 6,
+     "away": 6
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 560605,
+   "fecha": "2026-10-18T13:00:00Z",
+   "liga": {
+    "id": "PL",
+    "nombre": "Premier League",
+    "pais": "Inglaterra",
+    "logo": "https://crests.football-data.org/PL.png"
+   },
+   "local": {
+    "id": 341,
+    "nombre": "Leeds United",
+    "logo": "https://crests.football-data.org/341.png"
+   },
+   "visitante": {
+    "id": 66,
+    "nombre": "Man United",
+    "logo": "https://crests.football-data.org/66.png"
+   },
+   "picks": [],
+   "nivel_max": null,
+   "analisis": {
+    "percent": {
+     "home": 49.3,
+     "draw": 25.5,
+     "away": 25.2
+    },
+    "mas15": 72.7,
+    "menos35": 74.2,
+    "mas25": 47.5,
+    "ambos": 50.5,
+    "goles_esp": {
+     "home": 1.55,
+     "away": 1.03
+    },
+    "ultimos5": {
+     "home": 40,
+     "away": 40
+    },
+    "forma": {
+     "home": 50,
+     "away": 50
+    },
+    "gf": {
+     "home": 1.33,
+     "away": 1.5
+    },
+    "gc": {
+     "home": 0.83,
+     "away": 1.5
+    },
+    "jugados": {
+     "home": 6,
+     "away": 6
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 560609,
+   "fecha": "2026-10-18T13:00:00Z",
+   "liga": {
+    "id": "PL",
+    "nombre": "Premier League",
+    "pais": "Inglaterra",
+    "logo": "https://crests.football-data.org/PL.png"
+   },
+   "local": {
+    "id": 397,
+    "nombre": "Brighton Hove",
+    "logo": "https://crests.football-data.org/397.png"
+   },
+   "visitante": {
+    "id": 354,
+    "nombre": "Crystal Palace",
+    "logo": "https://crests.football-data.org/354.png"
+   },
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 91,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada",
+     "ajuste": "Bajó de nivel: hay pocos partidos jugados esta temporada."
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 90,
+     "texto": "Brighton Hove gana o empata",
+     "nivel": "confiada",
+     "ajuste": "Bajó de nivel: hay pocos partidos jugados esta temporada."
+    },
+    {
+     "mercado": "1x2",
+     "lado": "home",
+     "prob": 77,
+     "texto": "Gana Brighton Hove",
+     "nivel": "confiada",
+     "ajuste": "Bajó de nivel: hay pocos partidos jugados esta temporada."
+    }
+   ],
+   "nivel_max": "confiada",
+   "analisis": {
+    "percent": {
+     "home": 77.2,
+     "draw": 13.1,
+     "away": 9.6
+    },
+    "mas15": 91.2,
+    "menos35": 42.5,
+    "mas25": 76.8,
+    "ambos": 61.0,
+    "goles_esp": {
+     "home": 3.02,
+     "away": 1.03
+    },
+    "ultimos5": {
+     "home": 67,
+     "away": 47
+    },
+    "forma": {
+     "home": 59,
+     "away": 41
+    },
+    "gf": {
+     "home": 3.0,
+     "away": 1.5
+    },
+    "gc": {
+     "home": 0.83,
+     "away": 2.0
+    },
+    "jugados": {
+     "home": 6,
+     "away": 6
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 558577,
+   "fecha": "2026-10-18T13:00:00Z",
+   "liga": {
+    "id": "SA",
+    "nombre": "Serie A",
+    "pais": "Italia",
+    "logo": "https://crests.football-data.org/c111.png"
+   },
+   "local": {
+    "id": 99,
+    "nombre": "Fiorentina",
+    "logo": "https://crests.football-data.org/99.png"
+   },
+   "visitante": {
+    "id": 7397,
+    "nombre": "Como 1907",
+    "logo": "https://crests.football-data.org/7397.png"
+   },
+   "picks": [],
+   "nivel_max": null,
+   "analisis": {
+    "percent": {
+     "home": 24.4,
+     "draw": 23.0,
+     "away": 52.6
+    },
+    "mas15": 79.7,
+    "menos35": 65.3,
+    "mas25": 57.1,
+    "ambos": 57.5,
+    "goles_esp": {
+     "home": 1.16,
+     "away": 1.81
+    },
+    "ultimos5": {
+     "home": 27,
+     "away": 67
+    },
+    "forma": {
+     "home": 29,
+     "away": 71
+    },
+    "gf": {
+     "home": 1.17,
+     "away": 1.5
+    },
+    "gc": {
+     "home": 2.33,
+     "away": 1.0
+    },
+    "jugados": {
+     "home": 6,
+     "away": 6
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 559664,
+   "fecha": "2026-10-18T13:00:00Z",
+   "liga": {
+    "id": "FL1",
+    "nombre": "Ligue 1",
+    "pais": "Francia",
+    "logo": "https://crests.football-data.org/FL1.png"
+   },
+   "local": {
+    "id": 532,
+    "nombre": "Angers SCO",
+    "logo": "https://crests.football-data.org/532.png"
+   },
+   "visitante": {
+    "id": 516,
+    "nombre": "Marseille",
+    "logo": "https://crests.football-data.org/516.png"
+   },
+   "picks": [],
+   "nivel_max": null,
+   "analisis": {
+    "percent": {
+     "home": 38.6,
+     "draw": 25.4,
+     "away": 36.0
+    },
+    "mas15": 76.6,
+    "menos35": 69.6,
+    "mas25": 52.7,
+    "ambos": 56.4,
+    "goles_esp": {
+     "home": 1.42,
+     "away": 1.36
+    },
+    "ultimos5": {
+     "home": 47,
+     "away": 20
+    },
+    "forma": {
+     "home": 70,
+     "away": 30
+    },
+    "gf": {
+     "home": 1.17,
+     "away": 1.5
+    },
+    "gc": {
+     "home": 1.67,
+     "away": 1.33
+    },
+    "jugados": {
+     "home": 6,
+     "away": 6
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 565827,
+   "fecha": "2026-10-18T13:30:00Z",
+   "liga": {
+    "id": "BL1",
+    "nombre": "Bundesliga",
+    "pais": "Alemania",
+    "logo": "https://crests.football-data.org/BL1.png"
+   },
+   "local": {
+    "id": 3,
+    "nombre": "Leverkusen",
+    "logo": "https://crests.football-data.org/3.png"
+   },
+   "visitante": {
+    "id": 17,
+    "nombre": "Freiburg",
+    "logo": "https://crests.football-data.org/17.png"
+   },
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 89,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada",
+     "ajuste": "Bajó de nivel: hay pocos partidos jugados esta temporada."
+    }
+   ],
+   "nivel_max": "confiada",
+   "analisis": {
+    "percent": {
+     "home": 47.3,
+     "draw": 21.2,
+     "away": 31.5
+    },
+    "mas15": 88.6,
+    "menos35": 49.0,
+    "mas25": 71.8,
+    "ambos": 70.7,
+    "goles_esp": {
+     "home": 2.06,
+     "away": 1.66
+    },
+    "ultimos5": {
+     "home": 67,
+     "away": 87
+    },
+    "forma": {
+     "home": 43,
+     "away": 57
+    },
+    "gf": {
+     "home": 2.8,
+     "away": 2.8
+    },
+    "gc": {
+     "home": 1.6,
+     "away": 0.8
+    },
+    "jugados": {
+     "home": 5,
+     "away": 5
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 564712,
+   "fecha": "2026-10-18T14:15:00Z",
+   "liga": {
+    "id": "PD",
+    "nombre": "LaLiga",
+    "pais": "España",
+    "logo": "https://crests.football-data.org/laliga.png"
+   },
+   "local": {
+    "id": 558,
+    "nombre": "Celta",
+    "logo": "https://crests.football-data.org/558.png"
+   },
+   "visitante": {
+    "id": 263,
+    "nombre": "Alavés",
+    "logo": "https://crests.football-data.org/263.png"
+   },
+   "picks": [
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 86,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "media"
+    }
+   ],
+   "nivel_max": "media",
+   "analisis": {
+    "percent": {
+     "home": 39.3,
+     "draw": 30.9,
+     "away": 29.7
+    },
+    "mas15": 58.6,
+    "menos35": 86.2,
+    "mas25": 31.6,
+    "ambos": 39.0,
+    "goles_esp": {
+     "home": 1.08,
+     "away": 0.89
+    },
+    "ultimos5": {
+     "home": 47,
+     "away": 27
+    },
+    "forma": {
+     "home": 64,
+     "away": 36
+    },
+    "gf": {
+     "home": 1.0,
+     "away": 1.5
+    },
+    "gc": {
+     "home": 0.75,
+     "away": 1.0
+    },
+    "jugados": {
+     "home": 8,
+     "away": 8
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 558864,
+   "fecha": "2026-10-18T14:45:00Z",
+   "liga": {
+    "id": "DED",
+    "nombre": "Eredivisie",
+    "pais": "Países Bajos",
+    "logo": "https://crests.football-data.org/ED.png"
+   },
+   "local": {
+    "id": 677,
+    "nombre": "Groningen",
+    "logo": "https://crests.football-data.org/677.png"
+   },
+   "visitante": {
+    "id": 678,
+    "nombre": "Ajax",
+    "logo": "https://crests.football-data.org/678.png"
+   },
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 92,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
+    },
+    {
+     "mercado": "doble",
+     "lado": "away",
+     "prob": 76,
+     "texto": "Ajax gana o empata",
+     "nivel": "media"
+    },
+    {
+     "mercado": "1x2",
+     "lado": "away",
+     "prob": 57,
+     "texto": "Gana Ajax",
+     "nivel": "media"
+    }
+   ],
+   "nivel_max": "super",
+   "analisis": {
+    "percent": {
+     "home": 24.5,
+     "draw": 18.7,
+     "away": 56.8
+    },
+    "mas15": 91.9,
+    "menos35": 40.3,
+    "mas25": 78.4,
+    "ambos": 74.2,
+    "goles_esp": {
+     "home": 1.64,
+     "away": 2.52
+    },
+    "ultimos5": {
+     "home": 53,
+     "away": 53
+    },
+    "forma": {
+     "home": 50,
+     "away": 50
+    },
+    "gf": {
+     "home": 2.5,
+     "away": 2.75
+    },
+    "gc": {
+     "home": 1.75,
+     "away": 1.25
+    },
+    "jugados": {
+     "home": 8,
+     "away": 8
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 559657,
+   "fecha": "2026-10-18T15:15:00Z",
+   "liga": {
+    "id": "FL1",
+    "nombre": "Ligue 1",
+    "pais": "Francia",
+    "logo": "https://crests.football-data.org/FL1.png"
+   },
+   "local": {
+    "id": 525,
+    "nombre": "Lorient",
+    "logo": "https://crests.football-data.org/525.png"
+   },
+   "visitante": {
+    "id": 548,
+    "nombre": "Monaco",
+    "logo": "https://crests.football-data.org/548.png"
+   },
+   "picks": [],
+   "nivel_max": null,
+   "analisis": {
+    "percent": {
+     "home": 34.0,
+     "draw": 29.3,
+     "away": 36.6
+    },
+    "mas15": 63.9,
+    "menos35": 82.5,
+    "mas25": 37.0,
+    "ambos": 43.9,
+    "goles_esp": {
+     "home": 1.06,
+     "away": 1.11
+    },
+    "ultimos5": {
+     "home": 47,
+     "away": 73
+    },
+    "forma": {
+     "home": 39,
+     "away": 61
+    },
+    "gf": {
+     "home": 1.0,
+     "away": 1.67
+    },
+    "gc": {
+     "home": 1.0,
+     "away": 0.83
+    },
+    "jugados": {
+     "home": 6,
+     "away": 6
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 559658,
+   "fecha": "2026-10-18T15:15:00Z",
+   "liga": {
+    "id": "FL1",
+    "nombre": "Ligue 1",
+    "pais": "Francia",
+    "logo": "https://crests.football-data.org/FL1.png"
+   },
+   "local": {
+    "id": 1045,
+    "nombre": "Paris FC",
+    "logo": "https://crests.football-data.org/1045.png"
+   },
+   "visitante": {
+    "id": 529,
+    "nombre": "Stade Rennais",
+    "logo": "https://crests.football-data.org/529.png"
+   },
+   "picks": [],
+   "nivel_max": null,
+   "analisis": {
+    "percent": {
+     "home": 52.9,
+     "draw": 23.9,
+     "away": 23.2
+    },
+    "mas15": 76.4,
+    "menos35": 69.8,
+    "mas25": 52.4,
+    "ambos": 53.5,
+    "goles_esp": {
+     "home": 1.72,
+     "away": 1.05
+    },
+    "ultimos5": {
+     "home": 67,
+     "away": 80
+    },
+    "forma": {
+     "home": 45,
+     "away": 55
+    },
+    "gf": {
+     "home": 1.33,
+     "away": 2.0
+    },
+    "gc": {
+     "home": 0.67,
+     "away": 1.67
+    },
+    "jugados": {
+     "home": 6,
+     "away": 6
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 559663,
+   "fecha": "2026-10-18T15:15:00Z",
+   "liga": {
+    "id": "FL1",
+    "nombre": "Ligue 1",
+    "pais": "Francia",
+    "logo": "https://crests.football-data.org/FL1.png"
+   },
+   "local": {
+    "id": 533,
+    "nombre": "Le Havre",
+    "logo": "https://crests.football-data.org/533.png"
+   },
+   "visitante": {
+    "id": 519,
+    "nombre": "Auxerre",
+    "logo": "https://crests.football-data.org/519.png"
+   },
+   "picks": [],
+   "nivel_max": null,
+   "analisis": {
+    "percent": {
+     "home": 50.9,
+     "draw": 23.9,
+     "away": 25.2
+    },
+    "mas15": 77.6,
+    "menos35": 68.3,
+    "mas25": 54.0,
+    "ambos": 55.5,
+    "goles_esp": {
+     "home": 1.71,
+     "away": 1.13
+    },
+    "ultimos5": {
+     "home": 13,
+     "away": 40
+    },
+    "forma": {
+     "home": 25,
+     "away": 75
+    },
+    "gf": {
+     "home": 0.67,
+     "away": 1.33
+    },
+    "gc": {
+     "home": 1.33,
+     "away": 2.67
+    },
+    "jugados": {
+     "home": 6,
+     "away": 6
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 560608,
+   "fecha": "2026-10-18T15:30:00Z",
+   "liga": {
+    "id": "PL",
+    "nombre": "Premier League",
+    "pais": "Inglaterra",
+    "logo": "https://crests.football-data.org/PL.png"
+   },
+   "local": {
+    "id": 351,
+    "nombre": "Nottingham",
+    "logo": "https://crests.football-data.org/351.png"
+   },
+   "visitante": {
+    "id": 57,
+    "nombre": "Arsenal",
+    "logo": "https://crests.football-data.org/57.png"
+   },
+   "picks": [],
+   "nivel_max": null,
+   "analisis": {
+    "percent": {
+     "home": 26.1,
+     "draw": 27.6,
+     "away": 46.3
+    },
+    "mas15": 66.8,
+    "menos35": 80.1,
+    "mas25": 40.2,
+    "ambos": 45.2,
+    "goles_esp": {
+     "home": 0.94,
+     "away": 1.35
+    },
+    "ultimos5": {
+     "home": 33,
+     "away": 80
+    },
+    "forma": {
+     "home": 29,
+     "away": 71
+    },
+    "gf": {
+     "home": 0.83,
+     "away": 1.67
+    },
+    "gc": {
+     "home": 1.33,
+     "away": 0.83
+    },
+    "jugados": {
+     "home": 6,
+     "away": 6
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 565826,
+   "fecha": "2026-10-18T15:30:00Z",
+   "liga": {
+    "id": "BL1",
+    "nombre": "Bundesliga",
+    "pais": "Alemania",
+    "logo": "https://crests.football-data.org/BL1.png"
+   },
+   "local": {
+    "id": 18,
+    "nombre": "M'gladbach",
+    "logo": "https://crests.football-data.org/18.png"
+   },
+   "visitante": {
+    "id": 2,
+    "nombre": "Hoffenheim",
+    "logo": "https://crests.football-data.org/2.png"
+   },
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 94,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada",
+     "ajuste": "Bajó de nivel: hay pocos partidos jugados esta temporada."
+    }
+   ],
+   "nivel_max": "confiada",
+   "analisis": {
+    "percent": {
+     "home": 46.8,
+     "draw": 19.3,
+     "away": 33.9
+    },
+    "mas15": 93.7,
+    "menos35": 34.9,
+    "mas25": 82.2,
+    "ambos": 79.3,
+    "goles_esp": {
+     "home": 2.41,
+     "away": 2.05
+    },
+    "ultimos5": {
+     "home": 0,
+     "away": 20
+    },
+    "forma": {
+     "home": 0,
+     "away": 100
+    },
+    "gf": {
+     "home": 1.4,
+     "away": 1.8
+    },
+    "gc": {
+     "home": 3.6,
+     "away": 2.6
+    },
+    "jugados": {
+     "home": 5,
+     "away": 5
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 558569,
+   "fecha": "2026-10-18T16:00:00Z",
+   "liga": {
+    "id": "SA",
+    "nombre": "Serie A",
+    "pais": "Italia",
+    "logo": "https://crests.football-data.org/c111.png"
+   },
+   "local": {
+    "id": 98,
+    "nombre": "Milan",
+    "logo": "https://crests.football-data.org/98.png"
+   },
+   "visitante": {
+    "id": 102,
+    "nombre": "Atalanta",
+    "logo": "https://crests.football-data.org/102.png"
+   },
+   "picks": [],
+   "nivel_max": null,
+   "analisis": {
+    "percent": {
+     "home": 54.8,
+     "draw": 23.8,
+     "away": 21.4
+    },
+    "mas15": 75.0,
+    "menos35": 71.5,
+    "mas25": 50.5,
+    "ambos": 51.2,
+    "goles_esp": {
+     "home": 1.72,
+     "away": 0.98
+    },
+    "ultimos5": {
+     "home": 60,
+     "away": 40
+    },
+    "forma": {
+     "home": 60,
+     "away": 40
+    },
+    "gf": {
+     "home": 1.83,
+     "away": 1.33
+    },
+    "gc": {
+     "home": 0.83,
+     "away": 1.33
+    },
+    "jugados": {
+     "home": 6,
+     "away": 6
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 564714,
+   "fecha": "2026-10-18T16:30:00Z",
+   "liga": {
+    "id": "PD",
+    "nombre": "LaLiga",
+    "pais": "España",
+    "logo": "https://crests.football-data.org/laliga.png"
+   },
+   "local": {
+    "id": 84,
+    "nombre": "Málaga",
+    "logo": "https://crests.football-data.org/84.png"
+   },
+   "visitante": {
+    "id": 92,
+    "nombre": "Real Sociedad",
+    "logo": "https://crests.football-data.org/92.png"
+   },
+   "picks": [],
+   "nivel_max": null,
+   "analisis": {
+    "percent": {
+     "home": 32.1,
+     "draw": 26.8,
+     "away": 41.1
+    },
+    "mas15": 71.5,
+    "menos35": 75.5,
+    "mas25": 45.9,
+    "ambos": 50.9,
+    "goles_esp": {
+     "home": 1.16,
+     "away": 1.35
+    },
+    "ultimos5": {
+     "home": 20,
+     "away": 67
+    },
+    "forma": {
+     "home": 23,
+     "away": 77
+    },
+    "gf": {
+     "home": 0.5,
+     "away": 1.5
+    },
+    "gc": {
+     "home": 1.62,
+     "away": 1.88
+    },
+    "jugados": {
+     "home": 8,
+     "away": 8
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 558866,
+   "fecha": "2026-10-18T18:00:00Z",
+   "liga": {
+    "id": "DED",
+    "nombre": "Eredivisie",
+    "pais": "Países Bajos",
+    "logo": "https://crests.football-data.org/ED.png"
+   },
+   "local": {
+    "id": 666,
+    "nombre": "Twente",
+    "logo": "https://crests.football-data.org/666.png"
+   },
+   "visitante": {
+    "id": 676,
+    "nombre": "Utrecht",
+    "logo": "https://crests.football-data.org/676.png"
+   },
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 90,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
+    },
+    {
+     "mercado": "1x2",
+     "lado": "home",
+     "prob": 62,
+     "texto": "Gana Twente",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 80,
+     "texto": "Twente gana o empata",
+     "nivel": "media"
+    }
+   ],
+   "nivel_max": "super",
+   "analisis": {
+    "percent": {
+     "home": 62.0,
+     "draw": 18.2,
+     "away": 19.8
+    },
+    "mas15": 90.2,
+    "menos35": 45.1,
+    "mas25": 74.9,
+    "ambos": 69.1,
+    "goles_esp": {
+     "home": 2.52,
+     "away": 1.39
+    },
+    "ultimos5": {
+     "home": 73,
+     "away": 47
+    },
+    "forma": {
+     "home": 61,
+     "away": 39
+    },
+    "gf": {
+     "home": 2.0,
+     "away": 1.75
+    },
+    "gc": {
+     "home": 1.0,
+     "away": 3.12
+    },
+    "jugados": {
+     "home": 8,
+     "away": 8
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 558870,
+   "fecha": "2026-10-18T18:00:00Z",
+   "liga": {
+    "id": "DED",
+    "nombre": "Eredivisie",
+    "pais": "Países Bajos",
+    "logo": "https://crests.football-data.org/ED.png"
+   },
+   "local": {
+    "id": 1915,
+    "nombre": "NEC",
+    "logo": "https://crests.football-data.org/1915.png"
+   },
+   "visitante": {
+    "id": 1920,
+    "nombre": "Sittard",
+    "logo": "https://crests.football-data.org/1920.png"
+   },
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 86,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    }
+   ],
+   "nivel_max": "confiada",
+   "analisis": {
+    "percent": {
+     "home": 32.8,
+     "draw": 22.2,
+     "away": 45.0
+    },
+    "mas15": 85.9,
+    "menos35": 54.8,
+    "mas25": 66.9,
+    "ambos": 67.1,
+    "goles_esp": {
+     "home": 1.58,
+     "away": 1.87
+    },
+    "ultimos5": {
+     "home": 20,
+     "away": 67
+    },
+    "forma": {
+     "home": 23,
+     "away": 77
+    },
+    "gf": {
+     "home": 1.62,
+     "away": 1.75
+    },
+    "gc": {
+     "home": 1.75,
+     "away": 1.88
+    },
+    "jugados": {
+     "home": 8,
+     "away": 8
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 558570,
+   "fecha": "2026-10-18T18:45:00Z",
+   "liga": {
+    "id": "SA",
+    "nombre": "Serie A",
+    "pais": "Italia",
+    "logo": "https://crests.football-data.org/c111.png"
+   },
+   "local": {
+    "id": 109,
+    "nombre": "Juventus",
+    "logo": "https://crests.football-data.org/109.png"
+   },
+   "visitante": {
+    "id": 110,
+    "nombre": "Lazio",
+    "logo": "https://crests.football-data.org/110.png"
+   },
+   "picks": [],
+   "nivel_max": null,
+   "analisis": {
+    "percent": {
+     "home": 34.7,
+     "draw": 28.4,
+     "away": 36.9
+    },
+    "mas15": 66.8,
+    "menos35": 80.0,
+    "mas25": 40.3,
+    "ambos": 46.6,
+    "goles_esp": {
+     "home": 1.13,
+     "away": 1.17
+    },
+    "ultimos5": {
+     "home": 53,
+     "away": 87
+    },
+    "forma": {
+     "home": 38,
+     "away": 62
+    },
+    "gf": {
+     "home": 1.5,
+     "away": 1.83
+    },
+    "gc": {
+     "home": 0.83,
+     "away": 0.67
+    },
+    "jugados": {
+     "home": 6,
+     "away": 6
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 559665,
+   "fecha": "2026-10-18T18:45:00Z",
+   "liga": {
+    "id": "FL1",
+    "nombre": "Ligue 1",
+    "pais": "Francia",
+    "logo": "https://crests.football-data.org/FL1.png"
+   },
+   "local": {
+    "id": 523,
+    "nombre": "Olympique Lyon",
+    "logo": "https://crests.football-data.org/523.png"
+   },
+   "visitante": {
+    "id": 522,
+    "nombre": "Nice",
+    "logo": "https://crests.football-data.org/522.png"
+   },
+   "picks": [
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 86,
+     "texto": "Olympique Lyon gana o empata",
+     "nivel": "media",
+     "ajuste": "Bajó de nivel: hay pocos partidos jugados esta temporada."
+    },
+    {
+     "mercado": "1x2",
+     "lado": "home",
+     "prob": 62,
+     "texto": "Gana Olympique Lyon",
+     "nivel": "media",
+     "ajuste": "Bajó de nivel: hay pocos partidos jugados esta temporada."
+    }
+   ],
+   "nivel_max": "media",
+   "analisis": {
+    "percent": {
+     "home": 62.2,
+     "draw": 23.5,
+     "away": 14.4
+    },
+    "mas15": 68.5,
+    "menos35": 78.5,
+    "mas25": 42.2,
+    "ambos": 39.9,
+    "goles_esp": {
+     "home": 1.7,
+     "away": 0.67
+    },
+    "ultimos5": {
+     "home": 53,
+     "away": 47
+    },
+    "forma": {
+     "home": 53,
+     "away": 47
+    },
+    "gf": {
+     "home": 1.83,
+     "away": 0.83
+    },
+    "gc": {
+     "home": 0.67,
+     "away": 1.17
+    },
+    "jugados": {
+     "home": 6,
+     "away": 6
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 564709,
+   "fecha": "2026-10-18T19:00:00Z",
+   "liga": {
+    "id": "PD",
+    "nombre": "LaLiga",
+    "pais": "España",
+    "logo": "https://crests.football-data.org/laliga.png"
+   },
+   "local": {
+    "id": 86,
+    "nombre": "Real Madrid",
+    "logo": "https://crests.football-data.org/86.png"
+   },
+   "visitante": {
+    "id": 559,
+    "nombre": "Sevilla FC",
+    "logo": "https://crests.football-data.org/559.png"
+   },
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 85,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 84,
+     "texto": "Real Madrid gana o empata",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "1x2",
+     "lado": "home",
+     "prob": 65,
+     "texto": "Gana Real Madrid",
+     "nivel": "confiada"
+    }
+   ],
+   "nivel_max": "confiada",
+   "analisis": {
+    "percent": {
+     "home": 64.7,
+     "draw": 18.8,
+     "away": 16.5
+    },
+    "mas15": 85.0,
+    "menos35": 56.4,
+    "mas25": 65.5,
+    "ambos": 59.3,
+    "goles_esp": {
+     "home": 2.3,
+     "away": 1.08
+    },
+    "ultimos5": {
+     "home": 60,
+     "away": 53
+    },
+    "forma": {
+     "home": 53,
+     "away": 47
+    },
+    "gf": {
+     "home": 2.38,
+     "away": 1.62
+    },
+    "gc": {
+     "home": 1.0,
+     "away": 1.5
+    },
+    "jugados": {
+     "home": 8,
+     "away": 8
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 555045,
+   "fecha": "2026-10-18T19:00:00Z",
+   "liga": {
+    "id": "BSA",
+    "nombre": "Brasileirão Serie A",
+    "pais": "Brasil",
+    "logo": "https://crests.football-data.org/bsa.png"
+   },
+   "local": {
+    "id": 1765,
+    "nombre": "Fluminense",
+    "logo": "https://crests.football-data.org/1765.png"
+   },
+   "visitante": {
+    "id": 6685,
+    "nombre": "Santos",
+    "logo": "https://crests.football-data.org/6685.png"
+   },
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 83,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 77,
+     "texto": "Fluminense gana o empata",
+     "nivel": "media"
+    },
+    {
+     "mercado": "1x2",
+     "lado": "home",
+     "prob": 56,
+     "texto": "Gana Fluminense",
+     "nivel": "media"
+    }
+   ],
+   "nivel_max": "confiada",
+   "analisis": {
+    "percent": {
+     "home": 55.7,
+     "draw": 21.7,
+     "away": 22.6
+    },
+    "mas15": 82.6,
+    "menos35": 60.8,
+    "mas25": 61.5,
+    "ambos": 60.1,
+    "goles_esp": {
+     "home": 1.98,
+     "away": 1.19
+    },
+    "ultimos5": {
+     "home": 60,
+     "away": 67
+    },
+    "forma": {
+     "home": 47,
+     "away": 53
+    },
+    "gf": {
+     "home": 1.6,
+     "away": 1.53
+    },
+    "gc": {
+     "home": 1.23,
+     "away": 1.5
+    },
+    "jugados": {
+     "home": 30,
+     "away": 30
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 555046,
+   "fecha": "2026-10-18T19:00:00Z",
+   "liga": {
+    "id": "BSA",
+    "nombre": "Brasileirão Serie A",
+    "pais": "Brasil",
+    "logo": "https://crests.football-data.org/bsa.png"
+   },
+   "local": {
+    "id": 1767,
+    "nombre": "Grêmio",
+    "logo": "https://crests.football-data.org/1767.png"
+   },
+   "visitante": {
+    "id": 1771,
+    "nombre": "Cruzeiro",
+    "logo": "https://crests.football-data.org/1771.png"
+   },
+   "picks": [],
+   "nivel_max": null,
+   "analisis": {
+    "percent": {
+     "home": 39.3,
+     "draw": 26.0,
+     "away": 34.6
+    },
+    "mas15": 74.3,
+    "menos35": 72.5,
+    "mas25": 49.5,
+    "ambos": 53.9,
+    "goles_esp": {
+     "home": 1.38,
+     "away": 1.28
+    },
+    "ultimos5": {
+     "home": 20,
+     "away": 60
+    },
+    "forma": {
+     "home": 25,
+     "away": 75
+    },
+    "gf": {
+     "home": 1.07,
+     "away": 1.53
+    },
+    "gc": {
+     "home": 1.33,
+     "away": 1.47
+    },
+    "jugados": {
+     "home": 30,
+     "away": 30
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 555042,
+   "fecha": "2026-10-18T21:30:00Z",
+   "liga": {
+    "id": "BSA",
+    "nombre": "Brasileirão Serie A",
+    "pais": "Brasil",
+    "logo": "https://crests.football-data.org/bsa.png"
+   },
+   "local": {
+    "id": 1777,
+    "nombre": "Bahia",
+    "logo": "https://crests.football-data.org/1777.png"
+   },
+   "visitante": {
+    "id": 1783,
+    "nombre": "Flamengo",
+    "logo": "https://crests.football-data.org/1783.png"
+   },
+   "picks": [],
+   "nivel_max": null,
+   "analisis": {
+    "percent": {
+     "home": 29.7,
+     "draw": 26.3,
+     "away": 44.0
+    },
+    "mas15": 72.5,
+    "menos35": 74.5,
+    "mas25": 47.1,
+    "ambos": 51.5,
+    "goles_esp": {
+     "home": 1.13,
+     "away": 1.43
+    },
+    "ultimos5": {
+     "home": 60,
+     "away": 87
+    },
+    "forma": {
+     "home": 41,
+     "away": 59
+    },
+    "gf": {
+     "home": 1.47,
+     "away": 1.93
+    },
+    "gc": {
+     "home": 1.2,
+     "away": 0.83
+    },
+    "jugados": {
+     "home": 30,
+     "away": 30
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 555048,
+   "fecha": "2026-10-18T22:30:00Z",
+   "liga": {
+    "id": "BSA",
+    "nombre": "Brasileirão Serie A",
+    "pais": "Brasil",
+    "logo": "https://crests.football-data.org/bsa.png"
+   },
+   "local": {
+    "id": 4287,
+    "nombre": "Clube do Remo",
+    "logo": "https://crests.football-data.org/4287.png"
+   },
+   "visitante": {
+    "id": 4286,
+    "nombre": "Bragantino",
+    "logo": "https://crests.football-data.org/4286.png"
+   },
+   "picks": [],
+   "nivel_max": null,
+   "analisis": {
+    "percent": {
+     "home": 33.7,
+     "draw": 27.4,
+     "away": 38.9
+    },
+    "mas15": 69.8,
+    "menos35": 77.3,
+    "mas25": 43.8,
+    "ambos": 49.4,
+    "goles_esp": {
+     "home": 1.16,
+     "away": 1.27
+    },
+    "ultimos5": {
+     "home": 13,
+     "away": 33
+    },
+    "forma": {
+     "home": 29,
+     "away": 71
+    },
+    "gf": {
+     "home": 1.1,
+     "away": 1.27
+    },
+    "gc": {
+     "home": 1.6,
+     "away": 1.17
+    },
+    "jugados": {
+     "home": 30,
+     "away": 30
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 558576,
+   "fecha": "2026-10-19T16:30:00Z",
+   "liga": {
+    "id": "SA",
+    "nombre": "Serie A",
+    "pais": "Italia",
+    "logo": "https://crests.football-data.org/c111.png"
+   },
+   "local": {
+    "id": 5911,
+    "nombre": "Monza",
+    "logo": "https://crests.football-data.org/5911.png"
+   },
+   "visitante": {
+    "id": 104,
+    "nombre": "Cagliari",
+    "logo": "https://crests.football-data.org/104.png"
+   },
+   "picks": [],
+   "nivel_max": null,
+   "analisis": {
+    "percent": {
+     "home": 25.1,
+     "draw": 25.5,
+     "away": 49.4
+    },
+    "mas15": 72.7,
+    "menos35": 74.2,
+    "mas25": 47.4,
+    "ambos": 50.4,
+    "goles_esp": {
+     "home": 1.02,
+     "away": 1.55
+    },
+    "ultimos5": {
+     "home": 27,
+     "away": 67
+    },
+    "forma": {
+     "home": 29,
+     "away": 71
+    },
+    "gf": {
+     "home": 1.5,
+     "away": 1.0
+    },
+    "gc": {
+     "home": 2.5,
+     "away": 0.5
+    },
+    "jugados": {
+     "home": 6,
+     "away": 6
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 558578,
+   "fecha": "2026-10-19T18:45:00Z",
+   "liga": {
+    "id": "SA",
+    "nombre": "Serie A",
+    "pais": "Italia",
+    "logo": "https://crests.football-data.org/c111.png"
+   },
+   "local": {
+    "id": 112,
+    "nombre": "Parma",
+    "logo": "https://crests.football-data.org/112.png"
+   },
+   "visitante": {
+    "id": 586,
+    "nombre": "Torino",
+    "logo": "https://crests.football-data.org/586.png"
+   },
+   "picks": [],
+   "nivel_max": null,
+   "analisis": {
+    "percent": {
+     "home": 32.3,
+     "draw": 27.5,
+     "away": 40.2
+    },
+    "mas15": 69.5,
+    "menos35": 77.6,
+    "mas25": 43.4,
+    "ambos": 48.9,
+    "goles_esp": {
+     "home": 1.13,
+     "away": 1.29
+    },
+    "ultimos5": {
+     "home": 27,
+     "away": 47
+    },
+    "forma": {
+     "home": 36,
+     "away": 64
+    },
+    "gf": {
+     "home": 0.67,
+     "away": 1.17
+    },
+    "gc": {
+     "home": 1.67,
+     "away": 1.5
+    },
+    "jugados": {
+     "home": 6,
+     "away": 6
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 560606,
+   "fecha": "2026-10-19T19:00:00Z",
+   "liga": {
+    "id": "PL",
+    "nombre": "Premier League",
+    "pais": "Inglaterra",
+    "logo": "https://crests.football-data.org/PL.png"
+   },
+   "local": {
+    "id": 73,
+    "nombre": "Tottenham",
+    "logo": "https://crests.football-data.org/73.png"
+   },
+   "visitante": {
+    "id": 1076,
+    "nombre": "Coventry City",
+    "logo": "https://crests.football-data.org/1076.png"
+   },
+   "picks": [],
+   "nivel_max": null,
+   "analisis": {
+    "percent": {
+     "home": 39.1,
+     "draw": 29.1,
+     "away": 31.8
+    },
+    "mas15": 64.5,
+    "menos35": 82.0,
+    "mas25": 37.7,
+    "ambos": 44.3,
+    "goles_esp": {
+     "home": 1.17,
+     "away": 1.03
+    },
+    "ultimos5": {
+     "home": 20,
+     "away": 40
+    },
+    "forma": {
+     "home": 33,
+     "away": 67
+    },
+    "gf": {
+     "home": 0.5,
+     "away": 0.83
+    },
+    "gc": {
+     "home": 1.5,
+     "away": 1.83
+    },
+    "jugados": {
+     "home": 6,
+     "away": 6
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 564717,
+   "fecha": "2026-10-19T19:00:00Z",
+   "liga": {
+    "id": "PD",
+    "nombre": "LaLiga",
+    "pais": "España",
+    "logo": "https://crests.football-data.org/laliga.png"
+   },
+   "local": {
+    "id": 82,
+    "nombre": "Getafe",
+    "logo": "https://crests.football-data.org/82.png"
+   },
+   "visitante": {
+    "id": 87,
+    "nombre": "Rayo Vallecano",
+    "logo": "https://crests.football-data.org/87.png"
+   },
+   "picks": [],
+   "nivel_max": null,
+   "analisis": {
+    "percent": {
+     "home": 39.5,
+     "draw": 26.9,
+     "away": 33.6
+    },
+    "mas15": 71.3,
+    "menos35": 75.7,
+    "mas25": 45.6,
+    "ambos": 50.8,
+    "goles_esp": {
+     "home": 1.31,
+     "away": 1.19
+    },
+    "ultimos5": {
+     "home": 33,
+     "away": 47
+    },
+    "forma": {
+     "home": 42,
+     "away": 58
+    },
+    "gf": {
+     "home": 0.5,
+     "away": 1.57
+    },
+    "gc": {
+     "home": 1.25,
+     "away": 2.29
+    },
+    "jugados": {
+     "home": 8,
+     "away": 7
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 567271,
+   "fecha": "2026-10-19T19:15:00Z",
+   "liga": {
+    "id": "PPL",
+    "nombre": "Primeira Liga",
+    "pais": "Portugal",
+    "logo": "https://crests.football-data.org/PPL.png"
+   },
+   "local": {
+    "id": 5613,
+    "nombre": "Braga",
+    "logo": "https://crests.football-data.org/5613.png"
+   },
+   "visitante": {
+    "id": 5533,
+    "nombre": "Gil Vicente",
+    "logo": "https://crests.football-data.org/5533.png"
+   },
+   "picks": [
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 88,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "media",
+     "ajuste": "Bajó de nivel: hay pocos partidos jugados esta temporada."
+    }
+   ],
+   "nivel_max": "media",
+   "analisis": {
+    "percent": {
+     "home": 29.6,
+     "draw": 32.1,
+     "away": 38.3
+    },
+    "mas15": 55.6,
+    "menos35": 88.1,
+    "mas25": 28.6,
+    "ambos": 36.5,
+    "goles_esp": {
+     "home": 0.85,
+     "away": 1.01
+    },
+    "ultimos5": {
+     "home": 47,
+     "away": 33
+    },
+    "forma": {
+     "home": 58,
+     "away": 42
+    },
+    "gf": {
+     "home": 1.14,
+     "away": 0.86
+    },
+    "gc": {
+     "home": 1.14,
+     "away": 0.71
+    },
+    "jugados": {
+     "home": 7,
+     "away": 7
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 555044,
+   "fecha": "2026-10-19T23:00:00Z",
+   "liga": {
+    "id": "BSA",
+    "nombre": "Brasileirão Serie A",
+    "pais": "Brasil",
+    "logo": "https://crests.football-data.org/bsa.png"
+   },
+   "local": {
+    "id": 1779,
+    "nombre": "Corinthians",
+    "logo": "https://crests.football-data.org/1779.png"
+   },
+   "visitante": {
+    "id": 1782,
+    "nombre": "Vitória",
+    "logo": "https://crests.football-data.org/1782.png"
+   },
+   "picks": [],
+   "nivel_max": null,
+   "analisis": {
+    "percent": {
+     "home": 46.5,
+     "draw": 27.8,
+     "away": 25.7
+    },
+    "mas15": 66.0,
+    "menos35": 80.7,
+    "mas25": 39.3,
+    "ambos": 44.4,
+    "goles_esp": {
+     "home": 1.34,
+     "away": 0.92
+    },
+    "ultimos5": {
+     "home": 0,
+     "away": 47
+    },
+    "forma": {
+     "home": 0,
+     "away": 100
+    },
+    "gf": {
+     "home": 1.03,
+     "away": 1.1
+    },
+    "gc": {
+     "home": 1.27,
+     "away": 1.47
+    },
+    "jugados": {
+     "home": 30,
+     "away": 30
+    },
+    "h2h": []
+   }
+  }
+ ]
+}
