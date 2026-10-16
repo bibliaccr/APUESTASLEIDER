@@ -75,20 +75,22 @@
         pk.ajuste ? h("p", { class: "pick-ajuste" }, pk.ajuste) : null);
 
     const fila = (izq, etq, der) => [h("div", null, izq), h("div", { class: "etq" }, etq), h("div", { class: "der" }, der)];
-    const num = (v) => (v ? Math.round(v) + "%" : "–");
+    const pc = (v) => (v || v === 0 ? Math.round(v) + "%" : "–");
+    const dec = (v) => (v || v === 0 ? Number(v).toFixed(2) : "–");
 
     const analisis = h("details", { class: "analisis" },
       h("summary", null, "Ver análisis"),
       h("div", { class: "datos" },
-        fila(num(a.percent.home), "Prob. 1X2", num(a.percent.away)),
-        fila("", "Empate " + num(a.percent.draw), ""),
-        fila(num(a.forma.home), "Forma relativa", num(a.forma.away)),
-        fila(num(a.ultimos5.home), "Últimos 5 partidos", num(a.ultimos5.away)),
-        fila(num(a.ataque.home), "Ataque", num(a.ataque.away)),
-        fila(num(a.defensa.home), "Defensa", num(a.defensa.away))),
-      a.consejo ? h("p", { class: "consejo" }, h("strong", null, "Consejo del modelo: "), a.consejo) : null,
-      a.under_over ? h("p", { class: "consejo" }, h("strong", null, "Goles: "),
-        "el modelo sugiere " + (a.under_over.startsWith("-") ? "menos" : "más") + " de " + a.under_over.replace(/^[-+]/, "")) : null,
+        fila(pc(a.percent.home), "Gana local / visitante", pc(a.percent.away)),
+        fila("", "Empate " + pc(a.percent.draw), ""),
+        fila(dec(a.goles_esp.home), "Goles esperados", dec(a.goles_esp.away)),
+        fila(pc(a.ultimos5.home), "Puntos en los últimos 5", pc(a.ultimos5.away)),
+        fila(dec(a.gf.home), "Goles a favor por partido", dec(a.gf.away)),
+        fila(dec(a.gc.home), "Goles en contra por partido", dec(a.gc.away)),
+        fila(a.jugados.home, "Partidos jugados", a.jugados.away)),
+      h("p", { class: "consejo" },
+        h("strong", null, "Goles: "),
+        `más de 2.5 → ${pc(a.mas25)}. Ambos marcan → ${pc(a.ambos)}.`),
       a.h2h && a.h2h.length
         ? [h("p", { class: "consejo" }, h("strong", null, "Últimos cruces")),
            h("ul", { class: "h2h" }, a.h2h.map((x) =>

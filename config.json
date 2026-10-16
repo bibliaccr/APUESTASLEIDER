@@ -1,17 +1,28 @@
 {
   "ligas": [
-    { "id": 39,  "nombre": "Premier League",    "pais": "Inglaterra", "tipo_temporada": "europea" },
-    { "id": 140, "nombre": "LaLiga",            "pais": "España",     "tipo_temporada": "europea" },
-    { "id": 2,   "nombre": "Champions League",  "pais": "Europa",     "tipo_temporada": "europea" },
-    { "id": 239, "nombre": "Liga BetPlay",      "pais": "Colombia",   "tipo_temporada": "anual" },
-    { "id": 13,  "nombre": "Copa Libertadores", "pais": "Sudamérica", "tipo_temporada": "anual" }
+    { "codigo": "PL",  "nombre": "Premier League",     "pais": "Inglaterra" },
+    { "codigo": "PD",  "nombre": "LaLiga",             "pais": "España" },
+    { "codigo": "SA",  "nombre": "Serie A",            "pais": "Italia" },
+    { "codigo": "BL1", "nombre": "Bundesliga",         "pais": "Alemania" },
+    { "codigo": "FL1", "nombre": "Ligue 1",            "pais": "Francia" },
+    { "codigo": "CL",  "nombre": "Champions League",   "pais": "Europa" },
+    { "codigo": "PPL", "nombre": "Primeira Liga",      "pais": "Portugal" },
+    { "codigo": "DED", "nombre": "Eredivisie",         "pais": "Países Bajos" },
+    { "codigo": "BSA", "nombre": "Brasileirão Serie A","pais": "Brasil" },
+    { "codigo": "ELC", "nombre": "Championship",       "pais": "Inglaterra" }
   ],
-  "dias_adelante": 3,
+  "dias_adelante": 4,
   "zona_horaria": "America/Bogota",
-  "max_llamadas": 48,
+  "max_llamadas": 40,
   "pausa_segundos": 7,
+  "h2h_max": 6,
+  "min_partidos": 4,
+  "partidos_confiables": 8,
+  "suavizado": 5,
   "umbrales": {
-    "1x2":   { "super": 70, "confiada": 60, "media": 50 },
-    "doble": { "super": 88, "confiada": 80, "media": 72 }
+    "1x2":     { "super": 68, "confiada": 58, "media": 50 },
+    "doble":   { "super": 88, "confiada": 82, "media": 75 },
+    "mas15":   { "super": 88, "confiada": 82, "media": 76 },
+    "menos35": { "super": 92, "confiada": 87, "media": 82 }
   }
 }
