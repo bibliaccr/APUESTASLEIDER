@@ -36,5 +36,10 @@ jobs:
             echo "Sin cambios"
           else
             git commit -m "Datos actualizados $(date -u '+%Y-%m-%d %H:%M') UTC"
-            git push
+            # Si alguien subió cambios mientras corría, se bajan y se reintenta
+            for intento in 1 2 3; do
+              git pull --rebase origin main && git push && break
+              echo "Reintentando ($intento)..."
+              sleep 5
+            done
           fi
