@@ -64,7 +64,7 @@ Son estimaciones estadísticas, no garantías. Solo para mayores de 18 años.
 
 ## Apuestas por partido
 
-- La galería muestra solo los partidos. Al tocar uno se ven sus apuestas destacadas (hasta 4;
+- La galería muestra solo los partidos. Al tocar uno se ven sus apuestas destacadas (hasta 3, bajo la etiqueta "Recomendado"; son las que cuentan en el historial de aciertos;
   si las apuestas de goles o "ambos marcan" alcanzan un nivel, se les asegura lugar).
 - El botón **Apuestas** abre la lista completa en dos secciones: *Tiempo completo* y *Medio tiempo*.
   El medio tiempo usa los goles al descanso de cada equipo (mismo método Poisson).

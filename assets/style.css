@@ -193,3 +193,6 @@ select.chip { width: 100%; appearance: auto; }
 .cruce-fila.gana { color: var(--ok); font-weight: 800; }
 .cruce-fila.pierde { color: var(--mal); }
 @media (min-width: 560px) { .cruces { grid-template-columns: repeat(2, 1fr); } }
+
+/* Etiqueta centrada sobre las apuestas recomendadas (las que cuentan en el historial) */
+.recomendado { text-align: center; font-size: .78rem; font-weight: 800; text-transform: uppercase; letter-spacing: .1em; color: var(--suave); margin: 2px 0 8px; }

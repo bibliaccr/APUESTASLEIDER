@@ -229,7 +229,7 @@
     // 1) Apuestas destacadas (las de mejor respaldo)
     const destacadas = h("div", { class: "destacadas" },
       p.picks.length
-        ? h("ul", { class: "picks" }, p.picks.map(filaPick))
+        ? [h("div", { class: "recomendado" }, "Recomendado"), h("ul", { class: "picks" }, p.picks.map(filaPick))]
         : h("p", { class: "sin-pick" }, "Sin apuesta destacada: ninguna llega al mínimo de confianza."));
 
     // 2) Lista completa: tiempo completo y medio tiempo (incluye las destacadas)
