@@ -1,1 +1,29 @@
-{ "partidos": [], "resumen": {} }
+{
+ "partidos": [],
+ "resumen": {
+  "por_nivel": {
+   "media": {
+    "total": 0,
+    "aciertos": 0
+   },
+   "confiada": {
+    "total": 0,
+    "aciertos": 0
+   },
+   "super": {
+    "total": 0,
+    "aciertos": 0
+   }
+  },
+  "por_mercado": {
+   "1x2": {
+    "total": 0,
+    "aciertos": 0
+   },
+   "doble": {
+    "total": 0,
+    "aciertos": 0
+   }
+  }
+ }
+}
