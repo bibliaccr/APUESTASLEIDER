@@ -63,74 +63,35 @@
     return h("div", { class: "filtros" }, chips, select);
   }
 
-  // ---- todas las apuestas de un partido ---------------------------------
-  // Cuota justa = 100 / probabilidad. Si la casa de apuestas paga MÁS que esa cuota, hay "valor".
-  function filaMercado(texto, prob, esPick) {
-    const nivelCls = prob >= 80 ? "alta" : prob >= 60 ? "media" : prob >= 40 ? "baja" : "muybaja";
-    return h("li", { class: "mercado", "data-prob": nivelCls },
-      h("div", { class: "m-texto" }, texto, esPick ? h("span", { class: "m-pick" }, "Pick") : null),
-      h("div", { class: "m-barra", "aria-hidden": "true" }, h("i", { style: `width:${Math.min(prob, 100)}%` })),
-      h("div", { class: "m-prob" }, Math.round(prob) + "%"),
-      h("div", { class: "m-cuota", title: "Cuota justa: la casa debería pagar más que esto para que valga la pena" },
-        prob > 0 ? "@" + (100 / prob).toFixed(2) : "–"));
-  }
+  // ---- apuestas extra de un partido ---------------------------------------
+  // Mismas filas que los picks. Nivel orientativo por probabilidad (las extra no usan los umbrales de config.json).
+  const nivelExtra = (prob) => (prob >= 85 ? "super" : prob >= 75 ? "confiada" : prob >= 60 ? "media" : null);
 
-  function grupoMercados(titulo, filas) {
-    return h("section", { class: "grupo" }, h("h4", null, titulo), h("ul", { class: "mercados" }, filas));
-  }
-
-  function todasLasApuestas(p) {
+  function apuestasExtra(p) {
     const m = p.analisis.mercados;
-    if (!m) {
-      return h("p", { class: "consejo" }, "Las apuestas detalladas aparecerán después de la próxima actualización automática.");
-    }
+    if (!m) return null;
     const L = p.local.nombre, V = p.visitante.nombre;
-    const esPick = (mercado, lado) => p.picks.some((k) => k.mercado === mercado && (lado === undefined || k.lado === lado));
-    const f = filaMercado;
     const menos = (v) => Math.max(0, 100 - v);
-
-    return h("div", { class: "todas" },
-      grupoMercados("Resultado del partido", [
-        f(`Gana ${L}`, m.h, esPick("1x2", "home")),
-        f("Empate", m.x, false),
-        f(`Gana ${V}`, m.a, esPick("1x2", "away")),
-      ]),
-      grupoMercados("Doble oportunidad", [
-        f(`${L} gana o empata`, m.dc["1x"], esPick("doble", "home")),
-        f(`${V} gana o empata`, m.dc.x2, esPick("doble", "away")),
-        f(`Cualquiera gana (sin empate)`, m.dc["12"], false),
-      ]),
-      grupoMercados("Empate no válido (si empatan, te devuelven)", [
-        f(`${L}`, m.dnb.h, false),
-        f(`${V}`, m.dnb.a, false),
-      ]),
-      grupoMercados("Total de goles del partido", [
-        f("Más de 0.5 goles", m.mas["0"], false),
-        f("Más de 1.5 goles", m.mas["1"], esPick("mas15")),
-        f("Más de 2.5 goles", m.mas["2"], false),
-        f("Más de 3.5 goles", m.mas["3"], false),
-        f("Menos de 1.5 goles", menos(m.mas["1"]), false),
-        f("Menos de 2.5 goles", menos(m.mas["2"]), false),
-        f("Menos de 3.5 goles", menos(m.mas["3"]), esPick("menos35")),
-        f("Menos de 4.5 goles", menos(m.mas["4"]), false),
-      ]),
-      grupoMercados("Ambos equipos marcan", [
-        f("Sí", m.btts, false),
-        f("No", menos(m.btts), false),
-      ]),
-      grupoMercados("Goles por equipo", [
-        f(`${L} marca 1 o más`, m.mas_local["0"], false),
-        f(`${L} marca 2 o más`, m.mas_local["1"], false),
-        f(`${V} marca 1 o más`, m.mas_visita["0"], false),
-        f(`${V} marca 2 o más`, m.mas_visita["1"], false),
-      ]),
-      h("section", { class: "grupo" },
-        h("h4", null, "Marcadores más probables"),
-        h("div", { class: "marcadores" }, (m.marcadores || []).slice(0, 5).map(([sc, pr]) =>
-          h("span", { class: "marcador" }, h("b", null, sc), pr.toFixed(1) + "%")))),
-      h("p", { class: "nota-cuota" },
-        "“@” es la cuota justa según el modelo (100 ÷ probabilidad). Solo tiene valor si tu casa de apuestas paga más que eso. ",
-        "El modelo no sabe de lesiones, sanciones ni alineaciones: revísalas antes de decidir."));
+    const yaPick = (mercado, lado) => p.picks.some((k) => k.mercado === mercado && (lado === undefined || k.lado === lado));
+    // [texto, prob, mercado y lado si coincide con un pick ya mostrado]
+    const todas = [
+      [`Gana ${L}`, m.h, "1x2", "home"], [`Gana ${V}`, m.a, "1x2", "away"], ["Empate", m.x],
+      [`${L} gana o empata`, m.dc["1x"], "doble", "home"], [`${V} gana o empata`, m.dc.x2, "doble", "away"],
+      ["Cualquiera gana (sin empate)", m.dc["12"]],
+      [`${L} (empate no válido)`, m.dnb.h], [`${V} (empate no válido)`, m.dnb.a],
+      ["Más de 0.5 goles", m.mas["0"]], ["Más de 1.5 goles", m.mas["1"], "mas15"], ["Más de 2.5 goles", m.mas["2"]],
+      ["Más de 3.5 goles", m.mas["3"]], ["Menos de 2.5 goles", menos(m.mas["2"])],
+      ["Menos de 3.5 goles", menos(m.mas["3"]), "menos35"], ["Menos de 4.5 goles", menos(m.mas["4"])],
+      ["Ambos equipos marcan: Sí", m.btts], ["Ambos equipos marcan: No", menos(m.btts)],
+      [`${L} marca 1 o más goles`, m.mas_local["0"]], [`${L} marca 2 o más goles`, m.mas_local["1"]],
+      [`${V} marca 1 o más goles`, m.mas_visita["0"]], [`${V} marca 2 o más goles`, m.mas_visita["1"]],
+    ];
+    return todas
+      .filter(([, , mercado, lado]) => !(mercado && yaPick(mercado, lado)))
+      .map(([texto, prob]) => ({ texto, prob: Math.round(prob), nivel: nivelExtra(prob) }))
+      .filter((x) => x.nivel && (estado.nivel === "todos" || x.nivel === estado.nivel))
+      .sort((a, b) => NIVELES[b.nivel].rango - NIVELES[a.nivel].rango || b.prob - a.prob)
+      .slice(0, 10);
   }
 
   function tarjetaPartido(p) {
@@ -168,22 +129,24 @@
         : null);
 
     const abierto = estado.abiertos.has(p.id);
-    const panelTodas = h("div", { class: "panel-todas", id: "todas-" + p.id, hidden: !abierto });
-    if (abierto) panelTodas.append(todasLasApuestas(p));
-    const boton = h("button", { class: "ver-todas", type: "button", "aria-expanded": abierto,
-      "aria-controls": "todas-" + p.id }, h("span", { class: "flecha", "aria-hidden": "true" }),
-      h("span", { class: "txt" }, abierto ? "Ocultar apuestas" : "Ver todas las apuestas de este partido"));
+    const extra = apuestasExtra(p);
+    const panelExtra = h("div", { class: "extra", id: "extra-" + p.id, hidden: !abierto },
+      h("p", { class: "extra-titulo" }, "Más apuestas de este partido"),
+      extra && extra.length
+        ? h("ul", { class: "picks" }, extra.map(pick))
+        : h("p", { class: "sin-pick" }, extra ? "No hay más apuestas con suficiente probabilidad." : "Las apuestas extra aparecerán tras la próxima actualización automática."));
+    const pista = h("div", { class: "pista", "aria-hidden": "true" },
+      h("span", { class: "flecha" }), h("span", { class: "txt" }, abierto ? "Toca para ocultar" : "Toca el partido para ver más apuestas"));
     const alternar = () => {
-      const ahora = boton.getAttribute("aria-expanded") !== "true";
-      boton.setAttribute("aria-expanded", ahora);
-      boton.querySelector(".txt").textContent = ahora ? "Ocultar apuestas" : "Ver todas las apuestas de este partido";
-      if (ahora) { estado.abiertos.add(p.id); if (!panelTodas.firstChild) panelTodas.append(todasLasApuestas(p)); }
-      else estado.abiertos.delete(p.id);
-      panelTodas.hidden = !ahora;
+      const ahora = tarjeta.getAttribute("aria-expanded") !== "true";
+      tarjeta.setAttribute("aria-expanded", ahora);
+      pista.querySelector(".txt").textContent = ahora ? "Toca para ocultar" : "Toca el partido para ver más apuestas";
+      if (ahora) estado.abiertos.add(p.id); else estado.abiertos.delete(p.id);
+      panelExtra.hidden = !ahora;
     };
-    boton.addEventListener("click", alternar);
 
-    const tarjeta = h("article", { class: "partido", "data-nivel": p.nivel_max || "ninguno" },
+    const tarjeta = h("article", { class: "partido interactivo", "data-nivel": p.nivel_max || "ninguno",
+      role: "button", tabindex: "0", "aria-expanded": abierto },
       h("div", { class: "partido-cab" },
         h("span", { class: "liga" }, imagen(p.liga.logo), p.liga.nombre),
         h("span", { class: "hora" }, fmtHora.format(new Date(p.fecha)))),
@@ -194,9 +157,12 @@
       p.picks.length
         ? h("ul", { class: "picks" }, p.picks.map(pick))
         : h("p", { class: "sin-pick" }, "Sin pick: ninguna opción llega al mínimo de confianza."),
-      boton, panelTodas, analisis);
-    // Tocar la zona de los equipos también despliega/oculta
-    tarjeta.querySelector(".equipos").addEventListener("click", alternar);
+      panelExtra, pista, analisis);
+    // Tocar cualquier parte del recuadro despliega/oculta (excepto el bloque "Ver análisis")
+    tarjeta.addEventListener("click", (e) => { if (!e.target.closest("details")) alternar(); });
+    tarjeta.addEventListener("keydown", (e) => {
+      if (e.target === tarjeta && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); alternar(); }
+    });
     return tarjeta;
   }
 
