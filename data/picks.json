@@ -1,1 +1,12 @@
-{ "generado": null, "llamadas_usadas": 0, "avisos": [], "partidos": [] }
+{
+ "generado": "2026-10-16T03:48:38.726638+00:00",
+ "llamadas_usadas": 5,
+ "avisos": [
+  "/fixtures: {\"plan\": \"Free plans do not have access to this season, try from 2022 to 2024.\"}",
+  "/fixtures: {\"plan\": \"Free plans do not have access to this season, try from 2022 to 2024.\"}",
+  "/fixtures: {\"plan\": \"Free plans do not have access to this season, try from 2022 to 2024.\"}",
+  "/fixtures: {\"plan\": \"Free plans do not have access to this season, try from 2022 to 2024.\"}",
+  "/fixtures: {\"plan\": \"Free plans do not have access to this season, try from 2022 to 2024.\"}"
+ ],
+ "partidos": []
+}
