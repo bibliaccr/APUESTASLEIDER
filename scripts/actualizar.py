@@ -30,7 +30,9 @@ RAIZ = Path(__file__).resolve().parent.parent
 DATOS = RAIZ / "data"
 BASE = "https://api.football-data.org/v4"
 NIVELES = ["media", "confiada", "super"]  # de menor a mayor
-POR_EQUIPO_MAX_PICKS = 3
+POR_EQUIPO_MAX_PICKS = 4
+MERCADOS_COMPLEJOS = ("mas25", "menos25", "btts_si", "btts_no")
+COMPLEJOS_MIN = 2  # cuántas apuestas "de goles / ambos marcan" se priorizan si pasan el umbral
 MAX_HISTORIAL = 400
 
 
@@ -143,10 +145,19 @@ def goles(partido):
     return int(gl), int(gv)
 
 
+def goles_descanso(partido):
+    """Goles al descanso (gl, gv) o None si la API no trae ese dato."""
+    ht = (partido.get("score") or {}).get("halfTime") or {}
+    if ht.get("home") is None or ht.get("away") is None:
+        return None
+    return int(ht["home"]), int(ht["away"])
+
+
 def construir_modelo(partidos):
     """Promedios de la liga y estadísticas por equipo con los partidos terminados."""
     equipos = {}
     tot_l = tot_v = n = 0
+    t1_l = t1_v = n1 = 0
     terminados = [p for p in partidos if p.get("status") == "FINISHED" and goles(p)]
     terminados.sort(key=lambda p: p["utcDate"])
     for p in terminados:
@@ -161,9 +172,22 @@ def construir_modelo(partidos):
             e["gc"] += gc
             e["n"] += 1
             e["pts"].append(3 if gf > gc else 1 if gf == gc else 0)
+        d = goles_descanso(p)
+        if d:  # estadísticas del primer tiempo (solo partidos con marcador al descanso)
+            t1_l += d[0]
+            t1_v += d[1]
+            n1 += 1
+            for lado, gf, gc in (("homeTeam", d[0], d[1]), ("awayTeam", d[1], d[0])):
+                e = equipos[dig(p, lado, "id")]
+                e["gf1"] = e.get("gf1", 0) + gf
+                e["gc1"] = e.get("gc1", 0) + gc
+                e["n1"] = e.get("n1", 0) + 1
     if n < 10:
         return None
-    return {"H": tot_l / n, "A": tot_v / n, "equipos": equipos}
+    modelo = {"H": tot_l / n, "A": tot_v / n, "equipos": equipos}
+    if n1 >= 10:
+        modelo["H1"], modelo["A1"] = t1_l / n1, t1_v / n1
+    return modelo
 
 
 def pmf(k, lam):
@@ -196,6 +220,36 @@ def mercados_completos(pl, pv, total):
         "mas_visita": {k: pct(gv_mas(k)) for k in (0, 1, 2)},
         "marcadores": [[nombre, pct(p)] for p, nombre in marcadores],
     }
+
+
+def predecir_1t(modelo, el, ev, k):
+    """Mercados del primer tiempo: mismo método (Poisson), pero con los goles al descanso de cada equipo."""
+    if "H1" not in modelo or el.get("n1", 0) < 3 or ev.get("n1", 0) < 3:
+        return None
+    H1, A1 = modelo["H1"], modelo["A1"]
+    prom = (H1 + A1) / 2
+    if prom <= 0:
+        return None
+    k1 = k + 3  # el primer tiempo tiene menos goles, así que se suaviza un poco más
+
+    def fuerza(e):
+        att = ((e.get("gf1", 0) + k1 * prom) / (e["n1"] + k1)) / prom
+        dfn = ((e.get("gc1", 0) + k1 * prom) / (e["n1"] + k1)) / prom
+        return att, dfn
+
+    att_l, def_l = fuerza(el)
+    att_v, def_v = fuerza(ev)
+    lam = min(max(H1 * att_l * def_v, 0.05), 3.0)
+    mu = min(max(A1 * att_v * def_l, 0.05), 3.0)
+    N = 8
+    pl = [pmf(i, lam) for i in range(N)]
+    pv = [pmf(j, mu) for j in range(N)]
+    total = sum(pl) * sum(pv)
+    m = mercados_completos(pl, pv, total)
+    m["goles_esp"] = {"home": round(lam, 2), "away": round(mu, 2)}
+    m["jugados"] = {"home": el["n1"], "away": ev["n1"]}
+    m.pop("dnb", None)
+    return m
 
 
 def predecir(modelo, id_local, id_vis, k):
@@ -243,6 +297,7 @@ def predecir(modelo, id_local, id_vis, k):
     ambos = (1 - math.exp(-lam)) * (1 - math.exp(-mu)) * 100
 
     mercados = mercados_completos(pl, pv, total)
+    mercados_1t = predecir_1t(modelo, el, ev, k)
 
     def forma5(e):
         ult = e["pts"][-5:]
@@ -263,6 +318,7 @@ def predecir(modelo, id_local, id_vis, k):
         "gc": {"home": round(el["gc"] / el["n"], 2), "away": round(ev["gc"] / ev["n"], 2)},
         "jugados": {"home": el["n"], "away": ev["n"]},
         "mercados": mercados,
+        "mercados_1t": mercados_1t,
     }
 
 
@@ -275,9 +331,20 @@ def nivel_por_prob(prob, niveles):
     return None
 
 
+def penalizaciones(pred, cfg):
+    """Puntos que se restan al porcentaje por alertas: forma reciente peor (por equipo) y pocos partidos (global)."""
+    pen = cfg.get("penalizacion", 5)
+    pocos = min(pred["jugados"]["home"], pred["jugados"]["away"]) < cfg["partidos_confiables"]
+    return {
+        "home": pen if 0 < pred["forma"]["home"] < 40 else 0,
+        "away": pen if 0 < pred["forma"]["away"] < 40 else 0,
+        "global": pen if pocos else 0,
+    }
+
+
 def generar_picks(partido, pred, cfg):
     niveles = cfg["niveles"]
-    pen = cfg.get("penalizacion", 5)  # puntos que se restan por cada alerta
+    pen = penalizaciones(pred, cfg)
     pc = pred["percent"]
     ph, pe, pa = pc["home"], pc["draw"], pc["away"]
     favorito = "home" if ph >= pa else "away"
@@ -285,7 +352,7 @@ def generar_picks(partido, pred, cfg):
     p_gana = ph if favorito == "home" else pa
 
     candidatos = [
-        {"mercado": "1x2", "lado": favorito, "prob": p_gana, "texto": f"Gana {nombre}"},
+        {"mercado": "1x2", "lado": favorito, "prob": p_gana, "texto": f"Gana: {nombre}"},
         {"mercado": "doble", "lado": favorito, "prob": min(p_gana + pe, 100.0),
          "texto": f"{nombre} gana o empata"},
         {"mercado": "mas15", "lado": None, "prob": pred["mas15"], "texto": "Más de 1.5 goles"},
@@ -295,28 +362,24 @@ def generar_picks(partido, pred, cfg):
         {"mercado": "btts_si", "lado": None, "prob": pred["ambos"], "texto": "Ambos equipos marcan"},
         {"mercado": "btts_no", "lado": None, "prob": 100 - pred["ambos"], "texto": "Ambos equipos no marcan"},
     ]
-    pocos = min(pred["jugados"]["home"], pred["jugados"]["away"]) < cfg["partidos_confiables"]
 
     picks = []
     for c in candidatos:
-        prob = c["prob"]
-        ajustes = []
         # Las alertas restan puntos al porcentaje; así el nivel siempre coincide con el % que se ve.
-        if c["lado"] and 0 < pred["forma"][c["lado"]] < 40:
-            prob -= pen
-            ajustes.append("su forma reciente es peor que la del rival")
-        if pocos:
-            prob -= pen
-            ajustes.append("hay pocos partidos jugados esta temporada")
-        prob = round(prob)
+        resta = pen["global"] + (pen[c["lado"]] if c["lado"] else 0)
+        prob = round(c["prob"] - resta)
         nivel = nivel_por_prob(prob, niveles)
         if not nivel:
             continue
         c["nivel"] = nivel
         c["prob"] = prob
-        if ajustes:
-            c["ajuste"] = (f"Se restaron {pen * len(ajustes)} puntos al porcentaje porque "
-                           + " y ".join(ajustes) + ".")
+        if resta:
+            motivos = []
+            if c["lado"] and pen[c["lado"]]:
+                motivos.append("su forma reciente es peor que la del rival")
+            if pen["global"]:
+                motivos.append("hay pocos partidos jugados esta temporada")
+            c["ajuste"] = f"Se restaron {resta} puntos al porcentaje porque " + " y ".join(motivos) + "."
         picks.append(c)
 
     # Evitar picks repetidos de goles: si pasa la línea más exigente, se omite la más suave.
@@ -328,8 +391,22 @@ def generar_picks(partido, pred, cfg):
         omitir.add("menos35")
     picks = [c for c in picks if c["mercado"] not in omitir]
 
-    picks.sort(key=lambda c: (NIVELES.index(c["nivel"]), c["prob"]), reverse=True)
-    return picks[:POR_EQUIPO_MAX_PICKS]
+    orden = lambda c: (NIVELES.index(c["nivel"]), c["prob"])
+    picks.sort(key=orden, reverse=True)
+    elegidos = picks[:POR_EQUIPO_MAX_PICKS]
+    # Las apuestas de goles / ambos marcan son las que más interesan: si pasan el umbral,
+    # se aseguran un lugar (sin forzar: solo entran las que alcanzan un nivel).
+    complejos_fuera = [c for c in picks[POR_EQUIPO_MAX_PICKS:] if c["mercado"] in MERCADOS_COMPLEJOS]
+    for c in complejos_fuera:
+        if sum(1 for e in elegidos if e["mercado"] in MERCADOS_COMPLEJOS) >= COMPLEJOS_MIN:
+            break
+        simples = [e for e in elegidos if e["mercado"] not in MERCADOS_COMPLEJOS]
+        if not simples:
+            break
+        elegidos.remove(simples[-1])
+        elegidos.append(c)
+    elegidos.sort(key=orden, reverse=True)
+    return elegidos
 
 
 def evaluar_pick(pick, gl, gv):
@@ -457,6 +534,7 @@ def main():
                               "logo": dig(p, "awayTeam", "crest")},
             }
             picks = generar_picks(partido, pred, cfg)
+            pred["penal"] = penalizaciones(pred, cfg)
             partido.update({"picks": picks,
                             "nivel_max": picks[0]["nivel"] if picks else None,
                             "analisis": pred})

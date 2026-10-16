@@ -61,3 +61,14 @@ haz **Commit to main** y **Push origin**. Luego corre a mano **Actions > Actuali
 ## Aviso
 
 Son estimaciones estadísticas, no garantías. Solo para mayores de 18 años.
+
+## Apuestas por partido
+
+- La galería muestra solo los partidos. Al tocar uno se ven sus apuestas destacadas (hasta 4;
+  si las apuestas de goles o "ambos marcan" alcanzan un nivel, se les asegura lugar).
+- El botón **Apuestas** abre la lista completa en dos secciones: *Tiempo completo* y *Medio tiempo*.
+  El medio tiempo usa los goles al descanso de cada equipo (mismo método Poisson).
+  En la lista completa se muestran las apuestas de 50 % o más; entre 50 y 64 % salen como "Baja confianza".
+- El botón **Estadísticas** muestra los datos del partido y los últimos cruces.
+- Solo hay un partido abierto a la vez; tocar cualquier cosa fuera de él lo cierra.
+- El título de la página se cambia en `index.html` (dos lugares: `<title>` y `<h1>`).
