@@ -624,6 +624,23 @@
    "estado": "pendiente"
   },
   {
+   "id": 559659,
+   "fecha": "2026-10-17T18:45:00Z",
+   "liga": "Ligue 1",
+   "local": "Troyes",
+   "visitante": "RC Lens",
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 83,
+     "texto": "Más de 1.5 goles",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
    "id": 558868,
    "fecha": "2026-10-17T19:00:00Z",
    "liga": "Eredivisie",
@@ -969,14 +986,14 @@
     {
      "mercado": "doble",
      "lado": "home",
-     "prob": 86,
+     "prob": 87,
      "texto": "Olympique Lyon gana o empata",
      "nivel": "media"
     },
     {
      "mercado": "1x2",
      "lado": "home",
-     "prob": 62,
+     "prob": 64,
      "texto": "Gana Olympique Lyon",
      "nivel": "media"
     }
