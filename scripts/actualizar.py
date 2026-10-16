@@ -290,6 +290,10 @@ def generar_picks(partido, pred, cfg):
          "texto": f"{nombre} gana o empata"},
         {"mercado": "mas15", "lado": None, "prob": pred["mas15"], "texto": "Más de 1.5 goles"},
         {"mercado": "menos35", "lado": None, "prob": pred["menos35"], "texto": "Menos de 3.5 goles"},
+        {"mercado": "mas25", "lado": None, "prob": pred["mas25"], "texto": "Más de 2.5 goles"},
+        {"mercado": "menos25", "lado": None, "prob": 100 - pred["mas25"], "texto": "Menos de 2.5 goles"},
+        {"mercado": "btts_si", "lado": None, "prob": pred["ambos"], "texto": "Ambos equipos marcan"},
+        {"mercado": "btts_no", "lado": None, "prob": 100 - pred["ambos"], "texto": "Ambos equipos no marcan"},
     ]
     pocos = min(pred["jugados"]["home"], pred["jugados"]["away"]) < cfg["partidos_confiables"]
 
@@ -315,6 +319,15 @@ def generar_picks(partido, pred, cfg):
                            + " y ".join(ajustes) + ".")
         picks.append(c)
 
+    # Evitar picks repetidos de goles: si pasa la línea más exigente, se omite la más suave.
+    claves = {c["mercado"] for c in picks}
+    omitir = set()
+    if "mas25" in claves:
+        omitir.add("mas15")
+    if "menos25" in claves:
+        omitir.add("menos35")
+    picks = [c for c in picks if c["mercado"] not in omitir]
+
     picks.sort(key=lambda c: (NIVELES.index(c["nivel"]), c["prob"]), reverse=True)
     return picks[:POR_EQUIPO_MAX_PICKS]
 
@@ -329,6 +342,14 @@ def evaluar_pick(pick, gl, gv):
         return gl + gv >= 2
     if m == "menos35":
         return gl + gv <= 3
+    if m == "mas25":
+        return gl + gv >= 3
+    if m == "menos25":
+        return gl + gv <= 2
+    if m == "btts_si":
+        return gl > 0 and gv > 0
+    if m == "btts_no":
+        return gl == 0 or gv == 0
     return False
 
 

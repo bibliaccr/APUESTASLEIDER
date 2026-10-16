@@ -62,26 +62,21 @@
         Object.entries(NIVELES).map(([clave, n]) =>
           nivelBtn(clave, [medidor(clave), h("span", { class: "chip-txt" }, n.nombre)]))));
 
-    const ligaBtn = (id, texto) =>
-      h("button", { class: "chip", type: "button", "aria-pressed": estado.liga === id,
-        onclick: () => { estado.liga = id; render(); } }, h("span", { class: "chip-txt" }, texto));
-    const seccionFijas = h("div", { class: "filtro-seccion" }, cabecera("Ligas fijas"),
-      h("div", { class: "chips chips-liga" },
-        ligaBtn("todas", "Todas"),
-        GRANDES.map(([id, nombre]) => ligaBtn(id, nombre))));
-
     const otras = new Map();
     for (const p of partidos) if (ordenLiga(p.liga.id) === 99) otras.set(p.liga.id, p.liga.nombre);
-    const seccionOtras = otras.size
-      ? h("div", { class: "filtro-seccion" }, cabecera("Otras ligas"),
-          h("select", { class: "chip selector", "aria-label": "Otras ligas",
-            onchange: (e) => { estado.liga = e.target.value; render(); } },
-            h("option", { value: "todas" }, "Elegir otra liga…"),
-            [...otras].sort((x, y) => x[1].localeCompare(y[1])).map(([id, nombre]) =>
-              h("option", { value: id, selected: estado.liga === id }, nombre))))
-      : null;
+    const opcion = (id, nombre) => h("option", { value: id, selected: estado.liga === id }, nombre);
+    const seccionLiga = h("div", { class: "filtro-seccion" }, cabecera("Liga"),
+      h("select", { class: "chip selector", "aria-label": "Liga",
+        onchange: (e) => { estado.liga = e.target.value; render(); } },
+        opcion("todas", "Todas las ligas"),
+        // Las 5 grandes siempre primero (LaLiga arriba), aunque ese día no tengan partidos
+        h("optgroup", { label: "Ligas principales" }, GRANDES.map(([id, nombre]) => opcion(id, nombre))),
+        otras.size
+          ? h("optgroup", { label: "Otras ligas" },
+              [...otras].sort((x, y) => x[1].localeCompare(y[1])).map(([id, nombre]) => opcion(id, nombre)))
+          : null));
 
-    return h("div", { class: "filtros" }, seccionNivel, seccionFijas, seccionOtras);
+    return h("div", { class: "filtros" }, seccionNivel, seccionLiga);
   }
 
   // ---- apuestas extra de un partido ---------------------------------------
@@ -100,10 +95,10 @@
       [`${L} gana o empata`, m.dc["1x"], "doble", "home"], [`${V} gana o empata`, m.dc.x2, "doble", "away"],
       ["Cualquiera gana (sin empate)", m.dc["12"]],
       [`${L} (empate no válido)`, m.dnb.h], [`${V} (empate no válido)`, m.dnb.a],
-      ["Más de 0.5 goles", m.mas["0"]], ["Más de 1.5 goles", m.mas["1"], "mas15"], ["Más de 2.5 goles", m.mas["2"]],
-      ["Más de 3.5 goles", m.mas["3"]], ["Menos de 2.5 goles", menos(m.mas["2"])],
+      ["Más de 0.5 goles", m.mas["0"]], ["Más de 1.5 goles", m.mas["1"], "mas15"], ["Más de 2.5 goles", m.mas["2"], "mas25"],
+      ["Más de 3.5 goles", m.mas["3"]], ["Menos de 2.5 goles", menos(m.mas["2"]), "menos25"],
       ["Menos de 3.5 goles", menos(m.mas["3"]), "menos35"], ["Menos de 4.5 goles", menos(m.mas["4"])],
-      ["Ambos equipos marcan: Sí", m.btts], ["Ambos equipos marcan: No", menos(m.btts)],
+      ["Ambos equipos marcan", m.btts, "btts_si"], ["Ambos equipos no marcan", menos(m.btts), "btts_no"],
       [`${L} marca 1 o más goles`, m.mas_local["0"]], [`${L} marca 2 o más goles`, m.mas_local["1"]],
       [`${V} marca 1 o más goles`, m.mas_visita["0"]], [`${V} marca 2 o más goles`, m.mas_visita["1"]],
     ];
@@ -140,8 +135,32 @@
     const pc = (v) => (v || v === 0 ? Math.round(v) + "%" : "–");
     const dec = (v) => (v || v === 0 ? Number(v).toFixed(2) : "–");
 
+    const iconoStats = () => {
+      const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+      svg.setAttribute("viewBox", "0 0 24 24"); svg.setAttribute("width", "18"); svg.setAttribute("height", "18");
+      svg.setAttribute("aria-hidden", "true");
+      for (const [x, y, alto] of [[3, 12, 9], [10, 4, 17], [17, 8, 13]]) {
+        const r = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+        r.setAttribute("x", x); r.setAttribute("y", y); r.setAttribute("width", "4"); r.setAttribute("height", alto);
+        r.setAttribute("rx", "1.2"); r.setAttribute("fill", "currentColor"); svg.append(r);
+      }
+      return svg;
+    };
+
+    // Último cruce: el ganador en verde y negrilla, el perdedor en rojo; empate sin color.
+    const cruce = (x) => {
+      const hayMarcador = x.gl !== null && x.gl !== undefined && x.gv !== null && x.gv !== undefined;
+      const res = !hayMarcador || x.gl === x.gv ? "" : x.gl > x.gv ? "local" : "visita";
+      const fila = (nombre, goles, lado) =>
+        h("div", { class: "cruce-fila" + (res ? (res === lado ? " gana" : " pierde") : "") },
+          h("span", { class: "cruce-eq" }, nombre), h("span", { class: "cruce-g" }, goles ?? "-"));
+      return h("div", { class: "cruce" },
+        h("div", { class: "cruce-fecha" }, fmtCorta.format(new Date(x.fecha))),
+        fila(x.local, x.gl, "local"), fila(x.visita, x.gv, "visita"));
+    };
+
     const analisis = h("details", { class: "analisis" },
-      h("summary", null, "Ver análisis"),
+      h("summary", null, iconoStats(), h("span", null, "Estadísticas")),
       h("div", { class: "datos" },
         fila(pc(a.percent.home), "Gana local / visitante", pc(a.percent.away)),
         fila("", "Empate " + pc(a.percent.draw), ""),
@@ -150,13 +169,9 @@
         fila(dec(a.gf.home), "Goles a favor por partido", dec(a.gf.away)),
         fila(dec(a.gc.home), "Goles en contra por partido", dec(a.gc.away)),
         fila(a.jugados.home, "Partidos jugados", a.jugados.away)),
-      h("p", { class: "consejo" },
-        h("strong", null, "Goles: "),
-        `más de 2.5 → ${pc(a.mas25)}. Ambos marcan → ${pc(a.ambos)}.`),
       a.h2h && a.h2h.length
         ? [h("p", { class: "consejo" }, h("strong", null, "Últimos cruces")),
-           h("ul", { class: "h2h" }, a.h2h.map((x) =>
-             h("li", null, `${fmtCorta.format(new Date(x.fecha))}: ${x.local} ${x.gl ?? "-"} - ${x.gv ?? "-"} ${x.visita}`)))]
+           h("div", { class: "cruces" }, a.h2h.map(cruce))]
         : null);
 
     const abierto = estado.abierto === p.id;
@@ -180,9 +195,9 @@
         h("span", { class: "liga" }, imagen(p.liga.logo), p.liga.nombre),
         h("span", { class: "hora" }, fmtHora.format(new Date(p.fecha)))),
       h("div", { class: "equipos" },
-        h("div", { class: "equipo" }, imagen(p.local.logo), p.local.nombre),
+        h("div", { class: "equipo" }, imagen(p.local.logo), h("span", null, p.local.nombre)),
         h("span", { class: "vs" }, "vs"),
-        h("div", { class: "equipo visita" }, p.visitante.nombre, imagen(p.visitante.logo))),
+        h("div", { class: "equipo" }, imagen(p.visitante.logo), h("span", null, p.visitante.nombre))),
       p.picks.length
         ? h("ul", { class: "picks" }, p.picks.map(pick))
         : h("p", { class: "sin-pick" }, "Sin pick: ninguna opción llega al mínimo de confianza."),

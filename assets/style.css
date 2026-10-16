@@ -67,19 +67,16 @@ body {
 .filtro-titulo { font-size: .72rem; font-weight: 800; text-transform: uppercase; letter-spacing: .08em; color: var(--suave); margin-bottom: 6px; }
 .chips { display: grid; gap: 8px; }
 .chips-nivel { grid-template-columns: repeat(2, 1fr); }
-.chips-liga { grid-template-columns: repeat(3, 1fr); }
 .chip {
   font: inherit; font-size: .88rem; font-weight: 600; cursor: pointer; text-align: left; line-height: 1.2;
   background: var(--papel); color: var(--tinta);
   border: 1.5px solid var(--linea); border-radius: 10px; padding: 9px 10px; min-height: 42px;
   display: flex; align-items: center; gap: 8px;
 }
-.chips-liga .chip { justify-content: center; text-align: center; }
 .chip[aria-pressed="true"] { background: var(--tinta); color: var(--fondo); border-color: var(--tinta); }
 select.chip { width: 100%; appearance: auto; }
 @media (min-width: 560px) {
   .chips-nivel { grid-template-columns: repeat(4, auto); justify-content: start; }
-  .chips-liga { grid-template-columns: repeat(6, auto); justify-content: start; }
   select.chip { width: auto; min-width: 240px; }
 }
 
@@ -117,11 +114,10 @@ select.chip { width: 100%; appearance: auto; }
 .liga { display: inline-flex; align-items: center; gap: 6px; }
 .liga img { width: 18px; height: 18px; object-fit: contain; }
 .hora { font-weight: 700; color: var(--tinta); font-variant-numeric: tabular-nums; }
-.equipos { display: grid; grid-template-columns: 1fr auto 1fr; gap: 10px; align-items: center; margin: 12px 0; }
-.equipo { display: flex; align-items: center; gap: 8px; font-weight: 700; font-size: 1.05rem; line-height: 1.2; min-width: 0; }
-.equipo.visita { justify-content: flex-end; text-align: right; }
-.equipo img { width: 28px; height: 28px; object-fit: contain; flex: none; }
-.vs { color: var(--suave); font-size: .85rem; }
+.equipos { display: grid; grid-template-columns: 1fr auto 1fr; gap: 8px; align-items: center; margin: 14px 0; }
+.equipo { display: flex; flex-direction: column; align-items: center; gap: 6px; text-align: center; font-weight: 700; font-size: 1rem; line-height: 1.2; min-width: 0; overflow-wrap: anywhere; }
+.equipo img { width: 36px; height: 36px; object-fit: contain; flex: none; }
+.vs { color: var(--suave); font-size: .8rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; }
 
 .picks { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--linea); }
 .pick { display: grid; grid-template-columns: auto 1fr auto; gap: 12px; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--linea); }
@@ -135,8 +131,14 @@ select.chip { width: 100%; appearance: auto; }
 .pick-ajuste { grid-column: 2 / 4; font-size: .82rem; color: var(--suave); margin: -4px 0 0; }
 .sin-pick { margin: 0; padding-top: 10px; border-top: 1px solid var(--linea); color: var(--suave); font-size: .92rem; }
 
-details.analisis { margin-top: 8px; }
-details.analisis summary { cursor: pointer; font-weight: 600; font-size: .9rem; color: var(--suave); padding: 4px 0; }
+details.analisis { margin-top: 10px; }
+details.analisis summary {
+  cursor: pointer; list-style: none; display: inline-flex; align-items: center; gap: 8px;
+  font-weight: 700; font-size: .88rem; color: var(--tinta); background: var(--fondo);
+  border: 1.5px solid var(--linea); border-radius: 999px; padding: 7px 14px;
+}
+details.analisis summary::-webkit-details-marker { display: none; }
+details.analisis[open] summary { background: var(--tinta); color: var(--fondo); border-color: var(--tinta); }
 .datos { display: grid; grid-template-columns: 1fr auto 1fr; gap: 6px 10px; font-size: .9rem; margin: 8px 0; font-variant-numeric: tabular-nums; }
 .datos .etq { text-align: center; color: var(--suave); }
 .datos .der { text-align: right; }
@@ -165,11 +167,6 @@ details.analisis summary { cursor: pointer; font-weight: 600; font-size: .9rem; 
 
 .pie { color: var(--suave); font-size: .82rem; padding-top: 28px; padding-bottom: 40px; }
 
-@media (max-width: 480px) {
-  .equipos { grid-template-columns: 1fr; gap: 6px; }
-  .equipo.visita { justify-content: flex-start; text-align: left; }
-  .vs { display: none; }
-}
 
 /* Apuestas extra: se muestran al tocar el recuadro del partido */
 .partido.interactivo { cursor: pointer; }
@@ -181,3 +178,14 @@ details.analisis summary { cursor: pointer; font-weight: 600; font-size: .9rem; 
 .pista { display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 10px; font-size: .82rem; font-weight: 600; color: var(--suave); }
 .flecha { width: 7px; height: 7px; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: rotate(45deg) translateY(-2px); transition: transform .15s; }
 .partido[aria-expanded="true"] .flecha { transform: rotate(-135deg) translateY(-2px); }
+
+/* Últimos cruces en cuadrícula */
+.cruces { display: grid; grid-template-columns: 1fr; gap: 8px; margin-top: 6px; }
+.cruce { border: 1px solid var(--linea); border-radius: 8px; padding: 8px 10px; background: var(--fondo); font-size: .86rem; min-width: 0; }
+.cruce-fecha { font-size: .72rem; color: var(--suave); margin-bottom: 4px; font-weight: 600; }
+.cruce-fila { display: flex; justify-content: space-between; gap: 8px; padding: 1px 0; }
+.cruce-eq { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.cruce-g { font-variant-numeric: tabular-nums; font-weight: 700; }
+.cruce-fila.gana { color: var(--ok); font-weight: 800; }
+.cruce-fila.pierde { color: var(--mal); }
+@media (min-width: 560px) { .cruces { grid-template-columns: repeat(2, 1fr); } }
