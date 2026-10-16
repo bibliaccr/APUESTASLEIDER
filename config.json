@@ -1,0 +1,17 @@
+{
+  "ligas": [
+    { "id": 39,  "nombre": "Premier League",    "pais": "Inglaterra", "tipo_temporada": "europea" },
+    { "id": 140, "nombre": "LaLiga",            "pais": "España",     "tipo_temporada": "europea" },
+    { "id": 2,   "nombre": "Champions League",  "pais": "Europa",     "tipo_temporada": "europea" },
+    { "id": 239, "nombre": "Liga BetPlay",      "pais": "Colombia",   "tipo_temporada": "anual" },
+    { "id": 13,  "nombre": "Copa Libertadores", "pais": "Sudamérica", "tipo_temporada": "anual" }
+  ],
+  "dias_adelante": 3,
+  "zona_horaria": "America/Bogota",
+  "max_llamadas": 48,
+  "pausa_segundos": 7,
+  "umbrales": {
+    "1x2":   { "super": 70, "confiada": 60, "media": 50 },
+    "doble": { "super": 88, "confiada": 80, "media": 72 }
+  }
+}
