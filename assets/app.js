@@ -8,7 +8,10 @@
     media:    { nombre: "Medianamente confiada",  rango: 1 },
   };
 
-  const estado = { tab: "picks", nivel: "todos", liga: "todas", picks: null, historial: null, abiertos: new Set() };
+  const estado = { tab: "picks", nivel: "todos", liga: "todas", picks: null, historial: null, abierto: null };
+  const GRANDES = [["PD", "LaLiga"], ["PL", "Premier League"], ["SA", "Serie A"], ["BL1", "Bundesliga"], ["FL1", "Ligue 1"]];
+  const ordenLiga = (id) => { const i = GRANDES.findIndex(([c]) => c === id); return i < 0 ? 99 : i; };
+  let UMBRALES = { super: 85, confiada: 75, media: 65 };
   const panel = document.getElementById("panel");
 
   // ---- utilidades -------------------------------------------------------
@@ -48,24 +51,42 @@
 
   // ---- pestaña: próximos partidos --------------------------------------
   function filtros(partidos) {
-    const ligas = [...new Set(partidos.map((p) => p.liga.nombre))];
-    const chips = [
-      h("button", { class: "chip", type: "button", "aria-pressed": estado.nivel === "todos",
-        onclick: () => { estado.nivel = "todos"; render(); } }, "Todos los niveles"),
-      ...Object.entries(NIVELES).map(([clave, n]) =>
-        h("button", { class: "chip", type: "button", "aria-pressed": estado.nivel === clave,
-          onclick: () => { estado.nivel = clave; render(); } }, medidor(clave), n.nombre)),
-    ];
-    const select = h("select", { class: "chip", "aria-label": "Liga",
-      onchange: (e) => { estado.liga = e.target.value; render(); } },
-      h("option", { value: "todas" }, "Todas las ligas"),
-      ligas.map((l) => h("option", { value: l, selected: estado.liga === l }, l)));
-    return h("div", { class: "filtros" }, chips, select);
+    const cabecera = (txt) => h("div", { class: "filtro-titulo" }, txt);
+
+    const nivelBtn = (clave, contenido) =>
+      h("button", { class: "chip", type: "button", "aria-pressed": estado.nivel === clave,
+        onclick: () => { estado.nivel = clave; render(); } }, contenido);
+    const seccionNivel = h("div", { class: "filtro-seccion" }, cabecera("Confianza"),
+      h("div", { class: "chips chips-nivel" },
+        nivelBtn("todos", h("span", { class: "chip-txt" }, "Todos los niveles")),
+        Object.entries(NIVELES).map(([clave, n]) =>
+          nivelBtn(clave, [medidor(clave), h("span", { class: "chip-txt" }, n.nombre)]))));
+
+    const ligaBtn = (id, texto) =>
+      h("button", { class: "chip", type: "button", "aria-pressed": estado.liga === id,
+        onclick: () => { estado.liga = id; render(); } }, h("span", { class: "chip-txt" }, texto));
+    const seccionFijas = h("div", { class: "filtro-seccion" }, cabecera("Ligas fijas"),
+      h("div", { class: "chips chips-liga" },
+        ligaBtn("todas", "Todas"),
+        GRANDES.map(([id, nombre]) => ligaBtn(id, nombre))));
+
+    const otras = new Map();
+    for (const p of partidos) if (ordenLiga(p.liga.id) === 99) otras.set(p.liga.id, p.liga.nombre);
+    const seccionOtras = otras.size
+      ? h("div", { class: "filtro-seccion" }, cabecera("Otras ligas"),
+          h("select", { class: "chip selector", "aria-label": "Otras ligas",
+            onchange: (e) => { estado.liga = e.target.value; render(); } },
+            h("option", { value: "todas" }, "Elegir otra liga…"),
+            [...otras].sort((x, y) => x[1].localeCompare(y[1])).map(([id, nombre]) =>
+              h("option", { value: id, selected: estado.liga === id }, nombre))))
+      : null;
+
+    return h("div", { class: "filtros" }, seccionNivel, seccionFijas, seccionOtras);
   }
 
   // ---- apuestas extra de un partido ---------------------------------------
-  // Mismas filas que los picks. Nivel orientativo por probabilidad (las extra no usan los umbrales de config.json).
-  const nivelExtra = (prob) => (prob >= 85 ? "super" : prob >= 75 ? "confiada" : prob >= 60 ? "media" : null);
+  // Mismas filas que los picks, con la misma regla de nivel (umbrales de config.json).
+  const nivelExtra = (prob) => (prob >= UMBRALES.super ? "super" : prob >= UMBRALES.confiada ? "confiada" : prob >= UMBRALES.media ? "media" : null);
 
   function apuestasExtra(p) {
     const m = p.analisis.mercados;
@@ -88,10 +109,20 @@
     ];
     return todas
       .filter(([, , mercado, lado]) => !(mercado && yaPick(mercado, lado)))
-      .map(([texto, prob]) => ({ texto, prob: Math.round(prob), nivel: nivelExtra(prob) }))
+      .map(([texto, prob]) => ({ texto, prob: Math.round(prob), nivel: nivelExtra(Math.round(prob)) }))
       .filter((x) => x.nivel && (estado.nivel === "todos" || x.nivel === estado.nivel))
       .sort((a, b) => NIVELES[b.nivel].rango - NIVELES[a.nivel].rango || b.prob - a.prob)
       .slice(0, 10);
+  }
+
+  function fijarAbierto(id) {
+    estado.abierto = id;
+    document.querySelectorAll(".partido.interactivo").forEach((t) => {
+      const on = String(id) === t.dataset.id;
+      t.setAttribute("aria-expanded", on);
+      t.querySelector(".extra").hidden = !on;
+      t.querySelector(".pista .txt").textContent = on ? "Toca para ocultar" : "Toca el partido para ver más apuestas";
+    });
   }
 
   function tarjetaPartido(p) {
@@ -128,24 +159,22 @@
              h("li", null, `${fmtCorta.format(new Date(x.fecha))}: ${x.local} ${x.gl ?? "-"} - ${x.gv ?? "-"} ${x.visita}`)))]
         : null);
 
-    const abierto = estado.abiertos.has(p.id);
+    const abierto = estado.abierto === p.id;
     const extra = apuestasExtra(p);
-    const panelExtra = h("div", { class: "extra", id: "extra-" + p.id, hidden: !abierto },
+    const panelExtra = h("div", { class: "extra", hidden: !abierto },
       h("p", { class: "extra-titulo" }, "Más apuestas de este partido"),
       extra && extra.length
         ? h("ul", { class: "picks" }, extra.map(pick))
         : h("p", { class: "sin-pick" }, extra ? "No hay más apuestas con suficiente probabilidad." : "Las apuestas extra aparecerán tras la próxima actualización automática."));
     const pista = h("div", { class: "pista", "aria-hidden": "true" },
       h("span", { class: "flecha" }), h("span", { class: "txt" }, abierto ? "Toca para ocultar" : "Toca el partido para ver más apuestas"));
+    // Solo un partido abierto a la vez: al abrir uno, se cierra el anterior.
     const alternar = () => {
-      const ahora = tarjeta.getAttribute("aria-expanded") !== "true";
-      tarjeta.setAttribute("aria-expanded", ahora);
-      pista.querySelector(".txt").textContent = ahora ? "Toca para ocultar" : "Toca el partido para ver más apuestas";
-      if (ahora) estado.abiertos.add(p.id); else estado.abiertos.delete(p.id);
-      panelExtra.hidden = !ahora;
+      fijarAbierto(estado.abierto === p.id ? null : p.id);
+      if (estado.abierto === p.id && tarjeta.getBoundingClientRect().top < 0) tarjeta.scrollIntoView({ block: "start" });
     };
 
-    const tarjeta = h("article", { class: "partido interactivo", "data-nivel": p.nivel_max || "ninguno",
+    const tarjeta = h("article", { class: "partido interactivo", "data-id": p.id, "data-nivel": p.nivel_max || "ninguno",
       role: "button", tabindex: "0", "aria-expanded": abierto },
       h("div", { class: "partido-cab" },
         h("span", { class: "liga" }, imagen(p.liga.logo), p.liga.nombre),
@@ -181,7 +210,7 @@
                    .filter((p) => p.picks.length)
                    .map((p) => ({ ...p, nivel_max: p.picks[0].nivel }));
     }
-    if (estado.liga !== "todas") lista = lista.filter((p) => p.liga.nombre === estado.liga);
+    if (estado.liga !== "todas") lista = lista.filter((p) => p.liga.id === estado.liga);
 
     const salida = [filtros(todos.filter((p) => p.picks.length))];
     if (!lista.length) {
@@ -200,7 +229,8 @@
       dias.get(k).push(p);
     }
     for (const [, partidos] of dias) {
-      partidos.sort((a, b) => rango(b) - rango(a) || a.fecha.localeCompare(b.fecha));
+      // Primero las 5 grandes ligas (LaLiga arriba), luego mayor confianza y hora
+      partidos.sort((a, b) => ordenLiga(a.liga.id) - ordenLiga(b.liga.id) || rango(b) - rango(a) || a.fecha.localeCompare(b.fecha));
       salida.push(h("h2", { class: "dia" }, fmtDia.format(new Date(partidos[0].fecha))));
       salida.push(...partidos.map(tarjetaPartido));
     }
@@ -274,6 +304,7 @@
         "Si abriste index.html directo desde tu computador, usa un servidor local (por ejemplo: python3 -m http.server) o abre la versión publicada en GitHub Pages."));
       return;
     }
+    if (estado.picks.niveles) UMBRALES = estado.picks.niveles;
     const gen = estado.picks.generado;
     document.getElementById("actualizado").textContent =
       gen ? "Actualizado el " + fmtActualizado.format(new Date(gen)) : "Aún sin datos";

@@ -267,20 +267,17 @@ def predecir(modelo, id_local, id_vis, k):
 
 
 # ------------------------------------------------------------------- picks
-def nivel_por_prob(prob, umbrales):
+def nivel_por_prob(prob, niveles):
+    """Un solo criterio para todas las apuestas: el nivel depende solo del porcentaje mostrado."""
     for nombre in ("super", "confiada", "media"):
-        if prob >= umbrales[nombre]:
+        if prob >= niveles[nombre]:
             return nombre
     return None
 
 
-def bajar_nivel(nivel):
-    i = NIVELES.index(nivel) - 1
-    return NIVELES[i] if i >= 0 else None
-
-
 def generar_picks(partido, pred, cfg):
-    um = cfg["umbrales"]
+    niveles = cfg["niveles"]
+    pen = cfg.get("penalizacion", 5)  # puntos que se restan por cada alerta
     pc = pred["percent"]
     ph, pe, pa = pc["home"], pc["draw"], pc["away"]
     favorito = "home" if ph >= pa else "away"
@@ -298,22 +295,24 @@ def generar_picks(partido, pred, cfg):
 
     picks = []
     for c in candidatos:
-        nivel = nivel_por_prob(c["prob"], um[c["mercado"]])
-        if not nivel:
-            continue
+        prob = c["prob"]
         ajustes = []
+        # Las alertas restan puntos al porcentaje; así el nivel siempre coincide con el % que se ve.
         if c["lado"] and 0 < pred["forma"][c["lado"]] < 40:
-            nivel = bajar_nivel(nivel)
+            prob -= pen
             ajustes.append("su forma reciente es peor que la del rival")
-        if nivel and pocos:
-            nivel = bajar_nivel(nivel)
+        if pocos:
+            prob -= pen
             ajustes.append("hay pocos partidos jugados esta temporada")
+        prob = round(prob)
+        nivel = nivel_por_prob(prob, niveles)
         if not nivel:
             continue
         c["nivel"] = nivel
-        c["prob"] = round(c["prob"])
+        c["prob"] = prob
         if ajustes:
-            c["ajuste"] = "Bajó de nivel: " + " y ".join(ajustes) + "."
+            c["ajuste"] = (f"Se restaron {pen * len(ajustes)} puntos al porcentaje porque "
+                           + " y ".join(ajustes) + ".")
         picks.append(c)
 
     picks.sort(key=lambda c: (NIVELES.index(c["nivel"]), c["prob"]), reverse=True)
@@ -498,6 +497,7 @@ def main():
     guardar(DATOS / "historial.json", hist)
     guardar(DATOS / "picks.json", {
         "generado": ahora.isoformat(),
+        "niveles": cfg["niveles"],
         "llamadas_usadas": api.llamadas,
         "avisos": api.avisos[:5],
         "partidos": salida,

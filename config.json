@@ -19,10 +19,6 @@
   "min_partidos": 4,
   "partidos_confiables": 8,
   "suavizado": 5,
-  "umbrales": {
-    "1x2":     { "super": 68, "confiada": 58, "media": 50 },
-    "doble":   { "super": 88, "confiada": 82, "media": 75 },
-    "mas15":   { "super": 88, "confiada": 82, "media": 76 },
-    "menos35": { "super": 92, "confiada": 87, "media": 82 }
-  }
+  "niveles": { "super": 85, "confiada": 75, "media": 65 },
+  "penalizacion": 5
 }

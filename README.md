@@ -11,17 +11,18 @@ calcula las probabilidades y guarda el resultado en `data/*.json`. La web solo l
    (goles a favor y en contra, suavizados hacia el promedio de la liga).
 3. Una distribución de Poisson convierte eso en probabilidades: gana local, empate,
    gana visitante, más de 1.5 goles, menos de 3.5 goles, etc.
-4. Cada pick recibe un nivel según su probabilidad:
+4. Cada apuesta recibe un nivel según su probabilidad. La regla es la misma para todas
+   las apuestas, así que el nivel siempre coincide con el porcentaje que ves:
 
-| Nivel | Gana X | X gana o empata | Más de 1.5 | Menos de 3.5 |
-|---|---|---|---|---|
-| Súper confiada | 68 % o más | 88 % | 88 % | 92 % |
-| Confiada | 58 % | 82 % | 82 % | 87 % |
-| Medianamente confiada | 50 % | 75 % | 76 % | 82 % |
+| Nivel | Probabilidad |
+|---|---|
+| Súper confiada | 85 % o más |
+| Confiada | 75 % o más |
+| Medianamente confiada | 65 % o más |
 
-El pick baja un nivel si la forma reciente del equipo elegido es peor que la del rival,
-y otro más si hay menos de 8 partidos jugados esta temporada.
-Los umbrales y todo lo demás están en `config.json`.
+Si la forma reciente del equipo elegido es peor que la del rival, o hay menos de 8 partidos
+jugados esta temporada, se restan 5 puntos al porcentaje por cada alerta (y se avisa en el pick).
+Los umbrales (`niveles`) y la resta (`penalizacion`) están en `config.json`.
 
 La pestaña **Historial de aciertos** guarda cada pick, revisa el resultado cuando termina
 el partido y muestra cuántos aciertos tuvo cada nivel. Esa es la forma de comprobar si
