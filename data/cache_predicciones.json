@@ -970,5 +970,188 @@
  "565824": {
   "obtenido": "2026-10-16T04:59:14.767660+00:00",
   "h2h": []
+ },
+ "565829": {
+  "obtenido": "2026-10-16T05:19:35.150570+00:00",
+  "h2h": [
+   {
+    "fecha": "2023-05-05T18:30:00Z",
+    "local": "Mainz",
+    "visita": "Schalke",
+    "gl": 2,
+    "gv": 3
+   },
+   {
+    "fecha": "2022-11-09T19:30:00Z",
+    "local": "Schalke",
+    "visita": "Mainz",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2021-03-05T19:30:00Z",
+    "local": "Schalke",
+    "visita": "Mainz",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "fecha": "2020-11-07T14:30:00Z",
+    "local": "Mainz",
+    "visita": "Schalke",
+    "gl": 2,
+    "gv": 2
+   },
+   {
+    "fecha": "2020-02-16T17:00:00Z",
+    "local": "Mainz",
+    "visita": "Schalke",
+    "gl": 0,
+    "gv": 0
+   }
+  ]
+ },
+ "561886": {
+  "obtenido": "2026-10-16T05:19:35.150570+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-03-11T19:45:00Z",
+    "local": "Birmingham",
+    "visita": "QPR",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-12-09T20:00:00Z",
+    "local": "QPR",
+    "visita": "Birmingham",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "fecha": "2024-03-29T15:00:00Z",
+    "local": "QPR",
+    "visita": "Birmingham",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "fecha": "2023-09-22T19:00:00Z",
+    "local": "Birmingham",
+    "visita": "QPR",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "fecha": "2023-03-18T15:00:00Z",
+    "local": "QPR",
+    "visita": "Birmingham",
+    "gl": 0,
+    "gv": 1
+   }
+  ]
+ },
+ "561888": {
+  "obtenido": "2026-10-16T05:19:35.150570+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-04-06T14:00:00Z",
+    "local": "Derby County",
+    "visita": "Stoke",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-08-09T14:00:00Z",
+    "local": "Stoke",
+    "visita": "Derby County",
+    "gl": 3,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-05-03T11:30:00Z",
+    "local": "Derby County",
+    "visita": "Stoke",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "fecha": "2024-11-02T12:30:00Z",
+    "local": "Stoke",
+    "visita": "Derby County",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "fecha": "2021-12-30T19:45:00Z",
+    "local": "Stoke",
+    "visita": "Derby County",
+    "gl": 1,
+    "gv": 2
+   }
+  ]
+ },
+ "561890": {
+  "obtenido": "2026-10-16T05:19:35.150570+00:00",
+  "h2h": []
+ },
+ "561891": {
+  "obtenido": "2026-10-16T05:19:35.150570+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-04-06T14:00:00Z",
+    "local": "Blackburn",
+    "visita": "West Brom",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-08-09T14:00:00Z",
+    "local": "West Brom",
+    "visita": "Blackburn",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-02-12T20:00:00Z",
+    "local": "West Brom",
+    "visita": "Blackburn",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "fecha": "2024-10-23T18:45:00Z",
+    "local": "Blackburn",
+    "visita": "West Brom",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "fecha": "2024-01-13T15:00:00Z",
+    "local": "West Brom",
+    "visita": "Blackburn",
+    "gl": 4,
+    "gv": 1
+   }
+  ]
+ },
+ "561892": {
+  "obtenido": "2026-10-16T05:19:35.150570+00:00",
+  "h2h": [
+   {
+    "fecha": "2025-12-29T19:45:00Z",
+    "local": "Wrexham",
+    "visita": "Preston NE",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-12-06T15:00:00Z",
+    "local": "Preston NE",
+    "visita": "Wrexham",
+    "gl": 1,
+    "gv": 1
+   }
+  ]
  }
 }
