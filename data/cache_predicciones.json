@@ -1372,5 +1372,217 @@
     "gv": 2
    }
   ]
+ },
+ "555040": {
+  "obtenido": "2026-10-16T05:44:51.516389+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-04-19T21:30:00Z",
+    "local": "Palmeiras",
+    "visita": "Paranaense",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2024-09-01T21:30:00Z",
+    "local": "Paranaense",
+    "visita": "Palmeiras",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "fecha": "2024-05-12T19:00:00Z",
+    "local": "Palmeiras",
+    "visita": "Paranaense",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "fecha": "2023-11-05T00:30:00Z",
+    "local": "Palmeiras",
+    "visita": "Paranaense",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2023-07-02T19:00:00Z",
+    "local": "Paranaense",
+    "visita": "Palmeiras",
+    "gl": 2,
+    "gv": 2
+   }
+  ]
+ },
+ "555049": {
+  "obtenido": "2026-10-16T05:44:51.516389+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-04-18T21:30:00Z",
+    "local": "Vasco da Gama",
+    "visita": "São Paulo",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-11-02T23:30:00Z",
+    "local": "Vasco da Gama",
+    "visita": "São Paulo",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "fecha": "2025-06-13T00:30:00Z",
+    "local": "São Paulo",
+    "visita": "Vasco da Gama",
+    "gl": 1,
+    "gv": 3
+   },
+   {
+    "fecha": "2024-10-17T00:45:00Z",
+    "local": "São Paulo",
+    "visita": "Vasco da Gama",
+    "gl": 3,
+    "gv": 0
+   },
+   {
+    "fecha": "2024-06-23T00:30:00Z",
+    "local": "Vasco da Gama",
+    "visita": "São Paulo",
+    "gl": 4,
+    "gv": 1
+   }
+  ]
+ },
+ "558574": {
+  "obtenido": "2026-10-16T05:44:51.516389+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-02-08T14:00:00Z",
+    "local": "Lecce",
+    "visita": "Udinese",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-10-25T13:00:00Z",
+    "local": "Udinese",
+    "visita": "Lecce",
+    "gl": 3,
+    "gv": 2
+   },
+   {
+    "fecha": "2025-02-21T19:45:00Z",
+    "local": "Lecce",
+    "visita": "Udinese",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "fecha": "2024-10-05T13:00:00Z",
+    "local": "Udinese",
+    "visita": "Lecce",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2024-05-13T16:30:00Z",
+    "local": "Lecce",
+    "visita": "Udinese",
+    "gl": 0,
+    "gv": 2
+   }
+  ]
+ },
+ "560604": {
+  "obtenido": "2026-10-16T05:44:51.516389+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-02-28T12:30:00Z",
+    "local": "Bournemouth",
+    "visita": "Sunderland",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-11-29T15:00:00Z",
+    "local": "Sunderland",
+    "visita": "Bournemouth",
+    "gl": 3,
+    "gv": 2
+   }
+  ]
+ },
+ "558577": {
+  "obtenido": "2026-10-16T05:44:51.516389+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-02-14T14:00:00Z",
+    "local": "Como 1907",
+    "visita": "Fiorentina",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "fecha": "2025-09-21T16:00:00Z",
+    "local": "Fiorentina",
+    "visita": "Como 1907",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "fecha": "2025-02-16T11:30:00Z",
+    "local": "Fiorentina",
+    "visita": "Como 1907",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "fecha": "2024-11-24T14:00:00Z",
+    "local": "Como 1907",
+    "visita": "Fiorentina",
+    "gl": 0,
+    "gv": 2
+   }
+  ]
+ },
+ "559657": {
+  "obtenido": "2026-10-16T05:44:51.516389+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-01-16T18:00:00Z",
+    "local": "Monaco",
+    "visita": "Lorient",
+    "gl": 1,
+    "gv": 3
+   },
+   {
+    "fecha": "2025-09-27T15:00:00Z",
+    "local": "Lorient",
+    "visita": "Monaco",
+    "gl": 3,
+    "gv": 1
+   },
+   {
+    "fecha": "2024-03-17T14:00:00Z",
+    "local": "Monaco",
+    "visita": "Lorient",
+    "gl": 2,
+    "gv": 2
+   },
+   {
+    "fecha": "2023-09-17T11:00:00Z",
+    "local": "Lorient",
+    "visita": "Monaco",
+    "gl": 2,
+    "gv": 2
+   },
+   {
+    "fecha": "2023-04-16T15:05:00Z",
+    "local": "Monaco",
+    "visita": "Lorient",
+    "gl": 3,
+    "gv": 1
+   }
+  ]
  }
 }
