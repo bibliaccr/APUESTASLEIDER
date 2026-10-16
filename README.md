@@ -72,3 +72,9 @@ Son estimaciones estadísticas, no garantías. Solo para mayores de 18 años.
 - El botón **Estadísticas** muestra los datos del partido y los últimos cruces.
 - Solo hay un partido abierto a la vez; tocar cualquier cosa fuera de él lo cierra.
 - El título de la página se cambia en `index.html` (dos lugares: `<title>` y `<h1>`).
+- Los botones **Estadísticas** y **Apuestas** van al final de la tarjeta, después de las apuestas destacadas.
+- **Sin apuestas que se contradigan:** en cada partido (y por separado en tiempo completo y medio tiempo)
+  solo se muestra *una* recomendación de resultado ("Gana" si alcanza un nivel; si no, la más probable entre
+  "gana o empata", etc.), y nunca "más de" junto a "menos de", "ambos marcan" junto a "ambos no marcan"
+  o "ambos marcan" con "menos de 2.5". Si dos apuestas chocan, queda la de mayor probabilidad.
+  La regla está en `hay_conflicto` (scripts/actualizar.py) y `hayConflicto` (assets/app.js).

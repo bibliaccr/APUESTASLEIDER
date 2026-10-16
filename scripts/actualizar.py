@@ -342,6 +342,53 @@ def penalizaciones(pred, cfg):
     }
 
 
+# ------------------------------------------------- apuestas que se contradicen
+def _cumple(d, gl, gv):
+    """¿Este marcador (gl-gv) cumple la apuesta descrita por d?"""
+    if "res" in d and ("1" if gl > gv else "2" if gl < gv else "X") not in d["res"]:
+        return False
+    if "tot" in d:
+        sentido, linea = d["tot"]
+        if (gl + gv <= linea) if sentido == "mas" else (gl + gv >= linea):
+            return False
+    if "btts" in d and d["btts"] != (gl > 0 and gv > 0):
+        return False
+    if "team" in d:
+        lado, minimo = d["team"]
+        if (gl if lado == "home" else gv) < minimo:
+            return False
+    return True
+
+
+def hay_conflicto(a, b):
+    """Dos apuestas del mismo partido se contradicen si no pueden cumplirse a la vez
+    (o solo con un marcador raro). Misma regla que en assets/app.js."""
+    if "res" in a and "res" in b:      # una sola recomendación de resultado por partido
+        return True
+    if "tot" in a and "tot" in b:      # más de X con menos de Y, nunca; dos "más de" sí
+        return a["tot"][0] != b["tot"][0]
+    for t, r in ((a, b), (b, a)):      # "Local marca 2+" con un resultado donde el local no gana
+        if "team" in t and "res" in r and t["team"][1] >= 2:
+            if ("1" if t["team"][0] == "home" else "2") not in r["res"]:
+                return True
+    for x, y in ((a, b), (b, a)):      # "Ambos no marcan" con apuestas de goles por equipo
+        if x.get("btts") is False and "team" in y:
+            return True
+    compatibles = sum(1 for gl in range(6) for gv in range(6) if _cumple(a, gl, gv) and _cumple(b, gl, gv))
+    return compatibles <= 1
+
+
+def _desc(c):
+    m, lado = c["mercado"], c["lado"]
+    if m == "1x2":
+        return {"res": {"1"} if lado == "home" else {"2"}}
+    if m == "doble":
+        return {"res": {"1", "X"} if lado == "home" else {"X", "2"}}
+    return {"mas15": {"tot": ("mas", 1.5)}, "mas25": {"tot": ("mas", 2.5)},
+            "menos35": {"tot": ("menos", 3.5)}, "menos25": {"tot": ("menos", 2.5)},
+            "btts_si": {"btts": True}, "btts_no": {"btts": False}}[m]
+
+
 def generar_picks(partido, pred, cfg):
     niveles = cfg["niveles"]
     pen = penalizaciones(pred, cfg)
@@ -391,8 +438,19 @@ def generar_picks(partido, pred, cfg):
         omitir.add("menos35")
     picks = [c for c in picks if c["mercado"] not in omitir]
 
+    # Una sola recomendación de resultado: si "Gana" alcanza nivel, se prefiere a "gana o empata".
+    if "1x2" in {c["mercado"] for c in picks}:
+        picks = [c for c in picks if c["mercado"] != "doble"]
+
+    # Sin contradicciones: se parte de la apuesta mejor respaldada y solo entran
+    # las que no chocan con las ya aceptadas (ej. no "Más de 2.5" junto a "Menos de 2.5").
     orden = lambda c: (NIVELES.index(c["nivel"]), c["prob"])
     picks.sort(key=orden, reverse=True)
+    aceptadas = []
+    for c in picks:
+        if not any(hay_conflicto(_desc(c), _desc(o)) for o in aceptadas):
+            aceptadas.append(c)
+    picks = aceptadas
     elegidos = picks[:POR_EQUIPO_MAX_PICKS]
     # Las apuestas de goles / ambos marcan son las que más interesan: si pasan el umbral,
     # se aseguran un lugar (sin forzar: solo entran las que alcanzan un nivel).
