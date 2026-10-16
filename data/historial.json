@@ -51,6 +51,13 @@
      "prob": 65,
      "texto": "Frankfurt gana o empata",
      "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 87,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
     }
    ],
    "estado": "pendiente"
@@ -147,6 +154,13 @@
      "prob": 68,
      "texto": "Ambos equipos marcan",
      "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 86,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
     }
    ],
    "estado": "pendiente"
@@ -170,6 +184,13 @@
      "lado": "home",
      "prob": 70,
      "texto": "Mirassol gana o empata",
+     "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 67,
+     "texto": "Más de 1.5 goles",
      "nivel": "media"
     }
    ],
@@ -219,6 +240,13 @@
      "prob": 77,
      "texto": "Más de 1.5 goles",
      "nivel": "confiada"
+    },
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 69,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "media"
     }
    ],
    "estado": "pendiente"
@@ -250,6 +278,13 @@
      "prob": 65,
      "texto": "Ambos equipos marcan",
      "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 85,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
     }
    ],
    "estado": "pendiente"
@@ -274,6 +309,13 @@
      "prob": 69,
      "texto": "Charlton gana o empata",
      "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 67,
+     "texto": "Más de 1.5 goles",
+     "nivel": "media"
     }
    ],
    "estado": "pendiente"
@@ -297,6 +339,13 @@
      "lado": "away",
      "prob": 69,
      "texto": "Atleti gana o empata",
+     "nivel": "media"
+    },
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 68,
+     "texto": "Menos de 3.5 goles",
      "nivel": "media"
     }
    ],
@@ -445,6 +494,20 @@
      "prob": 68,
      "texto": "Más de 2.5 goles",
      "nivel": "media"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 84,
+     "texto": "Man City gana o empata",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 84,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
     }
    ],
    "estado": "pendiente"
@@ -493,6 +556,20 @@
      "prob": 67,
      "texto": "Más de 2.5 goles",
      "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 86,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 85,
+     "texto": "Southampton gana o empata",
+     "nivel": "super"
     }
    ],
    "estado": "pendiente"
@@ -534,6 +611,13 @@
      "prob": 79,
      "texto": "Más de 1.5 goles",
      "nivel": "confiada"
+    },
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 66,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "media"
     }
    ],
    "estado": "pendiente"
@@ -654,6 +738,13 @@
      "prob": 68,
      "texto": "Birmingham gana o empata",
      "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 70,
+     "texto": "Más de 1.5 goles",
+     "nivel": "media"
     }
    ],
    "estado": "pendiente"
@@ -677,6 +768,13 @@
      "lado": "home",
      "prob": 70,
      "texto": "West Brom gana o empata",
+     "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 68,
+     "texto": "Más de 1.5 goles",
      "nivel": "media"
     }
    ],
@@ -702,6 +800,13 @@
      "prob": 68,
      "texto": "Más de 2.5 goles",
      "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 87,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
     }
    ],
    "estado": "pendiente"
@@ -726,6 +831,20 @@
      "prob": 82,
      "texto": "Más de 2.5 goles",
      "nivel": "confiada"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 94,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
+    },
+    {
+     "mercado": "doble",
+     "lado": "away",
+     "prob": 93,
+     "texto": "PSV gana o empata",
+     "nivel": "super"
     }
    ],
    "estado": "pendiente"
@@ -822,6 +941,13 @@
      "prob": 68,
      "texto": "Ambos equipos marcan",
      "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 88,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
     }
    ],
    "estado": "pendiente"
@@ -846,6 +972,13 @@
      "prob": 67,
      "texto": "Más de 2.5 goles",
      "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 84,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
     }
    ],
    "estado": "pendiente"
@@ -870,6 +1003,20 @@
      "prob": 71,
      "texto": "Más de 2.5 goles",
      "nivel": "media"
+    },
+    {
+     "mercado": "doble",
+     "lado": "away",
+     "prob": 93,
+     "texto": "Feyenoord gana o empata",
+     "nivel": "super"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 88,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
     }
    ],
    "estado": "pendiente"
@@ -894,6 +1041,13 @@
      "prob": 71,
      "texto": "Gana: Roma",
      "nivel": "media"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 87,
+     "texto": "Roma gana o empata",
+     "nivel": "super"
     }
    ],
    "estado": "pendiente"
@@ -973,6 +1127,13 @@
      "prob": 69,
      "texto": "Sparta gana o empata",
      "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 89,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
     }
    ],
    "estado": "pendiente"
@@ -1021,6 +1182,20 @@
      "prob": 67,
      "texto": "Gana: Botafogo",
      "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 86,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 85,
+     "texto": "Botafogo gana o empata",
+     "nivel": "super"
     }
    ],
    "estado": "pendiente"
@@ -1045,6 +1220,13 @@
      "prob": 77,
      "texto": "Más de 1.5 goles",
      "nivel": "confiada"
+    },
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 69,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "media"
     }
    ],
    "estado": "pendiente"
@@ -1069,6 +1251,13 @@
      "prob": 67,
      "texto": "Palmeiras gana o empata",
      "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 69,
+     "texto": "Más de 1.5 goles",
+     "nivel": "media"
     }
    ],
    "estado": "pendiente"
@@ -1092,6 +1281,13 @@
      "lado": "home",
      "prob": 70,
      "texto": "São Paulo gana o empata",
+     "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 70,
+     "texto": "Más de 1.5 goles",
      "nivel": "media"
     }
    ],
@@ -1124,6 +1320,20 @@
      "prob": 65,
      "texto": "Ambos equipos marcan",
      "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 92,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
+    },
+    {
+     "mercado": "doble",
+     "lado": "away",
+     "prob": 88,
+     "texto": "Go Ahead gana o empata",
+     "nivel": "super"
     }
    ],
    "estado": "pendiente"
@@ -1172,6 +1382,13 @@
      "prob": 73,
      "texto": "Ambos equipos marcan",
      "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 90,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
     }
    ],
    "estado": "pendiente"
@@ -1196,6 +1413,20 @@
      "prob": 71,
      "texto": "Más de 2.5 goles",
      "nivel": "media"
+    },
+    {
+     "mercado": "doble",
+     "lado": "away",
+     "prob": 88,
+     "texto": "AZ gana o empata",
+     "nivel": "super"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 88,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
     }
    ],
    "estado": "pendiente"
@@ -1220,6 +1451,20 @@
      "prob": 72,
      "texto": "Más de 2.5 goles",
      "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 86,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 85,
+     "texto": "Brighton Hove gana o empata",
+     "nivel": "super"
     }
    ],
    "estado": "pendiente"
@@ -1326,6 +1571,13 @@
      "prob": 66,
      "texto": "Ambos equipos marcan",
      "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 84,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
     }
    ],
    "estado": "pendiente"
@@ -1350,6 +1602,13 @@
      "prob": 68,
      "texto": "Menos de 2.5 goles",
      "nivel": "media"
+    },
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 86,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "super"
     }
    ],
    "estado": "pendiente"
@@ -1381,6 +1640,13 @@
      "prob": 74,
      "texto": "Ambos equipos marcan",
      "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 92,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
     }
    ],
    "estado": "pendiente"
@@ -1470,6 +1736,13 @@
      "prob": 74,
      "texto": "Ambos equipos marcan",
      "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 89,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
     }
    ],
    "estado": "pendiente"
@@ -1542,6 +1815,13 @@
      "prob": 68,
      "texto": "Real Sociedad gana o empata",
      "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 72,
+     "texto": "Más de 1.5 goles",
+     "nivel": "media"
     }
    ],
    "estado": "pendiente"
@@ -1573,6 +1853,13 @@
      "prob": 69,
      "texto": "Ambos equipos marcan",
      "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 90,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
     }
    ],
    "estado": "pendiente"
@@ -1604,6 +1891,13 @@
      "prob": 67,
      "texto": "Ambos equipos marcan",
      "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 86,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
     }
    ],
    "estado": "pendiente"
@@ -1669,6 +1963,20 @@
      "prob": 65,
      "texto": "Gana: Real Madrid",
      "nivel": "media"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 84,
+     "texto": "Real Madrid gana o empata",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 85,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
     }
    ],
    "estado": "pendiente"
@@ -1757,6 +2065,13 @@
      "lado": "away",
      "prob": 66,
      "texto": "Bragantino gana o empata",
+     "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 70,
+     "texto": "Más de 1.5 goles",
      "nivel": "media"
     }
    ],
@@ -1857,6 +2172,13 @@
      "prob": 65,
      "texto": "Gil Vicente gana o empata",
      "nivel": "media"
+    },
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 83,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "confiada"
     }
    ],
    "estado": "pendiente"
@@ -1880,6 +2202,13 @@
      "lado": "home",
      "prob": 74,
      "texto": "Corinthians gana o empata",
+     "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 66,
+     "texto": "Más de 1.5 goles",
      "nivel": "media"
     }
    ],

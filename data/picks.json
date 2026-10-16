@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-16T05:44:51.516389+00:00",
+ "generado": "2026-10-16T05:59:24.212338+00:00",
  "niveles": {
   "super": 85,
   "confiada": 75,
@@ -43,6 +43,27 @@
      "nivel": "media"
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "doble",
+      "lado": "away",
+      "prob": 70,
+      "texto": "Excelsior gana o empata",
+      "nivel": "media"
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 82,
+      "texto": "Más de 1.5 goles",
+      "nivel": "confiada"
+     }
+    ],
+    "super": []
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -279,6 +300,45 @@
      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "mas25",
+      "lado": null,
+      "prob": 73,
+      "texto": "Más de 2.5 goles",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     },
+     {
+      "mercado": "btts_si",
+      "lado": null,
+      "prob": 70,
+      "texto": "Ambos equipos marcan",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     },
+     {
+      "mercado": "doble",
+      "lado": "home",
+      "prob": 65,
+      "texto": "Frankfurt gana o empata",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "confiada": [],
+    "super": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 87,
+      "texto": "Más de 1.5 goles",
+      "nivel": "super",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ]
+   },
    "nivel_max": "media",
    "analisis": {
     "percent": {
@@ -507,6 +567,29 @@
      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "doble",
+      "lado": "home",
+      "prob": 66,
+      "texto": "Frosinone gana o empata",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 75,
+      "texto": "Más de 1.5 goles",
+      "nivel": "confiada",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "super": []
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -714,6 +797,29 @@
      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "doble",
+      "lado": "home",
+      "prob": 66,
+      "texto": "Le Mans gana o empata",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 82,
+      "texto": "Más de 1.5 goles",
+      "nivel": "confiada",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "super": []
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -906,6 +1012,29 @@
      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "doble",
+      "lado": "home",
+      "prob": 73,
+      "texto": "Deportivo gana o empata",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 80,
+      "texto": "Más de 1.5 goles",
+      "nivel": "confiada",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "super": []
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -1096,6 +1225,34 @@
      "nivel": "media"
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "mas25",
+      "lado": null,
+      "prob": 68,
+      "texto": "Más de 2.5 goles",
+      "nivel": "media"
+     },
+     {
+      "mercado": "btts_si",
+      "lado": null,
+      "prob": 68,
+      "texto": "Ambos equipos marcan",
+      "nivel": "media"
+     }
+    ],
+    "confiada": [],
+    "super": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 86,
+      "texto": "Más de 1.5 goles",
+      "nivel": "super"
+     }
+    ]
+   },
    "nivel_max": "media",
    "analisis": {
     "percent": {
@@ -1315,6 +1472,34 @@
      "nivel": "media"
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "doble",
+      "lado": "home",
+      "prob": 70,
+      "texto": "Mirassol gana o empata",
+      "nivel": "media"
+     },
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 67,
+      "texto": "Más de 1.5 goles",
+      "nivel": "media"
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "menos35",
+      "lado": null,
+      "prob": 80,
+      "texto": "Menos de 3.5 goles",
+      "nivel": "confiada"
+     }
+    ],
+    "super": []
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -1529,6 +1714,29 @@
      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "doble",
+      "lado": "home",
+      "prob": 67,
+      "texto": "Everton gana o empata",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 80,
+      "texto": "Más de 1.5 goles",
+      "nivel": "confiada",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "super": []
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -1755,6 +1963,34 @@
      "nivel": "confiada"
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "menos35",
+      "lado": null,
+      "prob": 69,
+      "texto": "Menos de 3.5 goles",
+      "nivel": "media"
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "doble",
+      "lado": "home",
+      "prob": 82,
+      "texto": "Millwall gana o empata",
+      "nivel": "confiada"
+     },
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 77,
+      "texto": "Más de 1.5 goles",
+      "nivel": "confiada"
+     }
+    ],
+    "super": []
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -1952,6 +2188,41 @@
      "nivel": "media"
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "doble",
+      "lado": "home",
+      "prob": 74,
+      "texto": "Middlesbrough gana o empata",
+      "nivel": "media"
+     },
+     {
+      "mercado": "mas25",
+      "lado": null,
+      "prob": 66,
+      "texto": "Más de 2.5 goles",
+      "nivel": "media"
+     },
+     {
+      "mercado": "btts_si",
+      "lado": null,
+      "prob": 65,
+      "texto": "Ambos equipos marcan",
+      "nivel": "media"
+     }
+    ],
+    "confiada": [],
+    "super": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 85,
+      "texto": "Más de 1.5 goles",
+      "nivel": "super"
+     }
+    ]
+   },
    "nivel_max": "media",
    "analisis": {
     "percent": {
@@ -2178,6 +2449,34 @@
      "nivel": "media"
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "doble",
+      "lado": "away",
+      "prob": 69,
+      "texto": "Charlton gana o empata",
+      "nivel": "media"
+     },
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 67,
+      "texto": "Más de 1.5 goles",
+      "nivel": "media"
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "menos35",
+      "lado": null,
+      "prob": 80,
+      "texto": "Menos de 3.5 goles",
+      "nivel": "confiada"
+     }
+    ],
+    "super": []
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -2383,6 +2682,34 @@
      "nivel": "media"
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "doble",
+      "lado": "away",
+      "prob": 69,
+      "texto": "Atleti gana o empata",
+      "nivel": "media"
+     },
+     {
+      "mercado": "menos35",
+      "lado": null,
+      "prob": 68,
+      "texto": "Menos de 3.5 goles",
+      "nivel": "media"
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 78,
+      "texto": "Más de 1.5 goles",
+      "nivel": "confiada"
+     }
+    ],
+    "super": []
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -2611,6 +2938,28 @@
      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
     }
    ],
+   "por_nivel": {
+    "media": [],
+    "confiada": [
+     {
+      "mercado": "doble",
+      "lado": "away",
+      "prob": 78,
+      "texto": "Napoli gana o empata",
+      "nivel": "confiada",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     },
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 77,
+      "texto": "Más de 1.5 goles",
+      "nivel": "confiada",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "super": []
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -2832,6 +3181,29 @@
      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "doble",
+      "lado": "away",
+      "prob": 74,
+      "texto": "Dortmund gana o empata",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 81,
+      "texto": "Más de 1.5 goles",
+      "nivel": "confiada",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "super": []
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -3052,6 +3424,20 @@
      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
     }
    ],
+   "por_nivel": {
+    "media": [],
+    "confiada": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 81,
+      "texto": "Más de 1.5 goles",
+      "nivel": "confiada",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "super": []
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -3259,6 +3645,28 @@
      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
     }
    ],
+   "por_nivel": {
+    "media": [],
+    "confiada": [
+     {
+      "mercado": "doble",
+      "lado": "home",
+      "prob": 78,
+      "texto": "Bremen gana o empata",
+      "nivel": "confiada",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     },
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 76,
+      "texto": "Más de 1.5 goles",
+      "nivel": "confiada",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "super": []
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -3451,6 +3859,20 @@
      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
     }
    ],
+   "por_nivel": {
+    "media": [],
+    "confiada": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 82,
+      "texto": "Más de 1.5 goles",
+      "nivel": "confiada",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "super": []
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -3635,6 +4057,20 @@
      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
     }
    ],
+   "por_nivel": {
+    "media": [],
+    "confiada": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 77,
+      "texto": "Más de 1.5 goles",
+      "nivel": "confiada",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "super": []
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -3863,6 +4299,28 @@
      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "menos35",
+      "lado": null,
+      "prob": 72,
+      "texto": "Menos de 3.5 goles",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     },
+     {
+      "mercado": "doble",
+      "lado": "away",
+      "prob": 65,
+      "texto": "Hull City gana o empata",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "confiada": [],
+    "super": []
+   },
    "nivel_max": "media",
    "analisis": {
     "percent": {
@@ -4055,6 +4513,45 @@
      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "1x2",
+      "lado": "home",
+      "prob": 69,
+      "texto": "Gana: Man City",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     },
+     {
+      "mercado": "mas25",
+      "lado": null,
+      "prob": 68,
+      "texto": "Más de 2.5 goles",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "doble",
+      "lado": "home",
+      "prob": 84,
+      "texto": "Man City gana o empata",
+      "nivel": "confiada",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     },
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 84,
+      "texto": "Más de 1.5 goles",
+      "nivel": "confiada",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "super": []
+   },
    "nivel_max": "media",
    "analisis": {
     "percent": {
@@ -4262,6 +4759,28 @@
      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "doble",
+      "lado": "home",
+      "prob": 74,
+      "texto": "Brentford gana o empata",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     },
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 70,
+      "texto": "Más de 1.5 goles",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "confiada": [],
+    "super": []
+   },
    "nivel_max": "media",
    "analisis": {
     "percent": {
@@ -4452,6 +4971,27 @@
      "nivel": "media"
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "btts_si",
+      "lado": null,
+      "prob": 65,
+      "texto": "Ambos equipos marcan",
+      "nivel": "media"
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 84,
+      "texto": "Más de 1.5 goles",
+      "nivel": "confiada"
+     }
+    ],
+    "super": []
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -4671,6 +5211,41 @@
      "nivel": "media"
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "1x2",
+      "lado": "home",
+      "prob": 67,
+      "texto": "Gana: Southampton",
+      "nivel": "media"
+     },
+     {
+      "mercado": "mas25",
+      "lado": null,
+      "prob": 67,
+      "texto": "Más de 2.5 goles",
+      "nivel": "media"
+     }
+    ],
+    "confiada": [],
+    "super": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 86,
+      "texto": "Más de 1.5 goles",
+      "nivel": "super"
+     },
+     {
+      "mercado": "doble",
+      "lado": "home",
+      "prob": 85,
+      "texto": "Southampton gana o empata",
+      "nivel": "super"
+     }
+    ]
+   },
    "nivel_max": "media",
    "analisis": {
     "percent": {
@@ -4861,6 +5436,26 @@
      "nivel": "media"
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 74,
+      "texto": "Más de 1.5 goles",
+      "nivel": "media"
+     },
+     {
+      "mercado": "doble",
+      "lado": "home",
+      "prob": 66,
+      "texto": "Bristol City gana o empata",
+      "nivel": "media"
+     }
+    ],
+    "confiada": [],
+    "super": []
+   },
    "nivel_max": "media",
    "analisis": {
     "percent": {
@@ -5051,6 +5646,34 @@
      "nivel": "media"
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 70,
+      "texto": "Más de 1.5 goles",
+      "nivel": "media"
+     },
+     {
+      "mercado": "doble",
+      "lado": "home",
+      "prob": 68,
+      "texto": "Birmingham gana o empata",
+      "nivel": "media"
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "menos35",
+      "lado": null,
+      "prob": 77,
+      "texto": "Menos de 3.5 goles",
+      "nivel": "confiada"
+     }
+    ],
+    "super": []
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -5277,6 +5900,27 @@
      "nivel": "media"
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "doble",
+      "lado": "away",
+      "prob": 72,
+      "texto": "Stoke gana o empata",
+      "nivel": "media"
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 80,
+      "texto": "Más de 1.5 goles",
+      "nivel": "confiada"
+     }
+    ],
+    "super": []
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -5496,6 +6140,27 @@
      "nivel": "confiada"
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "menos35",
+      "lado": null,
+      "prob": 66,
+      "texto": "Menos de 3.5 goles",
+      "nivel": "media"
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 79,
+      "texto": "Más de 1.5 goles",
+      "nivel": "confiada"
+     }
+    ],
+    "super": []
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -5686,6 +6351,34 @@
      "nivel": "media"
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "doble",
+      "lado": "home",
+      "prob": 70,
+      "texto": "West Brom gana o empata",
+      "nivel": "media"
+     },
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 68,
+      "texto": "Más de 1.5 goles",
+      "nivel": "media"
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "menos35",
+      "lado": null,
+      "prob": 78,
+      "texto": "Menos de 3.5 goles",
+      "nivel": "confiada"
+     }
+    ],
+    "super": []
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -5912,6 +6605,27 @@
      "nivel": "media"
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "menos35",
+      "lado": null,
+      "prob": 74,
+      "texto": "Menos de 3.5 goles",
+      "nivel": "media"
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "doble",
+      "lado": "home",
+      "prob": 79,
+      "texto": "Wrexham gana o empata",
+      "nivel": "confiada"
+     }
+    ],
+    "super": []
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -6117,6 +6831,35 @@
      "nivel": "media"
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "mas25",
+      "lado": null,
+      "prob": 68,
+      "texto": "Más de 2.5 goles",
+      "nivel": "media"
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "doble",
+      "lado": "home",
+      "prob": 79,
+      "texto": "Villarreal gana o empata",
+      "nivel": "confiada"
+     }
+    ],
+    "super": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 87,
+      "texto": "Más de 1.5 goles",
+      "nivel": "super"
+     }
+    ]
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -6343,6 +7086,41 @@
      "nivel": "confiada"
     }
    ],
+   "por_nivel": {
+    "media": [],
+    "confiada": [
+     {
+      "mercado": "1x2",
+      "lado": "away",
+      "prob": 82,
+      "texto": "Gana: PSV",
+      "nivel": "confiada"
+     },
+     {
+      "mercado": "mas25",
+      "lado": null,
+      "prob": 82,
+      "texto": "Más de 2.5 goles",
+      "nivel": "confiada"
+     }
+    ],
+    "super": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 94,
+      "texto": "Más de 1.5 goles",
+      "nivel": "super"
+     },
+     {
+      "mercado": "doble",
+      "lado": "away",
+      "prob": 93,
+      "texto": "PSV gana o empata",
+      "nivel": "super"
+     }
+    ]
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -6549,6 +7327,20 @@
      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
     }
    ],
+   "por_nivel": {
+    "media": [],
+    "confiada": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 82,
+      "texto": "Más de 1.5 goles",
+      "nivel": "confiada",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "super": []
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -6777,6 +7569,29 @@
      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "doble",
+      "lado": "away",
+      "prob": 72,
+      "texto": "Inter gana o empata",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 76,
+      "texto": "Más de 1.5 goles",
+      "nivel": "confiada",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "super": []
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -7005,6 +7820,29 @@
      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "doble",
+      "lado": "home",
+      "prob": 68,
+      "texto": "Newcastle gana o empata",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 80,
+      "texto": "Más de 1.5 goles",
+      "nivel": "confiada",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "super": []
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -7231,6 +8069,42 @@
      "nivel": "media"
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "mas25",
+      "lado": null,
+      "prob": 72,
+      "texto": "Más de 2.5 goles",
+      "nivel": "media"
+     },
+     {
+      "mercado": "btts_si",
+      "lado": null,
+      "prob": 68,
+      "texto": "Ambos equipos marcan",
+      "nivel": "media"
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "doble",
+      "lado": "away",
+      "prob": 78,
+      "texto": "Barça gana o empata",
+      "nivel": "confiada"
+     }
+    ],
+    "super": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 88,
+      "texto": "Más de 1.5 goles",
+      "nivel": "super"
+     }
+    ]
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -7452,6 +8326,37 @@
      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "mas25",
+      "lado": null,
+      "prob": 67,
+      "texto": "Más de 2.5 goles",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 84,
+      "texto": "Más de 1.5 goles",
+      "nivel": "confiada",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     },
+     {
+      "mercado": "doble",
+      "lado": "home",
+      "prob": 75,
+      "texto": "Bayern gana o empata",
+      "nivel": "confiada",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "super": []
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -7671,6 +8576,42 @@
      "nivel": "media"
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "mas25",
+      "lado": null,
+      "prob": 71,
+      "texto": "Más de 2.5 goles",
+      "nivel": "media"
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "1x2",
+      "lado": "away",
+      "prob": 81,
+      "texto": "Gana: Feyenoord",
+      "nivel": "confiada"
+     }
+    ],
+    "super": [
+     {
+      "mercado": "doble",
+      "lado": "away",
+      "prob": 93,
+      "texto": "Feyenoord gana o empata",
+      "nivel": "super"
+     },
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 88,
+      "texto": "Más de 1.5 goles",
+      "nivel": "super"
+     }
+    ]
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -7878,6 +8819,38 @@
      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "1x2",
+      "lado": "home",
+      "prob": 71,
+      "texto": "Gana: Roma",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 76,
+      "texto": "Más de 1.5 goles",
+      "nivel": "confiada",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "super": [
+     {
+      "mercado": "doble",
+      "lado": "home",
+      "prob": 87,
+      "texto": "Roma gana o empata",
+      "nivel": "super",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ]
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -8106,6 +9079,29 @@
      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "doble",
+      "lado": "away",
+      "prob": 68,
+      "texto": "RC Lens gana o empata",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 76,
+      "texto": "Más de 1.5 goles",
+      "nivel": "confiada",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "super": []
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -8327,6 +9323,28 @@
      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "doble",
+      "lado": "home",
+      "prob": 72,
+      "texto": "Lille gana o empata",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     },
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 72,
+      "texto": "Más de 1.5 goles",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "confiada": [],
+    "super": []
+   },
    "nivel_max": "media",
    "analisis": {
     "percent": {
@@ -8519,6 +9537,29 @@
      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "doble",
+      "lado": "away",
+      "prob": 67,
+      "texto": "Athletic gana o empata",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "menos35",
+      "lado": null,
+      "prob": 75,
+      "texto": "Menos de 3.5 goles",
+      "nivel": "confiada",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "super": []
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -8745,6 +9786,41 @@
      "nivel": "media"
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "mas25",
+      "lado": null,
+      "prob": 72,
+      "texto": "Más de 2.5 goles",
+      "nivel": "media"
+     },
+     {
+      "mercado": "btts_si",
+      "lado": null,
+      "prob": 71,
+      "texto": "Ambos equipos marcan",
+      "nivel": "media"
+     },
+     {
+      "mercado": "doble",
+      "lado": "home",
+      "prob": 69,
+      "texto": "Sparta gana o empata",
+      "nivel": "media"
+     }
+    ],
+    "confiada": [],
+    "super": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 89,
+      "texto": "Más de 1.5 goles",
+      "nivel": "super"
+     }
+    ]
+   },
    "nivel_max": "media",
    "analisis": {
     "percent": {
@@ -8957,6 +10033,41 @@
      "nivel": "media"
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "mas25",
+      "lado": null,
+      "prob": 68,
+      "texto": "Más de 2.5 goles",
+      "nivel": "media"
+     },
+     {
+      "mercado": "1x2",
+      "lado": "home",
+      "prob": 67,
+      "texto": "Gana: Botafogo",
+      "nivel": "media"
+     }
+    ],
+    "confiada": [],
+    "super": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 86,
+      "texto": "Más de 1.5 goles",
+      "nivel": "super"
+     },
+     {
+      "mercado": "doble",
+      "lado": "home",
+      "prob": 85,
+      "texto": "Botafogo gana o empata",
+      "nivel": "super"
+     }
+    ]
+   },
    "nivel_max": "media",
    "analisis": {
     "percent": {
@@ -9155,6 +10266,34 @@
      "nivel": "confiada"
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "menos35",
+      "lado": null,
+      "prob": 69,
+      "texto": "Menos de 3.5 goles",
+      "nivel": "media"
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "doble",
+      "lado": "home",
+      "prob": 80,
+      "texto": "Mineiro gana o empata",
+      "nivel": "confiada"
+     },
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 77,
+      "texto": "Más de 1.5 goles",
+      "nivel": "confiada"
+     }
+    ],
+    "super": []
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -9381,6 +10520,34 @@
      "nivel": "media"
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 69,
+      "texto": "Más de 1.5 goles",
+      "nivel": "media"
+     },
+     {
+      "mercado": "doble",
+      "lado": "away",
+      "prob": 67,
+      "texto": "Palmeiras gana o empata",
+      "nivel": "media"
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "menos35",
+      "lado": null,
+      "prob": 78,
+      "texto": "Menos de 3.5 goles",
+      "nivel": "confiada"
+     }
+    ],
+    "super": []
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -9608,6 +10775,35 @@
      "ajuste": "Se restaron 5 puntos al porcentaje porque su forma reciente es peor que la del rival."
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "doble",
+      "lado": "home",
+      "prob": 70,
+      "texto": "São Paulo gana o empata",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque su forma reciente es peor que la del rival."
+     },
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 70,
+      "texto": "Más de 1.5 goles",
+      "nivel": "media"
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "menos35",
+      "lado": null,
+      "prob": 78,
+      "texto": "Menos de 3.5 goles",
+      "nivel": "confiada"
+     }
+    ],
+    "super": []
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -9841,6 +11037,49 @@
      "nivel": "media"
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "1x2",
+      "lado": "away",
+      "prob": 74,
+      "texto": "Gana: Go Ahead",
+      "nivel": "media"
+     },
+     {
+      "mercado": "btts_si",
+      "lado": null,
+      "prob": 65,
+      "texto": "Ambos equipos marcan",
+      "nivel": "media"
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "mas25",
+      "lado": null,
+      "prob": 78,
+      "texto": "Más de 2.5 goles",
+      "nivel": "confiada"
+     }
+    ],
+    "super": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 92,
+      "texto": "Más de 1.5 goles",
+      "nivel": "super"
+     },
+     {
+      "mercado": "doble",
+      "lado": "away",
+      "prob": 88,
+      "texto": "Go Ahead gana o empata",
+      "nivel": "super"
+     }
+    ]
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -10069,6 +11308,29 @@
      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "doble",
+      "lado": "home",
+      "prob": 67,
+      "texto": "Udinese gana o empata",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 80,
+      "texto": "Más de 1.5 goles",
+      "nivel": "confiada",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "super": []
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -10295,6 +11557,34 @@
      "nivel": "media"
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "mas25",
+      "lado": null,
+      "prob": 74,
+      "texto": "Más de 2.5 goles",
+      "nivel": "media"
+     },
+     {
+      "mercado": "btts_si",
+      "lado": null,
+      "prob": 73,
+      "texto": "Ambos equipos marcan",
+      "nivel": "media"
+     }
+    ],
+    "confiada": [],
+    "super": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 90,
+      "texto": "Más de 1.5 goles",
+      "nivel": "super"
+     }
+    ]
+   },
    "nivel_max": "media",
    "analisis": {
     "percent": {
@@ -10485,6 +11775,41 @@
      "nivel": "media"
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "1x2",
+      "lado": "away",
+      "prob": 72,
+      "texto": "Gana: AZ",
+      "nivel": "media"
+     },
+     {
+      "mercado": "mas25",
+      "lado": null,
+      "prob": 71,
+      "texto": "Más de 2.5 goles",
+      "nivel": "media"
+     }
+    ],
+    "confiada": [],
+    "super": [
+     {
+      "mercado": "doble",
+      "lado": "away",
+      "prob": 88,
+      "texto": "AZ gana o empata",
+      "nivel": "super"
+     },
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 88,
+      "texto": "Más de 1.5 goles",
+      "nivel": "super"
+     }
+    ]
+   },
    "nivel_max": "media",
    "analisis": {
     "percent": {
@@ -10698,6 +12023,20 @@
      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
     }
    ],
+   "por_nivel": {
+    "media": [],
+    "confiada": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 76,
+      "texto": "Más de 1.5 goles",
+      "nivel": "confiada",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "super": []
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -10905,6 +12244,28 @@
      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "doble",
+      "lado": "home",
+      "prob": 70,
+      "texto": "Leeds United gana o empata",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     },
+     {
+      "mercado": "menos35",
+      "lado": null,
+      "prob": 69,
+      "texto": "Menos de 3.5 goles",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "confiada": [],
+    "super": []
+   },
    "nivel_max": "media",
    "analisis": {
     "percent": {
@@ -11097,6 +12458,45 @@
      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "1x2",
+      "lado": "home",
+      "prob": 72,
+      "texto": "Gana: Brighton Hove",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     },
+     {
+      "mercado": "mas25",
+      "lado": null,
+      "prob": 72,
+      "texto": "Más de 2.5 goles",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "confiada": [],
+    "super": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 86,
+      "texto": "Más de 1.5 goles",
+      "nivel": "super",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     },
+     {
+      "mercado": "doble",
+      "lado": "home",
+      "prob": 85,
+      "texto": "Brighton Hove gana o empata",
+      "nivel": "super",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ]
+   },
    "nivel_max": "media",
    "analisis": {
     "percent": {
@@ -11325,6 +12725,29 @@
      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "doble",
+      "lado": "away",
+      "prob": 71,
+      "texto": "Como 1907 gana o empata",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 75,
+      "texto": "Más de 1.5 goles",
+      "nivel": "confiada",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "super": []
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -11538,6 +12961,20 @@
      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 72,
+      "texto": "Más de 1.5 goles",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "confiada": [],
+    "super": []
+   },
    "nivel_max": "media",
    "analisis": {
     "percent": {
@@ -11730,6 +13167,37 @@
      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "mas25",
+      "lado": null,
+      "prob": 67,
+      "texto": "Más de 2.5 goles",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     },
+     {
+      "mercado": "btts_si",
+      "lado": null,
+      "prob": 66,
+      "texto": "Ambos equipos marcan",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 84,
+      "texto": "Más de 1.5 goles",
+      "nivel": "confiada",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "super": []
+   },
    "nivel_max": "media",
    "analisis": {
     "percent": {
@@ -11956,6 +13424,34 @@
      "nivel": "media"
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "doble",
+      "lado": "home",
+      "prob": 70,
+      "texto": "Celta gana o empata",
+      "nivel": "media"
+     },
+     {
+      "mercado": "menos25",
+      "lado": null,
+      "prob": 68,
+      "texto": "Menos de 2.5 goles",
+      "nivel": "media"
+     }
+    ],
+    "confiada": [],
+    "super": [
+     {
+      "mercado": "menos35",
+      "lado": null,
+      "prob": 86,
+      "texto": "Menos de 3.5 goles",
+      "nivel": "super"
+     }
+    ]
+   },
    "nivel_max": "media",
    "analisis": {
     "percent": {
@@ -12153,6 +13649,42 @@
      "nivel": "media"
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "btts_si",
+      "lado": null,
+      "prob": 74,
+      "texto": "Ambos equipos marcan",
+      "nivel": "media"
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "mas25",
+      "lado": null,
+      "prob": 78,
+      "texto": "Más de 2.5 goles",
+      "nivel": "confiada"
+     },
+     {
+      "mercado": "doble",
+      "lado": "away",
+      "prob": 76,
+      "texto": "Ajax gana o empata",
+      "nivel": "confiada"
+     }
+    ],
+    "super": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 92,
+      "texto": "Más de 1.5 goles",
+      "nivel": "super"
+     }
+    ]
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -12373,6 +13905,20 @@
      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
     }
    ],
+   "por_nivel": {
+    "media": [],
+    "confiada": [
+     {
+      "mercado": "menos35",
+      "lado": null,
+      "prob": 78,
+      "texto": "Menos de 3.5 goles",
+      "nivel": "confiada",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "super": []
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -12601,6 +14147,28 @@
      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "doble",
+      "lado": "home",
+      "prob": 72,
+      "texto": "Paris FC gana o empata",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     },
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 71,
+      "texto": "Más de 1.5 goles",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "confiada": [],
+    "super": []
+   },
    "nivel_max": "media",
    "analisis": {
     "percent": {
@@ -12793,6 +14361,28 @@
      "ajuste": "Se restaron 10 puntos al porcentaje porque su forma reciente es peor que la del rival y hay pocos partidos jugados esta temporada."
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 73,
+      "texto": "Más de 1.5 goles",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     },
+     {
+      "mercado": "doble",
+      "lado": "home",
+      "prob": 65,
+      "texto": "Le Havre gana o empata",
+      "nivel": "media",
+      "ajuste": "Se restaron 10 puntos al porcentaje porque su forma reciente es peor que la del rival y hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "confiada": [],
+    "super": []
+   },
    "nivel_max": "media",
    "analisis": {
     "percent": {
@@ -12985,6 +14575,29 @@
      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "doble",
+      "lado": "away",
+      "prob": 69,
+      "texto": "Arsenal gana o empata",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "menos35",
+      "lado": null,
+      "prob": 75,
+      "texto": "Menos de 3.5 goles",
+      "nivel": "confiada",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "super": []
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -13137,7 +14750,43 @@
      "away": 0,
      "global": 5
     },
-    "h2h": []
+    "h2h": [
+     {
+      "fecha": "2026-01-17T17:30:00Z",
+      "local": "Nottingham",
+      "visita": "Arsenal",
+      "gl": 0,
+      "gv": 0
+     },
+     {
+      "fecha": "2025-09-13T11:30:00Z",
+      "local": "Arsenal",
+      "visita": "Nottingham",
+      "gl": 3,
+      "gv": 0
+     },
+     {
+      "fecha": "2025-02-26T19:30:00Z",
+      "local": "Nottingham",
+      "visita": "Arsenal",
+      "gl": 0,
+      "gv": 0
+     },
+     {
+      "fecha": "2024-11-23T15:00:00Z",
+      "local": "Arsenal",
+      "visita": "Nottingham",
+      "gl": 3,
+      "gv": 0
+     },
+     {
+      "fecha": "2024-01-30T19:30:00Z",
+      "local": "Nottingham",
+      "visita": "Arsenal",
+      "gl": 1,
+      "gv": 2
+     }
+    ]
    }
   },
   {
@@ -13177,6 +14826,38 @@
      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "btts_si",
+      "lado": null,
+      "prob": 74,
+      "texto": "Ambos equipos marcan",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "mas25",
+      "lado": null,
+      "prob": 77,
+      "texto": "Más de 2.5 goles",
+      "nivel": "confiada",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "super": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 89,
+      "texto": "Más de 1.5 goles",
+      "nivel": "super",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ]
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -13405,6 +15086,28 @@
      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "doble",
+      "lado": "home",
+      "prob": 74,
+      "texto": "Milan gana o empata",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     },
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 70,
+      "texto": "Más de 1.5 goles",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "confiada": [],
+    "super": []
+   },
    "nivel_max": "media",
    "analisis": {
     "percent": {
@@ -13595,6 +15298,34 @@
      "nivel": "media"
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 72,
+      "texto": "Más de 1.5 goles",
+      "nivel": "media"
+     },
+     {
+      "mercado": "doble",
+      "lado": "away",
+      "prob": 68,
+      "texto": "Real Sociedad gana o empata",
+      "nivel": "media"
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "menos35",
+      "lado": null,
+      "prob": 76,
+      "texto": "Menos de 3.5 goles",
+      "nivel": "confiada"
+     }
+    ],
+    "super": []
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -13792,6 +15523,42 @@
      "nivel": "media"
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "btts_si",
+      "lado": null,
+      "prob": 69,
+      "texto": "Ambos equipos marcan",
+      "nivel": "media"
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "doble",
+      "lado": "home",
+      "prob": 80,
+      "texto": "Twente gana o empata",
+      "nivel": "confiada"
+     },
+     {
+      "mercado": "mas25",
+      "lado": null,
+      "prob": 75,
+      "texto": "Más de 2.5 goles",
+      "nivel": "confiada"
+     }
+    ],
+    "super": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 90,
+      "texto": "Más de 1.5 goles",
+      "nivel": "super"
+     }
+    ]
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -14018,6 +15785,41 @@
      "nivel": "media"
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "doble",
+      "lado": "away",
+      "prob": 67,
+      "texto": "Sittard gana o empata",
+      "nivel": "media"
+     },
+     {
+      "mercado": "mas25",
+      "lado": null,
+      "prob": 67,
+      "texto": "Más de 2.5 goles",
+      "nivel": "media"
+     },
+     {
+      "mercado": "btts_si",
+      "lado": null,
+      "prob": 67,
+      "texto": "Ambos equipos marcan",
+      "nivel": "media"
+     }
+    ],
+    "confiada": [],
+    "super": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 86,
+      "texto": "Más de 1.5 goles",
+      "nivel": "super"
+     }
+    ]
+   },
    "nivel_max": "media",
    "analisis": {
     "percent": {
@@ -14202,6 +16004,20 @@
      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
     }
    ],
+   "por_nivel": {
+    "media": [],
+    "confiada": [
+     {
+      "mercado": "menos35",
+      "lado": null,
+      "prob": 75,
+      "texto": "Menos de 3.5 goles",
+      "nivel": "confiada",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "super": []
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -14354,7 +16170,36 @@
      "away": 0,
      "global": 5
     },
-    "h2h": []
+    "h2h": [
+     {
+      "fecha": "2026-02-08T19:45:00Z",
+      "local": "Juventus",
+      "visita": "Lazio",
+      "gl": 2,
+      "gv": 2
+     },
+     {
+      "fecha": "2025-10-26T19:45:00Z",
+      "local": "Lazio",
+      "visita": "Juventus",
+      "gl": 1,
+      "gv": 0
+     },
+     {
+      "fecha": "2025-05-10T16:00:00Z",
+      "local": "Lazio",
+      "visita": "Juventus",
+      "gl": 1,
+      "gv": 1
+     },
+     {
+      "fecha": "2024-10-19T18:45:00Z",
+      "local": "Juventus",
+      "visita": "Lazio",
+      "gl": 1,
+      "gv": 0
+     }
+    ]
    }
   },
   {
@@ -14394,6 +16239,29 @@
      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "menos35",
+      "lado": null,
+      "prob": 74,
+      "texto": "Menos de 3.5 goles",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "doble",
+      "lado": "home",
+      "prob": 81,
+      "texto": "Olympique Lyon gana o empata",
+      "nivel": "confiada",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "super": []
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -14546,7 +16414,43 @@
      "away": 0,
      "global": 5
     },
-    "h2h": []
+    "h2h": [
+     {
+      "fecha": "2026-02-15T19:45:00Z",
+      "local": "Olympique Lyon",
+      "visita": "Nice",
+      "gl": 2,
+      "gv": 0
+     },
+     {
+      "fecha": "2025-10-18T15:00:00Z",
+      "local": "Nice",
+      "visita": "Olympique Lyon",
+      "gl": 3,
+      "gv": 2
+     },
+     {
+      "fecha": "2025-03-09T19:45:00Z",
+      "local": "Nice",
+      "visita": "Olympique Lyon",
+      "gl": 0,
+      "gv": 2
+     },
+     {
+      "fecha": "2024-12-01T16:00:00Z",
+      "local": "Olympique Lyon",
+      "visita": "Nice",
+      "gl": 4,
+      "gv": 1
+     },
+     {
+      "fecha": "2024-02-16T20:00:00Z",
+      "local": "Olympique Lyon",
+      "visita": "Nice",
+      "gl": 1,
+      "gv": 0
+     }
+    ]
    }
   },
   {
@@ -14584,6 +16488,42 @@
      "nivel": "media"
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "mas25",
+      "lado": null,
+      "prob": 66,
+      "texto": "Más de 2.5 goles",
+      "nivel": "media"
+     },
+     {
+      "mercado": "1x2",
+      "lado": "home",
+      "prob": 65,
+      "texto": "Gana: Real Madrid",
+      "nivel": "media"
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "doble",
+      "lado": "home",
+      "prob": 84,
+      "texto": "Real Madrid gana o empata",
+      "nivel": "confiada"
+     }
+    ],
+    "super": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 85,
+      "texto": "Más de 1.5 goles",
+      "nivel": "super"
+     }
+    ]
+   },
    "nivel_max": "media",
    "analisis": {
     "percent": {
@@ -14774,6 +16714,26 @@
      "nivel": "confiada"
     }
    ],
+   "por_nivel": {
+    "media": [],
+    "confiada": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 83,
+      "texto": "Más de 1.5 goles",
+      "nivel": "confiada"
+     },
+     {
+      "mercado": "doble",
+      "lado": "home",
+      "prob": 77,
+      "texto": "Fluminense gana o empata",
+      "nivel": "confiada"
+     }
+    ],
+    "super": []
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -14926,7 +16886,43 @@
      "away": 0,
      "global": 0
     },
-    "h2h": []
+    "h2h": [
+     {
+      "fecha": "2026-04-19T19:00:00Z",
+      "local": "Santos",
+      "visita": "Fluminense",
+      "gl": 2,
+      "gv": 3
+     },
+     {
+      "fecha": "2025-08-31T19:00:00Z",
+      "local": "Santos",
+      "visita": "Fluminense",
+      "gl": 0,
+      "gv": 0
+     },
+     {
+      "fecha": "2025-04-13T22:30:00Z",
+      "local": "Fluminense",
+      "visita": "Santos",
+      "gl": 1,
+      "gv": 0
+     },
+     {
+      "fecha": "2023-11-29T22:00:00Z",
+      "local": "Santos",
+      "visita": "Fluminense",
+      "gl": 0,
+      "gv": 3
+     },
+     {
+      "fecha": "2023-07-29T19:00:00Z",
+      "local": "Fluminense",
+      "visita": "Santos",
+      "gl": 1,
+      "gv": 0
+     }
+    ]
    }
   },
   {
@@ -14957,6 +16953,19 @@
      "nivel": "media"
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 74,
+      "texto": "Más de 1.5 goles",
+      "nivel": "media"
+     }
+    ],
+    "confiada": [],
+    "super": []
+   },
    "nivel_max": "media",
    "analisis": {
     "percent": {
@@ -15147,6 +17156,26 @@
      "nivel": "media"
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "menos35",
+      "lado": null,
+      "prob": 74,
+      "texto": "Menos de 3.5 goles",
+      "nivel": "media"
+     },
+     {
+      "mercado": "doble",
+      "lado": "away",
+      "prob": 70,
+      "texto": "Flamengo gana o empata",
+      "nivel": "media"
+     }
+    ],
+    "confiada": [],
+    "super": []
+   },
    "nivel_max": "media",
    "analisis": {
     "percent": {
@@ -15337,6 +17366,34 @@
      "nivel": "media"
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 70,
+      "texto": "Más de 1.5 goles",
+      "nivel": "media"
+     },
+     {
+      "mercado": "doble",
+      "lado": "away",
+      "prob": 66,
+      "texto": "Bragantino gana o empata",
+      "nivel": "media"
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "menos35",
+      "lado": null,
+      "prob": 77,
+      "texto": "Menos de 3.5 goles",
+      "nivel": "confiada"
+     }
+    ],
+    "super": []
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -15489,7 +17546,15 @@
      "away": 0,
      "global": 0
     },
-    "h2h": []
+    "h2h": [
+     {
+      "fecha": "2026-04-19T21:30:00Z",
+      "local": "Bragantino",
+      "visita": "Clube do Remo",
+      "gl": 4,
+      "gv": 2
+     }
+    ]
    }
   },
   {
@@ -15529,6 +17594,28 @@
      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "doble",
+      "lado": "away",
+      "prob": 70,
+      "texto": "Cagliari gana o empata",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     },
+     {
+      "mercado": "menos35",
+      "lado": null,
+      "prob": 69,
+      "texto": "Menos de 3.5 goles",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "confiada": [],
+    "super": []
+   },
    "nivel_max": "media",
    "analisis": {
     "percent": {
@@ -15713,6 +17800,20 @@
      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "menos35",
+      "lado": null,
+      "prob": 73,
+      "texto": "Menos de 3.5 goles",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "confiada": [],
+    "super": []
+   },
    "nivel_max": "media",
    "analisis": {
     "percent": {
@@ -15897,6 +17998,20 @@
      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
     }
    ],
+   "por_nivel": {
+    "media": [],
+    "confiada": [
+     {
+      "mercado": "menos35",
+      "lado": null,
+      "prob": 77,
+      "texto": "Menos de 3.5 goles",
+      "nivel": "confiada",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "super": []
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
@@ -16081,6 +18196,20 @@
      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "menos35",
+      "lado": null,
+      "prob": 71,
+      "texto": "Menos de 3.5 goles",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "confiada": [],
+    "super": []
+   },
    "nivel_max": "media",
    "analisis": {
     "percent": {
@@ -16273,6 +18402,37 @@
      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "menos25",
+      "lado": null,
+      "prob": 66,
+      "texto": "Menos de 2.5 goles",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     },
+     {
+      "mercado": "doble",
+      "lado": "away",
+      "prob": 65,
+      "texto": "Gil Vicente gana o empata",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "menos35",
+      "lado": null,
+      "prob": 83,
+      "texto": "Menos de 3.5 goles",
+      "nivel": "confiada",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "super": []
+   },
    "nivel_max": "media",
    "analisis": {
     "percent": {
@@ -16463,6 +18623,34 @@
      "nivel": "media"
     }
    ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "doble",
+      "lado": "home",
+      "prob": 74,
+      "texto": "Corinthians gana o empata",
+      "nivel": "media"
+     },
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 66,
+      "texto": "Más de 1.5 goles",
+      "nivel": "media"
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "menos35",
+      "lado": null,
+      "prob": 81,
+      "texto": "Menos de 3.5 goles",
+      "nivel": "confiada"
+     }
+    ],
+    "super": []
+   },
    "nivel_max": "confiada",
    "analisis": {
     "percent": {

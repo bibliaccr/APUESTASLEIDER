@@ -1584,5 +1584,174 @@
     "gv": 1
    }
   ]
+ },
+ "560608": {
+  "obtenido": "2026-10-16T05:59:24.212338+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-01-17T17:30:00Z",
+    "local": "Nottingham",
+    "visita": "Arsenal",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-09-13T11:30:00Z",
+    "local": "Arsenal",
+    "visita": "Nottingham",
+    "gl": 3,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-02-26T19:30:00Z",
+    "local": "Nottingham",
+    "visita": "Arsenal",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "fecha": "2024-11-23T15:00:00Z",
+    "local": "Arsenal",
+    "visita": "Nottingham",
+    "gl": 3,
+    "gv": 0
+   },
+   {
+    "fecha": "2024-01-30T19:30:00Z",
+    "local": "Nottingham",
+    "visita": "Arsenal",
+    "gl": 1,
+    "gv": 2
+   }
+  ]
+ },
+ "564714": {
+  "obtenido": "2026-10-16T05:59:24.212338+00:00",
+  "h2h": []
+ },
+ "558570": {
+  "obtenido": "2026-10-16T05:59:24.212338+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-02-08T19:45:00Z",
+    "local": "Juventus",
+    "visita": "Lazio",
+    "gl": 2,
+    "gv": 2
+   },
+   {
+    "fecha": "2025-10-26T19:45:00Z",
+    "local": "Lazio",
+    "visita": "Juventus",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-05-10T16:00:00Z",
+    "local": "Lazio",
+    "visita": "Juventus",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "fecha": "2024-10-19T18:45:00Z",
+    "local": "Juventus",
+    "visita": "Lazio",
+    "gl": 1,
+    "gv": 0
+   }
+  ]
+ },
+ "559665": {
+  "obtenido": "2026-10-16T05:59:24.212338+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-02-15T19:45:00Z",
+    "local": "Olympique Lyon",
+    "visita": "Nice",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-10-18T15:00:00Z",
+    "local": "Nice",
+    "visita": "Olympique Lyon",
+    "gl": 3,
+    "gv": 2
+   },
+   {
+    "fecha": "2025-03-09T19:45:00Z",
+    "local": "Nice",
+    "visita": "Olympique Lyon",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "fecha": "2024-12-01T16:00:00Z",
+    "local": "Olympique Lyon",
+    "visita": "Nice",
+    "gl": 4,
+    "gv": 1
+   },
+   {
+    "fecha": "2024-02-16T20:00:00Z",
+    "local": "Olympique Lyon",
+    "visita": "Nice",
+    "gl": 1,
+    "gv": 0
+   }
+  ]
+ },
+ "555045": {
+  "obtenido": "2026-10-16T05:59:24.212338+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-04-19T19:00:00Z",
+    "local": "Santos",
+    "visita": "Fluminense",
+    "gl": 2,
+    "gv": 3
+   },
+   {
+    "fecha": "2025-08-31T19:00:00Z",
+    "local": "Santos",
+    "visita": "Fluminense",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-04-13T22:30:00Z",
+    "local": "Fluminense",
+    "visita": "Santos",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2023-11-29T22:00:00Z",
+    "local": "Santos",
+    "visita": "Fluminense",
+    "gl": 0,
+    "gv": 3
+   },
+   {
+    "fecha": "2023-07-29T19:00:00Z",
+    "local": "Fluminense",
+    "visita": "Santos",
+    "gl": 1,
+    "gv": 0
+   }
+  ]
+ },
+ "555048": {
+  "obtenido": "2026-10-16T05:59:24.212338+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-04-19T21:30:00Z",
+    "local": "Bragantino",
+    "visita": "Clube do Remo",
+    "gl": 4,
+    "gv": 2
+   }
+  ]
  }
 }
