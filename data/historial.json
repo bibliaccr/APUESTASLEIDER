@@ -34,14 +34,14 @@
     {
      "mercado": "mas15",
      "lado": null,
-     "prob": 87,
+     "prob": 88,
      "texto": "Más de 1.5 goles",
      "nivel": "super"
     },
     {
      "mercado": "doble",
      "lado": "home",
-     "prob": 65,
+     "prob": 67,
      "texto": "Frankfurt gana o empata",
      "nivel": "media"
     }
@@ -82,14 +82,14 @@
     {
      "mercado": "mas15",
      "lado": null,
-     "prob": 77,
+     "prob": 75,
      "texto": "Más de 1.5 goles",
      "nivel": "confiada"
     },
     {
      "mercado": "doble",
      "lado": "home",
-     "prob": 65,
+     "prob": 66,
      "texto": "Frosinone gana o empata",
      "nivel": "media"
     }
@@ -147,7 +147,7 @@
     {
      "mercado": "menos35",
      "lado": null,
-     "prob": 80,
+     "prob": 78,
      "texto": "Menos de 3.5 goles",
      "nivel": "confiada"
     },
@@ -161,7 +161,7 @@
     {
      "mercado": "mas15",
      "lado": null,
-     "prob": 67,
+     "prob": 69,
      "texto": "Más de 1.5 goles",
      "nivel": "media"
     }
@@ -319,14 +319,14 @@
     {
      "mercado": "doble",
      "lado": "away",
-     "prob": 77,
+     "prob": 78,
      "texto": "Napoli gana o empata",
      "nivel": "confiada"
     },
     {
      "mercado": "mas15",
      "lado": null,
-     "prob": 76,
+     "prob": 77,
      "texto": "Más de 1.5 goles",
      "nivel": "confiada"
     }
@@ -428,6 +428,13 @@
      "prob": 77,
      "texto": "Más de 1.5 goles",
      "nivel": "confiada"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 65,
+     "texto": "Schalke gana o empata",
+     "nivel": "media"
     }
    ],
    "estado": "pendiente"
@@ -825,18 +832,18 @@
    "visitante": "Inter",
    "picks": [
     {
-     "mercado": "doble",
-     "lado": "away",
-     "prob": 75,
-     "texto": "Inter gana o empata",
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 76,
+     "texto": "Más de 1.5 goles",
      "nivel": "confiada"
     },
     {
-     "mercado": "mas15",
-     "lado": null,
-     "prob": 75,
-     "texto": "Más de 1.5 goles",
-     "nivel": "confiada"
+     "mercado": "doble",
+     "lado": "away",
+     "prob": 72,
+     "texto": "Inter gana o empata",
+     "nivel": "media"
     }
    ],
    "estado": "pendiente"
@@ -961,14 +968,14 @@
     {
      "mercado": "mas15",
      "lado": null,
-     "prob": 79,
+     "prob": 76,
      "texto": "Más de 1.5 goles",
      "nivel": "confiada"
     },
     {
      "mercado": "1x2",
      "lado": "home",
-     "prob": 72,
+     "prob": 71,
      "texto": "Gana Roma",
      "nivel": "media"
     }
@@ -1095,14 +1102,14 @@
     {
      "mercado": "doble",
      "lado": "home",
-     "prob": 85,
+     "prob": 84,
      "texto": "Botafogo gana o empata",
-     "nivel": "super"
+     "nivel": "confiada"
     },
     {
      "mercado": "1x2",
      "lado": "home",
-     "prob": 67,
+     "prob": 66,
      "texto": "Gana Botafogo",
      "nivel": "media"
     }
@@ -1150,22 +1157,22 @@
     {
      "mercado": "menos35",
      "lado": null,
-     "prob": 78,
+     "prob": 80,
      "texto": "Menos de 3.5 goles",
      "nivel": "confiada"
     },
     {
-     "mercado": "mas15",
-     "lado": null,
-     "prob": 69,
-     "texto": "Más de 1.5 goles",
+     "mercado": "doble",
+     "lado": "away",
+     "prob": 68,
+     "texto": "Palmeiras gana o empata",
      "nivel": "media"
     },
     {
-     "mercado": "doble",
-     "lado": "away",
+     "mercado": "mas15",
+     "lado": null,
      "prob": 67,
-     "texto": "Palmeiras gana o empata",
+     "texto": "Más de 1.5 goles",
      "nivel": "media"
     }
    ],
@@ -1195,7 +1202,7 @@
     {
      "mercado": "mas15",
      "lado": null,
-     "prob": 70,
+     "prob": 69,
      "texto": "Más de 1.5 goles",
      "nivel": "media"
     }
@@ -1250,7 +1257,7 @@
     {
      "mercado": "doble",
      "lado": "home",
-     "prob": 66,
+     "prob": 67,
      "texto": "Udinese gana o empata",
      "nivel": "media"
     }
@@ -1394,7 +1401,7 @@
     {
      "mercado": "mas15",
      "lado": null,
-     "prob": 79,
+     "prob": 75,
      "texto": "Más de 1.5 goles",
      "nivel": "confiada"
     },
@@ -1579,7 +1586,7 @@
     {
      "mercado": "mas15",
      "lado": null,
-     "prob": 89,
+     "prob": 90,
      "texto": "Más de 1.5 goles",
      "nivel": "super"
     }
@@ -1620,9 +1627,9 @@
     {
      "mercado": "doble",
      "lado": "home",
-     "prob": 77,
+     "prob": 74,
      "texto": "Milan gana o empata",
-     "nivel": "confiada"
+     "nivel": "media"
     },
     {
      "mercado": "mas15",
@@ -1754,7 +1761,7 @@
     {
      "mercado": "menos35",
      "lado": null,
-     "prob": 76,
+     "prob": 75,
      "texto": "Menos de 3.5 goles",
      "nivel": "confiada"
     }
@@ -1802,7 +1809,7 @@
     {
      "mercado": "mas15",
      "lado": null,
-     "prob": 83,
+     "prob": 84,
      "texto": "Más de 1.5 goles",
      "nivel": "confiada"
     },
@@ -1824,17 +1831,17 @@
    "visitante": "Cruzeiro",
    "picks": [
     {
-     "mercado": "mas15",
+     "mercado": "menos35",
      "lado": null,
      "prob": 74,
-     "texto": "Más de 1.5 goles",
+     "texto": "Menos de 3.5 goles",
      "nivel": "media"
     },
     {
-     "mercado": "menos35",
+     "mercado": "mas15",
      "lado": null,
-     "prob": 72,
-     "texto": "Menos de 3.5 goles",
+     "prob": 73,
+     "texto": "Más de 1.5 goles",
      "nivel": "media"
     }
    ],
@@ -1848,17 +1855,17 @@
    "visitante": "Flamengo",
    "picks": [
     {
-     "mercado": "menos35",
-     "lado": null,
-     "prob": 74,
-     "texto": "Menos de 3.5 goles",
-     "nivel": "media"
-    },
-    {
      "mercado": "mas15",
      "lado": null,
-     "prob": 72,
+     "prob": 75,
      "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 72,
+     "texto": "Menos de 3.5 goles",
      "nivel": "media"
     },
     {
@@ -1881,21 +1888,21 @@
     {
      "mercado": "menos35",
      "lado": null,
-     "prob": 77,
+     "prob": 79,
      "texto": "Menos de 3.5 goles",
      "nivel": "confiada"
     },
     {
      "mercado": "mas15",
      "lado": null,
-     "prob": 70,
+     "prob": 68,
      "texto": "Más de 1.5 goles",
      "nivel": "media"
     },
     {
      "mercado": "doble",
      "lado": "away",
-     "prob": 66,
+     "prob": 65,
      "texto": "Bragantino gana o empata",
      "nivel": "media"
     }
@@ -1910,23 +1917,23 @@
    "visitante": "Cagliari",
    "picks": [
     {
-     "mercado": "menos35",
-     "lado": null,
+     "mercado": "doble",
+     "lado": "away",
      "prob": 70,
-     "texto": "Menos de 3.5 goles",
+     "texto": "Cagliari gana o empata",
      "nivel": "media"
     },
     {
-     "mercado": "doble",
-     "lado": "away",
+     "mercado": "menos35",
+     "lado": null,
      "prob": 69,
-     "texto": "Cagliari gana o empata",
+     "texto": "Menos de 3.5 goles",
      "nivel": "media"
     },
     {
      "mercado": "mas15",
      "lado": null,
-     "prob": 67,
+     "prob": 68,
      "texto": "Más de 1.5 goles",
      "nivel": "media"
     }
@@ -2025,21 +2032,21 @@
     {
      "mercado": "menos35",
      "lado": null,
-     "prob": 81,
+     "prob": 82,
      "texto": "Menos de 3.5 goles",
      "nivel": "confiada"
     },
     {
      "mercado": "doble",
      "lado": "home",
-     "prob": 74,
+     "prob": 76,
      "texto": "Corinthians gana o empata",
-     "nivel": "media"
+     "nivel": "confiada"
     },
     {
      "mercado": "mas15",
      "lado": null,
-     "prob": 66,
+     "prob": 65,
      "texto": "Más de 1.5 goles",
      "nivel": "media"
     }
