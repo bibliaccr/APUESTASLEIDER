@@ -58,7 +58,7 @@
         onclick: () => { estado.nivel = clave; render(); } }, contenido);
     const seccionNivel = h("div", { class: "filtro-seccion" }, cabecera("Confianza"),
       h("div", { class: "chips chips-nivel" },
-        nivelBtn("todos", h("span", { class: "chip-txt" }, "Todos los niveles")),
+        nivelBtn("todos", h("span", { class: "chip-txt" }, "Recomendado")),
         Object.entries(NIVELES).map(([clave, n]) =>
           nivelBtn(clave, [medidor(clave), h("span", { class: "chip-txt" }, n.nombre)]))));
 
@@ -208,6 +208,27 @@
   const iconoStats = () => svgIcono([[3, 12, 4, 9], [10, 4, 4, 17], [17, 8, 4, 13]]);
   const iconoApuestas = () => svgIcono([[3, 4, 18, 3.5], [3, 10.25, 18, 3.5], [3, 16.5, 12, 3.5]]);
 
+  const iconoEstrella = () => {
+    const NS = "http://www.w3.org/2000/svg";
+    const svg = document.createElementNS(NS, "svg");
+    svg.setAttribute("viewBox", "0 0 24 24"); svg.setAttribute("width", "17"); svg.setAttribute("height", "17");
+    svg.setAttribute("aria-hidden", "true");
+    const r = document.createElementNS(NS, "path");
+    r.setAttribute("d", "M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z");
+    r.setAttribute("fill", "currentColor"); svg.append(r);
+    return svg;
+  };
+
+  // Cuadro con las 2 o 3 recomendaciones: la cabecera cambia de color según el nivel elegido.
+  function cuadroRecomendado(picks) {
+    const niv = estado.nivel === "todos" ? null : estado.nivel;
+    return h("section", { class: "reco", "data-nivel": niv, "aria-label": "Apuestas recomendadas" },
+      h("div", { class: "reco-cab" },
+        h("span", { class: "reco-titulo" }, iconoEstrella(), "Lo recomendado"),
+        niv ? h("span", { class: "reco-nivel" }, NIVELES[niv].nombre) : null),
+      h("ul", { class: "picks" }, picks.map(filaPick)));
+  }
+
   function tarjetaPartido(p) {
     const a = p.analisis;
     const filaDato = (izq, etq, der) => [h("div", null, izq), h("div", { class: "etq" }, etq), h("div", { class: "der" }, der)];
@@ -229,7 +250,7 @@
     // 1) Apuestas destacadas (las de mejor respaldo)
     const destacadas = h("div", { class: "destacadas" },
       p.picks.length
-        ? [h("div", { class: "recomendado" }, "Recomendado"), h("ul", { class: "picks" }, p.picks.map(filaPick))]
+        ? cuadroRecomendado(p.picks)
         : h("p", { class: "sin-pick" }, "Sin apuesta destacada: ninguna llega al mínimo de confianza."));
 
     // 2) Lista completa: tiempo completo y medio tiempo (incluye las destacadas)
@@ -320,7 +341,9 @@
 
     let lista = todos.filter((p) => p.picks.length);
     if (estado.nivel !== "todos") {
-      lista = lista.map((p) => ({ ...p, picks: p.picks.filter((k) => k.nivel === estado.nivel) }))
+      // Con un nivel elegido se muestran las mejores de ESE nivel (por_nivel); si el archivo es
+      // viejo y no las trae, se filtran las recomendadas.
+      lista = lista.map((p) => ({ ...p, picks: p.por_nivel ? (p.por_nivel[estado.nivel] || []) : p.picks.filter((k) => k.nivel === estado.nivel) }))
                    .filter((p) => p.picks.length)
                    .map((p) => ({ ...p, nivel_max: p.picks[0].nivel }));
     }
@@ -330,7 +353,7 @@
     if (!lista.length) {
       salida.push(h("div", { class: "vacio" },
         h("strong", null, "No hay picks con estos filtros."),
-        "Prueba otro nivel o la opción “Todos los niveles”."));
+        "Prueba otro nivel o la opción “Recomendado”."));
       return salida;
     }
 

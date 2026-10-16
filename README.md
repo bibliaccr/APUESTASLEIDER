@@ -64,7 +64,7 @@ Son estimaciones estadísticas, no garantías. Solo para mayores de 18 años.
 
 ## Apuestas por partido
 
-- La galería muestra solo los partidos. Al tocar uno se ven sus apuestas destacadas (hasta 3, bajo la etiqueta "Recomendado"; son las que cuentan en el historial de aciertos;
+- La galería muestra solo los partidos. Al tocar uno se ven sus apuestas destacadas (2 o 3, dentro del cuadro **Lo recomendado**;
   si las apuestas de goles o "ambos marcan" alcanzan un nivel, se les asegura lugar).
 - El botón **Apuestas** abre la lista completa en dos secciones: *Tiempo completo* y *Medio tiempo*.
   El medio tiempo usa los goles al descanso de cada equipo (mismo método Poisson).
@@ -78,3 +78,8 @@ Son estimaciones estadísticas, no garantías. Solo para mayores de 18 años.
   "gana o empata", etc.), y nunca "más de" junto a "menos de", "ambos marcan" junto a "ambos no marcan"
   o "ambos marcan" con "menos de 2.5". Si dos apuestas chocan, queda la de mayor probabilidad.
   La regla está en `hay_conflicto` (scripts/actualizar.py) y `hayConflicto` (assets/app.js).
+- **Filtro de confianza:** con "Recomendado", el cuadro muestra las mejores del partido (hasta 3). Si eliges
+  un nivel, el cuadro cambia de color y muestra las mejores *de ese nivel* (`por_nivel` en `data/picks.json`).
+  Si en un partido solo una apuesta llega a ese nivel, se muestra una sola: no se rellena con apuestas de menor nivel.
+- **Historial:** se guarda todo lo que la web recomienda (vista general y vistas por nivel, sin repetir),
+  así cada porcentaje que ves queda comprobado.

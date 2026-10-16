@@ -389,6 +389,30 @@ def _desc(c):
             "btts_si": {"btts": True}, "btts_no": {"btts": False}}[m]
 
 
+ORDEN = lambda c: (NIVELES.index(c["nivel"]), c["prob"])
+
+
+def depurar(pool):
+    """Deja un conjunto coherente de apuestas: sin repetidas de goles, con una sola de resultado
+    y sin contradicciones. Parte de la mejor respaldada y solo suma las que no chocan con ella."""
+    # Si pasa la línea de goles más exigente, se omite la más suave.
+    claves = {c["mercado"] for c in pool}
+    omitir = set()
+    if "mas25" in claves:
+        omitir.add("mas15")
+    if "menos25" in claves:
+        omitir.add("menos35")
+    pool = [c for c in pool if c["mercado"] not in omitir]
+    # Una sola recomendación de resultado: si "Gana" alcanza nivel, se prefiere a "gana o empata".
+    if "1x2" in {c["mercado"] for c in pool}:
+        pool = [c for c in pool if c["mercado"] != "doble"]
+    aceptadas = []
+    for c in sorted(pool, key=ORDEN, reverse=True):
+        if not any(hay_conflicto(_desc(c), _desc(o)) for o in aceptadas):
+            aceptadas.append(c)
+    return aceptadas
+
+
 def generar_picks(partido, pred, cfg):
     niveles = cfg["niveles"]
     pen = penalizaciones(pred, cfg)
@@ -429,28 +453,9 @@ def generar_picks(partido, pred, cfg):
             c["ajuste"] = f"Se restaron {resta} puntos al porcentaje porque " + " y ".join(motivos) + "."
         picks.append(c)
 
-    # Evitar picks repetidos de goles: si pasa la línea más exigente, se omite la más suave.
-    claves = {c["mercado"] for c in picks}
-    omitir = set()
-    if "mas25" in claves:
-        omitir.add("mas15")
-    if "menos25" in claves:
-        omitir.add("menos35")
-    picks = [c for c in picks if c["mercado"] not in omitir]
-
-    # Una sola recomendación de resultado: si "Gana" alcanza nivel, se prefiere a "gana o empata".
-    if "1x2" in {c["mercado"] for c in picks}:
-        picks = [c for c in picks if c["mercado"] != "doble"]
-
-    # Sin contradicciones: se parte de la apuesta mejor respaldada y solo entran
-    # las que no chocan con las ya aceptadas (ej. no "Más de 2.5" junto a "Menos de 2.5").
-    orden = lambda c: (NIVELES.index(c["nivel"]), c["prob"])
-    picks.sort(key=orden, reverse=True)
-    aceptadas = []
-    for c in picks:
-        if not any(hay_conflicto(_desc(c), _desc(o)) for o in aceptadas):
-            aceptadas.append(c)
-    picks = aceptadas
+    candidatos_ok = list(picks)
+    # Vista "Todos los niveles": las mejores del partido, sean del nivel que sean.
+    picks = depurar(picks)
     elegidos = picks[:POR_EQUIPO_MAX_PICKS]
     # Las apuestas de goles / ambos marcan son las que más interesan: si pasan el umbral,
     # se aseguran un lugar (sin forzar: solo entran las que alcanzan un nivel).
@@ -463,8 +468,12 @@ def generar_picks(partido, pred, cfg):
             break
         elegidos.remove(simples[-1])
         elegidos.append(c)
-    elegidos.sort(key=orden, reverse=True)
-    return elegidos
+    elegidos.sort(key=ORDEN, reverse=True)
+
+    # Vistas por nivel: al elegir un nivel, las 2 o 3 mejores de ESE nivel (sin rellenar con otras).
+    por_nivel = {n: depurar([c for c in candidatos_ok if c["nivel"] == n])[:POR_EQUIPO_MAX_PICKS]
+                 for n in NIVELES}
+    return elegidos, por_nivel
 
 
 def evaluar_pick(pick, gl, gv):
@@ -591,9 +600,9 @@ def main():
                 "visitante": {"id": idv, "nombre": nombre_equipo(p.get("awayTeam")),
                               "logo": dig(p, "awayTeam", "crest")},
             }
-            picks = generar_picks(partido, pred, cfg)
+            picks, por_nivel = generar_picks(partido, pred, cfg)
             pred["penal"] = penalizaciones(pred, cfg)
-            partido.update({"picks": picks,
+            partido.update({"picks": picks, "por_nivel": por_nivel,
                             "nivel_max": picks[0]["nivel"] if picks else None,
                             "analisis": pred})
             salida.append(partido)
@@ -632,7 +641,13 @@ def main():
     for s in salida:
         if not s["picks"]:
             continue
-        guardados = [{k: v for k, v in pk.items() if k != "ajuste"} for pk in s["picks"]]
+        # Se guarda todo lo que la web recomienda (vista general y vistas por nivel), sin repetir.
+        mostradas, vistas = [], set()
+        for pk in s["picks"] + [x for n in NIVELES for x in s.get("por_nivel", {}).get(n, [])]:
+            if (pk["mercado"], pk["texto"]) not in vistas:
+                vistas.add((pk["mercado"], pk["texto"]))
+                mostradas.append(pk)
+        guardados = [{k: v for k, v in pk.items() if k != "ajuste"} for pk in mostradas]
         e = existentes.get(s["id"])
         if e and e.get("estado") == "pendiente":
             e["picks"], e["fecha"] = guardados, s["fecha"]

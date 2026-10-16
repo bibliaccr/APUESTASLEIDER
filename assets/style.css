@@ -194,5 +194,13 @@ select.chip { width: 100%; appearance: auto; }
 .cruce-fila.pierde { color: var(--mal); }
 @media (min-width: 560px) { .cruces { grid-template-columns: repeat(2, 1fr); } }
 
-/* Etiqueta centrada sobre las apuestas recomendadas (las que cuentan en el historial) */
-.recomendado { text-align: center; font-size: .78rem; font-weight: 800; text-transform: uppercase; letter-spacing: .1em; color: var(--suave); margin: 2px 0 8px; }
+/* Cuadro de recomendaciones: cabecera de color + las 2 o 3 apuestas dentro */
+.reco { --reco: var(--tinta); border: 2px solid var(--reco); border-radius: 10px; overflow: hidden; background: var(--papel); }
+.reco[data-nivel="super"] { --reco: var(--super); }
+.reco[data-nivel="confiada"] { --reco: var(--confiada); }
+.reco[data-nivel="media"] { --reco: var(--media); }
+.reco-cab { display: flex; justify-content: space-between; align-items: center; gap: 10px; padding: 8px 14px; background: var(--reco); color: var(--fondo); }
+.reco-titulo { display: inline-flex; align-items: center; gap: 7px; font-weight: 800; font-size: .98rem; }
+.reco-nivel { font-size: .8rem; font-weight: 700; padding: 2px 10px; border-radius: 999px; background: color-mix(in srgb, var(--fondo) 22%, transparent); }
+.reco .picks { border-top: 0; padding: 0 14px; }
+.reco .pick:last-child { border-bottom: 0; }
