@@ -160,3 +160,41 @@ details.analisis summary { cursor: pointer; font-weight: 600; font-size: .9rem; 
   .equipo.visita { justify-content: flex-start; text-align: left; }
   .vs { display: none; }
 }
+
+/* Todas las apuestas de un partido */
+.equipos { cursor: pointer; }
+.ver-todas {
+  width: 100%; margin-top: 10px; font: inherit; font-weight: 700; font-size: .92rem; cursor: pointer;
+  color: var(--tinta); background: var(--fondo); border: 1.5px solid var(--linea); border-radius: 6px;
+  padding: 10px 12px; display: flex; align-items: center; justify-content: center; gap: 8px;
+}
+.ver-todas:hover { border-color: var(--tinta); }
+.flecha { width: 8px; height: 8px; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: rotate(45deg) translateY(-2px); transition: transform .15s; }
+.ver-todas[aria-expanded="true"] .flecha { transform: rotate(-135deg) translateY(-2px); }
+.panel-todas[hidden] { display: none; }
+.todas { margin-top: 6px; }
+.grupo { margin-top: 14px; }
+.grupo h4 { margin: 0 0 4px; font-size: .78rem; text-transform: uppercase; letter-spacing: .06em; color: var(--suave); }
+.mercados { list-style: none; margin: 0; padding: 0; }
+.mercado {
+  display: grid; grid-template-columns: 1fr 64px 44px 52px; gap: 10px; align-items: center;
+  padding: 7px 0; border-bottom: 1px solid var(--linea); font-size: .92rem;
+}
+.m-texto { font-weight: 600; min-width: 0; overflow-wrap: anywhere; }
+.m-pick { margin-left: 8px; font-size: .68rem; font-weight: 800; text-transform: uppercase; letter-spacing: .04em;
+  background: var(--tinta); color: var(--fondo); border-radius: 999px; padding: 1px 7px; vertical-align: 1px; }
+.m-barra { height: 6px; background: var(--linea); border-radius: 3px; overflow: hidden; }
+.m-barra i { display: block; height: 100%; border-radius: 3px; background: var(--media); }
+.mercado[data-prob="alta"] .m-barra i { background: var(--super); }
+.mercado[data-prob="media"] .m-barra i { background: var(--confiada); }
+.mercado[data-prob="muybaja"] .m-barra i { background: var(--suave); }
+.m-prob { font-weight: 800; text-align: right; font-variant-numeric: tabular-nums; }
+.m-cuota { text-align: right; color: var(--suave); font-size: .82rem; font-variant-numeric: tabular-nums; }
+.marcadores { display: flex; flex-wrap: wrap; gap: 8px; }
+.marcador { background: var(--fondo); border: 1px solid var(--linea); border-radius: 6px; padding: 6px 10px; font-size: .85rem; color: var(--suave); display: inline-flex; gap: 8px; }
+.marcador b { color: var(--tinta); font-variant-numeric: tabular-nums; }
+.nota-cuota { font-size: .8rem; color: var(--suave); margin: 12px 0 0; }
+@media (max-width: 480px) {
+  .mercado { grid-template-columns: 1fr 44px 42px; }
+  .m-barra { display: none; }
+}

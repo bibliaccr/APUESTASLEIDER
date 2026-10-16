@@ -170,6 +170,34 @@ def pmf(k, lam):
     return math.exp(-lam) * lam ** k / math.factorial(k)
 
 
+def mercados_completos(pl, pv, total):
+    """Probabilidad (%) de todas las apuestas habituales, con la misma matriz Poisson."""
+    N = len(pl)
+    m = [[pl[i] * pv[j] / total for j in range(N)] for i in range(N)]
+    pct = lambda x: round(x * 100, 1)
+    h = sum(m[i][j] for i in range(N) for j in range(N) if i > j)
+    x = sum(m[i][i] for i in range(N))
+    a = 1 - h - x
+    tot = [sum(m[i][j] for i in range(N) for j in range(N) if i + j == t) for t in range(2 * N - 1)]
+    mas = lambda k: sum(tot[k + 1:])  # P(total > k)
+    gl = [sum(m[i]) for i in range(N)]                       # goles del local
+    gv = [sum(m[i][j] for i in range(N)) for j in range(N)]  # goles del visitante
+    gl_mas = lambda k: sum(gl[k + 1:])
+    gv_mas = lambda k: sum(gv[k + 1:])
+    sin_empate = h + a
+    marcadores = sorted(((m[i][j], f"{i}-{j}") for i in range(N) for j in range(N)), reverse=True)[:5]
+    return {
+        "h": pct(h), "x": pct(x), "a": pct(a),
+        "dc": {"1x": pct(h + x), "x2": pct(x + a), "12": pct(sin_empate)},
+        "dnb": {"h": pct(h / sin_empate) if sin_empate else 0, "a": pct(a / sin_empate) if sin_empate else 0},
+        "mas": {k: pct(mas(int(k))) for k in (0, 1, 2, 3, 4)},
+        "btts": pct(sum(m[i][j] for i in range(1, N) for j in range(1, N))),
+        "mas_local": {k: pct(gl_mas(k)) for k in (0, 1, 2)},
+        "mas_visita": {k: pct(gv_mas(k)) for k in (0, 1, 2)},
+        "marcadores": [[nombre, pct(p)] for p, nombre in marcadores],
+    }
+
+
 def predecir(modelo, id_local, id_vis, k):
     el, ev = modelo["equipos"].get(id_local), modelo["equipos"].get(id_vis)
     if not el or not ev:
@@ -214,6 +242,8 @@ def predecir(modelo, id_local, id_vis, k):
     mas25 = (1 - p_tot_le2 / total) * 100
     ambos = (1 - math.exp(-lam)) * (1 - math.exp(-mu)) * 100
 
+    mercados = mercados_completos(pl, pv, total)
+
     def forma5(e):
         ult = e["pts"][-5:]
         return sum(ult) / (3 * len(ult)) * 100 if ult else 0.0
@@ -232,6 +262,7 @@ def predecir(modelo, id_local, id_vis, k):
         "gf": {"home": round(el["gf"] / el["n"], 2), "away": round(ev["gf"] / ev["n"], 2)},
         "gc": {"home": round(el["gc"] / el["n"], 2), "away": round(ev["gc"] / ev["n"], 2)},
         "jugados": {"home": el["n"], "away": ev["n"]},
+        "mercados": mercados,
     }
 
 
