@@ -171,13 +171,6 @@
      "prob": 70,
      "texto": "Mirassol gana o empata",
      "nivel": "media"
-    },
-    {
-     "mercado": "mas15",
-     "lado": null,
-     "prob": 67,
-     "texto": "Más de 1.5 goles",
-     "nivel": "media"
     }
    ],
    "estado": "pendiente"
@@ -192,14 +185,14 @@
     {
      "mercado": "mas15",
      "lado": null,
-     "prob": 77,
+     "prob": 80,
      "texto": "Más de 1.5 goles",
      "nivel": "confiada"
     },
     {
      "mercado": "doble",
      "lado": "home",
-     "prob": 68,
+     "prob": 67,
      "texto": "Everton gana o empata",
      "nivel": "media"
     }
@@ -226,13 +219,6 @@
      "prob": 77,
      "texto": "Más de 1.5 goles",
      "nivel": "confiada"
-    },
-    {
-     "mercado": "menos35",
-     "lado": null,
-     "prob": 69,
-     "texto": "Menos de 3.5 goles",
-     "nivel": "media"
     }
    ],
    "estado": "pendiente"
@@ -288,13 +274,6 @@
      "prob": 69,
      "texto": "Charlton gana o empata",
      "nivel": "media"
-    },
-    {
-     "mercado": "mas15",
-     "lado": null,
-     "prob": 67,
-     "texto": "Más de 1.5 goles",
-     "nivel": "media"
     }
    ],
    "estado": "pendiente"
@@ -318,13 +297,6 @@
      "lado": "away",
      "prob": 69,
      "texto": "Atleti gana o empata",
-     "nivel": "media"
-    },
-    {
-     "mercado": "menos35",
-     "lado": null,
-     "prob": 68,
-     "texto": "Menos de 3.5 goles",
      "nivel": "media"
     }
    ],
@@ -461,24 +433,17 @@
    "visitante": "Ipswich Town",
    "picks": [
     {
-     "mercado": "doble",
+     "mercado": "1x2",
      "lado": "home",
-     "prob": 81,
-     "texto": "Man City gana o empata",
-     "nivel": "confiada"
+     "prob": 69,
+     "texto": "Gana: Man City",
+     "nivel": "media"
     },
     {
      "mercado": "mas25",
      "lado": null,
      "prob": 68,
      "texto": "Más de 2.5 goles",
-     "nivel": "media"
-    },
-    {
-     "mercado": "1x2",
-     "lado": "home",
-     "prob": 65,
-     "texto": "Gana: Man City",
      "nivel": "media"
     }
    ],
@@ -515,13 +480,6 @@
    "local": "Southampton",
    "visitante": "Bolton",
    "picks": [
-    {
-     "mercado": "doble",
-     "lado": "home",
-     "prob": 85,
-     "texto": "Southampton gana o empata",
-     "nivel": "super"
-    },
     {
      "mercado": "1x2",
      "lado": "home",
@@ -576,13 +534,6 @@
      "prob": 79,
      "texto": "Más de 1.5 goles",
      "nivel": "confiada"
-    },
-    {
-     "mercado": "menos35",
-     "lado": null,
-     "prob": 66,
-     "texto": "Menos de 3.5 goles",
-     "nivel": "media"
     }
    ],
    "estado": "pendiente"
@@ -607,13 +558,6 @@
      "prob": 74,
      "texto": "Menos de 3.5 goles",
      "nivel": "media"
-    },
-    {
-     "mercado": "mas15",
-     "lado": null,
-     "prob": 73,
-     "texto": "Más de 1.5 goles",
-     "nivel": "media"
     }
    ],
    "estado": "pendiente"
@@ -628,14 +572,14 @@
     {
      "mercado": "menos35",
      "lado": null,
-     "prob": 74,
+     "prob": 72,
      "texto": "Menos de 3.5 goles",
      "nivel": "media"
     },
     {
      "mercado": "doble",
      "lado": "away",
-     "prob": 66,
+     "prob": 65,
      "texto": "Hull City gana o empata",
      "nivel": "media"
     }
@@ -650,23 +594,16 @@
    "visitante": "Liverpool",
    "picks": [
     {
-     "mercado": "menos35",
-     "lado": null,
-     "prob": 70,
-     "texto": "Menos de 3.5 goles",
-     "nivel": "media"
-    },
-    {
      "mercado": "doble",
      "lado": "home",
-     "prob": 68,
+     "prob": 74,
      "texto": "Brentford gana o empata",
      "nivel": "media"
     },
     {
      "mercado": "mas15",
      "lado": null,
-     "prob": 67,
+     "prob": 70,
      "texto": "Más de 1.5 goles",
      "nivel": "media"
     }
@@ -685,13 +622,6 @@
      "lado": null,
      "prob": 74,
      "texto": "Más de 1.5 goles",
-     "nivel": "media"
-    },
-    {
-     "mercado": "menos35",
-     "lado": null,
-     "prob": 73,
-     "texto": "Menos de 3.5 goles",
      "nivel": "media"
     },
     {
@@ -717,13 +647,6 @@
      "prob": 77,
      "texto": "Menos de 3.5 goles",
      "nivel": "confiada"
-    },
-    {
-     "mercado": "mas15",
-     "lado": null,
-     "prob": 70,
-     "texto": "Más de 1.5 goles",
-     "nivel": "media"
     },
     {
      "mercado": "doble",
@@ -754,13 +677,6 @@
      "lado": "home",
      "prob": 70,
      "texto": "West Brom gana o empata",
-     "nivel": "media"
-    },
-    {
-     "mercado": "mas15",
-     "lado": null,
-     "prob": 68,
-     "texto": "Más de 1.5 goles",
      "nivel": "media"
     }
    ],
@@ -797,13 +713,6 @@
    "local": "Den Haag",
    "visitante": "PSV",
    "picks": [
-    {
-     "mercado": "doble",
-     "lado": "away",
-     "prob": 93,
-     "texto": "PSV gana o empata",
-     "nivel": "super"
-    },
     {
      "mercado": "1x2",
      "lado": "away",
@@ -872,14 +781,14 @@
     {
      "mercado": "mas15",
      "lado": null,
-     "prob": 79,
+     "prob": 80,
      "texto": "Más de 1.5 goles",
      "nivel": "confiada"
     },
     {
      "mercado": "doble",
      "lado": "home",
-     "prob": 72,
+     "prob": 68,
      "texto": "Newcastle gana o empata",
      "nivel": "media"
     }
@@ -949,13 +858,6 @@
    "visitante": "Feyenoord",
    "picks": [
     {
-     "mercado": "doble",
-     "lado": "away",
-     "prob": 93,
-     "texto": "Feyenoord gana o empata",
-     "nivel": "super"
-    },
-    {
      "mercado": "1x2",
      "lado": "away",
      "prob": 81,
@@ -979,13 +881,6 @@
    "local": "Roma",
    "visitante": "Genoa",
    "picks": [
-    {
-     "mercado": "doble",
-     "lado": "home",
-     "prob": 87,
-     "texto": "Roma gana o empata",
-     "nivel": "super"
-    },
     {
      "mercado": "mas15",
      "lado": null,
@@ -1046,13 +941,6 @@
      "lado": null,
      "prob": 72,
      "texto": "Más de 1.5 goles",
-     "nivel": "media"
-    },
-    {
-     "mercado": "menos35",
-     "lado": null,
-     "prob": 65,
-     "texto": "Menos de 3.5 goles",
      "nivel": "media"
     }
    ],
@@ -1121,13 +1009,6 @@
    "visitante": "Chapecoense",
    "picks": [
     {
-     "mercado": "doble",
-     "lado": "home",
-     "prob": 85,
-     "texto": "Botafogo gana o empata",
-     "nivel": "super"
-    },
-    {
      "mercado": "mas25",
      "lado": null,
      "prob": 68,
@@ -1164,13 +1045,6 @@
      "prob": 77,
      "texto": "Más de 1.5 goles",
      "nivel": "confiada"
-    },
-    {
-     "mercado": "menos35",
-     "lado": null,
-     "prob": 69,
-     "texto": "Menos de 3.5 goles",
-     "nivel": "media"
     }
    ],
    "estado": "pendiente"
@@ -1188,13 +1062,6 @@
      "prob": 78,
      "texto": "Menos de 3.5 goles",
      "nivel": "confiada"
-    },
-    {
-     "mercado": "mas15",
-     "lado": null,
-     "prob": 69,
-     "texto": "Más de 1.5 goles",
-     "nivel": "media"
     },
     {
      "mercado": "doble",
@@ -1226,13 +1093,6 @@
      "prob": 70,
      "texto": "São Paulo gana o empata",
      "nivel": "media"
-    },
-    {
-     "mercado": "mas15",
-     "lado": null,
-     "prob": 70,
-     "texto": "Más de 1.5 goles",
-     "nivel": "media"
     }
    ],
    "estado": "pendiente"
@@ -1244,13 +1104,6 @@
    "local": "Zwolle",
    "visitante": "Go Ahead",
    "picks": [
-    {
-     "mercado": "doble",
-     "lado": "away",
-     "prob": 88,
-     "texto": "Go Ahead gana o empata",
-     "nivel": "super"
-    },
     {
      "mercado": "mas25",
      "lado": null,
@@ -1331,13 +1184,6 @@
    "visitante": "AZ",
    "picks": [
     {
-     "mercado": "doble",
-     "lado": "away",
-     "prob": 88,
-     "texto": "AZ gana o empata",
-     "nivel": "super"
-    },
-    {
      "mercado": "1x2",
      "lado": "away",
      "prob": 72,
@@ -1362,18 +1208,11 @@
    "visitante": "Crystal Palace",
    "picks": [
     {
-     "mercado": "doble",
-     "lado": "home",
-     "prob": 88,
-     "texto": "Brighton Hove gana o empata",
-     "nivel": "super"
-    },
-    {
      "mercado": "1x2",
      "lado": "home",
-     "prob": 76,
+     "prob": 72,
      "texto": "Gana: Brighton Hove",
-     "nivel": "confiada"
+     "nivel": "media"
     },
     {
      "mercado": "mas25",
@@ -1422,13 +1261,6 @@
      "prob": 69,
      "texto": "Menos de 3.5 goles",
      "nivel": "media"
-    },
-    {
-     "mercado": "mas15",
-     "lado": null,
-     "prob": 68,
-     "texto": "Más de 1.5 goles",
-     "nivel": "media"
     }
    ],
    "estado": "pendiente"
@@ -1469,13 +1301,6 @@
      "lado": null,
      "prob": 72,
      "texto": "Más de 1.5 goles",
-     "nivel": "media"
-    },
-    {
-     "mercado": "menos35",
-     "lado": null,
-     "prob": 65,
-     "texto": "Menos de 3.5 goles",
      "nivel": "media"
     }
    ],
@@ -1597,13 +1422,6 @@
      "prob": 71,
      "texto": "Más de 1.5 goles",
      "nivel": "media"
-    },
-    {
-     "mercado": "menos35",
-     "lado": null,
-     "prob": 65,
-     "texto": "Menos de 3.5 goles",
-     "nivel": "media"
     }
    ],
    "estado": "pendiente"
@@ -1666,14 +1484,14 @@
     {
      "mercado": "menos35",
      "lado": null,
-     "prob": 78,
+     "prob": 75,
      "texto": "Menos de 3.5 goles",
      "nivel": "confiada"
     },
     {
      "mercado": "doble",
      "lado": "away",
-     "prob": 66,
+     "prob": 69,
      "texto": "Arsenal gana o empata",
      "nivel": "media"
     }
@@ -1700,13 +1518,6 @@
      "prob": 70,
      "texto": "Más de 1.5 goles",
      "nivel": "media"
-    },
-    {
-     "mercado": "menos35",
-     "lado": null,
-     "prob": 66,
-     "texto": "Menos de 3.5 goles",
-     "nivel": "media"
     }
    ],
    "estado": "pendiente"
@@ -1724,13 +1535,6 @@
      "prob": 76,
      "texto": "Menos de 3.5 goles",
      "nivel": "confiada"
-    },
-    {
-     "mercado": "mas15",
-     "lado": null,
-     "prob": 72,
-     "texto": "Más de 1.5 goles",
-     "nivel": "media"
     },
     {
      "mercado": "doble",
@@ -1853,13 +1657,6 @@
    "visitante": "Sevilla FC",
    "picks": [
     {
-     "mercado": "doble",
-     "lado": "home",
-     "prob": 84,
-     "texto": "Real Madrid gana o empata",
-     "nivel": "confiada"
-    },
-    {
      "mercado": "mas25",
      "lado": null,
      "prob": 66,
@@ -1913,13 +1710,6 @@
      "prob": 74,
      "texto": "Más de 1.5 goles",
      "nivel": "media"
-    },
-    {
-     "mercado": "menos35",
-     "lado": null,
-     "prob": 72,
-     "texto": "Menos de 3.5 goles",
-     "nivel": "media"
     }
    ],
    "estado": "pendiente"
@@ -1936,13 +1726,6 @@
      "lado": null,
      "prob": 74,
      "texto": "Menos de 3.5 goles",
-     "nivel": "media"
-    },
-    {
-     "mercado": "mas15",
-     "lado": null,
-     "prob": 72,
-     "texto": "Más de 1.5 goles",
      "nivel": "media"
     },
     {
@@ -1968,13 +1751,6 @@
      "prob": 77,
      "texto": "Menos de 3.5 goles",
      "nivel": "confiada"
-    },
-    {
-     "mercado": "mas15",
-     "lado": null,
-     "prob": 70,
-     "texto": "Más de 1.5 goles",
-     "nivel": "media"
     },
     {
      "mercado": "doble",
@@ -2005,13 +1781,6 @@
      "lado": null,
      "prob": 69,
      "texto": "Menos de 3.5 goles",
-     "nivel": "media"
-    },
-    {
-     "mercado": "mas15",
-     "lado": null,
-     "prob": 68,
-     "texto": "Más de 1.5 goles",
      "nivel": "media"
     }
    ],
@@ -2044,16 +1813,9 @@
     {
      "mercado": "menos35",
      "lado": null,
-     "prob": 81,
+     "prob": 77,
      "texto": "Menos de 3.5 goles",
      "nivel": "confiada"
-    },
-    {
-     "mercado": "doble",
-     "lado": "home",
-     "prob": 72,
-     "texto": "Tottenham gana o empata",
-     "nivel": "media"
     }
    ],
    "estado": "pendiente"
@@ -2070,13 +1832,6 @@
      "lado": null,
      "prob": 71,
      "texto": "Menos de 3.5 goles",
-     "nivel": "media"
-    },
-    {
-     "mercado": "mas15",
-     "lado": null,
-     "prob": 66,
-     "texto": "Más de 1.5 goles",
      "nivel": "media"
     }
    ],
@@ -2125,13 +1880,6 @@
      "lado": "home",
      "prob": 74,
      "texto": "Corinthians gana o empata",
-     "nivel": "media"
-    },
-    {
-     "mercado": "mas15",
-     "lado": null,
-     "prob": 66,
-     "texto": "Más de 1.5 goles",
      "nivel": "media"
     }
    ],
