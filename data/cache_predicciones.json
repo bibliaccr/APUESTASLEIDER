@@ -1753,5 +1753,49 @@
     "gv": 2
    }
   ]
+ },
+ "560606": {
+  "obtenido": "2026-10-16T15:18:48.660282+00:00",
+  "h2h": []
+ },
+ "555044": {
+  "obtenido": "2026-10-16T15:18:48.660282+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-04-18T23:00:00Z",
+    "local": "Vitória",
+    "visita": "Corinthians",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-10-25T19:00:00Z",
+    "local": "Vitória",
+    "visita": "Corinthians",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-06-01T21:30:00Z",
+    "local": "Corinthians",
+    "visita": "Vitória",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "fecha": "2024-11-09T19:30:00Z",
+    "local": "Vitória",
+    "visita": "Corinthians",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "fecha": "2024-07-04T23:00:00Z",
+    "local": "Corinthians",
+    "visita": "Vitória",
+    "gl": 3,
+    "gv": 2
+   }
+  ]
  }
 }

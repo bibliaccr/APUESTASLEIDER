@@ -1,11 +1,11 @@
 {
- "generado": "2026-10-16T05:59:24.212338+00:00",
+ "generado": "2026-10-16T15:18:48.660282+00:00",
  "niveles": {
   "super": 85,
   "confiada": 75,
   "media": 65
  },
- "llamadas_usadas": 16,
+ "llamadas_usadas": 12,
  "avisos": [],
  "partidos": [
   {
@@ -18803,7 +18803,43 @@
      "away": 0,
      "global": 0
     },
-    "h2h": []
+    "h2h": [
+     {
+      "fecha": "2026-04-18T23:00:00Z",
+      "local": "Vitória",
+      "visita": "Corinthians",
+      "gl": 0,
+      "gv": 0
+     },
+     {
+      "fecha": "2025-10-25T19:00:00Z",
+      "local": "Vitória",
+      "visita": "Corinthians",
+      "gl": 0,
+      "gv": 1
+     },
+     {
+      "fecha": "2025-06-01T21:30:00Z",
+      "local": "Corinthians",
+      "visita": "Vitória",
+      "gl": 0,
+      "gv": 0
+     },
+     {
+      "fecha": "2024-11-09T19:30:00Z",
+      "local": "Vitória",
+      "visita": "Corinthians",
+      "gl": 1,
+      "gv": 2
+     },
+     {
+      "fecha": "2024-07-04T23:00:00Z",
+      "local": "Corinthians",
+      "visita": "Vitória",
+      "gl": 3,
+      "gv": 2
+     }
+    ]
    }
   }
  ]
