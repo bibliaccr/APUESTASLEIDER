@@ -343,5 +343,146 @@
     "gv": 1
    }
   ]
+ },
+ "558869": {
+  "obtenido": "2026-10-16T04:24:53.222878+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-02-22T19:00:00Z",
+    "local": "Feyenoord",
+    "visita": "Telstar",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-11-30T13:30:00Z",
+    "local": "Telstar",
+    "visita": "Feyenoord",
+    "gl": 1,
+    "gv": 2
+   }
+  ]
+ },
+ "558572": {
+  "obtenido": "2026-10-16T04:24:53.222878+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-03-08T17:00:00Z",
+    "local": "Genoa",
+    "visita": "Roma",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-12-29T19:45:00Z",
+    "local": "Roma",
+    "visita": "Genoa",
+    "gl": 3,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-01-17T19:45:00Z",
+    "local": "Roma",
+    "visita": "Genoa",
+    "gl": 3,
+    "gv": 1
+   },
+   {
+    "fecha": "2024-09-15T10:30:00Z",
+    "local": "Genoa",
+    "visita": "Roma",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "fecha": "2024-05-19T18:45:00Z",
+    "local": "Roma",
+    "visita": "Genoa",
+    "gl": 1,
+    "gv": 0
+   }
+  ]
+ },
+ "558868": {
+  "obtenido": "2026-10-16T04:24:53.222878+00:00",
+  "h2h": [
+   {
+    "fecha": "2025-03-02T15:45:00Z",
+    "local": "Sparta",
+    "visita": "Willem II",
+    "gl": 4,
+    "gv": 0
+   },
+   {
+    "fecha": "2024-08-31T19:00:00Z",
+    "local": "Willem II",
+    "visita": "Sparta",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "fecha": "2022-02-13T11:15:00Z",
+    "local": "Sparta",
+    "visita": "Willem II",
+    "gl": 1,
+    "gv": 0
+   }
+  ]
+ },
+ "555043": {
+  "obtenido": "2026-10-16T04:24:53.222878+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-04-18T21:30:00Z",
+    "local": "Chapecoense",
+    "visita": "Botafogo",
+    "gl": 1,
+    "gv": 4
+   }
+  ]
+ },
+ "558867": {
+  "obtenido": "2026-10-16T04:24:53.222878+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-04-05T10:15:00Z",
+    "local": "Go Ahead",
+    "visita": "Zwolle",
+    "gl": 5,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-09-21T10:15:00Z",
+    "local": "Zwolle",
+    "visita": "Go Ahead",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "fecha": "2025-05-11T10:15:00Z",
+    "local": "Zwolle",
+    "visita": "Go Ahead",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "fecha": "2024-11-03T11:15:00Z",
+    "local": "Go Ahead",
+    "visita": "Zwolle",
+    "gl": 2,
+    "gv": 2
+   },
+   {
+    "fecha": "2024-02-11T11:15:00Z",
+    "local": "Go Ahead",
+    "visita": "Zwolle",
+    "gl": 1,
+    "gv": 1
+   }
+  ]
+ },
+ "564715": {
+  "obtenido": "2026-10-16T04:24:53.222878+00:00",
+  "h2h": []
  }
 }
