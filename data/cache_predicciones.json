@@ -1801,5 +1801,45 @@
  "561826": {
   "obtenido": "2026-10-17T01:04:56.332621+00:00",
   "h2h": []
+ },
+ "564709": {
+  "obtenido": "2026-10-17T14:06:59.672423+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-05-17T17:00:00Z",
+    "local": "Sevilla FC",
+    "visita": "Real Madrid",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-12-20T20:00:00Z",
+    "local": "Real Madrid",
+    "visita": "Sevilla FC",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-05-18T17:00:00Z",
+    "local": "Sevilla FC",
+    "visita": "Real Madrid",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "fecha": "2024-12-22T15:15:00Z",
+    "local": "Real Madrid",
+    "visita": "Sevilla FC",
+    "gl": 4,
+    "gv": 2
+   },
+   {
+    "fecha": "2024-02-25T20:00:00Z",
+    "local": "Real Madrid",
+    "visita": "Sevilla FC",
+    "gl": 1,
+    "gv": 0
+   }
+  ]
  }
 }
