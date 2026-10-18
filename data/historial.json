@@ -1435,24 +1435,28 @@
      "lado": null,
      "prob": 78,
      "texto": "Menos de 3.5 goles",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": true
     },
     {
      "mercado": "doble",
      "lado": "home",
      "prob": 71,
      "texto": "São Paulo gana o empata",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     },
     {
      "mercado": "mas15",
      "lado": null,
      "prob": 70,
      "texto": "Más de 1.5 goles",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": false
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "1-0"
   },
   {
    "id": 558867,
@@ -1466,38 +1470,44 @@
      "lado": null,
      "prob": 77,
      "texto": "Más de 2.5 goles",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": true
     },
     {
      "mercado": "1x2",
      "lado": "away",
      "prob": 72,
      "texto": "Gana: Go Ahead",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": false
     },
     {
      "mercado": "btts_si",
      "lado": null,
      "prob": 66,
      "texto": "Ambos equipos marcan",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     },
     {
      "mercado": "mas15",
      "lado": null,
      "prob": 91,
      "texto": "Más de 1.5 goles",
-     "nivel": "super"
+     "nivel": "super",
+     "acierto": true
     },
     {
      "mercado": "doble",
      "lado": "away",
      "prob": 87,
      "texto": "Go Ahead gana o empata",
-     "nivel": "super"
+     "nivel": "super",
+     "acierto": false
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "4-1"
   },
   {
    "id": 558574,
@@ -1511,17 +1521,20 @@
      "lado": null,
      "prob": 80,
      "texto": "Más de 1.5 goles",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": true
     },
     {
      "mercado": "doble",
      "lado": "home",
      "prob": 68,
      "texto": "Udinese gana o empata",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": false
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "0-3"
   },
   {
    "id": 564715,
@@ -1535,24 +1548,28 @@
      "lado": null,
      "prob": 75,
      "texto": "Más de 2.5 goles",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": false
     },
     {
      "mercado": "btts_si",
      "lado": null,
      "prob": 73,
      "texto": "Ambos equipos marcan",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": false
     },
     {
      "mercado": "mas15",
      "lado": null,
      "prob": 90,
      "texto": "Más de 1.5 goles",
-     "nivel": "super"
+     "nivel": "super",
+     "acierto": true
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "2-0"
   },
   {
    "id": 558865,
@@ -1789,17 +1806,17 @@
      "nivel": "confiada"
     },
     {
-     "mercado": "doble",
-     "lado": "away",
-     "prob": 74,
-     "texto": "Ajax gana o empata",
-     "nivel": "media"
-    },
-    {
      "mercado": "btts_si",
      "lado": null,
      "prob": 74,
      "texto": "Ambos equipos marcan",
+     "nivel": "media"
+    },
+    {
+     "mercado": "doble",
+     "lado": "away",
+     "prob": 73,
+     "texto": "Ajax gana o empata",
      "nivel": "media"
     },
     {
@@ -1935,7 +1952,7 @@
     {
      "mercado": "doble",
      "lado": "home",
-     "prob": 74,
+     "prob": 73,
      "texto": "Milan gana o empata",
      "nivel": "media"
     },
@@ -1990,7 +2007,7 @@
     {
      "mercado": "doble",
      "lado": "home",
-     "prob": 81,
+     "prob": 82,
      "texto": "Twente gana o empata",
      "nivel": "confiada"
     },
@@ -2004,7 +2021,7 @@
     {
      "mercado": "btts_si",
      "lado": null,
-     "prob": 69,
+     "prob": 68,
      "texto": "Ambos equipos marcan",
      "nivel": "media"
     },
@@ -2042,7 +2059,7 @@
     {
      "mercado": "doble",
      "lado": "away",
-     "prob": 66,
+     "prob": 65,
      "texto": "Sittard gana o empata",
      "nivel": "media"
     },
@@ -2234,7 +2251,7 @@
     {
      "mercado": "doble",
      "lado": "away",
-     "prob": 69,
+     "prob": 70,
      "texto": "Cagliari gana o empata",
      "nivel": "media"
     },
@@ -2258,7 +2275,7 @@
     {
      "mercado": "menos35",
      "lado": null,
-     "prob": 73,
+     "prob": 72,
      "texto": "Menos de 3.5 goles",
      "nivel": "media"
     }
@@ -2292,7 +2309,7 @@
     {
      "mercado": "menos35",
      "lado": null,
-     "prob": 70,
+     "prob": 71,
      "texto": "Menos de 3.5 goles",
      "nivel": "media"
     }
@@ -2413,45 +2430,45 @@
  "resumen": {
   "por_nivel": {
    "media": {
-    "total": 58,
-    "aciertos": 42
+    "total": 64,
+    "aciertos": 44
    },
    "confiada": {
-    "total": 43,
-    "aciertos": 29
+    "total": 47,
+    "aciertos": 32
    },
    "super": {
-    "total": 15,
-    "aciertos": 10
+    "total": 18,
+    "aciertos": 12
    }
   },
   "por_mercado": {
    "mas15": {
-    "total": 41,
-    "aciertos": 27
+    "total": 45,
+    "aciertos": 30
    },
    "doble": {
-    "total": 40,
-    "aciertos": 29
+    "total": 43,
+    "aciertos": 30
    },
    "mas25": {
-    "total": 11,
-    "aciertos": 7
+    "total": 13,
+    "aciertos": 8
    },
    "btts_si": {
-    "total": 5,
-    "aciertos": 3
+    "total": 7,
+    "aciertos": 4
    },
    "menos35": {
-    "total": 12,
-    "aciertos": 10
+    "total": 13,
+    "aciertos": 11
    },
    "menos25": {
     "total": 1,
     "aciertos": 1
    },
    "1x2": {
-    "total": 6,
+    "total": 7,
     "aciertos": 4
    }
   }
