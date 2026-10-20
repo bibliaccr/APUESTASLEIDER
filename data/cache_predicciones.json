@@ -1841,5 +1841,94 @@
     "gv": 0
    }
   ]
+ },
+ "558567": {
+  "obtenido": "2026-10-20T01:35:45.793633+00:00",
+  "h2h": [
+   {
+    "fecha": "2025-03-02T11:30:00Z",
+    "local": "Monza",
+    "visita": "Torino",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "fecha": "2024-11-24T14:00:00Z",
+    "local": "Torino",
+    "visita": "Monza",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "fecha": "2024-03-30T14:00:00Z",
+    "local": "Torino",
+    "visita": "Monza",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2023-11-11T19:45:00Z",
+    "local": "Monza",
+    "visita": "Torino",
+    "gl": 1,
+    "gv": 1
+   }
+  ]
+ },
+ "564719": {
+  "obtenido": "2026-10-20T01:35:45.793633+00:00",
+  "h2h": []
+ },
+ "567329": {
+  "obtenido": "2026-10-20T01:35:45.793633+00:00",
+  "h2h": [
+   {
+    "fecha": "2023-04-29T14:30:00Z",
+    "local": "Marítimo",
+    "visita": "Vitória SC",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "fecha": "2022-11-13T15:30:00Z",
+    "local": "Vitória SC",
+    "visita": "Marítimo",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2022-03-13T15:30:00Z",
+    "local": "Marítimo",
+    "visita": "Vitória SC",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "fecha": "2021-10-22T19:15:00Z",
+    "local": "Vitória SC",
+    "visita": "Marítimo",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "fecha": "2021-05-16T19:00:00Z",
+    "local": "Marítimo",
+    "visita": "Vitória SC",
+    "gl": 0,
+    "gv": 0
+   }
+  ]
+ },
+ "555052": {
+  "obtenido": "2026-10-20T01:35:45.793633+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-04-25T21:30:00Z",
+    "local": "Clube do Remo",
+    "visita": "Cruzeiro",
+    "gl": 0,
+    "gv": 1
+   }
+  ]
  }
 }

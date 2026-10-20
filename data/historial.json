@@ -2338,17 +2338,20 @@
      "lado": "away",
      "prob": 71,
      "texto": "Cagliari gana o empata",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": false
     },
     {
      "mercado": "menos35",
      "lado": null,
      "prob": 69,
      "texto": "Menos de 3.5 goles",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": false
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "4-0"
   },
   {
    "id": 558578,
@@ -2362,10 +2365,12 @@
      "lado": null,
      "prob": 72,
      "texto": "Menos de 3.5 goles",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "0-3"
   },
   {
    "id": 560606,
@@ -2379,10 +2384,12 @@
      "lado": null,
      "prob": 77,
      "texto": "Menos de 3.5 goles",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": false
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "3-1"
   },
   {
    "id": 564717,
@@ -2396,10 +2403,12 @@
      "lado": null,
      "prob": 71,
      "texto": "Menos de 3.5 goles",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "1-1"
   },
   {
    "id": 567271,
@@ -2413,24 +2422,28 @@
      "lado": null,
      "prob": 66,
      "texto": "Menos de 2.5 goles",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": false
     },
     {
      "mercado": "doble",
      "lado": "away",
      "prob": 65,
      "texto": "Gil Vicente gana o empata",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     },
     {
      "mercado": "menos35",
      "lado": null,
      "prob": 83,
      "texto": "Menos de 3.5 goles",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": true
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "1-2"
   },
   {
    "id": 555044,
@@ -2444,24 +2457,28 @@
      "lado": null,
      "prob": 81,
      "texto": "Menos de 3.5 goles",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": true
     },
     {
      "mercado": "doble",
      "lado": "home",
      "prob": 74,
      "texto": "Corinthians gana o empata",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     },
     {
      "mercado": "mas15",
      "lado": null,
      "prob": 66,
      "texto": "Más de 1.5 goles",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "1-1"
   },
   {
    "id": 561826,
@@ -2510,17 +2527,282 @@
     }
    ],
    "estado": "pendiente"
+  },
+  {
+   "id": 558863,
+   "fecha": "2026-10-23T18:00:00Z",
+   "liga": "Eredivisie",
+   "local": "Go Ahead",
+   "visitante": "Telstar",
+   "picks": [
+    {
+     "mercado": "mas25",
+     "lado": null,
+     "prob": 72,
+     "texto": "Más de 2.5 goles",
+     "nivel": "media"
+    },
+    {
+     "mercado": "btts_si",
+     "lado": null,
+     "prob": 71,
+     "texto": "Ambos equipos marcan",
+     "nivel": "media"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 68,
+     "texto": "Go Ahead gana o empata",
+     "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 89,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 565833,
+   "fecha": "2026-10-23T18:30:00Z",
+   "liga": "Bundesliga",
+   "local": "Stuttgart",
+   "visitante": "M'gladbach",
+   "picks": [
+    {
+     "mercado": "mas25",
+     "lado": null,
+     "prob": 70,
+     "texto": "Más de 2.5 goles",
+     "nivel": "media"
+    },
+    {
+     "mercado": "1x2",
+     "lado": "home",
+     "prob": 67,
+     "texto": "Gana: Stuttgart",
+     "nivel": "media"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 82,
+     "texto": "Stuttgart gana o empata",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 85,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 558567,
+   "fecha": "2026-10-23T18:45:00Z",
+   "liga": "Serie A",
+   "local": "Torino",
+   "visitante": "Monza",
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 80,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 65,
+     "texto": "Torino gana o empata",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 559654,
+   "fecha": "2026-10-23T18:45:00Z",
+   "liga": "Ligue 1",
+   "local": "Brest",
+   "visitante": "Nice",
+   "picks": [
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 72,
+     "texto": "Brest gana o empata",
+     "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 70,
+     "texto": "Más de 1.5 goles",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 560620,
+   "fecha": "2026-10-23T19:00:00Z",
+   "liga": "Premier League",
+   "local": "Ipswich Town",
+   "visitante": "Nottingham",
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 71,
+     "texto": "Más de 1.5 goles",
+     "nivel": "media"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 67,
+     "texto": "Ipswich Town gana o empata",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 564719,
+   "fecha": "2026-10-23T19:00:00Z",
+   "liga": "LaLiga",
+   "local": "Alavés",
+   "visitante": "Málaga",
+   "picks": [
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 82,
+     "texto": "Alavés gana o empata",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 75,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 72,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 561894,
+   "fecha": "2026-10-23T19:00:00Z",
+   "liga": "Championship",
+   "local": "Bolton",
+   "visitante": "Middlesbrough",
+   "picks": [
+    {
+     "mercado": "doble",
+     "lado": "away",
+     "prob": 67,
+     "texto": "Middlesbrough gana o empata",
+     "nivel": "media"
+    },
+    {
+     "mercado": "mas25",
+     "lado": null,
+     "prob": 65,
+     "texto": "Más de 2.5 goles",
+     "nivel": "media"
+    },
+    {
+     "mercado": "btts_si",
+     "lado": null,
+     "prob": 65,
+     "texto": "Ambos equipos marcan",
+     "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 84,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 567329,
+   "fecha": "2026-10-23T19:45:00Z",
+   "liga": "Primeira Liga",
+   "local": "Vitória SC",
+   "visitante": "Marítimo",
+   "picks": [
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 82,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 65,
+     "texto": "Más de 1.5 goles",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 555052,
+   "fecha": "2026-10-23T23:00:00Z",
+   "liga": "Brasileirão Serie A",
+   "local": "Cruzeiro",
+   "visitante": "Clube do Remo",
+   "picks": [
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 82,
+     "texto": "Cruzeiro gana o empata",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 82,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    }
+   ],
+   "estado": "pendiente"
   }
  ],
  "resumen": {
   "por_nivel": {
    "media": {
-    "total": 99,
-    "aciertos": 77
+    "total": 107,
+    "aciertos": 82
    },
    "confiada": {
-    "total": 62,
-    "aciertos": 44
+    "total": 65,
+    "aciertos": 46
    },
    "super": {
     "total": 28,
@@ -2529,12 +2811,12 @@
   },
   "por_mercado": {
    "mas15": {
-    "total": 63,
-    "aciertos": 48
+    "total": 64,
+    "aciertos": 49
    },
    "doble": {
-    "total": 60,
-    "aciertos": 45
+    "total": 63,
+    "aciertos": 47
    },
    "mas25": {
     "total": 21,
@@ -2545,11 +2827,11 @@
     "aciertos": 9
    },
    "menos35": {
-    "total": 22,
-    "aciertos": 19
+    "total": 28,
+    "aciertos": 23
    },
    "menos25": {
-    "total": 2,
+    "total": 3,
     "aciertos": 1
    },
    "1x2": {
