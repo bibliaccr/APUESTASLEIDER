@@ -2792,6 +2792,742 @@
     }
    ],
    "estado": "pendiente"
+  },
+  {
+   "id": 560614,
+   "fecha": "2026-10-24T11:30:00Z",
+   "liga": "Premier League",
+   "local": "Aston Villa",
+   "visitante": "Man City",
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 77,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "doble",
+     "lado": "away",
+     "prob": 75,
+     "texto": "Man City gana o empata",
+     "nivel": "confiada"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 561895,
+   "fecha": "2026-10-24T11:30:00Z",
+   "liga": "Championship",
+   "local": "Sheffield Utd",
+   "visitante": "Derby County",
+   "picks": [
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 83,
+     "texto": "Sheffield Utd gana o empata",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 74,
+     "texto": "Más de 1.5 goles",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 561901,
+   "fecha": "2026-10-24T11:30:00Z",
+   "liga": "Championship",
+   "local": "Charlton",
+   "visitante": "Norwich",
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 76,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 66,
+     "texto": "Charlton gana o empata",
+     "nivel": "media"
+    },
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 70,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 561904,
+   "fecha": "2026-10-24T11:30:00Z",
+   "liga": "Championship",
+   "local": "Portsmouth",
+   "visitante": "Millwall",
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 79,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 69,
+     "texto": "Portsmouth gana o empata",
+     "nivel": "media"
+    },
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 66,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 564718,
+   "fecha": "2026-10-24T12:00:00Z",
+   "liga": "LaLiga",
+   "local": "Rayo Vallecano",
+   "visitante": "Elche",
+   "picks": [
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 71,
+     "texto": "Rayo Vallecano gana o empata",
+     "nivel": "media"
+    },
+    {
+     "mercado": "mas25",
+     "lado": null,
+     "prob": 66,
+     "texto": "Más de 2.5 goles",
+     "nivel": "media"
+    },
+    {
+     "mercado": "btts_si",
+     "lado": null,
+     "prob": 66,
+     "texto": "Ambos equipos marcan",
+     "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 85,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 558560,
+   "fecha": "2026-10-24T13:00:00Z",
+   "liga": "Serie A",
+   "local": "Cagliari",
+   "visitante": "Bologna",
+   "picks": [
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 80,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 68,
+     "texto": "Cagliari gana o empata",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 558561,
+   "fecha": "2026-10-24T13:00:00Z",
+   "liga": "Serie A",
+   "local": "Como 1907",
+   "visitante": "Sassuolo",
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 79,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 72,
+     "texto": "Como 1907 gana o empata",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 565830,
+   "fecha": "2026-10-24T13:30:00Z",
+   "liga": "Bundesliga",
+   "local": "Mainz",
+   "visitante": "Bremen",
+   "picks": [
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 77,
+     "texto": "Mainz gana o empata",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "mas25",
+     "lado": null,
+     "prob": 73,
+     "texto": "Más de 2.5 goles",
+     "nivel": "media"
+    },
+    {
+     "mercado": "btts_si",
+     "lado": null,
+     "prob": 65,
+     "texto": "Ambos equipos marcan",
+     "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 87,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 565831,
+   "fecha": "2026-10-24T13:30:00Z",
+   "liga": "Bundesliga",
+   "local": "1. FC Köln",
+   "visitante": "Schalke",
+   "picks": [
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 73,
+     "texto": "1. FC Köln gana o empata",
+     "nivel": "media"
+    },
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 72,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 565832,
+   "fecha": "2026-10-24T13:30:00Z",
+   "liga": "Bundesliga",
+   "local": "RB Leipzig",
+   "visitante": "Elversberg",
+   "picks": [
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 77,
+     "texto": "RB Leipzig gana o empata",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "mas25",
+     "lado": null,
+     "prob": 75,
+     "texto": "Más de 2.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "btts_si",
+     "lado": null,
+     "prob": 67,
+     "texto": "Ambos equipos marcan",
+     "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 88,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 565834,
+   "fecha": "2026-10-24T13:30:00Z",
+   "liga": "Bundesliga",
+   "local": "SC Paderborn",
+   "visitante": "HSV",
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 73,
+     "texto": "Más de 1.5 goles",
+     "nivel": "media"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 72,
+     "texto": "SC Paderborn gana o empata",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 565838,
+   "fecha": "2026-10-24T13:30:00Z",
+   "liga": "Bundesliga",
+   "local": "Augsburg",
+   "visitante": "Union Berlin",
+   "picks": [
+    {
+     "mercado": "mas25",
+     "lado": null,
+     "prob": 80,
+     "texto": "Más de 2.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "1x2",
+     "lado": "home",
+     "prob": 79,
+     "texto": "Gana: Augsburg",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 90,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 89,
+     "texto": "Augsburg gana o empata",
+     "nivel": "super"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 560616,
+   "fecha": "2026-10-24T14:00:00Z",
+   "liga": "Premier League",
+   "local": "Arsenal",
+   "visitante": "Everton",
+   "picks": [
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 77,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 74,
+     "texto": "Arsenal gana o empata",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 560618,
+   "fecha": "2026-10-24T14:00:00Z",
+   "liga": "Premier League",
+   "local": "Coventry City",
+   "visitante": "Fulham",
+   "picks": [
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 71,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 561893,
+   "fecha": "2026-10-24T14:00:00Z",
+   "liga": "Championship",
+   "local": "Cardiff",
+   "visitante": "Birmingham",
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 80,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "doble",
+     "lado": "away",
+     "prob": 67,
+     "texto": "Birmingham gana o empata",
+     "nivel": "media"
+    },
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 65,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 561896,
+   "fecha": "2026-10-24T14:00:00Z",
+   "liga": "Championship",
+   "local": "QPR",
+   "visitante": "Swansea",
+   "picks": [
+    {
+     "mercado": "doble",
+     "lado": "away",
+     "prob": 67,
+     "texto": "Swansea gana o empata",
+     "nivel": "media"
+    },
+    {
+     "mercado": "menos25",
+     "lado": null,
+     "prob": 65,
+     "texto": "Menos de 2.5 goles",
+     "nivel": "media"
+    },
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 84,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "confiada"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 561897,
+   "fecha": "2026-10-24T14:00:00Z",
+   "liga": "Championship",
+   "local": "Stoke",
+   "visitante": "Bristol City",
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 76,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 75,
+     "texto": "Stoke gana o empata",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 70,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 561898,
+   "fecha": "2026-10-24T14:00:00Z",
+   "liga": "Championship",
+   "local": "Preston NE",
+   "visitante": "West Brom",
+   "picks": [
+    {
+     "mercado": "doble",
+     "lado": "away",
+     "prob": 79,
+     "texto": "West Brom gana o empata",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 74,
+     "texto": "Más de 1.5 goles",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 561899,
+   "fecha": "2026-10-24T14:00:00Z",
+   "liga": "Championship",
+   "local": "Lincoln City",
+   "visitante": "Burnley",
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 78,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "doble",
+     "lado": "away",
+     "prob": 65,
+     "texto": "Burnley gana o empata",
+     "nivel": "media"
+    },
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 68,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 561900,
+   "fecha": "2026-10-24T14:00:00Z",
+   "liga": "Championship",
+   "local": "West Ham",
+   "visitante": "Southampton",
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 83,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 74,
+     "texto": "West Ham gana o empata",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 561902,
+   "fecha": "2026-10-24T14:00:00Z",
+   "liga": "Championship",
+   "local": "Blackburn",
+   "visitante": "Wrexham",
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 79,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 71,
+     "texto": "Blackburn gana o empata",
+     "nivel": "media"
+    },
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 66,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 561903,
+   "fecha": "2026-10-24T14:00:00Z",
+   "liga": "Championship",
+   "local": "Wolverhampton",
+   "visitante": "Watford",
+   "picks": [
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 83,
+     "texto": "Wolverhampton gana o empata",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 81,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 564727,
+   "fecha": "2026-10-24T14:15:00Z",
+   "liga": "LaLiga",
+   "local": "Santander",
+   "visitante": "Espanyol",
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 84,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "doble",
+     "lado": "away",
+     "prob": 67,
+     "texto": "Espanyol gana o empata",
+     "nivel": "media"
+    },
+    {
+     "mercado": "btts_si",
+     "lado": null,
+     "prob": 65,
+     "texto": "Ambos equipos marcan",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 567337,
+   "fecha": "2026-10-24T14:30:00Z",
+   "liga": "Primeira Liga",
+   "local": "Amadora",
+   "visitante": "Casa Pia",
+   "picks": [
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 83,
+     "texto": "Amadora gana o empata",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 80,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 558862,
+   "fecha": "2026-10-24T14:30:00Z",
+   "liga": "Eredivisie",
+   "local": "Utrecht",
+   "visitante": "Zwolle",
+   "picks": [
+    {
+     "mercado": "mas25",
+     "lado": null,
+     "prob": 76,
+     "texto": "Más de 2.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "btts_si",
+     "lado": null,
+     "prob": 75,
+     "texto": "Ambos equipos marcan",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 91,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 559655,
+   "fecha": "2026-10-24T15:15:00Z",
+   "liga": "Ligue 1",
+   "local": "Toulouse",
+   "visitante": "Troyes",
+   "picks": [
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 80,
+     "texto": "Toulouse gana o empata",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 79,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    }
+   ],
+   "estado": "pendiente"
   }
  ],
  "resumen": {
