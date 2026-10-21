@@ -2318,5 +2318,131 @@
     "gv": 0
    }
   ]
+ },
+ "561898": {
+  "obtenido": "2026-10-21T15:53:00.207517+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-04-18T14:00:00Z",
+    "local": "Preston NE",
+    "visita": "West Brom",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "fecha": "2025-10-18T14:00:00Z",
+    "local": "West Brom",
+    "visita": "Preston NE",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-01-01T15:00:00Z",
+    "local": "West Brom",
+    "visita": "Preston NE",
+    "gl": 3,
+    "gv": 1
+   },
+   {
+    "fecha": "2024-11-30T15:00:00Z",
+    "local": "Preston NE",
+    "visita": "West Brom",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "fecha": "2024-05-04T11:30:00Z",
+    "local": "West Brom",
+    "visita": "Preston NE",
+    "gl": 3,
+    "gv": 0
+   }
+  ]
+ },
+ "561899": {
+  "obtenido": "2026-10-21T15:53:00.207517+00:00",
+  "h2h": []
+ },
+ "561900": {
+  "obtenido": "2026-10-21T15:53:00.207517+00:00",
+  "h2h": [
+   {
+    "fecha": "2025-04-19T14:00:00Z",
+    "local": "West Ham",
+    "visita": "Southampton",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "fecha": "2024-12-26T15:00:00Z",
+    "local": "Southampton",
+    "visita": "West Ham",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "fecha": "2023-04-02T13:00:00Z",
+    "local": "West Ham",
+    "visita": "Southampton",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2022-10-16T13:00:00Z",
+    "local": "Southampton",
+    "visita": "West Ham",
+    "gl": 1,
+    "gv": 1
+   }
+  ]
+ },
+ "561902": {
+  "obtenido": "2026-10-21T15:53:00.207517+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-01-01T12:30:00Z",
+    "local": "Blackburn",
+    "visita": "Wrexham",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "fecha": "2025-11-29T15:00:00Z",
+    "local": "Wrexham",
+    "visita": "Blackburn",
+    "gl": 1,
+    "gv": 1
+   }
+  ]
+ },
+ "561903": {
+  "obtenido": "2026-10-21T15:53:00.207517+00:00",
+  "h2h": [
+   {
+    "fecha": "2022-03-10T19:30:00Z",
+    "local": "Wolverhampton",
+    "visita": "Watford",
+    "gl": 4,
+    "gv": 0
+   },
+   {
+    "fecha": "2021-09-11T14:00:00Z",
+    "local": "Watford",
+    "visita": "Wolverhampton",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "fecha": "2020-01-01T15:00:00Z",
+    "local": "Watford",
+    "visita": "Wolverhampton",
+    "gl": 2,
+    "gv": 1
+   }
+  ]
+ },
+ "564727": {
+  "obtenido": "2026-10-21T15:53:00.207517+00:00",
+  "h2h": []
  }
 }

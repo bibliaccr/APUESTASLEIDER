@@ -4041,6 +4041,467 @@
     }
    ],
    "estado": "pendiente"
+  },
+  {
+   "id": 558859,
+   "fecha": "2026-10-25T11:15:00Z",
+   "liga": "Eredivisie",
+   "local": "Sittard",
+   "visitante": "Excelsior",
+   "picks": [
+    {
+     "mercado": "mas25",
+     "lado": null,
+     "prob": 71,
+     "texto": "Más de 2.5 goles",
+     "nivel": "media"
+    },
+    {
+     "mercado": "btts_si",
+     "lado": null,
+     "prob": 71,
+     "texto": "Ambos equipos marcan",
+     "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 88,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 558563,
+   "fecha": "2026-10-25T11:30:00Z",
+   "liga": "Serie A",
+   "local": "Inter",
+   "visitante": "Fiorentina",
+   "picks": [
+    {
+     "mercado": "mas25",
+     "lado": null,
+     "prob": 78,
+     "texto": "Más de 2.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "1x2",
+     "lado": "home",
+     "prob": 76,
+     "texto": "Gana: Inter",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 89,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 87,
+     "texto": "Inter gana o empata",
+     "nivel": "super"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 564720,
+   "fecha": "2026-10-25T13:00:00Z",
+   "liga": "LaLiga",
+   "local": "Athletic",
+   "visitante": "Getafe",
+   "picks": [
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 77,
+     "texto": "Athletic gana o empata",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "menos25",
+     "lado": null,
+     "prob": 69,
+     "texto": "Menos de 2.5 goles",
+     "nivel": "media"
+    },
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 84,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "confiada"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 558857,
+   "fecha": "2026-10-25T13:30:00Z",
+   "liga": "Eredivisie",
+   "local": "NEC",
+   "visitante": "Groningen",
+   "picks": [
+    {
+     "mercado": "mas25",
+     "lado": null,
+     "prob": 77,
+     "texto": "Más de 2.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "btts_si",
+     "lado": null,
+     "prob": 74,
+     "texto": "Ambos equipos marcan",
+     "nivel": "media"
+    },
+    {
+     "mercado": "doble",
+     "lado": "away",
+     "prob": 70,
+     "texto": "Groningen gana o empata",
+     "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 91,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 558858,
+   "fecha": "2026-10-25T13:30:00Z",
+   "liga": "Eredivisie",
+   "local": "PSV",
+   "visitante": "Feyenoord",
+   "picks": [
+    {
+     "mercado": "mas25",
+     "lado": null,
+     "prob": 80,
+     "texto": "Más de 2.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "btts_si",
+     "lado": null,
+     "prob": 76,
+     "texto": "Ambos equipos marcan",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "doble",
+     "lado": "away",
+     "prob": 72,
+     "texto": "Feyenoord gana o empata",
+     "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 93,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 560612,
+   "fecha": "2026-10-25T14:00:00Z",
+   "liga": "Premier League",
+   "local": "Liverpool",
+   "visitante": "Brighton Hove",
+   "picks": [
+    {
+     "mercado": "doble",
+     "lado": "away",
+     "prob": 75,
+     "texto": "Brighton Hove gana o empata",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 75,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 560613,
+   "fecha": "2026-10-25T14:00:00Z",
+   "liga": "Premier League",
+   "local": "Crystal Palace",
+   "visitante": "Newcastle",
+   "picks": [
+    {
+     "mercado": "mas25",
+     "lado": null,
+     "prob": 65,
+     "texto": "Más de 2.5 goles",
+     "nivel": "media"
+    },
+    {
+     "mercado": "btts_si",
+     "lado": null,
+     "prob": 65,
+     "texto": "Ambos equipos marcan",
+     "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 83,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 560615,
+   "fecha": "2026-10-25T14:00:00Z",
+   "liga": "Premier League",
+   "local": "Man United",
+   "visitante": "Bournemouth",
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 76,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 71,
+     "texto": "Man United gana o empata",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 560619,
+   "fecha": "2026-10-25T14:00:00Z",
+   "liga": "Premier League",
+   "local": "Hull City",
+   "visitante": "Brentford",
+   "picks": [
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 72,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 558562,
+   "fecha": "2026-10-25T14:00:00Z",
+   "liga": "Serie A",
+   "local": "Atalanta",
+   "visitante": "Frosinone",
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 76,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 558568,
+   "fecha": "2026-10-25T14:00:00Z",
+   "liga": "Serie A",
+   "local": "Genoa",
+   "visitante": "Venezia FC",
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 69,
+     "texto": "Más de 1.5 goles",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 559650,
+   "fecha": "2026-10-25T14:00:00Z",
+   "liga": "Ligue 1",
+   "local": "Monaco",
+   "visitante": "Lille",
+   "picks": [
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 79,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "confiada"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 565835,
+   "fecha": "2026-10-25T14:30:00Z",
+   "liga": "Bundesliga",
+   "local": "Hoffenheim",
+   "visitante": "Leverkusen",
+   "picks": [
+    {
+     "mercado": "mas25",
+     "lado": null,
+     "prob": 72,
+     "texto": "Más de 2.5 goles",
+     "nivel": "media"
+    },
+    {
+     "mercado": "btts_si",
+     "lado": null,
+     "prob": 70,
+     "texto": "Ambos equipos marcan",
+     "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 86,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 564725,
+   "fecha": "2026-10-25T15:15:00Z",
+   "liga": "LaLiga",
+   "local": "Celta",
+   "visitante": "Real Betis",
+   "picks": [
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 77,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 73,
+     "texto": "Celta gana o empata",
+     "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 70,
+     "texto": "Más de 1.5 goles",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 567336,
+   "fecha": "2026-10-25T15:30:00Z",
+   "liga": "Primeira Liga",
+   "local": "Estoril Praia",
+   "visitante": "Moreirense",
+   "picks": [
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 81,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "doble",
+     "lado": "away",
+     "prob": 72,
+     "texto": "Moreirense gana o empata",
+     "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 66,
+     "texto": "Más de 1.5 goles",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 558856,
+   "fecha": "2026-10-25T15:45:00Z",
+   "liga": "Eredivisie",
+   "local": "Sparta",
+   "visitante": "Ajax",
+   "picks": [
+    {
+     "mercado": "mas25",
+     "lado": null,
+     "prob": 84,
+     "texto": "Más de 2.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "1x2",
+     "lado": "away",
+     "prob": 74,
+     "texto": "Gana: Ajax",
+     "nivel": "media"
+    },
+    {
+     "mercado": "btts_si",
+     "lado": null,
+     "prob": 72,
+     "texto": "Ambos equipos marcan",
+     "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 95,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
+    },
+    {
+     "mercado": "doble",
+     "lado": "away",
+     "prob": 87,
+     "texto": "Ajax gana o empata",
+     "nivel": "super"
+    }
+   ],
+   "estado": "pendiente"
   }
  ],
  "resumen": {
