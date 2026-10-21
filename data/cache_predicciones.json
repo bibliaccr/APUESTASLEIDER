@@ -2121,5 +2121,202 @@
     "gv": 0
    }
   ]
+ },
+ "565830": {
+  "obtenido": "2026-10-21T01:18:17.367710+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-03-15T14:30:00Z",
+    "local": "Bremen",
+    "visita": "Mainz",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "fecha": "2025-11-01T14:30:00Z",
+    "local": "Mainz",
+    "visita": "Bremen",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-01-31T19:30:00Z",
+    "local": "Bremen",
+    "visita": "Mainz",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2024-09-15T15:30:00Z",
+    "local": "Mainz",
+    "visita": "Bremen",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "fecha": "2024-02-03T14:30:00Z",
+    "local": "Mainz",
+    "visita": "Bremen",
+    "gl": 0,
+    "gv": 1
+   }
+  ]
+ },
+ "565832": {
+  "obtenido": "2026-10-21T01:18:17.367710+00:00",
+  "h2h": []
+ },
+ "565838": {
+  "obtenido": "2026-10-21T01:18:17.367710+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-05-16T13:30:00Z",
+    "local": "Union Berlin",
+    "visita": "Augsburg",
+    "gl": 4,
+    "gv": 0
+   },
+   {
+    "fecha": "2026-01-15T19:30:00Z",
+    "local": "Augsburg",
+    "visita": "Union Berlin",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-05-17T13:30:00Z",
+    "local": "Augsburg",
+    "visita": "Union Berlin",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "fecha": "2025-01-15T19:30:00Z",
+    "local": "Union Berlin",
+    "visita": "Augsburg",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "fecha": "2024-04-12T18:30:00Z",
+    "local": "Augsburg",
+    "visita": "Union Berlin",
+    "gl": 2,
+    "gv": 0
+   }
+  ]
+ },
+ "560616": {
+  "obtenido": "2026-10-21T01:18:17.367710+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-03-14T17:30:00Z",
+    "local": "Arsenal",
+    "visita": "Everton",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-12-20T20:00:00Z",
+    "local": "Everton",
+    "visita": "Arsenal",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-04-05T11:30:00Z",
+    "local": "Everton",
+    "visita": "Arsenal",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "fecha": "2024-12-14T15:00:00Z",
+    "local": "Arsenal",
+    "visita": "Everton",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "fecha": "2024-05-19T15:00:00Z",
+    "local": "Arsenal",
+    "visita": "Everton",
+    "gl": 2,
+    "gv": 1
+   }
+  ]
+ },
+ "561893": {
+  "obtenido": "2026-10-21T01:18:17.367710+00:00",
+  "h2h": [
+   {
+    "fecha": "2024-04-10T18:45:00Z",
+    "local": "Birmingham",
+    "visita": "Cardiff",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "fecha": "2023-12-13T19:45:00Z",
+    "local": "Cardiff",
+    "visita": "Birmingham",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "fecha": "2023-02-14T19:45:00Z",
+    "local": "Birmingham",
+    "visita": "Cardiff",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "fecha": "2022-08-13T11:30:00Z",
+    "local": "Cardiff",
+    "visita": "Birmingham",
+    "gl": 1,
+    "gv": 0
+   }
+  ]
+ },
+ "561897": {
+  "obtenido": "2026-10-21T01:18:17.367710+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-05-02T11:30:00Z",
+    "local": "Bristol City",
+    "visita": "Stoke",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-11-01T15:00:00Z",
+    "local": "Stoke",
+    "visita": "Bristol City",
+    "gl": 5,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-02-12T19:45:00Z",
+    "local": "Bristol City",
+    "visita": "Stoke",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "fecha": "2024-10-22T18:45:00Z",
+    "local": "Stoke",
+    "visita": "Bristol City",
+    "gl": 2,
+    "gv": 2
+   },
+   {
+    "fecha": "2024-05-04T11:30:00Z",
+    "local": "Stoke",
+    "visita": "Bristol City",
+    "gl": 4,
+    "gv": 0
+   }
+  ]
  }
 }
