@@ -4920,6 +4920,102 @@
     }
    ],
    "estado": "pendiente"
+  },
+  {
+   "id": 567331,
+   "fecha": "2026-10-26T18:45:00Z",
+   "liga": "Primeira Liga",
+   "local": "Santa Clara",
+   "visitante": "SL Benfica",
+   "picks": [
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 74,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "media"
+    },
+    {
+     "mercado": "doble",
+     "lado": "away",
+     "prob": 73,
+     "texto": "SL Benfica gana o empata",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 564721,
+   "fecha": "2026-10-26T20:00:00Z",
+   "liga": "LaLiga",
+   "local": "Sevilla FC",
+   "visitante": "Osasuna",
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 84,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 78,
+     "texto": "Sevilla FC gana o empata",
+     "nivel": "confiada"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 555051,
+   "fecha": "2026-10-26T22:30:00Z",
+   "liga": "Brasileirão Serie A",
+   "local": "Coritiba",
+   "visitante": "Grêmio",
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 74,
+     "texto": "Más de 1.5 goles",
+     "nivel": "media"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 72,
+     "texto": "Coritiba gana o empata",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 555053,
+   "fecha": "2026-10-26T23:00:00Z",
+   "liga": "Brasileirão Serie A",
+   "local": "Flamengo",
+   "visitante": "Mineiro",
+   "picks": [
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 85,
+     "texto": "Flamengo gana o empata",
+     "nivel": "super"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 74,
+     "texto": "Más de 1.5 goles",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
   }
  ],
  "resumen": {
