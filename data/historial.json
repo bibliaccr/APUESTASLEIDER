@@ -4836,23 +4836,6 @@
    "estado": "pendiente"
   },
   {
-   "id": 559648,
-   "fecha": "2026-10-25T19:45:00Z",
-   "liga": "Ligue 1",
-   "local": "PSG",
-   "visitante": "Olympique Lyon",
-   "picks": [
-    {
-     "mercado": "mas15",
-     "lado": null,
-     "prob": 72,
-     "texto": "Más de 1.5 goles",
-     "nivel": "media"
-    }
-   ],
-   "estado": "pendiente"
-  },
-  {
    "id": 564723,
    "fecha": "2026-10-25T20:00:00Z",
    "liga": "LaLiga",
@@ -4940,6 +4923,23 @@
      "lado": "away",
      "prob": 73,
      "texto": "SL Benfica gana o empata",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 559648,
+   "fecha": "2026-10-26T19:30:00Z",
+   "liga": "Ligue 1",
+   "local": "PSG",
+   "visitante": "Olympique Lyon",
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 72,
+     "texto": "Más de 1.5 goles",
      "nivel": "media"
     }
    ],
