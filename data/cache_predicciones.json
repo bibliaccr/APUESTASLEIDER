@@ -1773,5 +1773,224 @@
  "567332": {
   "obtenido": "2026-10-24T14:22:29.967235+00:00",
   "h2h": []
+ },
+ "564721": {
+  "obtenido": "2026-10-25T00:51:00.813537+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-04-26T16:30:00Z",
+    "local": "Osasuna",
+    "visita": "Sevilla FC",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-11-08T15:15:00Z",
+    "local": "Sevilla FC",
+    "visita": "Osasuna",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-04-24T17:00:00Z",
+    "local": "Osasuna",
+    "visita": "Sevilla FC",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2024-12-02T20:00:00Z",
+    "local": "Sevilla FC",
+    "visita": "Osasuna",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "fecha": "2024-01-28T17:30:00Z",
+    "local": "Sevilla FC",
+    "visita": "Osasuna",
+    "gl": 1,
+    "gv": 1
+   }
+  ]
+ },
+ "555053": {
+  "obtenido": "2026-10-25T00:51:00.813537+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-04-26T23:30:00Z",
+    "local": "Mineiro",
+    "visita": "Flamengo",
+    "gl": 0,
+    "gv": 4
+   },
+   {
+    "fecha": "2025-11-26T00:30:00Z",
+    "local": "Mineiro",
+    "visita": "Flamengo",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-07-27T23:30:00Z",
+    "local": "Flamengo",
+    "visita": "Mineiro",
+    "gl": 1,
+    "gv": 0
+   }
+  ]
+ },
+ "558556": {
+  "obtenido": "2026-10-25T00:51:00.813537+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-03-09T19:45:00Z",
+    "local": "Lazio",
+    "visita": "Sassuolo",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-09-14T16:00:00Z",
+    "local": "Sassuolo",
+    "visita": "Lazio",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2024-05-26T18:45:00Z",
+    "local": "Lazio",
+    "visita": "Sassuolo",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "fecha": "2023-10-21T18:45:00Z",
+    "local": "Sassuolo",
+    "visita": "Lazio",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "fecha": "2023-05-03T19:00:00Z",
+    "local": "Lazio",
+    "visita": "Sassuolo",
+    "gl": 2,
+    "gv": 0
+   }
+  ]
+ },
+ "558555": {
+  "obtenido": "2026-10-25T00:51:00.813537+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-02-09T19:45:00Z",
+    "local": "Roma",
+    "visita": "Cagliari",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-12-07T14:00:00Z",
+    "local": "Cagliari",
+    "visita": "Roma",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-03-16T15:00:00Z",
+    "local": "Roma",
+    "visita": "Cagliari",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2024-08-18T18:45:00Z",
+    "local": "Cagliari",
+    "visita": "Roma",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "fecha": "2024-02-05T19:45:00Z",
+    "local": "Roma",
+    "visita": "Cagliari",
+    "gl": 4,
+    "gv": 0
+   }
+  ]
+ },
+ "558549": {
+  "obtenido": "2026-10-25T00:51:00.813537+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-02-03T19:45:00Z",
+    "local": "Bologna",
+    "visita": "Milan",
+    "gl": 0,
+    "gv": 3
+   },
+   {
+    "fecha": "2025-09-14T18:45:00Z",
+    "local": "Milan",
+    "visita": "Bologna",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-05-09T18:45:00Z",
+    "local": "Milan",
+    "visita": "Bologna",
+    "gl": 3,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-02-27T19:45:00Z",
+    "local": "Bologna",
+    "visita": "Milan",
+    "gl": 2,
+    "gv": 1
+   }
+  ]
+ },
+ "558554": {
+  "obtenido": "2026-10-25T00:51:00.813537+00:00",
+  "h2h": [
+   {
+    "fecha": "2025-04-19T16:00:00Z",
+    "local": "Monza",
+    "visita": "Napoli",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "fecha": "2024-09-29T18:45:00Z",
+    "local": "Napoli",
+    "visita": "Monza",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "fecha": "2024-04-07T13:00:00Z",
+    "local": "Monza",
+    "visita": "Napoli",
+    "gl": 2,
+    "gv": 4
+   },
+   {
+    "fecha": "2023-12-29T17:30:00Z",
+    "local": "Napoli",
+    "visita": "Monza",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "fecha": "2023-05-14T13:00:00Z",
+    "local": "Monza",
+    "visita": "Napoli",
+    "gl": 2,
+    "gv": 0
+   }
+  ]
  }
 }

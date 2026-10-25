@@ -5122,6 +5122,267 @@
     }
    ],
    "estado": "pendiente"
+  },
+  {
+   "id": 558549,
+   "fecha": "2026-10-28T17:30:00Z",
+   "liga": "Serie A",
+   "local": "Milan",
+   "visitante": "Bologna",
+   "picks": [
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 78,
+     "texto": "Milan gana o empata",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 70,
+     "texto": "Más de 1.5 goles",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 558550,
+   "fecha": "2026-10-28T17:30:00Z",
+   "liga": "Serie A",
+   "local": "Venezia FC",
+   "visitante": "Inter",
+   "picks": [
+    {
+     "mercado": "mas25",
+     "lado": null,
+     "prob": 72,
+     "texto": "Más de 2.5 goles",
+     "nivel": "media"
+    },
+    {
+     "mercado": "1x2",
+     "lado": "away",
+     "prob": 70,
+     "texto": "Gana: Inter",
+     "nivel": "media"
+    },
+    {
+     "mercado": "doble",
+     "lado": "away",
+     "prob": 84,
+     "texto": "Inter gana o empata",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 86,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 558553,
+   "fecha": "2026-10-28T17:30:00Z",
+   "liga": "Serie A",
+   "local": "Parma",
+   "visitante": "Udinese",
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 72,
+     "texto": "Más de 1.5 goles",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 558552,
+   "fecha": "2026-10-28T19:45:00Z",
+   "liga": "Serie A",
+   "local": "Genoa",
+   "visitante": "Juventus",
+   "picks": [
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 72,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "media"
+    },
+    {
+     "mercado": "doble",
+     "lado": "away",
+     "prob": 71,
+     "texto": "Juventus gana o empata",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 558554,
+   "fecha": "2026-10-28T19:45:00Z",
+   "liga": "Serie A",
+   "local": "Monza",
+   "visitante": "Napoli",
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 79,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 555062,
+   "fecha": "2026-10-28T22:30:00Z",
+   "liga": "Brasileirão Serie A",
+   "local": "Bragantino",
+   "visitante": "Chapecoense",
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 79,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "1x2",
+     "lado": "home",
+     "prob": 68,
+     "texto": "Gana: Bragantino",
+     "nivel": "media"
+    },
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 66,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "media"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 87,
+     "texto": "Bragantino gana o empata",
+     "nivel": "super"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 555065,
+   "fecha": "2026-10-28T22:30:00Z",
+   "liga": "Brasileirão Serie A",
+   "local": "Fluminense",
+   "visitante": "Internacional",
+   "picks": [
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 80,
+     "texto": "Fluminense gana o empata",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 74,
+     "texto": "Más de 1.5 goles",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 555068,
+   "fecha": "2026-10-28T22:30:00Z",
+   "liga": "Brasileirão Serie A",
+   "local": "Santos",
+   "visitante": "Palmeiras",
+   "picks": [
+    {
+     "mercado": "doble",
+     "lado": "away",
+     "prob": 75,
+     "texto": "Palmeiras gana o empata",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 74,
+     "texto": "Más de 1.5 goles",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 555061,
+   "fecha": "2026-10-29T00:30:00Z",
+   "liga": "Brasileirão Serie A",
+   "local": "Bahia",
+   "visitante": "São Paulo",
+   "picks": [
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 78,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 74,
+     "texto": "Bahia gana o empata",
+     "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 68,
+     "texto": "Más de 1.5 goles",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 555067,
+   "fecha": "2026-10-29T00:30:00Z",
+   "liga": "Brasileirão Serie A",
+   "local": "Clube do Remo",
+   "visitante": "Botafogo",
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 77,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 69,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
   }
  ],
  "resumen": {
