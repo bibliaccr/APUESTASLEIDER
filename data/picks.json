@@ -1,11 +1,11 @@
 {
- "generado": "2026-10-26T00:59:22.961298+00:00",
+ "generado": "2026-10-26T17:11:54.354503+00:00",
  "niveles": {
   "super": 85,
   "confiada": 75,
   "media": 65
  },
- "llamadas_usadas": 16,
+ "llamadas_usadas": 11,
  "avisos": [],
  "partidos": [
   {
@@ -5493,7 +5493,43 @@
      "away": 0,
      "global": 0
     },
-    "h2h": []
+    "h2h": [
+     {
+      "fecha": "2026-05-02T23:30:00Z",
+      "local": "Paranaense",
+      "visita": "Grêmio",
+      "gl": 0,
+      "gv": 0
+     },
+     {
+      "fecha": "2024-08-04T19:00:00Z",
+      "local": "Paranaense",
+      "visita": "Grêmio",
+      "gl": 0,
+      "gv": 2
+     },
+     {
+      "fecha": "2024-04-17T22:00:00Z",
+      "local": "Grêmio",
+      "visita": "Paranaense",
+      "gl": 2,
+      "gv": 0
+     },
+     {
+      "fecha": "2023-10-18T22:00:00Z",
+      "local": "Grêmio",
+      "visita": "Paranaense",
+      "gl": 1,
+      "gv": 2
+     },
+     {
+      "fecha": "2023-05-27T19:00:00Z",
+      "local": "Paranaense",
+      "visita": "Grêmio",
+      "gl": 1,
+      "gv": 2
+     }
+    ]
    }
   }
  ]
