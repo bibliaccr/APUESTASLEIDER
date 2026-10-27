@@ -1,93 +1,4 @@
 {
- "558567": {
-  "obtenido": "2026-10-20T01:35:45.793633+00:00",
-  "h2h": [
-   {
-    "fecha": "2025-03-02T11:30:00Z",
-    "local": "Monza",
-    "visita": "Torino",
-    "gl": 0,
-    "gv": 2
-   },
-   {
-    "fecha": "2024-11-24T14:00:00Z",
-    "local": "Torino",
-    "visita": "Monza",
-    "gl": 1,
-    "gv": 1
-   },
-   {
-    "fecha": "2024-03-30T14:00:00Z",
-    "local": "Torino",
-    "visita": "Monza",
-    "gl": 1,
-    "gv": 0
-   },
-   {
-    "fecha": "2023-11-11T19:45:00Z",
-    "local": "Monza",
-    "visita": "Torino",
-    "gl": 1,
-    "gv": 1
-   }
-  ]
- },
- "564719": {
-  "obtenido": "2026-10-20T01:35:45.793633+00:00",
-  "h2h": []
- },
- "567329": {
-  "obtenido": "2026-10-20T01:35:45.793633+00:00",
-  "h2h": [
-   {
-    "fecha": "2023-04-29T14:30:00Z",
-    "local": "Marítimo",
-    "visita": "Vitória SC",
-    "gl": 1,
-    "gv": 2
-   },
-   {
-    "fecha": "2022-11-13T15:30:00Z",
-    "local": "Vitória SC",
-    "visita": "Marítimo",
-    "gl": 1,
-    "gv": 0
-   },
-   {
-    "fecha": "2022-03-13T15:30:00Z",
-    "local": "Marítimo",
-    "visita": "Vitória SC",
-    "gl": 0,
-    "gv": 1
-   },
-   {
-    "fecha": "2021-10-22T19:15:00Z",
-    "local": "Vitória SC",
-    "visita": "Marítimo",
-    "gl": 2,
-    "gv": 1
-   },
-   {
-    "fecha": "2021-05-16T19:00:00Z",
-    "local": "Marítimo",
-    "visita": "Vitória SC",
-    "gl": 0,
-    "gv": 0
-   }
-  ]
- },
- "555052": {
-  "obtenido": "2026-10-20T01:35:45.793633+00:00",
-  "h2h": [
-   {
-    "fecha": "2026-04-25T21:30:00Z",
-    "local": "Clube do Remo",
-    "visita": "Cruzeiro",
-    "gl": 0,
-    "gv": 1
-   }
-  ]
- },
  "560614": {
   "obtenido": "2026-10-20T15:35:35.397201+00:00",
   "h2h": [
@@ -2384,6 +2295,192 @@
     "visita": "Grêmio",
     "gl": 1,
     "gv": 2
+   }
+  ]
+ },
+ "559644": {
+  "obtenido": "2026-10-27T01:49:37.365509+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-02-28T20:05:00Z",
+    "local": "Le Havre",
+    "visita": "PSG",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-11-22T20:05:00Z",
+    "local": "PSG",
+    "visita": "Le Havre",
+    "gl": 3,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-04-19T15:00:00Z",
+    "local": "PSG",
+    "visita": "Le Havre",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "fecha": "2024-08-16T18:45:00Z",
+    "local": "Le Havre",
+    "visita": "PSG",
+    "gl": 1,
+    "gv": 4
+   },
+   {
+    "fecha": "2024-04-27T19:00:00Z",
+    "local": "PSG",
+    "visita": "Le Havre",
+    "gl": 3,
+    "gv": 3
+   }
+  ]
+ },
+ "564737": {
+  "obtenido": "2026-10-27T01:49:37.365509+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-02-09T20:00:00Z",
+    "local": "Villarreal",
+    "visita": "Espanyol",
+    "gl": 4,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-11-08T20:00:00Z",
+    "local": "Espanyol",
+    "visita": "Villarreal",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "fecha": "2025-04-27T14:15:00Z",
+    "local": "Villarreal",
+    "visita": "Espanyol",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2024-09-26T17:00:00Z",
+    "local": "Espanyol",
+    "visita": "Villarreal",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "fecha": "2023-04-27T17:30:00Z",
+    "local": "Villarreal",
+    "visita": "Espanyol",
+    "gl": 4,
+    "gv": 2
+   }
+  ]
+ },
+ "559639": {
+  "obtenido": "2026-10-27T01:49:37.365509+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-04-04T19:05:00Z",
+    "local": "Lille",
+    "visita": "RC Lens",
+    "gl": 3,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-09-20T19:05:00Z",
+    "local": "RC Lens",
+    "visita": "Lille",
+    "gl": 3,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-03-30T18:45:00Z",
+    "local": "Lille",
+    "visita": "RC Lens",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2024-10-26T19:00:00Z",
+    "local": "RC Lens",
+    "visita": "Lille",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "fecha": "2024-03-29T20:00:00Z",
+    "local": "Lille",
+    "visita": "RC Lens",
+    "gl": 2,
+    "gv": 1
+   }
+  ]
+ },
+ "567344": {
+  "obtenido": "2026-10-27T01:49:37.365509+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-01-16T20:15:00Z",
+    "local": "Sporting CP",
+    "visita": "Casa Pia",
+    "gl": 3,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-08-08T19:15:00Z",
+    "local": "Casa Pia",
+    "visita": "Sporting CP",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "fecha": "2025-03-09T18:00:00Z",
+    "local": "Casa Pia",
+    "visita": "Sporting CP",
+    "gl": 1,
+    "gv": 3
+   },
+   {
+    "fecha": "2024-10-05T19:30:00Z",
+    "local": "Sporting CP",
+    "visita": "Casa Pia",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "fecha": "2024-01-29T20:45:00Z",
+    "local": "Sporting CP",
+    "visita": "Casa Pia",
+    "gl": 8,
+    "gv": 0
+   }
+  ]
+ },
+ "555063": {
+  "obtenido": "2026-10-27T01:49:37.365509+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-05-03T23:30:00Z",
+    "local": "Mirassol",
+    "visita": "Corinthians",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-10-05T00:00:00Z",
+    "local": "Corinthians",
+    "visita": "Mirassol",
+    "gl": 3,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-05-10T21:30:00Z",
+    "local": "Mirassol",
+    "visita": "Corinthians",
+    "gl": 2,
+    "gv": 1
    }
   ]
  }
