@@ -1,130 +1,4 @@
 {
- "561898": {
-  "obtenido": "2026-10-21T15:53:00.207517+00:00",
-  "h2h": [
-   {
-    "fecha": "2026-04-18T14:00:00Z",
-    "local": "Preston NE",
-    "visita": "West Brom",
-    "gl": 0,
-    "gv": 2
-   },
-   {
-    "fecha": "2025-10-18T14:00:00Z",
-    "local": "West Brom",
-    "visita": "Preston NE",
-    "gl": 2,
-    "gv": 1
-   },
-   {
-    "fecha": "2025-01-01T15:00:00Z",
-    "local": "West Brom",
-    "visita": "Preston NE",
-    "gl": 3,
-    "gv": 1
-   },
-   {
-    "fecha": "2024-11-30T15:00:00Z",
-    "local": "Preston NE",
-    "visita": "West Brom",
-    "gl": 1,
-    "gv": 1
-   },
-   {
-    "fecha": "2024-05-04T11:30:00Z",
-    "local": "West Brom",
-    "visita": "Preston NE",
-    "gl": 3,
-    "gv": 0
-   }
-  ]
- },
- "561899": {
-  "obtenido": "2026-10-21T15:53:00.207517+00:00",
-  "h2h": []
- },
- "561900": {
-  "obtenido": "2026-10-21T15:53:00.207517+00:00",
-  "h2h": [
-   {
-    "fecha": "2025-04-19T14:00:00Z",
-    "local": "West Ham",
-    "visita": "Southampton",
-    "gl": 1,
-    "gv": 1
-   },
-   {
-    "fecha": "2024-12-26T15:00:00Z",
-    "local": "Southampton",
-    "visita": "West Ham",
-    "gl": 0,
-    "gv": 1
-   },
-   {
-    "fecha": "2023-04-02T13:00:00Z",
-    "local": "West Ham",
-    "visita": "Southampton",
-    "gl": 1,
-    "gv": 0
-   },
-   {
-    "fecha": "2022-10-16T13:00:00Z",
-    "local": "Southampton",
-    "visita": "West Ham",
-    "gl": 1,
-    "gv": 1
-   }
-  ]
- },
- "561902": {
-  "obtenido": "2026-10-21T15:53:00.207517+00:00",
-  "h2h": [
-   {
-    "fecha": "2026-01-01T12:30:00Z",
-    "local": "Blackburn",
-    "visita": "Wrexham",
-    "gl": 0,
-    "gv": 2
-   },
-   {
-    "fecha": "2025-11-29T15:00:00Z",
-    "local": "Wrexham",
-    "visita": "Blackburn",
-    "gl": 1,
-    "gv": 1
-   }
-  ]
- },
- "561903": {
-  "obtenido": "2026-10-21T15:53:00.207517+00:00",
-  "h2h": [
-   {
-    "fecha": "2022-03-10T19:30:00Z",
-    "local": "Wolverhampton",
-    "visita": "Watford",
-    "gl": 4,
-    "gv": 0
-   },
-   {
-    "fecha": "2021-09-11T14:00:00Z",
-    "local": "Watford",
-    "visita": "Wolverhampton",
-    "gl": 0,
-    "gv": 2
-   },
-   {
-    "fecha": "2020-01-01T15:00:00Z",
-    "local": "Watford",
-    "visita": "Wolverhampton",
-    "gl": 2,
-    "gv": 1
-   }
-  ]
- },
- "564727": {
-  "obtenido": "2026-10-21T15:53:00.207517+00:00",
-  "h2h": []
- },
  "567337": {
   "obtenido": "2026-10-22T01:14:29.777608+00:00",
   "h2h": [
@@ -2467,6 +2341,154 @@
     "visita": "Hull City",
     "gl": 3,
     "gv": 0
+   }
+  ]
+ },
+ "560630": {
+  "obtenido": "2026-10-28T17:03:24.383243+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-01-25T14:00:00Z",
+    "local": "Brentford",
+    "visita": "Nottingham",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "fecha": "2025-08-17T13:00:00Z",
+    "local": "Nottingham",
+    "visita": "Brentford",
+    "gl": 3,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-05-01T18:30:00Z",
+    "local": "Nottingham",
+    "visita": "Brentford",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "fecha": "2024-12-21T15:00:00Z",
+    "local": "Brentford",
+    "visita": "Nottingham",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "fecha": "2024-01-20T17:30:00Z",
+    "local": "Brentford",
+    "visita": "Nottingham",
+    "gl": 3,
+    "gv": 2
+   }
+  ]
+ },
+ "561905": {
+  "obtenido": "2026-10-28T17:03:24.383243+00:00",
+  "h2h": []
+ },
+ "561906": {
+  "obtenido": "2026-10-28T17:03:24.383243+00:00",
+  "h2h": [
+   {
+    "fecha": "2021-05-19T19:15:00Z",
+    "local": "West Brom",
+    "visita": "West Ham",
+    "gl": 1,
+    "gv": 3
+   },
+   {
+    "fecha": "2021-01-19T18:00:00Z",
+    "local": "West Ham",
+    "visita": "West Brom",
+    "gl": 2,
+    "gv": 1
+   }
+  ]
+ },
+ "561911": {
+  "obtenido": "2026-10-28T17:03:24.383243+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-03-11T19:45:00Z",
+    "local": "Middlesbrough",
+    "visita": "Charlton",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-12-09T19:45:00Z",
+    "local": "Charlton",
+    "visita": "Middlesbrough",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "fecha": "2020-03-07T15:00:00Z",
+    "local": "Charlton",
+    "visita": "Middlesbrough",
+    "gl": 0,
+    "gv": 1
+   }
+  ]
+ },
+ "561912": {
+  "obtenido": "2026-10-28T17:03:24.383243+00:00",
+  "h2h": [
+   {
+    "fecha": "2025-02-01T15:00:00Z",
+    "local": "Portsmouth",
+    "visita": "Burnley",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "fecha": "2024-09-21T14:00:00Z",
+    "local": "Burnley",
+    "visita": "Portsmouth",
+    "gl": 2,
+    "gv": 1
+   }
+  ]
+ },
+ "561913": {
+  "obtenido": "2026-10-28T17:03:24.383243+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-03-10T19:45:00Z",
+    "local": "Millwall",
+    "visita": "Derby County",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-12-10T19:45:00Z",
+    "local": "Derby County",
+    "visita": "Millwall",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-02-22T12:30:00Z",
+    "local": "Derby County",
+    "visita": "Millwall",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "fecha": "2024-10-19T14:00:00Z",
+    "local": "Millwall",
+    "visita": "Derby County",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "fecha": "2022-02-23T19:45:00Z",
+    "local": "Derby County",
+    "visita": "Millwall",
+    "gl": 1,
+    "gv": 2
    }
   ]
  }
