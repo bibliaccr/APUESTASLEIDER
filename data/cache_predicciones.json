@@ -1,166 +1,4 @@
 {
- "564724": {
-  "obtenido": "2026-10-22T15:49:30.062528+00:00",
-  "h2h": []
- },
- "558860": {
-  "obtenido": "2026-10-22T15:49:30.062528+00:00",
-  "h2h": [
-   {
-    "fecha": "2021-03-06T19:00:00Z",
-    "local": "Heerenveen",
-    "visita": "Den Haag",
-    "gl": 3,
-    "gv": 0
-   },
-   {
-    "fecha": "2020-11-28T19:00:00Z",
-    "local": "Den Haag",
-    "visita": "Heerenveen",
-    "gl": 1,
-    "gv": 1
-   },
-   {
-    "fecha": "2020-02-22T18:45:00Z",
-    "local": "Heerenveen",
-    "visita": "Den Haag",
-    "gl": 2,
-    "gv": 2
-   }
-  ]
- },
- "567335": {
-  "obtenido": "2026-10-22T15:49:30.062528+00:00",
-  "h2h": [
-   {
-    "fecha": "2026-01-26T20:15:00Z",
-    "local": "Porto",
-    "visita": "Gil Vicente",
-    "gl": 3,
-    "gv": 0
-   },
-   {
-    "fecha": "2025-08-18T19:15:00Z",
-    "local": "Gil Vicente",
-    "visita": "Porto",
-    "gl": 0,
-    "gv": 2
-   },
-   {
-    "fecha": "2025-01-19T20:30:00Z",
-    "local": "Gil Vicente",
-    "visita": "Porto",
-    "gl": 3,
-    "gv": 1
-   },
-   {
-    "fecha": "2024-08-10T19:30:00Z",
-    "local": "Porto",
-    "visita": "Gil Vicente",
-    "gl": 3,
-    "gv": 0
-   },
-   {
-    "fecha": "2024-02-25T18:00:00Z",
-    "local": "Gil Vicente",
-    "visita": "Porto",
-    "gl": 1,
-    "gv": 1
-   }
-  ]
- },
- "555055": {
-  "obtenido": "2026-10-22T15:49:30.062528+00:00",
-  "h2h": [
-   {
-    "fecha": "2026-04-26T00:00:00Z",
-    "local": "São Paulo",
-    "visita": "Mirassol",
-    "gl": 1,
-    "gv": 0
-   },
-   {
-    "fecha": "2025-10-19T21:30:00Z",
-    "local": "Mirassol",
-    "visita": "São Paulo",
-    "gl": 3,
-    "gv": 0
-   },
-   {
-    "fecha": "2025-05-24T21:30:00Z",
-    "local": "São Paulo",
-    "visita": "Mirassol",
-    "gl": 0,
-    "gv": 2
-   }
-  ]
- },
- "555056": {
-  "obtenido": "2026-10-22T15:49:30.062528+00:00",
-  "h2h": [
-   {
-    "fecha": "2026-04-26T21:30:00Z",
-    "local": "Bragantino",
-    "visita": "Palmeiras",
-    "gl": 0,
-    "gv": 1
-   },
-   {
-    "fecha": "2025-10-15T22:00:00Z",
-    "local": "Palmeiras",
-    "visita": "Bragantino",
-    "gl": 5,
-    "gv": 1
-   },
-   {
-    "fecha": "2025-05-18T21:30:00Z",
-    "local": "Bragantino",
-    "visita": "Palmeiras",
-    "gl": 1,
-    "gv": 2
-   },
-   {
-    "fecha": "2024-10-05T19:30:00Z",
-    "local": "Bragantino",
-    "visita": "Palmeiras",
-    "gl": 0,
-    "gv": 0
-   },
-   {
-    "fecha": "2024-06-21T00:30:00Z",
-    "local": "Palmeiras",
-    "visita": "Bragantino",
-    "gl": 2,
-    "gv": 1
-   }
-  ]
- },
- "555058": {
-  "obtenido": "2026-10-22T15:49:30.062528+00:00",
-  "h2h": [
-   {
-    "fecha": "2026-04-26T19:00:00Z",
-    "local": "Corinthians",
-    "visita": "Vasco da Gama",
-    "gl": 1,
-    "gv": 0
-   },
-   {
-    "fecha": "2025-08-24T19:00:00Z",
-    "local": "Vasco da Gama",
-    "visita": "Corinthians",
-    "gl": 2,
-    "gv": 3
-   },
-   {
-    "fecha": "2025-04-05T21:30:00Z",
-    "local": "Corinthians",
-    "visita": "Vasco da Gama",
-    "gl": 3,
-    "gv": 0
-   }
-  ]
- },
  "555050": {
   "obtenido": "2026-10-23T01:14:03.255103+00:00",
   "h2h": [
@@ -2497,5 +2335,202 @@
  "564736": {
   "obtenido": "2026-10-29T02:07:10.872588+00:00",
   "h2h": []
+ },
+ "565845": {
+  "obtenido": "2026-10-29T17:21:35.031211+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-02-28T17:30:00Z",
+    "local": "Dortmund",
+    "visita": "Bayern",
+    "gl": 2,
+    "gv": 3
+   },
+   {
+    "fecha": "2025-10-18T16:30:00Z",
+    "local": "Bayern",
+    "visita": "Dortmund",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-04-12T16:30:00Z",
+    "local": "Bayern",
+    "visita": "Dortmund",
+    "gl": 2,
+    "gv": 2
+   },
+   {
+    "fecha": "2024-11-30T17:30:00Z",
+    "local": "Dortmund",
+    "visita": "Bayern",
+    "gl": 1,
+    "gv": 1
+   }
+  ]
+ },
+ "558852": {
+  "obtenido": "2026-10-29T17:21:35.031211+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-03-22T11:15:00Z",
+    "local": "NEC",
+    "visita": "Heerenveen",
+    "gl": 2,
+    "gv": 2
+   },
+   {
+    "fecha": "2025-09-21T12:30:00Z",
+    "local": "Heerenveen",
+    "visita": "NEC",
+    "gl": 3,
+    "gv": 2
+   },
+   {
+    "fecha": "2025-04-27T12:30:00Z",
+    "local": "Heerenveen",
+    "visita": "NEC",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2024-10-19T18:00:00Z",
+    "local": "NEC",
+    "visita": "Heerenveen",
+    "gl": 3,
+    "gv": 0
+   },
+   {
+    "fecha": "2024-03-10T15:45:00Z",
+    "local": "NEC",
+    "visita": "Heerenveen",
+    "gl": 2,
+    "gv": 0
+   }
+  ]
+ },
+ "558853": {
+  "obtenido": "2026-10-29T17:21:35.031211+00:00",
+  "h2h": [
+   {
+    "fecha": "2025-02-08T17:45:00Z",
+    "local": "PSV",
+    "visita": "Willem II",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "fecha": "2024-09-28T14:30:00Z",
+    "local": "Willem II",
+    "visita": "PSV",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "fecha": "2022-05-01T12:30:00Z",
+    "local": "PSV",
+    "visita": "Willem II",
+    "gl": 4,
+    "gv": 2
+   },
+   {
+    "fecha": "2021-09-25T14:30:00Z",
+    "local": "Willem II",
+    "visita": "PSV",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "fecha": "2021-05-09T14:45:00Z",
+    "local": "Willem II",
+    "visita": "PSV",
+    "gl": 0,
+    "gv": 2
+   }
+  ]
+ },
+ "559643": {
+  "obtenido": "2026-10-29T17:21:35.031211+00:00",
+  "h2h": []
+ },
+ "560628": {
+  "obtenido": "2026-10-29T17:21:35.031211+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-04-25T11:30:00Z",
+    "local": "Fulham",
+    "visita": "Aston Villa",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-09-28T13:00:00Z",
+    "local": "Aston Villa",
+    "visita": "Fulham",
+    "gl": 3,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-05-03T11:30:00Z",
+    "local": "Aston Villa",
+    "visita": "Fulham",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2024-10-19T14:00:00Z",
+    "local": "Fulham",
+    "visita": "Aston Villa",
+    "gl": 1,
+    "gv": 3
+   },
+   {
+    "fecha": "2024-02-17T15:00:00Z",
+    "local": "Fulham",
+    "visita": "Aston Villa",
+    "gl": 1,
+    "gv": 2
+   }
+  ]
+ },
+ "564732": {
+  "obtenido": "2026-10-29T17:21:35.031211+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-05-13T19:30:00Z",
+    "local": "Alavés",
+    "visita": "Barça",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-11-29T15:15:00Z",
+    "local": "Barça",
+    "visita": "Alavés",
+    "gl": 3,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-02-02T13:00:00Z",
+    "local": "Barça",
+    "visita": "Alavés",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2024-10-06T14:15:00Z",
+    "local": "Alavés",
+    "visita": "Barça",
+    "gl": 0,
+    "gv": 3
+   },
+   {
+    "fecha": "2024-02-03T17:30:00Z",
+    "local": "Alavés",
+    "visita": "Barça",
+    "gl": 1,
+    "gv": 3
+   }
+  ]
  }
 }

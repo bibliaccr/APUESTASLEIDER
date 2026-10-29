@@ -5739,24 +5739,28 @@
      "lado": null,
      "prob": 79,
      "texto": "Menos de 3.5 goles",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": false
     },
     {
      "mercado": "doble",
      "lado": "home",
      "prob": 69,
      "texto": "Bahia gana o empata",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     },
     {
      "mercado": "mas15",
      "lado": null,
      "prob": 68,
      "texto": "Más de 1.5 goles",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "3-2"
   },
   {
    "id": 555067,
@@ -5770,24 +5774,28 @@
      "lado": null,
      "prob": 77,
      "texto": "Más de 1.5 goles",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": true
     },
     {
      "mercado": "doble",
      "lado": "home",
      "prob": 66,
      "texto": "Clube do Remo gana o empata",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     },
     {
      "mercado": "menos35",
      "lado": null,
      "prob": 69,
      "texto": "Menos de 3.5 goles",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "2-1"
   },
   {
    "id": 558558,
@@ -5930,7 +5938,7 @@
     {
      "mercado": "menos35",
      "lado": null,
-     "prob": 75,
+     "prob": 76,
      "texto": "Menos de 3.5 goles",
      "nivel": "confiada"
     },
@@ -8204,12 +8212,12 @@
  "resumen": {
   "por_nivel": {
    "media": {
-    "total": 243,
-    "aciertos": 179
+    "total": 247,
+    "aciertos": 183
    },
    "confiada": {
-    "total": 165,
-    "aciertos": 116
+    "total": 167,
+    "aciertos": 117
    },
    "super": {
     "total": 59,
@@ -8218,12 +8226,12 @@
   },
   "por_mercado": {
    "mas15": {
-    "total": 151,
-    "aciertos": 120
+    "total": 153,
+    "aciertos": 122
    },
    "doble": {
-    "total": 147,
-    "aciertos": 108
+    "total": 149,
+    "aciertos": 110
    },
    "mas25": {
     "total": 44,
@@ -8234,8 +8242,8 @@
     "aciertos": 22
    },
    "menos35": {
-    "total": 70,
-    "aciertos": 52
+    "total": 72,
+    "aciertos": 53
    },
    "menos25": {
     "total": 5,
