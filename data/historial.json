@@ -5957,24 +5957,28 @@
      "lado": null,
      "prob": 76,
      "texto": "Menos de 3.5 goles",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": true
     },
     {
      "mercado": "doble",
      "lado": "away",
      "prob": 67,
      "texto": "Paranaense gana o empata",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": false
     },
     {
      "mercado": "mas15",
      "lado": null,
      "prob": 72,
      "texto": "Más de 1.5 goles",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "2-0"
   },
   {
    "id": 559644,
@@ -8463,12 +8467,12 @@
  "resumen": {
   "por_nivel": {
    "media": {
-    "total": 253,
-    "aciertos": 187
+    "total": 255,
+    "aciertos": 188
    },
    "confiada": {
-    "total": 172,
-    "aciertos": 121
+    "total": 173,
+    "aciertos": 122
    },
    "super": {
     "total": 61,
@@ -8477,11 +8481,11 @@
   },
   "por_mercado": {
    "mas15": {
-    "total": 157,
-    "aciertos": 125
+    "total": 158,
+    "aciertos": 126
    },
    "doble": {
-    "total": 153,
+    "total": 154,
     "aciertos": 113
    },
    "mas25": {
@@ -8493,8 +8497,8 @@
     "aciertos": 23
    },
    "menos35": {
-    "total": 74,
-    "aciertos": 54
+    "total": 75,
+    "aciertos": 55
    },
    "menos25": {
     "total": 5,
