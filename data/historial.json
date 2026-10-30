@@ -5809,24 +5809,28 @@
      "lado": "home",
      "prob": 76,
      "texto": "Frosinone gana o empata",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": true
     },
     {
      "mercado": "mas25",
      "lado": null,
      "prob": 66,
      "texto": "Más de 2.5 goles",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     },
     {
      "mercado": "mas15",
      "lado": null,
      "prob": 85,
      "texto": "Más de 1.5 goles",
-     "nivel": "super"
+     "nivel": "super",
+     "acierto": true
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "5-1"
   },
   {
    "id": 558551,
@@ -5840,31 +5844,36 @@
      "lado": "away",
      "prob": 75,
      "texto": "Atalanta gana o empata",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": true
     },
     {
      "mercado": "mas25",
      "lado": null,
      "prob": 71,
      "texto": "Más de 2.5 goles",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     },
     {
      "mercado": "btts_si",
      "lado": null,
      "prob": 68,
      "texto": "Ambos equipos marcan",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     },
     {
      "mercado": "mas15",
      "lado": null,
      "prob": 88,
      "texto": "Más de 1.5 goles",
-     "nivel": "super"
+     "nivel": "super",
+     "acierto": true
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "2-2"
   },
   {
    "id": 555060,
@@ -5878,24 +5887,28 @@
      "lado": null,
      "prob": 78,
      "texto": "Más de 1.5 goles",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": false
     },
     {
      "mercado": "doble",
      "lado": "home",
      "prob": 73,
      "texto": "Mineiro gana o empata",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": false
     },
     {
      "mercado": "menos35",
      "lado": null,
      "prob": 67,
      "texto": "Menos de 3.5 goles",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "0-1"
   },
   {
    "id": 555069,
@@ -5909,24 +5922,28 @@
      "lado": "away",
      "prob": 78,
      "texto": "Flamengo gana o empata",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": true
     },
     {
      "mercado": "mas15",
      "lado": null,
      "prob": 76,
      "texto": "Más de 1.5 goles",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": true
     },
     {
      "mercado": "menos35",
      "lado": null,
      "prob": 70,
      "texto": "Menos de 3.5 goles",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": false
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "1-4"
   },
   {
    "id": 555066,
@@ -6351,14 +6368,14 @@
     {
      "mercado": "doble",
      "lado": "home",
-     "prob": 69,
+     "prob": 70,
      "texto": "Bologna gana o empata",
      "nivel": "media"
     },
     {
      "mercado": "mas25",
      "lado": null,
-     "prob": 68,
+     "prob": 67,
      "texto": "Más de 2.5 goles",
      "nivel": "media"
     },
@@ -6998,21 +7015,21 @@
     {
      "mercado": "1x2",
      "lado": "away",
-     "prob": 74,
+     "prob": 73,
      "texto": "Gana: Roma",
      "nivel": "media"
     },
     {
      "mercado": "mas25",
      "lado": null,
-     "prob": 67,
+     "prob": 66,
      "texto": "Más de 2.5 goles",
      "nivel": "media"
     },
     {
      "mercado": "doble",
      "lado": "away",
-     "prob": 90,
+     "prob": 89,
      "texto": "Roma gana o empata",
      "nivel": "super"
     },
@@ -7215,7 +7232,7 @@
     {
      "mercado": "doble",
      "lado": "away",
-     "prob": 71,
+     "prob": 70,
      "texto": "Inter gana o empata",
      "nivel": "media"
     },
@@ -7229,14 +7246,14 @@
     {
      "mercado": "btts_si",
      "lado": null,
-     "prob": 68,
+     "prob": 67,
      "texto": "Ambos equipos marcan",
      "nivel": "media"
     },
     {
      "mercado": "mas15",
      "lado": null,
-     "prob": 87,
+     "prob": 86,
      "texto": "Más de 1.5 goles",
      "nivel": "super"
     }
@@ -7484,14 +7501,14 @@
     {
      "mercado": "mas15",
      "lado": null,
-     "prob": 78,
+     "prob": 79,
      "texto": "Más de 1.5 goles",
      "nivel": "confiada"
     },
     {
      "mercado": "1x2",
      "lado": "home",
-     "prob": 71,
+     "prob": 72,
      "texto": "Gana: Como 1907",
      "nivel": "media"
     },
@@ -7505,7 +7522,7 @@
     {
      "mercado": "doble",
      "lado": "home",
-     "prob": 89,
+     "prob": 90,
      "texto": "Como 1907 gana o empata",
      "nivel": "super"
     }
@@ -7615,28 +7632,28 @@
     {
      "mercado": "doble",
      "lado": "home",
-     "prob": 68,
+     "prob": 73,
      "texto": "Frosinone gana o empata",
      "nivel": "media"
     },
     {
      "mercado": "mas25",
      "lado": null,
-     "prob": 68,
+     "prob": 71,
      "texto": "Más de 2.5 goles",
      "nivel": "media"
     },
     {
      "mercado": "btts_si",
      "lado": null,
-     "prob": 68,
+     "prob": 69,
      "texto": "Ambos equipos marcan",
      "nivel": "media"
     },
     {
      "mercado": "mas15",
      "lado": null,
-     "prob": 86,
+     "prob": 88,
      "texto": "Más de 1.5 goles",
      "nivel": "super"
     }
@@ -7660,7 +7677,7 @@
     {
      "mercado": "1x2",
      "lado": "home",
-     "prob": 67,
+     "prob": 68,
      "texto": "Gana: Lazio",
      "nivel": "media"
     },
@@ -7674,7 +7691,7 @@
     {
      "mercado": "doble",
      "lado": "home",
-     "prob": 87,
+     "prob": 88,
      "texto": "Lazio gana o empata",
      "nivel": "super"
     }
@@ -7963,22 +7980,15 @@
     {
      "mercado": "menos35",
      "lado": null,
-     "prob": 77,
+     "prob": 74,
      "texto": "Menos de 3.5 goles",
-     "nivel": "confiada"
-    },
-    {
-     "mercado": "doble",
-     "lado": "home",
-     "prob": 65,
-     "texto": "Lecce gana o empata",
      "nivel": "media"
     },
     {
-     "mercado": "mas15",
-     "lado": null,
-     "prob": 70,
-     "texto": "Más de 1.5 goles",
+     "mercado": "doble",
+     "lado": "away",
+     "prob": 66,
+     "texto": "Genoa gana o empata",
      "nivel": "media"
     }
    ],
@@ -8207,43 +8217,284 @@
     }
    ],
    "estado": "pendiente"
+  },
+  {
+   "id": 558541,
+   "fecha": "2026-11-02T17:30:00Z",
+   "liga": "Serie A",
+   "local": "Sassuolo",
+   "visitante": "Fiorentina",
+   "picks": [
+    {
+     "mercado": "mas25",
+     "lado": null,
+     "prob": 74,
+     "texto": "Más de 2.5 goles",
+     "nivel": "media"
+    },
+    {
+     "mercado": "btts_si",
+     "lado": null,
+     "prob": 73,
+     "texto": "Ambos equipos marcan",
+     "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 90,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 558545,
+   "fecha": "2026-11-02T19:45:00Z",
+   "liga": "Serie A",
+   "local": "Atalanta",
+   "visitante": "Parma",
+   "picks": [
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 79,
+     "texto": "Atalanta gana o empata",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 77,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 69,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 559641,
+   "fecha": "2026-11-02T19:45:00Z",
+   "liga": "Ligue 1",
+   "local": "Lorient",
+   "visitante": "Brest",
+   "picks": [
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 81,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 69,
+     "texto": "Lorient gana o empata",
+     "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 66,
+     "texto": "Más de 1.5 goles",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 560622,
+   "fecha": "2026-11-02T20:00:00Z",
+   "liga": "Premier League",
+   "local": "Newcastle",
+   "visitante": "Everton",
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 74,
+     "texto": "Más de 1.5 goles",
+     "nivel": "media"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 68,
+     "texto": "Newcastle gana o empata",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 564731,
+   "fecha": "2026-11-02T20:00:00Z",
+   "liga": "LaLiga",
+   "local": "Deportivo",
+   "visitante": "Osasuna",
+   "picks": [
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 77,
+     "texto": "Deportivo gana o empata",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 77,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 69,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 567342,
+   "fecha": "2026-11-02T20:15:00Z",
+   "liga": "Primeira Liga",
+   "local": "SL Benfica",
+   "visitante": "Alverca",
+   "picks": [
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 81,
+     "texto": "SL Benfica gana o empata",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "mas25",
+     "lado": null,
+     "prob": 67,
+     "texto": "Más de 2.5 goles",
+     "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 86,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 567346,
+   "fecha": "2026-11-02T20:15:00Z",
+   "liga": "Primeira Liga",
+   "local": "Gil Vicente",
+   "visitante": "Vitória SC",
+   "picks": [
+    {
+     "mercado": "menos25",
+     "lado": null,
+     "prob": 73,
+     "texto": "Menos de 2.5 goles",
+     "nivel": "media"
+    },
+    {
+     "mercado": "doble",
+     "lado": "away",
+     "prob": 68,
+     "texto": "Vitória SC gana o empata",
+     "nivel": "media"
+    },
+    {
+     "mercado": "btts_no",
+     "lado": null,
+     "prob": 65,
+     "texto": "Ambos equipos no marcan",
+     "nivel": "media"
+    },
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 89,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "super"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 555072,
+   "fecha": "2026-11-02T23:00:00Z",
+   "liga": "Brasileirão Serie A",
+   "local": "Bragantino",
+   "visitante": "Santos",
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 74,
+     "texto": "Más de 1.5 goles",
+     "nivel": "media"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 73,
+     "texto": "Bragantino gana o empata",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
   }
  ],
  "resumen": {
   "por_nivel": {
    "media": {
-    "total": 247,
-    "aciertos": 183
+    "total": 253,
+    "aciertos": 187
    },
    "confiada": {
-    "total": 167,
-    "aciertos": 117
+    "total": 172,
+    "aciertos": 121
    },
    "super": {
-    "total": 59,
-    "aciertos": 51
+    "total": 61,
+    "aciertos": 53
    }
   },
   "por_mercado": {
    "mas15": {
-    "total": 153,
-    "aciertos": 122
+    "total": 157,
+    "aciertos": 125
    },
    "doble": {
-    "total": 149,
-    "aciertos": 110
+    "total": 153,
+    "aciertos": 113
    },
    "mas25": {
-    "total": 44,
-    "aciertos": 31
+    "total": 46,
+    "aciertos": 33
    },
    "btts_si": {
-    "total": 31,
-    "aciertos": 22
+    "total": 32,
+    "aciertos": 23
    },
    "menos35": {
-    "total": 72,
-    "aciertos": 53
+    "total": 74,
+    "aciertos": 54
    },
    "menos25": {
     "total": 5,
