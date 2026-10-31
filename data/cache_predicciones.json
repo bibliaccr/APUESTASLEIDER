@@ -1,180 +1,4 @@
 {
- "567330": {
-  "obtenido": "2026-10-24T14:22:29.967235+00:00",
-  "h2h": [
-   {
-    "fecha": "2026-03-01T20:30:00Z",
-    "local": "Rio Ave",
-    "visita": "Famalicão",
-    "gl": 0,
-    "gv": 0
-   },
-   {
-    "fecha": "2025-09-28T19:30:00Z",
-    "local": "Famalicão",
-    "visita": "Rio Ave",
-    "gl": 0,
-    "gv": 0
-   },
-   {
-    "fecha": "2025-03-10T20:15:00Z",
-    "local": "Famalicão",
-    "visita": "Rio Ave",
-    "gl": 1,
-    "gv": 0
-   },
-   {
-    "fecha": "2024-10-04T19:15:00Z",
-    "local": "Rio Ave",
-    "visita": "Famalicão",
-    "gl": 1,
-    "gv": 1
-   },
-   {
-    "fecha": "2024-02-16T20:15:00Z",
-    "local": "Famalicão",
-    "visita": "Rio Ave",
-    "gl": 2,
-    "gv": 1
-   }
-  ]
- },
- "567334": {
-  "obtenido": "2026-10-24T14:22:29.967235+00:00",
-  "h2h": [
-   {
-    "fecha": "2026-02-28T18:00:00Z",
-    "local": "CD Nacional",
-    "visita": "Braga",
-    "gl": 1,
-    "gv": 2
-   },
-   {
-    "fecha": "2025-09-28T17:00:00Z",
-    "local": "Braga",
-    "visita": "CD Nacional",
-    "gl": 0,
-    "gv": 1
-   },
-   {
-    "fecha": "2025-02-21T20:15:00Z",
-    "local": "Braga",
-    "visita": "CD Nacional",
-    "gl": 1,
-    "gv": 0
-   },
-   {
-    "fecha": "2024-09-20T19:15:00Z",
-    "local": "CD Nacional",
-    "visita": "Braga",
-    "gl": 0,
-    "gv": 3
-   }
-  ]
- },
- "558855": {
-  "obtenido": "2026-10-24T14:22:29.967235+00:00",
-  "h2h": [
-   {
-    "fecha": "2026-05-03T14:45:00Z",
-    "local": "AZ",
-    "visita": "Twente",
-    "gl": 2,
-    "gv": 2
-   },
-   {
-    "fecha": "2025-11-30T15:45:00Z",
-    "local": "Twente",
-    "visita": "AZ",
-    "gl": 1,
-    "gv": 0
-   },
-   {
-    "fecha": "2025-05-14T18:00:00Z",
-    "local": "Twente",
-    "visita": "AZ",
-    "gl": 2,
-    "gv": 3
-   },
-   {
-    "fecha": "2024-12-21T19:00:00Z",
-    "local": "AZ",
-    "visita": "Twente",
-    "gl": 1,
-    "gv": 0
-   }
-  ]
- },
- "558559": {
-  "obtenido": "2026-10-24T14:22:29.967235+00:00",
-  "h2h": [
-   {
-    "fecha": "2026-04-11T16:00:00Z",
-    "local": "Milan",
-    "visita": "Udinese",
-    "gl": 0,
-    "gv": 3
-   },
-   {
-    "fecha": "2025-09-20T18:45:00Z",
-    "local": "Udinese",
-    "visita": "Milan",
-    "gl": 0,
-    "gv": 3
-   },
-   {
-    "fecha": "2025-04-11T18:45:00Z",
-    "local": "Udinese",
-    "visita": "Milan",
-    "gl": 0,
-    "gv": 4
-   },
-   {
-    "fecha": "2024-10-19T16:00:00Z",
-    "local": "Milan",
-    "visita": "Udinese",
-    "gl": 1,
-    "gv": 0
-   },
-   {
-    "fecha": "2024-01-20T19:45:00Z",
-    "local": "Udinese",
-    "visita": "Milan",
-    "gl": 2,
-    "gv": 3
-   }
-  ]
- },
- "564723": {
-  "obtenido": "2026-10-24T14:22:29.967235+00:00",
-  "h2h": [
-   {
-    "fecha": "2026-05-10T19:00:00Z",
-    "local": "Barça",
-    "visita": "Real Madrid",
-    "gl": 2,
-    "gv": 0
-   },
-   {
-    "fecha": "2025-10-26T15:15:00Z",
-    "local": "Real Madrid",
-    "visita": "Barça",
-    "gl": 2,
-    "gv": 1
-   },
-   {
-    "fecha": "2025-05-11T14:15:00Z",
-    "local": "Barça",
-    "visita": "Real Madrid",
-    "gl": 4,
-    "gv": 3
-   }
-  ]
- },
- "567332": {
-  "obtenido": "2026-10-24T14:22:29.967235+00:00",
-  "h2h": []
- },
  "564721": {
   "obtenido": "2026-10-25T00:51:00.813537+00:00",
   "h2h": [
@@ -2411,5 +2235,160 @@
  "567345": {
   "obtenido": "2026-10-31T02:01:56.279679+00:00",
   "h2h": []
+ },
+ "564729": {
+  "obtenido": "2026-10-31T15:59:17.849579+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-02-01T20:00:00Z",
+    "local": "Athletic",
+    "visita": "Real Sociedad",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-11-01T17:30:00Z",
+    "local": "Real Sociedad",
+    "visita": "Athletic",
+    "gl": 3,
+    "gv": 2
+   },
+   {
+    "fecha": "2025-05-04T19:00:00Z",
+    "local": "Real Sociedad",
+    "visita": "Athletic",
+    "gl": 0,
+    "gv": 0
+   }
+  ]
+ },
+ "567339": {
+  "obtenido": "2026-10-31T15:59:17.849579+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-04-19T19:30:00Z",
+    "local": "Braga",
+    "visita": "Famalicão",
+    "gl": 2,
+    "gv": 2
+   },
+   {
+    "fecha": "2025-12-06T20:30:00Z",
+    "local": "Famalicão",
+    "visita": "Braga",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "fecha": "2025-04-25T19:30:00Z",
+    "local": "Famalicão",
+    "visita": "Braga",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "fecha": "2024-12-16T18:45:00Z",
+    "local": "Braga",
+    "visita": "Famalicão",
+    "gl": 3,
+    "gv": 3
+   },
+   {
+    "fecha": "2024-01-18T18:45:00Z",
+    "local": "Famalicão",
+    "visita": "Braga",
+    "gl": 1,
+    "gv": 2
+   }
+  ]
+ },
+ "558545": {
+  "obtenido": "2026-10-31T15:59:17.849579+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-01-25T14:00:00Z",
+    "local": "Atalanta",
+    "visita": "Parma",
+    "gl": 4,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-08-30T16:30:00Z",
+    "local": "Parma",
+    "visita": "Atalanta",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-05-25T18:45:00Z",
+    "local": "Atalanta",
+    "visita": "Parma",
+    "gl": 2,
+    "gv": 3
+   },
+   {
+    "fecha": "2024-11-23T19:45:00Z",
+    "local": "Parma",
+    "visita": "Atalanta",
+    "gl": 1,
+    "gv": 3
+   }
+  ]
+ },
+ "559641": {
+  "obtenido": "2026-10-31T15:59:17.849579+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-02-07T18:00:00Z",
+    "local": "Brest",
+    "visita": "Lorient",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-10-19T15:15:00Z",
+    "local": "Lorient",
+    "visita": "Brest",
+    "gl": 3,
+    "gv": 3
+   },
+   {
+    "fecha": "2024-03-31T11:00:00Z",
+    "local": "Lorient",
+    "visita": "Brest",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "fecha": "2023-12-20T20:00:00Z",
+    "local": "Brest",
+    "visita": "Lorient",
+    "gl": 4,
+    "gv": 0
+   }
+  ]
+ },
+ "564731": {
+  "obtenido": "2026-10-31T15:59:17.849579+00:00",
+  "h2h": []
+ },
+ "567342": {
+  "obtenido": "2026-10-31T15:59:17.849579+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-02-08T20:30:00Z",
+    "local": "SL Benfica",
+    "visita": "Alverca",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-08-31T17:00:00Z",
+    "local": "Alverca",
+    "visita": "SL Benfica",
+    "gl": 1,
+    "gv": 2
+   }
+  ]
  }
 }
