@@ -1,223 +1,4 @@
 {
- "558856": {
-  "obtenido": "2026-10-24T01:22:30.555374+00:00",
-  "h2h": [
-   {
-    "fecha": "2026-03-14T20:00:00Z",
-    "local": "Ajax",
-    "visita": "Sparta",
-    "gl": 4,
-    "gv": 0
-   },
-   {
-    "fecha": "2025-10-04T14:30:00Z",
-    "local": "Sparta",
-    "visita": "Ajax",
-    "gl": 3,
-    "gv": 3
-   },
-   {
-    "fecha": "2025-04-27T12:30:00Z",
-    "local": "Ajax",
-    "visita": "Sparta",
-    "gl": 1,
-    "gv": 1
-   },
-   {
-    "fecha": "2024-12-22T11:15:00Z",
-    "local": "Sparta",
-    "visita": "Ajax",
-    "gl": 0,
-    "gv": 2
-   },
-   {
-    "fecha": "2024-03-17T15:45:00Z",
-    "local": "Sparta",
-    "visita": "Ajax",
-    "gl": 2,
-    "gv": 2
-   }
-  ]
- },
- "559649": {
-  "obtenido": "2026-10-24T01:22:30.555374+00:00",
-  "h2h": [
-   {
-    "fecha": "2026-05-10T19:00:00Z",
-    "local": "Le Havre",
-    "visita": "Marseille",
-    "gl": 0,
-    "gv": 1
-   },
-   {
-    "fecha": "2025-10-18T19:05:00Z",
-    "local": "Marseille",
-    "visita": "Le Havre",
-    "gl": 6,
-    "gv": 2
-   },
-   {
-    "fecha": "2025-05-10T19:00:00Z",
-    "local": "Le Havre",
-    "visita": "Marseille",
-    "gl": 1,
-    "gv": 3
-   },
-   {
-    "fecha": "2025-01-05T19:45:00Z",
-    "local": "Marseille",
-    "visita": "Le Havre",
-    "gl": 5,
-    "gv": 1
-   },
-   {
-    "fecha": "2024-05-19T19:00:00Z",
-    "local": "Le Havre",
-    "visita": "Marseille",
-    "gl": 1,
-    "gv": 2
-   }
-  ]
- },
- "559651": {
-  "obtenido": "2026-10-24T01:22:30.555374+00:00",
-  "h2h": [
-   {
-    "fecha": "2026-04-19T15:15:00Z",
-    "local": "Strasbourg",
-    "visita": "Stade Rennais",
-    "gl": 0,
-    "gv": 3
-   },
-   {
-    "fecha": "2025-11-02T14:00:00Z",
-    "local": "Stade Rennais",
-    "visita": "Strasbourg",
-    "gl": 4,
-    "gv": 1
-   },
-   {
-    "fecha": "2025-02-02T16:15:00Z",
-    "local": "Stade Rennais",
-    "visita": "Strasbourg",
-    "gl": 1,
-    "gv": 0
-   },
-   {
-    "fecha": "2024-08-25T15:00:00Z",
-    "local": "Strasbourg",
-    "visita": "Stade Rennais",
-    "gl": 3,
-    "gv": 1
-   },
-   {
-    "fecha": "2024-03-31T15:05:00Z",
-    "local": "Strasbourg",
-    "visita": "Stade Rennais",
-    "gl": 2,
-    "gv": 0
-   }
-  ]
- },
- "559655": {
-  "obtenido": "2026-10-24T01:22:30.555374+00:00",
-  "h2h": [
-   {
-    "fecha": "2023-02-01T18:00:00Z",
-    "local": "Toulouse",
-    "visita": "Troyes",
-    "gl": 4,
-    "gv": 1
-   },
-   {
-    "fecha": "2022-08-14T13:00:00Z",
-    "local": "Troyes",
-    "visita": "Toulouse",
-    "gl": 0,
-    "gv": 3
-   }
-  ]
- },
- "565836": {
-  "obtenido": "2026-10-24T01:22:30.555374+00:00",
-  "h2h": [
-   {
-    "fecha": "2026-04-04T13:30:00Z",
-    "local": "Freiburg",
-    "visita": "Bayern",
-    "gl": 2,
-    "gv": 3
-   },
-   {
-    "fecha": "2025-11-22T14:30:00Z",
-    "local": "Bayern",
-    "visita": "Freiburg",
-    "gl": 6,
-    "gv": 2
-   },
-   {
-    "fecha": "2025-01-25T14:30:00Z",
-    "local": "Freiburg",
-    "visita": "Bayern",
-    "gl": 1,
-    "gv": 2
-   },
-   {
-    "fecha": "2024-09-01T15:30:00Z",
-    "local": "Bayern",
-    "visita": "Freiburg",
-    "gl": 2,
-    "gv": 0
-   },
-   {
-    "fecha": "2024-03-01T19:30:00Z",
-    "local": "Freiburg",
-    "visita": "Bayern",
-    "gl": 2,
-    "gv": 2
-   }
-  ]
- },
- "564726": {
-  "obtenido": "2026-10-24T01:22:30.555374+00:00",
-  "h2h": [
-   {
-    "fecha": "2026-04-04T12:00:00Z",
-    "local": "Real Sociedad",
-    "visita": "Levante",
-    "gl": 2,
-    "gv": 0
-   },
-   {
-    "fecha": "2025-12-20T15:15:00Z",
-    "local": "Levante",
-    "visita": "Real Sociedad",
-    "gl": 1,
-    "gv": 1
-   },
-   {
-    "fecha": "2022-05-06T19:00:00Z",
-    "local": "Levante",
-    "visita": "Real Sociedad",
-    "gl": 2,
-    "gv": 1
-   },
-   {
-    "fecha": "2021-08-28T17:30:00Z",
-    "local": "Real Sociedad",
-    "visita": "Levante",
-    "gl": 1,
-    "gv": 0
-   },
-   {
-    "fecha": "2021-03-07T17:30:00Z",
-    "local": "Real Sociedad",
-    "visita": "Levante",
-    "gl": 1,
-    "gv": 0
-   }
-  ]
- },
  "567330": {
   "obtenido": "2026-10-24T14:22:29.967235+00:00",
   "h2h": [
@@ -2489,5 +2270,146 @@
     "gv": 3
    }
   ]
+ },
+ "559642": {
+  "obtenido": "2026-10-31T02:01:56.279679+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-04-10T17:00:00Z",
+    "local": "Paris FC",
+    "visita": "Monaco",
+    "gl": 4,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-11-01T18:00:00Z",
+    "local": "Monaco",
+    "visita": "Paris FC",
+    "gl": 0,
+    "gv": 1
+   }
+  ]
+ },
+ "560631": {
+  "obtenido": "2026-10-31T02:01:56.279679+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-01-08T20:00:00Z",
+    "local": "Arsenal",
+    "visita": "Liverpool",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-08-31T15:30:00Z",
+    "local": "Liverpool",
+    "visita": "Arsenal",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-05-11T15:30:00Z",
+    "local": "Liverpool",
+    "visita": "Arsenal",
+    "gl": 2,
+    "gv": 2
+   },
+   {
+    "fecha": "2024-10-27T16:30:00Z",
+    "local": "Arsenal",
+    "visita": "Liverpool",
+    "gl": 2,
+    "gv": 2
+   }
+  ]
+ },
+ "565844": {
+  "obtenido": "2026-10-31T02:01:56.279679+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-05-02T13:30:00Z",
+    "local": "Frankfurt",
+    "visita": "HSV",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "fecha": "2025-12-20T14:30:00Z",
+    "local": "HSV",
+    "visita": "Frankfurt",
+    "gl": 1,
+    "gv": 1
+   }
+  ]
+ },
+ "564728": {
+  "obtenido": "2026-10-31T02:01:56.279679+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-04-11T14:15:00Z",
+    "local": "Elche",
+    "visita": "Valencia",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2026-01-10T20:00:00Z",
+    "local": "Valencia",
+    "visita": "Elche",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "fecha": "2023-04-23T12:00:00Z",
+    "local": "Elche",
+    "visita": "Valencia",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "fecha": "2022-10-15T14:15:00Z",
+    "local": "Valencia",
+    "visita": "Elche",
+    "gl": 2,
+    "gv": 2
+   },
+   {
+    "fecha": "2022-03-19T15:15:00Z",
+    "local": "Elche",
+    "visita": "Valencia",
+    "gl": 0,
+    "gv": 1
+   }
+  ]
+ },
+ "567340": {
+  "obtenido": "2026-10-31T02:01:56.279679+00:00",
+  "h2h": [
+   {
+    "fecha": "2023-02-25T18:00:00Z",
+    "local": "Marítimo",
+    "visita": "Santa Clara",
+    "gl": 3,
+    "gv": 1
+   },
+   {
+    "fecha": "2022-09-04T17:00:00Z",
+    "local": "Santa Clara",
+    "visita": "Marítimo",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "fecha": "2022-04-23T17:00:00Z",
+    "local": "Santa Clara",
+    "visita": "Marítimo",
+    "gl": 2,
+    "gv": 2
+   }
+  ]
+ },
+ "567345": {
+  "obtenido": "2026-10-31T02:01:56.279679+00:00",
+  "h2h": []
  }
 }
