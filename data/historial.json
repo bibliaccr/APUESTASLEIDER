@@ -7675,24 +7675,28 @@
      "lado": null,
      "prob": 84,
      "texto": "Más de 1.5 goles",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": false
     },
     {
      "mercado": "doble",
      "lado": "away",
      "prob": 67,
      "texto": "Den Haag gana o empata",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": false
     },
     {
      "mercado": "btts_si",
      "lado": null,
      "prob": 65,
      "texto": "Ambos equipos marcan",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": false
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "1-0"
   },
   {
    "id": 558543,
@@ -7706,31 +7710,36 @@
      "lado": null,
      "prob": 78,
      "texto": "Más de 1.5 goles",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": false
     },
     {
      "mercado": "1x2",
      "lado": "home",
      "prob": 72,
      "texto": "Gana: Como 1907",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     },
     {
      "mercado": "menos35",
      "lado": null,
      "prob": 67,
      "texto": "Menos de 3.5 goles",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     },
     {
      "mercado": "doble",
      "lado": "home",
      "prob": 90,
      "texto": "Como 1907 gana o empata",
-     "nivel": "super"
+     "nivel": "super",
+     "acierto": true
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "1-0"
   },
   {
    "id": 564733,
@@ -7744,24 +7753,28 @@
      "lado": null,
      "prob": 79,
      "texto": "Menos de 3.5 goles",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": false
     },
     {
      "mercado": "doble",
      "lado": "away",
      "prob": 72,
      "texto": "Sevilla FC gana o empata",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": false
     },
     {
      "mercado": "mas15",
      "lado": null,
      "prob": 68,
      "texto": "Más de 1.5 goles",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "3-1"
   },
   {
    "id": 558848,
@@ -7775,24 +7788,28 @@
      "lado": null,
      "prob": 72,
      "texto": "Más de 2.5 goles",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     },
     {
      "mercado": "btts_si",
      "lado": null,
      "prob": 71,
      "texto": "Ambos equipos marcan",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     },
     {
      "mercado": "mas15",
      "lado": null,
      "prob": 89,
      "texto": "Más de 1.5 goles",
-     "nivel": "super"
+     "nivel": "super",
+     "acierto": true
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "4-2"
   },
   {
    "id": 558847,
@@ -7806,17 +7823,20 @@
      "lado": null,
      "prob": 82,
      "texto": "Más de 1.5 goles",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": true
     },
     {
      "mercado": "doble",
      "lado": "away",
      "prob": 79,
      "texto": "Twente gana o empata",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": true
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "0-9"
   },
   {
    "id": 558544,
@@ -7830,31 +7850,36 @@
      "lado": "home",
      "prob": 73,
      "texto": "Frosinone gana o empata",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     },
     {
      "mercado": "mas25",
      "lado": null,
      "prob": 71,
      "texto": "Más de 2.5 goles",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": false
     },
     {
      "mercado": "btts_si",
      "lado": null,
      "prob": 69,
      "texto": "Ambos equipos marcan",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": false
     },
     {
      "mercado": "mas15",
      "lado": null,
      "prob": 88,
      "texto": "Más de 1.5 goles",
-     "nivel": "super"
+     "nivel": "super",
+     "acierto": true
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "2-0"
   },
   {
    "id": 558546,
@@ -7868,31 +7893,36 @@
      "lado": null,
      "prob": 77,
      "texto": "Más de 1.5 goles",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": true
     },
     {
      "mercado": "1x2",
      "lado": "home",
      "prob": 68,
      "texto": "Gana: Lazio",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     },
     {
      "mercado": "menos35",
      "lado": null,
      "prob": 69,
      "texto": "Menos de 3.5 goles",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     },
     {
      "mercado": "doble",
      "lado": "home",
      "prob": 87,
      "texto": "Lazio gana o empata",
-     "nivel": "super"
+     "nivel": "super",
+     "acierto": true
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "2-1"
   },
   {
    "id": 559647,
@@ -7906,24 +7936,28 @@
      "lado": null,
      "prob": 75,
      "texto": "Más de 2.5 goles",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": true
     },
     {
      "mercado": "btts_si",
      "lado": null,
      "prob": 73,
      "texto": "Ambos equipos marcan",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     },
     {
      "mercado": "mas15",
      "lado": null,
      "prob": 90,
      "texto": "Más de 1.5 goles",
-     "nivel": "super"
+     "nivel": "super",
+     "acierto": true
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "5-1"
   },
   {
    "id": 565841,
@@ -7937,10 +7971,12 @@
      "lado": null,
      "prob": 72,
      "texto": "Más de 1.5 goles",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "1-1"
   },
   {
    "id": 564734,
@@ -8300,7 +8336,7 @@
     {
      "mercado": "doble",
      "lado": "away",
-     "prob": 69,
+     "prob": 68,
      "texto": "Napoli gana o empata",
      "nivel": "media"
     }
@@ -8317,7 +8353,7 @@
     {
      "mercado": "doble",
      "lado": "home",
-     "prob": 73,
+     "prob": 74,
      "texto": "Marseille gana o empata",
      "nivel": "media"
     },
@@ -8486,7 +8522,7 @@
     {
      "mercado": "doble",
      "lado": "home",
-     "prob": 69,
+     "prob": 70,
      "texto": "Lorient gana o empata",
      "nivel": "media"
     },
@@ -8534,7 +8570,7 @@
     {
      "mercado": "doble",
      "lado": "home",
-     "prob": 77,
+     "prob": 78,
      "texto": "Deportivo gana o empata",
      "nivel": "confiada"
     },
@@ -9154,46 +9190,46 @@
  "resumen": {
   "por_nivel": {
    "media": {
-    "total": 329,
-    "aciertos": 236
+    "total": 344,
+    "aciertos": 246
    },
    "confiada": {
-    "total": 219,
-    "aciertos": 159
+    "total": 226,
+    "aciertos": 163
    },
    "super": {
-    "total": 84,
-    "aciertos": 74
+    "total": 89,
+    "aciertos": 79
    }
   },
   "por_mercado": {
    "mas15": {
-    "total": 204,
-    "aciertos": 164
+    "total": 213,
+    "aciertos": 171
    },
    "doble": {
-    "total": 197,
-    "aciertos": 145
+    "total": 203,
+    "aciertos": 149
    },
    "mas25": {
-    "total": 62,
-    "aciertos": 43
+    "total": 65,
+    "aciertos": 45
    },
    "btts_si": {
-    "total": 43,
-    "aciertos": 29
+    "total": 47,
+    "aciertos": 31
    },
    "menos35": {
-    "total": 93,
-    "aciertos": 66
+    "total": 96,
+    "aciertos": 68
    },
    "menos25": {
     "total": 5,
     "aciertos": 1
    },
    "1x2": {
-    "total": 26,
-    "aciertos": 19
+    "total": 28,
+    "aciertos": 21
    },
    "btts_no": {
     "total": 2,

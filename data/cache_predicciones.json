@@ -1,167 +1,4 @@
 {
- "558557": {
-  "obtenido": "2026-10-25T14:54:39.734681+00:00",
-  "h2h": [
-   {
-    "fecha": "2026-01-24T14:00:00Z",
-    "local": "Como 1907",
-    "visita": "Torino",
-    "gl": 6,
-    "gv": 0
-   },
-   {
-    "fecha": "2025-11-24T17:30:00Z",
-    "local": "Torino",
-    "visita": "Como 1907",
-    "gl": 1,
-    "gv": 5
-   },
-   {
-    "fecha": "2025-04-13T16:00:00Z",
-    "local": "Como 1907",
-    "visita": "Torino",
-    "gl": 1,
-    "gv": 0
-   },
-   {
-    "fecha": "2024-10-25T18:45:00Z",
-    "local": "Torino",
-    "visita": "Como 1907",
-    "gl": 1,
-    "gv": 0
-   }
-  ]
- },
- "555062": {
-  "obtenido": "2026-10-25T14:54:39.734681+00:00",
-  "h2h": [
-   {
-    "fecha": "2026-05-03T21:30:00Z",
-    "local": "Chapecoense",
-    "visita": "Bragantino",
-    "gl": 1,
-    "gv": 2
-   },
-   {
-    "fecha": "2021-09-11T22:00:00Z",
-    "local": "Bragantino",
-    "visita": "Chapecoense",
-    "gl": 1,
-    "gv": 2
-   },
-   {
-    "fecha": "2021-05-30T21:15:00Z",
-    "local": "Chapecoense",
-    "visita": "Bragantino",
-    "gl": 0,
-    "gv": 3
-   }
-  ]
- },
- "555065": {
-  "obtenido": "2026-10-25T14:54:39.734681+00:00",
-  "h2h": [
-   {
-    "fecha": "2026-05-03T21:30:00Z",
-    "local": "Internacional",
-    "visita": "Fluminense",
-    "gl": 2,
-    "gv": 0
-   },
-   {
-    "fecha": "2025-10-25T20:30:00Z",
-    "local": "Fluminense",
-    "visita": "Internacional",
-    "gl": 1,
-    "gv": 0
-   },
-   {
-    "fecha": "2025-06-01T23:30:00Z",
-    "local": "Internacional",
-    "visita": "Fluminense",
-    "gl": 0,
-    "gv": 2
-   }
-  ]
- },
- "555068": {
-  "obtenido": "2026-10-25T14:54:39.734681+00:00",
-  "h2h": [
-   {
-    "fecha": "2026-05-02T21:30:00Z",
-    "local": "Palmeiras",
-    "visita": "Santos",
-    "gl": 1,
-    "gv": 1
-   },
-   {
-    "fecha": "2025-11-16T00:00:00Z",
-    "local": "Santos",
-    "visita": "Palmeiras",
-    "gl": 1,
-    "gv": 0
-   },
-   {
-    "fecha": "2025-11-07T00:30:00Z",
-    "local": "Palmeiras",
-    "visita": "Santos",
-    "gl": 2,
-    "gv": 0
-   }
-  ]
- },
- "555061": {
-  "obtenido": "2026-10-25T14:54:39.734681+00:00",
-  "h2h": [
-   {
-    "fecha": "2026-05-03T19:00:00Z",
-    "local": "São Paulo",
-    "visita": "Bahia",
-    "gl": 2,
-    "gv": 2
-   },
-   {
-    "fecha": "2025-10-26T01:30:00Z",
-    "local": "São Paulo",
-    "visita": "Bahia",
-    "gl": 2,
-    "gv": 0
-   },
-   {
-    "fecha": "2025-05-31T21:30:00Z",
-    "local": "Bahia",
-    "visita": "São Paulo",
-    "gl": 2,
-    "gv": 1
-   },
-   {
-    "fecha": "2024-11-06T00:30:00Z",
-    "local": "Bahia",
-    "visita": "São Paulo",
-    "gl": 0,
-    "gv": 3
-   },
-   {
-    "fecha": "2024-06-30T19:00:00Z",
-    "local": "São Paulo",
-    "visita": "Bahia",
-    "gl": 3,
-    "gv": 1
-   }
-  ]
- },
- "555067": {
-  "obtenido": "2026-10-25T14:54:39.734681+00:00",
-  "h2h": [
-   {
-    "fecha": "2026-05-02T19:00:00Z",
-    "local": "Botafogo",
-    "visita": "Clube do Remo",
-    "gl": 1,
-    "gv": 2
-   }
-  ]
- },
  "558550": {
   "obtenido": "2026-10-26T00:59:22.961298+00:00",
   "h2h": [
@@ -2358,6 +2195,183 @@
     "local": "Sheffield Utd",
     "visita": "Preston NE",
     "gl": 4,
+    "gv": 1
+   }
+  ]
+ },
+ "561917": {
+  "obtenido": "2026-11-01T17:03:20.236062+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-02-25T19:45:00Z",
+    "local": "Millwall",
+    "visita": "Birmingham",
+    "gl": 3,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-11-04T19:45:00Z",
+    "local": "Birmingham",
+    "visita": "Millwall",
+    "gl": 4,
+    "gv": 0
+   },
+   {
+    "fecha": "2024-03-09T15:00:00Z",
+    "local": "Millwall",
+    "visita": "Birmingham",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2023-09-02T11:30:00Z",
+    "local": "Birmingham",
+    "visita": "Millwall",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "fecha": "2023-04-18T19:00:00Z",
+    "local": "Millwall",
+    "visita": "Birmingham",
+    "gl": 0,
+    "gv": 1
+   }
+  ]
+ },
+ "555073": {
+  "obtenido": "2026-11-01T17:03:20.236062+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-05-10T21:30:00Z",
+    "local": "Mirassol",
+    "visita": "Chapecoense",
+    "gl": 1,
+    "gv": 1
+   }
+  ]
+ },
+ "555076": {
+  "obtenido": "2026-11-01T17:03:20.236062+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-05-09T19:00:00Z",
+    "local": "Coritiba",
+    "visita": "Internacional",
+    "gl": 2,
+    "gv": 2
+   },
+   {
+    "fecha": "2023-10-29T21:30:00Z",
+    "local": "Internacional",
+    "visita": "Coritiba",
+    "gl": 3,
+    "gv": 4
+   },
+   {
+    "fecha": "2023-06-22T23:00:00Z",
+    "local": "Coritiba",
+    "visita": "Internacional",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "fecha": "2022-10-23T21:00:00Z",
+    "local": "Coritiba",
+    "visita": "Internacional",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "fecha": "2022-06-25T00:30:00Z",
+    "local": "Internacional",
+    "visita": "Coritiba",
+    "gl": 3,
+    "gv": 0
+   }
+  ]
+ },
+ "561927": {
+  "obtenido": "2026-11-01T17:03:20.236062+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-05-02T11:30:00Z",
+    "local": "Wrexham",
+    "visita": "Middlesbrough",
+    "gl": 2,
+    "gv": 2
+   },
+   {
+    "fecha": "2025-10-25T14:00:00Z",
+    "local": "Middlesbrough",
+    "visita": "Wrexham",
+    "gl": 1,
+    "gv": 1
+   }
+  ]
+ },
+ "555070": {
+  "obtenido": "2026-11-01T17:03:20.236062+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-05-10T23:30:00Z",
+    "local": "Vasco da Gama",
+    "visita": "Paranaense",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2024-08-27T00:00:00Z",
+    "local": "Vasco da Gama",
+    "visita": "Paranaense",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "fecha": "2024-05-05T19:00:00Z",
+    "local": "Paranaense",
+    "visita": "Vasco da Gama",
+    "gl": 1,
+    "gv": 0
+   }
+  ]
+ },
+ "555075": {
+  "obtenido": "2026-11-01T17:03:20.236062+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-05-10T22:30:00Z",
+    "local": "Grêmio",
+    "visita": "Flamengo",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-08-31T19:00:00Z",
+    "local": "Flamengo",
+    "visita": "Grêmio",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-04-13T20:30:00Z",
+    "local": "Grêmio",
+    "visita": "Flamengo",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "fecha": "2024-09-22T21:30:00Z",
+    "local": "Grêmio",
+    "visita": "Flamengo",
+    "gl": 3,
+    "gv": 2
+   },
+   {
+    "fecha": "2024-06-13T23:00:00Z",
+    "local": "Flamengo",
+    "visita": "Grêmio",
+    "gl": 2,
     "gv": 1
    }
   ]
