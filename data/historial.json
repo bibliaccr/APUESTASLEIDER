@@ -7990,38 +7990,44 @@
      "lado": null,
      "prob": 78,
      "texto": "Más de 2.5 goles",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": true
     },
     {
      "mercado": "btts_si",
      "lado": null,
      "prob": 69,
      "texto": "Ambos equipos marcan",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": false
     },
     {
      "mercado": "1x2",
      "lado": "away",
      "prob": 68,
      "texto": "Gana: Real Madrid",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     },
     {
      "mercado": "doble",
      "lado": "away",
      "prob": 84,
      "texto": "Real Madrid gana o empata",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": true
     },
     {
      "mercado": "mas15",
      "lado": null,
      "prob": 92,
      "texto": "Más de 1.5 goles",
-     "nivel": "super"
+     "nivel": "super",
+     "acierto": true
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "0-3"
   },
   {
    "id": 567341,
@@ -8035,17 +8041,20 @@
      "lado": "home",
      "prob": 79,
      "texto": "Arouca gana o empata",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": true
     },
     {
      "mercado": "menos35",
      "lado": null,
      "prob": 74,
      "texto": "Menos de 3.5 goles",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "1-0"
   },
   {
    "id": 558846,
@@ -8059,31 +8068,36 @@
      "lado": null,
      "prob": 83,
      "texto": "Más de 2.5 goles",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": true
     },
     {
      "mercado": "btts_si",
      "lado": null,
      "prob": 79,
      "texto": "Ambos equipos marcan",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": true
     },
     {
      "mercado": "doble",
      "lado": "home",
      "prob": 70,
      "texto": "Groningen gana o empata",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": false
     },
     {
      "mercado": "mas15",
      "lado": null,
      "prob": 94,
      "texto": "Más de 1.5 goles",
-     "nivel": "super"
+     "nivel": "super",
+     "acierto": true
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "2-3"
   },
   {
    "id": 559640,
@@ -8097,24 +8111,28 @@
      "lado": "home",
      "prob": 85,
      "texto": "Olympique Lyon gana o empata",
-     "nivel": "super"
+     "nivel": "super",
+     "acierto": true
     },
     {
      "mercado": "mas15",
      "lado": null,
      "prob": 78,
      "texto": "Más de 1.5 goles",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": true
     },
     {
      "mercado": "menos35",
      "lado": null,
      "prob": 68,
      "texto": "Menos de 3.5 goles",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "2-0"
   },
   {
    "id": 559642,
@@ -8128,24 +8146,28 @@
      "lado": null,
      "prob": 78,
      "texto": "Menos de 3.5 goles",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": false
     },
     {
      "mercado": "doble",
      "lado": "home",
      "prob": 69,
      "texto": "Paris FC gana o empata",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     },
     {
      "mercado": "mas15",
      "lado": null,
      "prob": 68,
      "texto": "Más de 1.5 goles",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "3-1"
   },
   {
    "id": 560631,
@@ -8159,17 +8181,20 @@
      "lado": null,
      "prob": 83,
      "texto": "Menos de 3.5 goles",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": true
     },
     {
      "mercado": "doble",
      "lado": "away",
      "prob": 67,
      "texto": "Arsenal gana o empata",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "0-1"
   },
   {
    "id": 565844,
@@ -8183,17 +8208,20 @@
      "lado": null,
      "prob": 80,
      "texto": "Más de 1.5 goles",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": true
     },
     {
      "mercado": "doble",
      "lado": "home",
      "prob": 76,
      "texto": "Frankfurt gana o empata",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": true
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "3-1"
   },
   {
    "id": 558540,
@@ -8207,17 +8235,20 @@
      "lado": null,
      "prob": 74,
      "texto": "Menos de 3.5 goles",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     },
     {
      "mercado": "doble",
      "lado": "away",
      "prob": 66,
      "texto": "Genoa gana o empata",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "1-2"
   },
   {
    "id": 564728,
@@ -8231,24 +8262,28 @@
      "lado": "home",
      "prob": 81,
      "texto": "Elche gana o empata",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": false
     },
     {
      "mercado": "mas15",
      "lado": null,
      "prob": 75,
      "texto": "Más de 1.5 goles",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": false
     },
     {
      "mercado": "menos35",
      "lado": null,
      "prob": 72,
      "texto": "Menos de 3.5 goles",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "0-1"
   },
   {
    "id": 567340,
@@ -8262,31 +8297,36 @@
      "lado": null,
      "prob": 76,
      "texto": "Más de 1.5 goles",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": true
     },
     {
      "mercado": "1x2",
      "lado": "away",
      "prob": 68,
      "texto": "Gana: Santa Clara",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     },
     {
      "mercado": "menos35",
      "lado": null,
      "prob": 71,
      "texto": "Menos de 3.5 goles",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     },
     {
      "mercado": "doble",
      "lado": "away",
      "prob": 88,
      "texto": "Santa Clara gana o empata",
-     "nivel": "super"
+     "nivel": "super",
+     "acierto": true
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "0-2"
   },
   {
    "id": 567345,
@@ -8300,24 +8340,28 @@
      "lado": "home",
      "prob": 80,
      "texto": "Acad. Viseu gana o empata",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": true
     },
     {
      "mercado": "mas15",
      "lado": null,
      "prob": 80,
      "texto": "Más de 1.5 goles",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": true
     },
     {
      "mercado": "menos35",
      "lado": null,
      "prob": 65,
      "texto": "Menos de 3.5 goles",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "2-1"
   },
   {
    "id": 558547,
@@ -8331,17 +8375,20 @@
      "lado": null,
      "prob": 74,
      "texto": "Menos de 3.5 goles",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     },
     {
      "mercado": "doble",
      "lado": "away",
      "prob": 68,
      "texto": "Napoli gana o empata",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": false
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "2-0"
   },
   {
    "id": 559645,
@@ -8355,31 +8402,36 @@
      "lado": "home",
      "prob": 74,
      "texto": "Marseille gana o empata",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     },
     {
      "mercado": "mas25",
      "lado": null,
      "prob": 67,
      "texto": "Más de 2.5 goles",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": false
     },
     {
      "mercado": "btts_si",
      "lado": null,
      "prob": 66,
      "texto": "Ambos equipos marcan",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": false
     },
     {
      "mercado": "mas15",
      "lado": null,
      "prob": 86,
      "texto": "Más de 1.5 goles",
-     "nivel": "super"
+     "nivel": "super",
+     "acierto": true
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "2-0"
   },
   {
    "id": 564729,
@@ -8393,24 +8445,28 @@
      "lado": null,
      "prob": 80,
      "texto": "Más de 1.5 goles",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": true
     },
     {
      "mercado": "doble",
      "lado": "home",
      "prob": 70,
      "texto": "Athletic gana o empata",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     },
     {
      "mercado": "menos35",
      "lado": null,
      "prob": 65,
      "texto": "Menos de 3.5 goles",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "2-1"
   },
   {
    "id": 567339,
@@ -8424,24 +8480,28 @@
      "lado": null,
      "prob": 77,
      "texto": "Menos de 3.5 goles",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": true
     },
     {
      "mercado": "doble",
      "lado": "away",
      "prob": 74,
      "texto": "Famalicão gana o empata",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": false
     },
     {
      "mercado": "mas15",
      "lado": null,
      "prob": 70,
      "texto": "Más de 1.5 goles",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "3-0"
   },
   {
    "id": 558541,
@@ -8484,7 +8544,7 @@
     {
      "mercado": "doble",
      "lado": "home",
-     "prob": 79,
+     "prob": 80,
      "texto": "Atalanta gana o empata",
      "nivel": "confiada"
     },
@@ -8498,7 +8558,7 @@
     {
      "mercado": "menos35",
      "lado": null,
-     "prob": 69,
+     "prob": 68,
      "texto": "Menos de 3.5 goles",
      "nivel": "media"
     }
@@ -8522,7 +8582,7 @@
     {
      "mercado": "doble",
      "lado": "home",
-     "prob": 70,
+     "prob": 71,
      "texto": "Lorient gana o empata",
      "nivel": "media"
     },
@@ -8570,7 +8630,7 @@
     {
      "mercado": "doble",
      "lado": "home",
-     "prob": 78,
+     "prob": 77,
      "texto": "Deportivo gana o empata",
      "nivel": "confiada"
     },
@@ -8601,14 +8661,14 @@
     {
      "mercado": "doble",
      "lado": "home",
-     "prob": 82,
+     "prob": 83,
      "texto": "SL Benfica gana o empata",
      "nivel": "confiada"
     },
     {
      "mercado": "mas25",
      "lado": null,
-     "prob": 67,
+     "prob": 68,
      "texto": "Más de 2.5 goles",
      "nivel": "media"
     },
@@ -8639,7 +8699,7 @@
     {
      "mercado": "doble",
      "lado": "away",
-     "prob": 68,
+     "prob": 67,
      "texto": "Vitória SC gana o empata",
      "nivel": "media"
     },
@@ -9185,51 +9245,120 @@
     }
    ],
    "estado": "pendiente"
+  },
+  {
+   "id": 555077,
+   "fecha": "2026-11-05T22:30:00Z",
+   "liga": "Brasileirão Serie A",
+   "local": "Palmeiras",
+   "visitante": "Clube do Remo",
+   "picks": [
+    {
+     "mercado": "1x2",
+     "lado": "home",
+     "prob": 75,
+     "texto": "Gana: Palmeiras",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 75,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 71,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "media"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 92,
+     "texto": "Palmeiras gana o empata",
+     "nivel": "super"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 555074,
+   "fecha": "2026-11-06T00:30:00Z",
+   "liga": "Brasileirão Serie A",
+   "local": "Cruzeiro",
+   "visitante": "Bahia",
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 80,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 72,
+     "texto": "Cruzeiro gana o empata",
+     "nivel": "media"
+    },
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 65,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
   }
  ],
  "resumen": {
   "por_nivel": {
    "media": {
-    "total": 344,
-    "aciertos": 246
+    "total": 367,
+    "aciertos": 263
    },
    "confiada": {
-    "total": 226,
-    "aciertos": 163
+    "total": 243,
+    "aciertos": 177
    },
    "super": {
-    "total": 89,
-    "aciertos": 79
+    "total": 94,
+    "aciertos": 84
    }
   },
   "por_mercado": {
    "mas15": {
-    "total": 213,
-    "aciertos": 171
+    "total": 224,
+    "aciertos": 181
    },
    "doble": {
-    "total": 203,
-    "aciertos": 149
+    "total": 218,
+    "aciertos": 160
    },
    "mas25": {
-    "total": 65,
-    "aciertos": 45
+    "total": 68,
+    "aciertos": 47
    },
    "btts_si": {
-    "total": 47,
-    "aciertos": 31
+    "total": 50,
+    "aciertos": 32
    },
    "menos35": {
-    "total": 96,
-    "aciertos": 68
+    "total": 107,
+    "aciertos": 78
    },
    "menos25": {
     "total": 5,
     "aciertos": 1
    },
    "1x2": {
-    "total": 28,
-    "aciertos": 21
+    "total": 30,
+    "aciertos": 23
    },
    "btts_no": {
     "total": 2,
