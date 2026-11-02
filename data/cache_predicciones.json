@@ -1,44 +1,4 @@
 {
- "555066": {
-  "obtenido": "2026-10-26T17:11:54.354503+00:00",
-  "h2h": [
-   {
-    "fecha": "2026-05-02T23:30:00Z",
-    "local": "Paranaense",
-    "visita": "Grêmio",
-    "gl": 0,
-    "gv": 0
-   },
-   {
-    "fecha": "2024-08-04T19:00:00Z",
-    "local": "Paranaense",
-    "visita": "Grêmio",
-    "gl": 0,
-    "gv": 2
-   },
-   {
-    "fecha": "2024-04-17T22:00:00Z",
-    "local": "Grêmio",
-    "visita": "Paranaense",
-    "gl": 2,
-    "gv": 0
-   },
-   {
-    "fecha": "2023-10-18T22:00:00Z",
-    "local": "Grêmio",
-    "visita": "Paranaense",
-    "gl": 1,
-    "gv": 2
-   },
-   {
-    "fecha": "2023-05-27T19:00:00Z",
-    "local": "Paranaense",
-    "visita": "Grêmio",
-    "gl": 1,
-    "gv": 2
-   }
-  ]
- },
  "559644": {
   "obtenido": "2026-10-27T01:49:37.365509+00:00",
   "h2h": [
@@ -2316,5 +2276,105 @@
     "gv": 1
    }
   ]
+ },
+ "558845": {
+  "obtenido": "2026-11-02T20:40:25.213197+00:00",
+  "h2h": [
+   {
+    "fecha": "2025-05-14T18:00:00Z",
+    "local": "Willem II",
+    "visita": "Zwolle",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "fecha": "2024-12-13T19:00:00Z",
+    "local": "Zwolle",
+    "visita": "Willem II",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "fecha": "2022-01-14T19:00:00Z",
+    "local": "Zwolle",
+    "visita": "Willem II",
+    "gl": 2,
+    "gv": 0
+   }
+  ]
+ },
+ "558537": {
+  "obtenido": "2026-11-02T20:40:25.213197+00:00",
+  "h2h": [
+   {
+    "fecha": "2025-02-01T14:00:00Z",
+    "local": "Udinese",
+    "visita": "Venezia FC",
+    "gl": 3,
+    "gv": 2
+   },
+   {
+    "fecha": "2024-10-30T17:30:00Z",
+    "local": "Venezia FC",
+    "visita": "Udinese",
+    "gl": 3,
+    "gv": 2
+   },
+   {
+    "fecha": "2022-04-10T13:00:00Z",
+    "local": "Venezia FC",
+    "visita": "Udinese",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "fecha": "2021-08-27T16:30:00Z",
+    "local": "Udinese",
+    "visita": "Venezia FC",
+    "gl": 3,
+    "gv": 0
+   }
+  ]
+ },
+ "560634": {
+  "obtenido": "2026-11-02T20:40:25.213197+00:00",
+  "h2h": []
+ },
+ "564740": {
+  "obtenido": "2026-11-02T20:40:25.213197+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-02-14T17:30:00Z",
+    "local": "Sevilla FC",
+    "visita": "Alavés",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-09-20T16:30:00Z",
+    "local": "Alavés",
+    "visita": "Sevilla FC",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "fecha": "2025-04-20T16:30:00Z",
+    "local": "Sevilla FC",
+    "visita": "Alavés",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "fecha": "2024-09-20T19:00:00Z",
+    "local": "Alavés",
+    "visita": "Sevilla FC",
+    "gl": 2,
+    "gv": 1
+   }
+  ]
+ },
+ "561932": {
+  "obtenido": "2026-11-02T20:40:25.213197+00:00",
+  "h2h": []
  }
 }

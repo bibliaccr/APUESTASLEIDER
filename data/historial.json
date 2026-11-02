@@ -8515,24 +8515,28 @@
      "lado": null,
      "prob": 74,
      "texto": "Más de 2.5 goles",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     },
     {
      "mercado": "btts_si",
      "lado": null,
      "prob": 73,
      "texto": "Ambos equipos marcan",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     },
     {
      "mercado": "mas15",
      "lado": null,
      "prob": 90,
      "texto": "Más de 1.5 goles",
-     "nivel": "super"
+     "nivel": "super",
+     "acierto": true
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "2-4"
   },
   {
    "id": 558545,
@@ -9314,39 +9318,249 @@
     }
    ],
    "estado": "pendiente"
+  },
+  {
+   "id": 558845,
+   "fecha": "2026-11-06T19:00:00Z",
+   "liga": "Eredivisie",
+   "local": "Willem II",
+   "visitante": "Zwolle",
+   "picks": [
+    {
+     "mercado": "doble",
+     "lado": "away",
+     "prob": 80,
+     "texto": "Zwolle gana o empata",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "mas25",
+     "lado": null,
+     "prob": 68,
+     "texto": "Más de 2.5 goles",
+     "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 86,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 565852,
+   "fecha": "2026-11-06T19:30:00Z",
+   "liga": "Bundesliga",
+   "local": "HSV",
+   "visitante": "M'gladbach",
+   "picks": [
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 72,
+     "texto": "HSV gana o empata",
+     "nivel": "media"
+    },
+    {
+     "mercado": "mas25",
+     "lado": null,
+     "prob": 67,
+     "texto": "Más de 2.5 goles",
+     "nivel": "media"
+    },
+    {
+     "mercado": "btts_si",
+     "lado": null,
+     "prob": 66,
+     "texto": "Ambos equipos marcan",
+     "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 86,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 558537,
+   "fecha": "2026-11-06T19:45:00Z",
+   "liga": "Serie A",
+   "local": "Venezia FC",
+   "visitante": "Udinese",
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 75,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 72,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 559638,
+   "fecha": "2026-11-06T19:45:00Z",
+   "liga": "Ligue 1",
+   "local": "Toulouse",
+   "visitante": "Strasbourg",
+   "picks": [
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 71,
+     "texto": "Toulouse gana o empata",
+     "nivel": "media"
+    },
+    {
+     "mercado": "mas25",
+     "lado": null,
+     "prob": 67,
+     "texto": "Más de 2.5 goles",
+     "nivel": "media"
+    },
+    {
+     "mercado": "btts_si",
+     "lado": null,
+     "prob": 66,
+     "texto": "Ambos equipos marcan",
+     "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 86,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 560634,
+   "fecha": "2026-11-06T20:00:00Z",
+   "liga": "Premier League",
+   "local": "Everton",
+   "visitante": "Coventry City",
+   "picks": [
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 78,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 73,
+     "texto": "Everton gana o empata",
+     "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 69,
+     "texto": "Más de 1.5 goles",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 564740,
+   "fecha": "2026-11-06T20:00:00Z",
+   "liga": "LaLiga",
+   "local": "Sevilla FC",
+   "visitante": "Alavés",
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 82,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 71,
+     "texto": "Sevilla FC gana o empata",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 561932,
+   "fecha": "2026-11-06T20:00:00Z",
+   "liga": "Championship",
+   "local": "Derby County",
+   "visitante": "Bolton",
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 79,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 66,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
   }
  ],
  "resumen": {
   "por_nivel": {
    "media": {
-    "total": 367,
-    "aciertos": 263
+    "total": 369,
+    "aciertos": 265
    },
    "confiada": {
     "total": 243,
     "aciertos": 177
    },
    "super": {
-    "total": 94,
-    "aciertos": 84
+    "total": 95,
+    "aciertos": 85
    }
   },
   "por_mercado": {
    "mas15": {
-    "total": 224,
-    "aciertos": 181
+    "total": 225,
+    "aciertos": 182
    },
    "doble": {
     "total": 218,
     "aciertos": 160
    },
    "mas25": {
-    "total": 68,
-    "aciertos": 47
+    "total": 69,
+    "aciertos": 48
    },
    "btts_si": {
-    "total": 50,
-    "aciertos": 32
+    "total": 51,
+    "aciertos": 33
    },
    "menos35": {
     "total": 107,
