@@ -1,194 +1,4 @@
 {
- "559646": {
-  "obtenido": "2026-10-27T16:17:59.116368+00:00",
-  "h2h": [
-   {
-    "fecha": "2026-03-08T16:15:00Z",
-    "local": "Nice",
-    "visita": "Stade Rennais",
-    "gl": 0,
-    "gv": 4
-   },
-   {
-    "fecha": "2025-10-26T16:15:00Z",
-    "local": "Stade Rennais",
-    "visita": "Nice",
-    "gl": 1,
-    "gv": 2
-   },
-   {
-    "fecha": "2025-05-10T19:00:00Z",
-    "local": "Stade Rennais",
-    "visita": "Nice",
-    "gl": 2,
-    "gv": 0
-   },
-   {
-    "fecha": "2025-01-03T20:00:00Z",
-    "local": "Nice",
-    "visita": "Stade Rennais",
-    "gl": 3,
-    "gv": 2
-   },
-   {
-    "fecha": "2024-01-13T20:00:00Z",
-    "local": "Stade Rennais",
-    "visita": "Nice",
-    "gl": 2,
-    "gv": 0
-   }
-  ]
- },
- "560626": {
-  "obtenido": "2026-10-27T16:17:59.116368+00:00",
-  "h2h": [
-   {
-    "fecha": "2026-04-18T19:00:00Z",
-    "local": "Chelsea",
-    "visita": "Man United",
-    "gl": 0,
-    "gv": 1
-   },
-   {
-    "fecha": "2025-09-20T16:30:00Z",
-    "local": "Man United",
-    "visita": "Chelsea",
-    "gl": 2,
-    "gv": 1
-   },
-   {
-    "fecha": "2025-05-16T19:15:00Z",
-    "local": "Chelsea",
-    "visita": "Man United",
-    "gl": 1,
-    "gv": 0
-   },
-   {
-    "fecha": "2024-11-03T16:30:00Z",
-    "local": "Man United",
-    "visita": "Chelsea",
-    "gl": 1,
-    "gv": 1
-   },
-   {
-    "fecha": "2024-04-04T19:15:00Z",
-    "local": "Chelsea",
-    "visita": "Man United",
-    "gl": 4,
-    "gv": 3
-   }
-  ]
- },
- "561908": {
-  "obtenido": "2026-10-27T16:17:59.116368+00:00",
-  "h2h": [
-   {
-    "fecha": "2026-03-20T20:00:00Z",
-    "local": "Preston NE",
-    "visita": "Stoke",
-    "gl": 3,
-    "gv": 1
-   },
-   {
-    "fecha": "2025-12-26T15:00:00Z",
-    "local": "Stoke",
-    "visita": "Preston NE",
-    "gl": 0,
-    "gv": 0
-   },
-   {
-    "fecha": "2025-04-05T14:00:00Z",
-    "local": "Preston NE",
-    "visita": "Stoke",
-    "gl": 1,
-    "gv": 1
-   },
-   {
-    "fecha": "2024-11-26T19:45:00Z",
-    "local": "Stoke",
-    "visita": "Preston NE",
-    "gl": 0,
-    "gv": 0
-   },
-   {
-    "fecha": "2024-03-09T15:00:00Z",
-    "local": "Preston NE",
-    "visita": "Stoke",
-    "gl": 1,
-    "gv": 2
-   }
-  ]
- },
- "561910": {
-  "obtenido": "2026-10-27T16:17:59.116368+00:00",
-  "h2h": [
-   {
-    "fecha": "2025-12-29T19:45:00Z",
-    "local": "Norwich",
-    "visita": "Watford",
-    "gl": 0,
-    "gv": 1
-   },
-   {
-    "fecha": "2025-12-06T12:30:00Z",
-    "local": "Watford",
-    "visita": "Norwich",
-    "gl": 3,
-    "gv": 2
-   },
-   {
-    "fecha": "2025-02-01T12:30:00Z",
-    "local": "Watford",
-    "visita": "Norwich",
-    "gl": 0,
-    "gv": 1
-   },
-   {
-    "fecha": "2024-09-21T11:30:00Z",
-    "local": "Norwich",
-    "visita": "Watford",
-    "gl": 4,
-    "gv": 1
-   }
-  ]
- },
- "561915": {
-  "obtenido": "2026-10-27T16:17:59.116368+00:00",
-  "h2h": []
- },
- "564730": {
-  "obtenido": "2026-10-27T16:17:59.116368+00:00",
-  "h2h": [
-   {
-    "fecha": "2026-01-31T17:30:00Z",
-    "local": "Levante",
-    "visita": "Atleti",
-    "gl": 0,
-    "gv": 0
-   },
-   {
-    "fecha": "2025-11-08T17:30:00Z",
-    "local": "Atleti",
-    "visita": "Levante",
-    "gl": 3,
-    "gv": 1
-   },
-   {
-    "fecha": "2022-02-16T18:00:00Z",
-    "local": "Atleti",
-    "visita": "Levante",
-    "gl": 0,
-    "gv": 1
-   },
-   {
-    "fecha": "2021-10-28T19:30:00Z",
-    "local": "Levante",
-    "visita": "Atleti",
-    "gl": 2,
-    "gv": 2
-   }
-  ]
- },
  "558539": {
   "obtenido": "2026-10-28T02:01:40.670584+00:00",
   "h2h": [
@@ -2228,6 +2038,146 @@
     "visita": "Famalicão",
     "gl": 3,
     "gv": 2
+   }
+  ]
+ },
+ "561933": {
+  "obtenido": "2026-11-03T18:18:14.834759+00:00",
+  "h2h": []
+ },
+ "561938": {
+  "obtenido": "2026-11-03T18:18:14.834759+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-04-25T14:00:00Z",
+    "local": "Stoke",
+    "visita": "Portsmouth",
+    "gl": 1,
+    "gv": 3
+   },
+   {
+    "fecha": "2025-10-25T11:30:00Z",
+    "local": "Portsmouth",
+    "visita": "Stoke",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-01-22T19:45:00Z",
+    "local": "Portsmouth",
+    "visita": "Stoke",
+    "gl": 3,
+    "gv": 1
+   },
+   {
+    "fecha": "2024-10-02T18:45:00Z",
+    "local": "Stoke",
+    "visita": "Portsmouth",
+    "gl": 6,
+    "gv": 1
+   }
+  ]
+ },
+ "561939": {
+  "obtenido": "2026-11-03T18:18:14.834759+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-04-18T14:00:00Z",
+    "local": "Bristol City",
+    "visita": "Norwich",
+    "gl": 2,
+    "gv": 4
+   },
+   {
+    "fecha": "2025-10-18T14:00:00Z",
+    "local": "Norwich",
+    "visita": "Bristol City",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-03-14T20:00:00Z",
+    "local": "Bristol City",
+    "visita": "Norwich",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "fecha": "2024-11-09T15:00:00Z",
+    "local": "Norwich",
+    "visita": "Bristol City",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "fecha": "2024-04-20T14:00:00Z",
+    "local": "Norwich",
+    "visita": "Bristol City",
+    "gl": 1,
+    "gv": 1
+   }
+  ]
+ },
+ "564744": {
+  "obtenido": "2026-11-03T18:18:14.834759+00:00",
+  "h2h": []
+ },
+ "558532": {
+  "obtenido": "2026-11-03T18:18:14.834759+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-02-01T11:30:00Z",
+    "local": "Torino",
+    "visita": "Lecce",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-11-30T11:30:00Z",
+    "local": "Lecce",
+    "visita": "Torino",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-05-18T18:45:00Z",
+    "local": "Lecce",
+    "visita": "Torino",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2024-09-15T13:00:00Z",
+    "local": "Torino",
+    "visita": "Lecce",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "fecha": "2024-02-16T18:00:00Z",
+    "local": "Torino",
+    "visita": "Lecce",
+    "gl": 2,
+    "gv": 0
+   }
+  ]
+ },
+ "558534": {
+  "obtenido": "2026-11-03T18:18:14.834759+00:00",
+  "h2h": [
+   {
+    "fecha": "2024-01-21T11:30:00Z",
+    "local": "Frosinone",
+    "visita": "Cagliari",
+    "gl": 3,
+    "gv": 1
+   },
+   {
+    "fecha": "2023-10-29T11:30:00Z",
+    "local": "Cagliari",
+    "visita": "Frosinone",
+    "gl": 4,
+    "gv": 3
    }
   ]
  }
