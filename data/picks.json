@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-05T03:11:29.339816+00:00",
+ "generado": "2026-11-05T18:36:08.052688+00:00",
  "niveles": {
   "super": 85,
   "confiada": 75,
@@ -9558,7 +9558,22 @@
      "away": 0,
      "global": 0
     },
-    "h2h": []
+    "h2h": [
+     {
+      "fecha": "2026-02-08T16:15:00Z",
+      "local": "Auxerre",
+      "visita": "Paris FC",
+      "gl": 0,
+      "gv": 0
+     },
+     {
+      "fecha": "2025-11-29T18:00:00Z",
+      "local": "Paris FC",
+      "visita": "Auxerre",
+      "gl": 1,
+      "gv": 1
+     }
+    ]
    }
   },
   {
@@ -9776,7 +9791,22 @@
      "away": 0,
      "global": 0
     },
-    "h2h": []
+    "h2h": [
+     {
+      "fecha": "2026-04-12T14:30:00Z",
+      "local": "Alverca",
+      "visita": "Casa Pia",
+      "gl": 3,
+      "gv": 1
+     },
+     {
+      "fecha": "2025-11-29T15:30:00Z",
+      "local": "Casa Pia",
+      "visita": "Alverca",
+      "gl": 0,
+      "gv": 2
+     }
+    ]
    }
   },
   {
@@ -10016,7 +10046,43 @@
      "away": 5,
      "global": 0
     },
-    "h2h": []
+    "h2h": [
+     {
+      "fecha": "2026-01-10T17:00:00Z",
+      "local": "Roma",
+      "visita": "Sassuolo",
+      "gl": 2,
+      "gv": 0
+     },
+     {
+      "fecha": "2025-10-26T14:00:00Z",
+      "local": "Sassuolo",
+      "visita": "Roma",
+      "gl": 0,
+      "gv": 1
+     },
+     {
+      "fecha": "2024-03-17T17:00:00Z",
+      "local": "Roma",
+      "visita": "Sassuolo",
+      "gl": 1,
+      "gv": 0
+     },
+     {
+      "fecha": "2023-12-03T17:00:00Z",
+      "local": "Sassuolo",
+      "visita": "Roma",
+      "gl": 1,
+      "gv": 2
+     },
+     {
+      "fecha": "2023-03-12T17:00:00Z",
+      "local": "Roma",
+      "visita": "Sassuolo",
+      "gl": 3,
+      "gv": 4
+     }
+    ]
    }
   },
   {
@@ -10242,7 +10308,43 @@
      "away": 0,
      "global": 0
     },
-    "h2h": []
+    "h2h": [
+     {
+      "fecha": "2026-02-08T20:00:00Z",
+      "local": "Valencia",
+      "visita": "Real Madrid",
+      "gl": 0,
+      "gv": 2
+     },
+     {
+      "fecha": "2025-11-01T20:00:00Z",
+      "local": "Real Madrid",
+      "visita": "Valencia",
+      "gl": 4,
+      "gv": 0
+     },
+     {
+      "fecha": "2025-04-05T14:15:00Z",
+      "local": "Real Madrid",
+      "visita": "Valencia",
+      "gl": 1,
+      "gv": 2
+     },
+     {
+      "fecha": "2025-01-03T20:00:00Z",
+      "local": "Valencia",
+      "visita": "Real Madrid",
+      "gl": 1,
+      "gv": 2
+     },
+     {
+      "fecha": "2024-03-02T20:00:00Z",
+      "local": "Valencia",
+      "visita": "Real Madrid",
+      "gl": 2,
+      "gv": 2
+     }
+    ]
    }
   },
   {
@@ -10475,7 +10577,43 @@
      "away": 0,
      "global": 0
     },
-    "h2h": []
+    "h2h": [
+     {
+      "fecha": "2026-03-01T19:00:00Z",
+      "local": "Excelsior",
+      "visita": "Go Ahead",
+      "gl": 0,
+      "gv": 1
+     },
+     {
+      "fecha": "2025-10-26T19:00:00Z",
+      "local": "Go Ahead",
+      "visita": "Excelsior",
+      "gl": 2,
+      "gv": 0
+     },
+     {
+      "fecha": "2024-03-30T19:00:00Z",
+      "local": "Go Ahead",
+      "visita": "Excelsior",
+      "gl": 3,
+      "gv": 0
+     },
+     {
+      "fecha": "2023-12-16T17:45:00Z",
+      "local": "Excelsior",
+      "visita": "Go Ahead",
+      "gl": 1,
+      "gv": 1
+     },
+     {
+      "fecha": "2023-04-14T18:00:00Z",
+      "local": "Excelsior",
+      "visita": "Go Ahead",
+      "gl": 2,
+      "gv": 1
+     }
+    ]
    }
   },
   {
@@ -10693,7 +10831,36 @@
      "away": 5,
      "global": 0
     },
-    "h2h": []
+    "h2h": [
+     {
+      "fecha": "2023-05-07T18:45:00Z",
+      "local": "Troyes",
+      "visita": "PSG",
+      "gl": 1,
+      "gv": 3
+     },
+     {
+      "fecha": "2022-10-29T15:00:00Z",
+      "local": "PSG",
+      "visita": "Troyes",
+      "gl": 4,
+      "gv": 3
+     },
+     {
+      "fecha": "2022-05-08T18:45:00Z",
+      "local": "PSG",
+      "visita": "Troyes",
+      "gl": 2,
+      "gv": 2
+     },
+     {
+      "fecha": "2021-08-07T19:00:00Z",
+      "local": "Troyes",
+      "visita": "PSG",
+      "gl": 1,
+      "gv": 2
+     }
+    ]
    }
   },
   {
