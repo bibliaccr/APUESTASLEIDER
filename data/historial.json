@@ -9353,31 +9353,36 @@
      "lado": "home",
      "prob": 75,
      "texto": "Gana: Palmeiras",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": true
     },
     {
      "mercado": "mas15",
      "lado": null,
      "prob": 75,
      "texto": "Más de 1.5 goles",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": true
     },
     {
      "mercado": "menos35",
      "lado": null,
      "prob": 71,
      "texto": "Menos de 3.5 goles",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": false
     },
     {
      "mercado": "doble",
      "lado": "home",
      "prob": 92,
      "texto": "Palmeiras gana o empata",
-     "nivel": "super"
+     "nivel": "super",
+     "acierto": true
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "6-1"
   },
   {
    "id": 555074,
@@ -9391,24 +9396,28 @@
      "lado": null,
      "prob": 80,
      "texto": "Más de 1.5 goles",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": true
     },
     {
      "mercado": "doble",
      "lado": "home",
      "prob": 72,
      "texto": "Cruzeiro gana o empata",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     },
     {
      "mercado": "menos35",
      "lado": null,
      "prob": 65,
      "texto": "Menos de 3.5 goles",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": false
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "3-2"
   },
   {
    "id": 558845,
@@ -9675,7 +9684,7 @@
     {
      "mercado": "doble",
      "lado": "away",
-     "prob": 68,
+     "prob": 67,
      "texto": "Fluminense gana o empata",
      "nivel": "media"
     }
@@ -11793,26 +11802,26 @@
  "resumen": {
   "por_nivel": {
    "media": {
-    "total": 406,
-    "aciertos": 293
+    "total": 409,
+    "aciertos": 294
    },
    "confiada": {
-    "total": 268,
-    "aciertos": 196
+    "total": 271,
+    "aciertos": 199
    },
    "super": {
-    "total": 99,
-    "aciertos": 88
+    "total": 100,
+    "aciertos": 89
    }
   },
   "por_mercado": {
    "mas15": {
-    "total": 246,
-    "aciertos": 198
+    "total": 248,
+    "aciertos": 200
    },
    "doble": {
-    "total": 241,
-    "aciertos": 177
+    "total": 243,
+    "aciertos": 179
    },
    "mas25": {
     "total": 71,
@@ -11823,7 +11832,7 @@
     "aciertos": 34
    },
    "menos35": {
-    "total": 123,
+    "total": 125,
     "aciertos": 90
    },
    "menos25": {
@@ -11831,8 +11840,8 @@
     "aciertos": 2
    },
    "1x2": {
-    "total": 31,
-    "aciertos": 24
+    "total": 32,
+    "aciertos": 25
    },
    "btts_no": {
     "total": 3,

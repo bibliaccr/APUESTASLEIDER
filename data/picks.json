@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-05T18:36:08.052688+00:00",
+ "generado": "2026-11-06T03:12:18.680622+00:00",
  "niveles": {
   "super": 85,
   "confiada": 75,
@@ -8,494 +8,6 @@
  "llamadas_usadas": 16,
  "avisos": [],
  "partidos": [
-  {
-   "id": 555077,
-   "fecha": "2026-11-05T22:30:00Z",
-   "liga": {
-    "id": "BSA",
-    "nombre": "Brasileirão Serie A",
-    "pais": "Brasil",
-    "logo": "https://crests.football-data.org/bsa.png"
-   },
-   "local": {
-    "id": 1769,
-    "nombre": "Palmeiras",
-    "logo": "https://crests.football-data.org/1769.png"
-   },
-   "visitante": {
-    "id": 4287,
-    "nombre": "Clube do Remo",
-    "logo": "https://crests.football-data.org/4287.png"
-   },
-   "picks": [
-    {
-     "mercado": "1x2",
-     "lado": "home",
-     "prob": 75,
-     "texto": "Gana: Palmeiras",
-     "nivel": "confiada"
-    },
-    {
-     "mercado": "mas15",
-     "lado": null,
-     "prob": 75,
-     "texto": "Más de 1.5 goles",
-     "nivel": "confiada"
-    }
-   ],
-   "por_nivel": {
-    "media": [
-     {
-      "mercado": "menos35",
-      "lado": null,
-      "prob": 71,
-      "texto": "Menos de 3.5 goles",
-      "nivel": "media"
-     }
-    ],
-    "confiada": [
-     {
-      "mercado": "1x2",
-      "lado": "home",
-      "prob": 75,
-      "texto": "Gana: Palmeiras",
-      "nivel": "confiada"
-     },
-     {
-      "mercado": "mas15",
-      "lado": null,
-      "prob": 75,
-      "texto": "Más de 1.5 goles",
-      "nivel": "confiada"
-     }
-    ],
-    "super": [
-     {
-      "mercado": "doble",
-      "lado": "home",
-      "prob": 92,
-      "texto": "Palmeiras gana o empata",
-      "nivel": "super"
-     }
-    ]
-   },
-   "nivel_max": "confiada",
-   "analisis": {
-    "percent": {
-     "home": 75.1,
-     "draw": 17.1,
-     "away": 7.8
-    },
-    "mas15": 75.3,
-    "menos35": 71.2,
-    "mas25": 50.9,
-    "ambos": 37.0,
-    "goles_esp": {
-     "home": 2.17,
-     "away": 0.54
-    },
-    "ultimos5": {
-     "home": 87,
-     "away": 40
-    },
-    "forma": {
-     "home": 68,
-     "away": 32
-    },
-    "gf": {
-     "home": 1.7,
-     "away": 1.09
-    },
-    "gc": {
-     "home": 0.67,
-     "away": 1.55
-    },
-    "jugados": {
-     "home": 33,
-     "away": 33
-    },
-    "mercados": {
-     "h": 75.1,
-     "x": 17.1,
-     "a": 7.8,
-     "dc": {
-      "1x": 92.2,
-      "x2": 24.9,
-      "12": 82.9
-     },
-     "dnb": {
-      "h": 90.6,
-      "a": 9.4
-     },
-     "mas": {
-      "0": 93.4,
-      "1": 75.3,
-      "2": 50.9,
-      "3": 28.8,
-      "4": 13.9
-     },
-     "btts": 37.0,
-     "mas_local": {
-      "0": 88.6,
-      "1": 63.8,
-      "2": 36.9
-     },
-     "mas_visita": {
-      "0": 41.8,
-      "1": 10.3,
-      "2": 1.8
-     },
-     "marcadores": [
-      [
-       "2-0",
-       15.7
-      ],
-      [
-       "1-0",
-       14.4
-      ],
-      [
-       "3-0",
-       11.3
-      ],
-      [
-       "2-1",
-       8.5
-      ],
-      [
-       "1-1",
-       7.8
-      ]
-     ]
-    },
-    "mercados_1t": {
-     "h": 62.9,
-     "x": 31.1,
-     "a": 6.0,
-     "dc": {
-      "1x": 94.0,
-      "x2": 37.1,
-      "12": 68.9
-     },
-     "mas": {
-      "0": 75.1,
-      "1": 40.5,
-      "2": 16.4,
-      "3": 5.3,
-      "4": 1.4
-     },
-     "btts": 12.4,
-     "mas_local": {
-      "0": 69.7,
-      "1": 33.5,
-      "2": 11.9
-     },
-     "mas_visita": {
-      "0": 17.8,
-      "1": 1.7,
-      "2": 0.1
-     },
-     "marcadores": [
-      [
-       "1-0",
-       29.8
-      ],
-      [
-       "0-0",
-       24.9
-      ],
-      [
-       "2-0",
-       17.8
-      ],
-      [
-       "3-0",
-       7.1
-      ],
-      [
-       "1-1",
-       5.8
-      ]
-     ],
-     "goles_esp": {
-      "home": 1.19,
-      "away": 0.2
-     },
-     "jugados": {
-      "home": 33,
-      "away": 33
-     }
-    },
-    "penal": {
-     "home": 0,
-     "away": 5,
-     "global": 0
-    },
-    "h2h": [
-     {
-      "fecha": "2026-05-10T20:40:00Z",
-      "local": "Clube do Remo",
-      "visita": "Palmeiras",
-      "gl": 1,
-      "gv": 1
-     }
-    ]
-   }
-  },
-  {
-   "id": 555074,
-   "fecha": "2026-11-06T00:30:00Z",
-   "liga": {
-    "id": "BSA",
-    "nombre": "Brasileirão Serie A",
-    "pais": "Brasil",
-    "logo": "https://crests.football-data.org/bsa.png"
-   },
-   "local": {
-    "id": 1771,
-    "nombre": "Cruzeiro",
-    "logo": "https://crests.football-data.org/1771.png"
-   },
-   "visitante": {
-    "id": 1777,
-    "nombre": "Bahia",
-    "logo": "https://crests.football-data.org/1777.png"
-   },
-   "picks": [
-    {
-     "mercado": "mas15",
-     "lado": null,
-     "prob": 80,
-     "texto": "Más de 1.5 goles",
-     "nivel": "confiada"
-    },
-    {
-     "mercado": "doble",
-     "lado": "home",
-     "prob": 72,
-     "texto": "Cruzeiro gana o empata",
-     "nivel": "media"
-    }
-   ],
-   "por_nivel": {
-    "media": [
-     {
-      "mercado": "doble",
-      "lado": "home",
-      "prob": 72,
-      "texto": "Cruzeiro gana o empata",
-      "nivel": "media"
-     },
-     {
-      "mercado": "menos35",
-      "lado": null,
-      "prob": 65,
-      "texto": "Menos de 3.5 goles",
-      "nivel": "media"
-     }
-    ],
-    "confiada": [
-     {
-      "mercado": "mas15",
-      "lado": null,
-      "prob": 80,
-      "texto": "Más de 1.5 goles",
-      "nivel": "confiada"
-     }
-    ],
-    "super": []
-   },
-   "nivel_max": "confiada",
-   "analisis": {
-    "percent": {
-     "home": 47.8,
-     "draw": 23.7,
-     "away": 28.5
-    },
-    "mas15": 79.9,
-    "menos35": 65.0,
-    "mas25": 57.4,
-    "ambos": 59.1,
-    "goles_esp": {
-     "home": 1.71,
-     "away": 1.27
-    },
-    "ultimos5": {
-     "home": 80,
-     "away": 47
-    },
-    "forma": {
-     "home": 63,
-     "away": 37
-    },
-    "gf": {
-     "home": 1.58,
-     "away": 1.45
-    },
-    "gc": {
-     "home": 1.39,
-     "away": 1.27
-    },
-    "jugados": {
-     "home": 33,
-     "away": 33
-    },
-    "mercados": {
-     "h": 47.8,
-     "x": 23.7,
-     "a": 28.5,
-     "dc": {
-      "1x": 71.5,
-      "x2": 52.2,
-      "12": 76.3
-     },
-     "dnb": {
-      "h": 62.6,
-      "a": 37.4
-     },
-     "mas": {
-      "0": 95.0,
-      "1": 79.9,
-      "2": 57.4,
-      "3": 35.0,
-      "4": 18.3
-     },
-     "btts": 59.1,
-     "mas_local": {
-      "0": 82.0,
-      "1": 51.1,
-      "2": 24.7
-     },
-     "mas_visita": {
-      "0": 72.0,
-      "1": 36.4,
-      "2": 13.7
-     },
-     "marcadores": [
-      [
-       "1-1",
-       11.0
-      ],
-      [
-       "2-1",
-       9.4
-      ],
-      [
-       "1-0",
-       8.6
-      ],
-      [
-       "2-0",
-       7.4
-      ],
-      [
-       "1-2",
-       7.0
-      ]
-     ]
-    },
-    "mercados_1t": {
-     "h": 31.2,
-     "x": 34.7,
-     "a": 34.1,
-     "dc": {
-      "1x": 65.9,
-      "x2": 68.8,
-      "12": 65.3
-     },
-     "mas": {
-      "0": 80.7,
-      "1": 48.9,
-      "2": 22.8,
-      "3": 8.5,
-      "4": 2.6
-     },
-     "btts": 31.4,
-     "mas_local": {
-      "0": 54.9,
-      "1": 19.0,
-      "2": 4.7
-     },
-     "mas_visita": {
-      "0": 57.2,
-      "1": 20.8,
-      "2": 5.4
-     },
-     "marcadores": [
-      [
-       "0-0",
-       19.3
-      ],
-      [
-       "0-1",
-       16.4
-      ],
-      [
-       "1-0",
-       15.4
-      ],
-      [
-       "1-1",
-       13.0
-      ],
-      [
-       "0-2",
-       6.9
-      ]
-     ],
-     "goles_esp": {
-      "home": 0.8,
-      "away": 0.85
-     },
-     "jugados": {
-      "home": 33,
-      "away": 33
-     }
-    },
-    "penal": {
-     "home": 0,
-     "away": 5,
-     "global": 0
-    },
-    "h2h": [
-     {
-      "fecha": "2026-05-10T00:00:00Z",
-      "local": "Bahia",
-      "visita": "Cruzeiro",
-      "gl": 1,
-      "gv": 2
-     },
-     {
-      "fecha": "2025-09-15T23:00:00Z",
-      "local": "Bahia",
-      "visita": "Cruzeiro",
-      "gl": 1,
-      "gv": 2
-     },
-     {
-      "fecha": "2025-04-18T00:30:00Z",
-      "local": "Cruzeiro",
-      "visita": "Bahia",
-      "gl": 3,
-      "gv": 0
-     },
-     {
-      "fecha": "2024-10-19T00:30:00Z",
-      "local": "Cruzeiro",
-      "visita": "Bahia",
-      "gl": 1,
-      "gv": 1
-     },
-     {
-      "fecha": "2024-06-23T19:00:00Z",
-      "local": "Bahia",
-      "visita": "Cruzeiro",
-      "gl": 4,
-      "gv": 1
-     }
-    ]
-   }
-  },
   {
    "id": 558845,
    "fecha": "2026-11-06T19:00:00Z",
@@ -2394,7 +1906,7 @@
     {
      "mercado": "doble",
      "lado": "away",
-     "prob": 68,
+     "prob": 67,
      "texto": "Fluminense gana o empata",
      "nivel": "media"
     }
@@ -2411,7 +1923,7 @@
      {
       "mercado": "doble",
       "lado": "away",
-      "prob": 68,
+      "prob": 67,
       "texto": "Fluminense gana o empata",
       "nivel": "media"
      }
@@ -2422,17 +1934,17 @@
    "nivel_max": "media",
    "analisis": {
     "percent": {
-     "home": 32.3,
-     "draw": 26.0,
-     "away": 41.7
+     "home": 32.6,
+     "draw": 26.1,
+     "away": 41.3
     },
-    "mas15": 74.0,
-    "menos35": 72.8,
-    "mas25": 49.1,
-    "ambos": 53.4,
+    "mas15": 73.6,
+    "menos35": 73.2,
+    "mas25": 48.7,
+    "ambos": 53.1,
     "goles_esp": {
      "home": 1.22,
-     "away": 1.42
+     "away": 1.4
     },
     "ultimos5": {
      "home": 33,
@@ -2455,35 +1967,35 @@
      "away": 33
     },
     "mercados": {
-     "h": 32.3,
-     "x": 26.0,
-     "a": 41.7,
+     "h": 32.6,
+     "x": 26.1,
+     "a": 41.3,
      "dc": {
-      "1x": 58.3,
-      "x2": 67.7,
-      "12": 74.0
+      "1x": 58.7,
+      "x2": 67.4,
+      "12": 73.9
      },
      "dnb": {
-      "h": 43.7,
-      "a": 56.3
+      "h": 44.1,
+      "a": 55.9
      },
      "mas": {
-      "0": 92.8,
-      "1": 74.0,
-      "2": 49.1,
-      "3": 27.2,
-      "4": 12.8
+      "0": 92.7,
+      "1": 73.6,
+      "2": 48.7,
+      "3": 26.8,
+      "4": 12.5
      },
-     "btts": 53.4,
+     "btts": 53.1,
      "mas_local": {
       "0": 70.4,
-      "1": 34.4,
+      "1": 34.3,
       "2": 12.4
      },
      "mas_visita": {
-      "0": 75.8,
-      "1": 41.5,
-      "2": 17.1
+      "0": 75.4,
+      "1": 40.9,
+      "2": 16.7
      },
      "marcadores": [
       [
@@ -2495,71 +2007,71 @@
        10.2
       ],
       [
-       "1-2",
-       8.8
+       "1-0",
+       8.9
       ],
       [
-       "1-0",
+       "1-2",
        8.7
       ],
       [
        "2-1",
-       7.5
+       7.6
       ]
      ]
     },
     "mercados_1t": {
-     "h": 22.1,
-     "x": 46.8,
-     "a": 31.0,
+     "h": 22.2,
+     "x": 47.1,
+     "a": 30.7,
      "dc": {
-      "1x": 69.0,
-      "x2": 77.9,
-      "12": 53.2
+      "1x": 69.3,
+      "x2": 77.8,
+      "12": 52.9
      },
      "mas": {
-      "0": 62.6,
-      "1": 25.8,
-      "2": 7.7,
+      "0": 62.3,
+      "1": 25.5,
+      "2": 7.6,
       "3": 1.8,
       "4": 0.3
      },
-     "btts": 14.8,
+     "btts": 14.7,
      "mas_local": {
-      "0": 34.7,
-      "1": 6.9,
+      "0": 34.6,
+      "1": 6.8,
       "2": 0.9
      },
      "mas_visita": {
-      "0": 42.7,
-      "1": 10.8,
-      "2": 1.9
+      "0": 42.3,
+      "1": 10.6,
+      "2": 1.8
      },
      "marcadores": [
       [
        "0-0",
-       37.4
+       37.7
       ],
       [
        "0-1",
-       20.8
+       20.7
       ],
       [
        "1-0",
-       15.9
+       16.0
       ],
       [
        "1-1",
-       8.9
+       8.8
       ],
       [
        "0-2",
-       5.8
+       5.7
       ]
      ],
      "goles_esp": {
       "home": 0.43,
-      "away": 0.56
+      "away": 0.55
      },
      "jugados": {
       "home": 33,
@@ -11079,7 +10591,43 @@
      "away": 0,
      "global": 0
     },
-    "h2h": []
+    "h2h": [
+     {
+      "fecha": "2026-02-21T18:00:00Z",
+      "local": "Moreirense",
+      "visita": "Sporting CP",
+      "gl": 0,
+      "gv": 3
+     },
+     {
+      "fecha": "2025-09-22T19:15:00Z",
+      "local": "Sporting CP",
+      "visita": "Moreirense",
+      "gl": 3,
+      "gv": 0
+     },
+     {
+      "fecha": "2025-04-18T19:30:00Z",
+      "local": "Sporting CP",
+      "visita": "Moreirense",
+      "gl": 3,
+      "gv": 1
+     },
+     {
+      "fecha": "2024-12-05T20:15:00Z",
+      "local": "Moreirense",
+      "visita": "Sporting CP",
+      "gl": 2,
+      "gv": 1
+     },
+     {
+      "fecha": "2024-02-19T20:15:00Z",
+      "local": "Moreirense",
+      "visita": "Sporting CP",
+      "gl": 0,
+      "gv": 2
+     }
+    ]
    }
   },
   {
@@ -11289,7 +10837,36 @@
      "away": 0,
      "global": 0
     },
-    "h2h": []
+    "h2h": [
+     {
+      "fecha": "2026-01-11T11:15:00Z",
+      "local": "Heerenveen",
+      "visita": "Feyenoord",
+      "gl": 2,
+      "gv": 2
+     },
+     {
+      "fecha": "2025-09-13T19:00:00Z",
+      "local": "Feyenoord",
+      "visita": "Heerenveen",
+      "gl": 1,
+      "gv": 0
+     },
+     {
+      "fecha": "2025-05-18T12:30:00Z",
+      "local": "Heerenveen",
+      "visita": "Feyenoord",
+      "gl": 2,
+      "gv": 0
+     },
+     {
+      "fecha": "2024-11-23T17:45:00Z",
+      "local": "Feyenoord",
+      "visita": "Heerenveen",
+      "gl": 3,
+      "gv": 0
+     }
+    ]
    }
   },
   {
@@ -11507,7 +11084,36 @@
      "away": 0,
      "global": 0
     },
-    "h2h": []
+    "h2h": [
+     {
+      "fecha": "2026-04-18T16:00:00Z",
+      "local": "Napoli",
+      "visita": "Lazio",
+      "gl": 0,
+      "gv": 2
+     },
+     {
+      "fecha": "2026-01-04T11:30:00Z",
+      "local": "Lazio",
+      "visita": "Napoli",
+      "gl": 0,
+      "gv": 2
+     },
+     {
+      "fecha": "2025-02-15T17:00:00Z",
+      "local": "Lazio",
+      "visita": "Napoli",
+      "gl": 2,
+      "gv": 2
+     },
+     {
+      "fecha": "2024-12-08T19:45:00Z",
+      "local": "Napoli",
+      "visita": "Lazio",
+      "gl": 0,
+      "gv": 1
+     }
+    ]
    }
   },
   {
@@ -11711,7 +11317,36 @@
      "away": 0,
      "global": 0
     },
-    "h2h": []
+    "h2h": [
+     {
+      "fecha": "2026-05-12T18:00:00Z",
+      "local": "Real Betis",
+      "visita": "Elche",
+      "gl": 2,
+      "gv": 1
+     },
+     {
+      "fecha": "2025-08-18T19:00:00Z",
+      "local": "Elche",
+      "visita": "Real Betis",
+      "gl": 1,
+      "gv": 1
+     },
+     {
+      "fecha": "2023-02-24T20:00:00Z",
+      "local": "Elche",
+      "visita": "Real Betis",
+      "gl": 2,
+      "gv": 3
+     },
+     {
+      "fecha": "2022-08-15T19:30:00Z",
+      "local": "Real Betis",
+      "visita": "Elche",
+      "gl": 3,
+      "gv": 0
+     }
+    ]
    }
   },
   {
@@ -11922,7 +11557,43 @@
      "away": 0,
      "global": 0
     },
-    "h2h": []
+    "h2h": [
+     {
+      "fecha": "2026-04-04T19:00:00Z",
+      "local": "Ajax",
+      "visita": "Twente",
+      "gl": 1,
+      "gv": 2
+     },
+     {
+      "fecha": "2025-10-26T11:15:00Z",
+      "local": "Twente",
+      "visita": "Ajax",
+      "gl": 2,
+      "gv": 3
+     },
+     {
+      "fecha": "2025-05-18T12:30:00Z",
+      "local": "Ajax",
+      "visita": "Twente",
+      "gl": 2,
+      "gv": 0
+     },
+     {
+      "fecha": "2024-11-10T13:30:00Z",
+      "local": "Twente",
+      "visita": "Ajax",
+      "gl": 2,
+      "gv": 2
+     },
+     {
+      "fecha": "2024-04-14T14:45:00Z",
+      "local": "Ajax",
+      "visita": "Twente",
+      "gl": 2,
+      "gv": 1
+     }
+    ]
    }
   },
   {
@@ -12140,7 +11811,29 @@
      "away": 0,
      "global": 0
     },
-    "h2h": []
+    "h2h": [
+     {
+      "fecha": "2026-04-25T14:00:00Z",
+      "local": "Liverpool",
+      "visita": "Crystal Palace",
+      "gl": 3,
+      "gv": 1
+     },
+     {
+      "fecha": "2025-09-27T14:00:00Z",
+      "local": "Crystal Palace",
+      "visita": "Liverpool",
+      "gl": 2,
+      "gv": 1
+     },
+     {
+      "fecha": "2025-05-25T15:00:00Z",
+      "local": "Liverpool",
+      "visita": "Crystal Palace",
+      "gl": 1,
+      "gv": 1
+     }
+    ]
    }
   },
   {
