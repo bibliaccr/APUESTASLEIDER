@@ -9738,24 +9738,28 @@
      "lado": null,
      "prob": 69,
      "texto": "Menos de 2.5 goles",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     },
     {
      "mercado": "doble",
      "lado": "home",
      "prob": 68,
      "texto": "Leeds United gana o empata",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     },
     {
      "mercado": "menos35",
      "lado": null,
      "prob": 87,
      "texto": "Menos de 3.5 goles",
-     "nivel": "super"
+     "nivel": "super",
+     "acierto": true
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "1-0"
   },
   {
    "id": 561933,
@@ -9769,17 +9773,20 @@
      "lado": null,
      "prob": 74,
      "texto": "Más de 1.5 goles",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     },
     {
      "mercado": "doble",
      "lado": "away",
      "prob": 66,
      "texto": "Wolverhampton gana o empata",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "1-1"
   },
   {
    "id": 561938,
@@ -9793,24 +9800,28 @@
      "lado": null,
      "prob": 76,
      "texto": "Menos de 3.5 goles",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": true
     },
     {
      "mercado": "doble",
      "lado": "home",
      "prob": 69,
      "texto": "Portsmouth gana o empata",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": false
     },
     {
      "mercado": "mas15",
      "lado": null,
      "prob": 71,
      "texto": "Más de 1.5 goles",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "1-2"
   },
   {
    "id": 561939,
@@ -9824,10 +9835,12 @@
      "lado": null,
      "prob": 81,
      "texto": "Más de 1.5 goles",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": true
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "0-5"
   },
   {
    "id": 564744,
@@ -9841,10 +9854,12 @@
      "lado": null,
      "prob": 82,
      "texto": "Más de 1.5 goles",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": true
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "1-2"
   },
   {
    "id": 558532,
@@ -9858,17 +9873,20 @@
      "lado": null,
      "prob": 81,
      "texto": "Más de 1.5 goles",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": true
     },
     {
      "mercado": "doble",
      "lado": "home",
      "prob": 74,
      "texto": "Torino gana o empata",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "1-1"
   },
   {
    "id": 558534,
@@ -9882,17 +9900,20 @@
      "lado": null,
      "prob": 81,
      "texto": "Más de 1.5 goles",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": false
     },
     {
      "mercado": "doble",
      "lado": "away",
      "prob": 80,
      "texto": "Frosinone gana o empata",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": false
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "1-0"
   },
   {
    "id": 565848,
@@ -10655,14 +10676,14 @@
     {
      "mercado": "mas25",
      "lado": null,
-     "prob": 84,
+     "prob": 85,
      "texto": "Más de 2.5 goles",
-     "nivel": "confiada"
+     "nivel": "super"
     },
     {
      "mercado": "1x2",
      "lado": "home",
-     "prob": 80,
+     "prob": 81,
      "texto": "Gana: Roma",
      "nivel": "confiada"
     },
@@ -10674,16 +10695,9 @@
      "nivel": "media"
     },
     {
-     "mercado": "mas15",
-     "lado": null,
-     "prob": 95,
-     "texto": "Más de 1.5 goles",
-     "nivel": "super"
-    },
-    {
      "mercado": "doble",
      "lado": "home",
-     "prob": 91,
+     "prob": 92,
      "texto": "Roma gana o empata",
      "nivel": "super"
     }
@@ -10876,7 +10890,7 @@
     {
      "mercado": "menos35",
      "lado": null,
-     "prob": 66,
+     "prob": 65,
      "texto": "Menos de 3.5 goles",
      "nivel": "media"
     }
@@ -10979,7 +10993,7 @@
     {
      "mercado": "doble",
      "lado": "away",
-     "prob": 77,
+     "prob": 76,
      "texto": "Chelsea gana o empata",
      "nivel": "confiada"
     }
@@ -10994,17 +11008,17 @@
    "visitante": "Bournemouth",
    "picks": [
     {
+     "mercado": "btts_si",
+     "lado": null,
+     "prob": 68,
+     "texto": "Ambos equipos marcan",
+     "nivel": "media"
+    },
+    {
      "mercado": "mas25",
      "lado": null,
      "prob": 67,
      "texto": "Más de 2.5 goles",
-     "nivel": "media"
-    },
-    {
-     "mercado": "btts_si",
-     "lado": null,
-     "prob": 67,
-     "texto": "Ambos equipos marcan",
      "nivel": "media"
     },
     {
@@ -11027,7 +11041,7 @@
     {
      "mercado": "doble",
      "lado": "home",
-     "prob": 81,
+     "prob": 82,
      "texto": "Brighton Hove gana o empata",
      "nivel": "confiada"
     },
@@ -11082,7 +11096,7 @@
     {
      "mercado": "mas25",
      "lado": null,
-     "prob": 77,
+     "prob": 78,
      "texto": "Más de 2.5 goles",
      "nivel": "confiada"
     },
@@ -11096,7 +11110,7 @@
     {
      "mercado": "mas15",
      "lado": null,
-     "prob": 91,
+     "prob": 92,
      "texto": "Más de 1.5 goles",
      "nivel": "super"
     }
@@ -11154,7 +11168,7 @@
     {
      "mercado": "doble",
      "lado": "home",
-     "prob": 77,
+     "prob": 76,
      "texto": "Real Sociedad gana o empata",
      "nivel": "confiada"
     },
@@ -11440,7 +11454,7 @@
     {
      "mercado": "mas15",
      "lado": null,
-     "prob": 73,
+     "prob": 74,
      "texto": "Más de 1.5 goles",
      "nivel": "media"
     }
@@ -11762,6 +11776,13 @@
      "nivel": "media"
     },
     {
+     "mercado": "doble",
+     "lado": "away",
+     "prob": 65,
+     "texto": "Barça gana o empata",
+     "nivel": "media"
+    },
+    {
      "mercado": "mas15",
      "lado": null,
      "prob": 87,
@@ -11844,26 +11865,26 @@
  "resumen": {
   "por_nivel": {
    "media": {
-    "total": 424,
-    "aciertos": 305
+    "total": 431,
+    "aciertos": 311
    },
    "confiada": {
-    "total": 279,
-    "aciertos": 204
+    "total": 285,
+    "aciertos": 208
    },
    "super": {
-    "total": 103,
-    "aciertos": 92
+    "total": 104,
+    "aciertos": 93
    }
   },
   "por_mercado": {
    "mas15": {
-    "total": 257,
-    "aciertos": 207
+    "total": 263,
+    "aciertos": 212
    },
    "doble": {
-    "total": 251,
-    "aciertos": 185
+    "total": 256,
+    "aciertos": 188
    },
    "mas25": {
     "total": 74,
@@ -11874,12 +11895,12 @@
     "aciertos": 36
    },
    "menos35": {
-    "total": 129,
-    "aciertos": 92
+    "total": 131,
+    "aciertos": 94
    },
    "menos25": {
-    "total": 6,
-    "aciertos": 2
+    "total": 7,
+    "aciertos": 3
    },
    "1x2": {
     "total": 32,
