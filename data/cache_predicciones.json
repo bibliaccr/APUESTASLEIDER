@@ -1,44 +1,4 @@
 {
- "567353": {
-  "obtenido": "2026-11-03T03:50:36.023060+00:00",
-  "h2h": [
-   {
-    "fecha": "2026-03-06T20:15:00Z",
-    "local": "Famalicão",
-    "visita": "Arouca",
-    "gl": 1,
-    "gv": 0
-   },
-   {
-    "fecha": "2025-10-05T14:30:00Z",
-    "local": "Arouca",
-    "visita": "Famalicão",
-    "gl": 1,
-    "gv": 1
-   },
-   {
-    "fecha": "2025-04-05T17:00:00Z",
-    "local": "Arouca",
-    "visita": "Famalicão",
-    "gl": 1,
-    "gv": 2
-   },
-   {
-    "fecha": "2024-11-09T18:00:00Z",
-    "local": "Famalicão",
-    "visita": "Arouca",
-    "gl": 0,
-    "gv": 0
-   },
-   {
-    "fecha": "2024-02-23T20:15:00Z",
-    "local": "Arouca",
-    "visita": "Famalicão",
-    "gl": 3,
-    "gv": 2
-   }
-  ]
- },
  "561933": {
   "obtenido": "2026-11-03T18:18:14.834759+00:00",
   "h2h": []
