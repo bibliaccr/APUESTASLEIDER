@@ -12107,6 +12107,68 @@
    ],
    "estado": "resuelto",
    "marcador": "2-3"
+  },
+  {
+   "id": 555085,
+   "fecha": "2026-11-14T21:30:00Z",
+   "liga": "Brasileirão Serie A",
+   "local": "Mirassol",
+   "visitante": "Mineiro",
+   "picks": [
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 79,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 65,
+     "texto": "Mirassol gana o empata",
+     "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 68,
+     "texto": "Más de 1.5 goles",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 554942,
+   "fecha": "2026-11-14T23:30:00Z",
+   "liga": "Brasileirão Serie A",
+   "local": "Chapecoense",
+   "visitante": "Vasco da Gama",
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 80,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "doble",
+     "lado": "away",
+     "prob": 68,
+     "texto": "Vasco da Gama gana o empata",
+     "nivel": "media"
+    },
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 65,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
   }
  ],
  "resumen": {

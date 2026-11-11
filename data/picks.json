@@ -1,11 +1,478 @@
 {
- "generado": "2026-11-10T18:31:15.464525+00:00",
+ "generado": "2026-11-11T02:32:42.307714+00:00",
  "niveles": {
   "super": 85,
   "confiada": 75,
   "media": 65
  },
- "llamadas_usadas": 10,
+ "llamadas_usadas": 12,
  "avisos": [],
- "partidos": []
+ "partidos": [
+  {
+   "id": 555085,
+   "fecha": "2026-11-14T21:30:00Z",
+   "liga": {
+    "id": "BSA",
+    "nombre": "Brasileirão Serie A",
+    "pais": "Brasil",
+    "logo": "https://crests.football-data.org/bsa.png"
+   },
+   "local": {
+    "id": 4364,
+    "nombre": "Mirassol",
+    "logo": "https://crests.football-data.org/4364.png"
+   },
+   "visitante": {
+    "id": 1766,
+    "nombre": "Mineiro",
+    "logo": "https://crests.football-data.org/1766.png"
+   },
+   "picks": [
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 79,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 65,
+     "texto": "Mirassol gana o empata",
+     "nivel": "media"
+    }
+   ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 68,
+      "texto": "Más de 1.5 goles",
+      "nivel": "media"
+     },
+     {
+      "mercado": "doble",
+      "lado": "home",
+      "prob": 65,
+      "texto": "Mirassol gana o empata",
+      "nivel": "media"
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "menos35",
+      "lado": null,
+      "prob": 79,
+      "texto": "Menos de 3.5 goles",
+      "nivel": "confiada"
+     }
+    ],
+    "super": []
+   },
+   "nivel_max": "confiada",
+   "analisis": {
+    "percent": {
+     "home": 37.4,
+     "draw": 27.9,
+     "away": 34.8
+    },
+    "mas15": 68.4,
+    "menos35": 78.6,
+    "mas25": 42.1,
+    "ambos": 48.1,
+    "goles_esp": {
+     "home": 1.21,
+     "away": 1.16
+    },
+    "ultimos5": {
+     "home": 47,
+     "away": 40
+    },
+    "forma": {
+     "home": 54,
+     "away": 46
+    },
+    "gf": {
+     "home": 1.15,
+     "away": 1.29
+    },
+    "gc": {
+     "home": 1.41,
+     "away": 1.18
+    },
+    "jugados": {
+     "home": 34,
+     "away": 34
+    },
+    "mercados": {
+     "h": 37.4,
+     "x": 27.9,
+     "a": 34.8,
+     "dc": {
+      "1x": 65.2,
+      "x2": 62.6,
+      "12": 72.1
+     },
+     "dnb": {
+      "h": 51.8,
+      "a": 48.2
+     },
+     "mas": {
+      "0": 90.6,
+      "1": 68.4,
+      "2": 42.1,
+      "3": 21.4,
+      "4": 9.2
+     },
+     "btts": 48.1,
+     "mas_local": {
+      "0": 70.2,
+      "1": 34.1,
+      "2": 12.2
+     },
+     "mas_visita": {
+      "0": 68.5,
+      "1": 32.1,
+      "2": 11.1
+     },
+     "marcadores": [
+      [
+       "1-1",
+       13.1
+      ],
+      [
+       "1-0",
+       11.4
+      ],
+      [
+       "0-1",
+       10.9
+      ],
+      [
+       "0-0",
+       9.4
+      ],
+      [
+       "2-1",
+       7.9
+      ]
+     ]
+    },
+    "mercados_1t": {
+     "h": 32.5,
+     "x": 44.4,
+     "a": 23.1,
+     "dc": {
+      "1x": 76.9,
+      "x2": 67.5,
+      "12": 55.6
+     },
+     "mas": {
+      "0": 66.0,
+      "1": 29.4,
+      "2": 9.6,
+      "3": 2.4,
+      "4": 0.5
+     },
+     "btts": 17.1,
+     "mas_local": {
+      "0": 45.7,
+      "1": 12.6,
+      "2": 2.4
+     },
+     "mas_visita": {
+      "0": 37.4,
+      "1": 8.1,
+      "2": 1.2
+     },
+     "marcadores": [
+      [
+       "0-0",
+       34.0
+      ],
+      [
+       "1-0",
+       20.8
+      ],
+      [
+       "0-1",
+       15.9
+      ],
+      [
+       "1-1",
+       9.7
+      ],
+      [
+       "2-0",
+       6.4
+      ]
+     ],
+     "goles_esp": {
+      "home": 0.61,
+      "away": 0.47
+     },
+     "jugados": {
+      "home": 34,
+      "away": 34
+     }
+    },
+    "penal": {
+     "home": 0,
+     "away": 0,
+     "global": 0
+    },
+    "h2h": [
+     {
+      "fecha": "2026-05-16T21:30:00Z",
+      "local": "Mineiro",
+      "visita": "Mirassol",
+      "gl": 3,
+      "gv": 1
+     },
+     {
+      "fecha": "2025-09-28T00:00:00Z",
+      "local": "Mineiro",
+      "visita": "Mirassol",
+      "gl": 1,
+      "gv": 0
+     },
+     {
+      "fecha": "2025-04-26T21:30:00Z",
+      "local": "Mirassol",
+      "visita": "Mineiro",
+      "gl": 2,
+      "gv": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": 554942,
+   "fecha": "2026-11-14T23:30:00Z",
+   "liga": {
+    "id": "BSA",
+    "nombre": "Brasileirão Serie A",
+    "pais": "Brasil",
+    "logo": "https://crests.football-data.org/bsa.png"
+   },
+   "local": {
+    "id": 1772,
+    "nombre": "Chapecoense",
+    "logo": "https://crests.football-data.org/1772_large.png"
+   },
+   "visitante": {
+    "id": 1780,
+    "nombre": "Vasco da Gama",
+    "logo": "https://crests.football-data.org/1780.png"
+   },
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 80,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "doble",
+     "lado": "away",
+     "prob": 68,
+     "texto": "Vasco da Gama gana o empata",
+     "nivel": "media"
+    }
+   ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "doble",
+      "lado": "away",
+      "prob": 68,
+      "texto": "Vasco da Gama gana o empata",
+      "nivel": "media"
+     },
+     {
+      "mercado": "menos35",
+      "lado": null,
+      "prob": 65,
+      "texto": "Menos de 3.5 goles",
+      "nivel": "media"
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 80,
+      "texto": "Más de 1.5 goles",
+      "nivel": "confiada"
+     }
+    ],
+    "super": []
+   },
+   "nivel_max": "confiada",
+   "analisis": {
+    "percent": {
+     "home": 31.6,
+     "draw": 24.2,
+     "away": 44.2
+    },
+    "mas15": 79.7,
+    "menos35": 65.3,
+    "mas25": 57.1,
+    "ambos": 59.4,
+    "goles_esp": {
+     "home": 1.34,
+     "away": 1.63
+    },
+    "ultimos5": {
+     "home": 20,
+     "away": 47
+    },
+    "forma": {
+     "home": 30,
+     "away": 70
+    },
+    "gf": {
+     "home": 1.0,
+     "away": 1.3
+    },
+    "gc": {
+     "home": 2.06,
+     "away": 1.52
+    },
+    "jugados": {
+     "home": 33,
+     "away": 33
+    },
+    "mercados": {
+     "h": 31.6,
+     "x": 24.2,
+     "a": 44.2,
+     "dc": {
+      "1x": 55.8,
+      "x2": 68.4,
+      "12": 75.8
+     },
+     "dnb": {
+      "h": 41.7,
+      "a": 58.3
+     },
+     "mas": {
+      "0": 94.9,
+      "1": 79.7,
+      "2": 57.1,
+      "3": 34.7,
+      "4": 18.0
+     },
+     "btts": 59.4,
+     "mas_local": {
+      "0": 73.9,
+      "1": 38.8,
+      "2": 15.3
+     },
+     "mas_visita": {
+      "0": 80.4,
+      "1": 48.5,
+      "2": 22.4
+     },
+     "marcadores": [
+      [
+       "1-1",
+       11.2
+      ],
+      [
+       "1-2",
+       9.1
+      ],
+      [
+       "0-1",
+       8.3
+      ],
+      [
+       "2-1",
+       7.5
+      ],
+      [
+       "1-0",
+       6.9
+      ]
+     ]
+    },
+    "mercados_1t": {
+     "h": 26.6,
+     "x": 45.6,
+     "a": 27.8,
+     "dc": {
+      "1x": 72.2,
+      "x2": 73.4,
+      "12": 54.4
+     },
+     "mas": {
+      "0": 64.6,
+      "1": 27.9,
+      "2": 8.8,
+      "3": 2.2,
+      "4": 0.4
+     },
+     "btts": 16.4,
+     "mas_local": {
+      "0": 40.0,
+      "1": 9.3,
+      "2": 1.5
+     },
+     "mas_visita": {
+      "0": 41.1,
+      "1": 9.9,
+      "2": 1.7
+     },
+     "marcadores": [
+      [
+       "0-0",
+       35.4
+      ],
+      [
+       "0-1",
+       18.7
+      ],
+      [
+       "1-0",
+       18.1
+      ],
+      [
+       "1-1",
+       9.6
+      ],
+      [
+       "0-2",
+       4.9
+      ]
+     ],
+     "goles_esp": {
+      "home": 0.51,
+      "away": 0.53
+     },
+     "jugados": {
+      "home": 33,
+      "away": 33
+     }
+    },
+    "penal": {
+     "home": 5,
+     "away": 0,
+     "global": 0
+    },
+    "h2h": [
+     {
+      "fecha": "2026-02-05T23:00:00Z",
+      "local": "Vasco da Gama",
+      "visita": "Chapecoense",
+      "gl": 1,
+      "gv": 1
+     }
+    ]
+   }
+  }
+ ]
 }
