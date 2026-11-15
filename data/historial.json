@@ -12120,24 +12120,28 @@
      "lado": null,
      "prob": 79,
      "texto": "Menos de 3.5 goles",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": true
     },
     {
      "mercado": "doble",
      "lado": "home",
      "prob": 65,
      "texto": "Mirassol gana o empata",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     },
     {
      "mercado": "mas15",
      "lado": null,
      "prob": 68,
      "texto": "Más de 1.5 goles",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": false
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "0-0"
   },
   {
    "id": 554942,
@@ -12151,19 +12155,188 @@
      "lado": null,
      "prob": 80,
      "texto": "Más de 1.5 goles",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": true
     },
     {
      "mercado": "doble",
      "lado": "away",
      "prob": 68,
      "texto": "Vasco da Gama gana o empata",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     },
     {
      "mercado": "menos35",
      "lado": null,
      "prob": 65,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "media",
+     "acierto": true
+    }
+   ],
+   "estado": "resuelto",
+   "marcador": "0-2"
+  },
+  {
+   "id": 555081,
+   "fecha": "2026-11-18T22:30:00Z",
+   "liga": "Brasileirão Serie A",
+   "local": "Coritiba",
+   "visitante": "Santos",
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 78,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 65,
+     "texto": "Coritiba gana o empata",
+     "nivel": "media"
+    },
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 68,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 555086,
+   "fecha": "2026-11-18T23:00:00Z",
+   "liga": "Brasileirão Serie A",
+   "local": "Clube do Remo",
+   "visitante": "Chapecoense",
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 80,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 79,
+     "texto": "Clube do Remo gana o empata",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 66,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 555082,
+   "fecha": "2026-11-18T23:30:00Z",
+   "liga": "Brasileirão Serie A",
+   "local": "Cruzeiro",
+   "visitante": "Palmeiras",
+   "picks": [
+    {
+     "mercado": "doble",
+     "lado": "away",
+     "prob": 75,
+     "texto": "Palmeiras gana o empata",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 74,
+     "texto": "Más de 1.5 goles",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 555083,
+   "fecha": "2026-11-18T23:30:00Z",
+   "liga": "Brasileirão Serie A",
+   "local": "Flamengo",
+   "visitante": "Paranaense",
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 81,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "1x2",
+     "lado": "home",
+     "prob": 68,
+     "texto": "Gana: Flamengo",
+     "nivel": "media"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 86,
+     "texto": "Flamengo gana o empata",
+     "nivel": "super"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 555080,
+   "fecha": "2026-11-19T00:30:00Z",
+   "liga": "Brasileirão Serie A",
+   "local": "Corinthians",
+   "visitante": "Botafogo",
+   "picks": [
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 75,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 72,
+     "texto": "Corinthians gana o empata",
+     "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 72,
+     "texto": "Más de 1.5 goles",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 555084,
+   "fecha": "2026-11-19T00:30:00Z",
+   "liga": "Brasileirão Serie A",
+   "local": "Grêmio",
+   "visitante": "Bahia",
+   "picks": [
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 74,
      "texto": "Menos de 3.5 goles",
      "nivel": "media"
     }
@@ -12174,12 +12347,12 @@
  "resumen": {
   "por_nivel": {
    "media": {
-    "total": 507,
-    "aciertos": 369
+    "total": 511,
+    "aciertos": 372
    },
    "confiada": {
-    "total": 364,
-    "aciertos": 270
+    "total": 366,
+    "aciertos": 272
    },
    "super": {
     "total": 134,
@@ -12188,12 +12361,12 @@
   },
   "por_mercado": {
    "mas15": {
-    "total": 319,
-    "aciertos": 254
+    "total": 321,
+    "aciertos": 255
    },
    "doble": {
-    "total": 308,
-    "aciertos": 231
+    "total": 310,
+    "aciertos": 233
    },
    "mas25": {
     "total": 94,
@@ -12204,8 +12377,8 @@
     "aciertos": 47
    },
    "menos35": {
-    "total": 159,
-    "aciertos": 119
+    "total": 161,
+    "aciertos": 121
    },
    "menos25": {
     "total": 8,
