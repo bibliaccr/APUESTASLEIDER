@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-16T02:34:39.624260+00:00",
+ "generado": "2026-11-16T20:51:53.200051+00:00",
  "niveles": {
   "super": 85,
   "confiada": 75,
@@ -2177,6 +2177,725 @@
       "visita": "Fluminense",
       "gl": 2,
       "gv": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": 565859,
+   "fecha": "2026-11-20T19:30:00Z",
+   "liga": {
+    "id": "BL1",
+    "nombre": "Bundesliga",
+    "pais": "Alemania",
+    "logo": "https://crests.football-data.org/BL1.png"
+   },
+   "local": {
+    "id": 5,
+    "nombre": "Bayern",
+    "logo": "https://crests.football-data.org/5.png"
+   },
+   "visitante": {
+    "id": 1,
+    "nombre": "1. FC Köln",
+    "logo": "https://crests.football-data.org/1.png"
+   },
+   "picks": [
+    {
+     "mercado": "1x2",
+     "lado": "home",
+     "prob": 83,
+     "texto": "Gana: Bayern",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "mas25",
+     "lado": null,
+     "prob": 73,
+     "texto": "Más de 2.5 goles",
+     "nivel": "media"
+    }
+   ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "mas25",
+      "lado": null,
+      "prob": 73,
+      "texto": "Más de 2.5 goles",
+      "nivel": "media"
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "1x2",
+      "lado": "home",
+      "prob": 83,
+      "texto": "Gana: Bayern",
+      "nivel": "confiada"
+     }
+    ],
+    "super": [
+     {
+      "mercado": "doble",
+      "lado": "home",
+      "prob": 94,
+      "texto": "Bayern gana o empata",
+      "nivel": "super"
+     },
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 89,
+      "texto": "Más de 1.5 goles",
+      "nivel": "super"
+     }
+    ]
+   },
+   "nivel_max": "confiada",
+   "analisis": {
+    "percent": {
+     "home": 82.8,
+     "draw": 11.1,
+     "away": 6.1
+    },
+    "mas15": 89.4,
+    "menos35": 47.0,
+    "mas25": 73.4,
+    "ambos": 50.6,
+    "goles_esp": {
+     "home": 3.06,
+     "away": 0.76
+    },
+    "ultimos5": {
+     "home": 73,
+     "away": 33
+    },
+    "forma": {
+     "home": 69,
+     "away": 31
+    },
+    "gf": {
+     "home": 3.22,
+     "away": 1.11
+    },
+    "gc": {
+     "home": 1.0,
+     "away": 1.56
+    },
+    "jugados": {
+     "home": 9,
+     "away": 9
+    },
+    "mercados": {
+     "h": 82.8,
+     "x": 11.1,
+     "a": 6.1,
+     "dc": {
+      "1x": 93.9,
+      "x2": 17.2,
+      "12": 88.9
+     },
+     "dnb": {
+      "h": 93.1,
+      "a": 6.9
+     },
+     "mas": {
+      "0": 97.8,
+      "1": 89.4,
+      "2": 73.4,
+      "3": 53.0,
+      "4": 33.5
+     },
+     "btts": 50.6,
+     "mas_local": {
+      "0": 95.3,
+      "1": 81.0,
+      "2": 59.0
+     },
+     "mas_visita": {
+      "0": 53.1,
+      "1": 17.6,
+      "2": 4.1
+     },
+     "marcadores": [
+      [
+       "3-0",
+       10.5
+      ],
+      [
+       "2-0",
+       10.3
+      ],
+      [
+       "4-0",
+       8.0
+      ],
+      [
+       "3-1",
+       8.0
+      ],
+      [
+       "2-1",
+       7.8
+      ]
+     ]
+    },
+    "mercados_1t": {
+     "h": 65.4,
+     "x": 29.3,
+     "a": 5.3,
+     "dc": {
+      "1x": 94.7,
+      "x2": 34.6,
+      "12": 70.7
+     },
+     "mas": {
+      "0": 76.5,
+      "1": 42.5,
+      "2": 17.8,
+      "3": 5.9,
+      "4": 1.6
+     },
+     "btts": 12.1,
+     "mas_local": {
+      "0": 71.8,
+      "1": 36.1,
+      "2": 13.5
+     },
+     "mas_visita": {
+      "0": 16.9,
+      "1": 1.5,
+      "2": 0.1
+     },
+     "marcadores": [
+      [
+       "1-0",
+       29.7
+      ],
+      [
+       "0-0",
+       23.5
+      ],
+      [
+       "2-0",
+       18.8
+      ],
+      [
+       "3-0",
+       7.9
+      ],
+      [
+       "1-1",
+       5.5
+      ]
+     ],
+     "goles_esp": {
+      "home": 1.26,
+      "away": 0.18
+     },
+     "jugados": {
+      "home": 9,
+      "away": 9
+     }
+    },
+    "penal": {
+     "home": 0,
+     "away": 5,
+     "global": 0
+    },
+    "h2h": [
+     {
+      "fecha": "2026-05-16T13:30:00Z",
+      "local": "Bayern",
+      "visita": "1. FC Köln",
+      "gl": 5,
+      "gv": 1
+     },
+     {
+      "fecha": "2026-01-14T19:30:00Z",
+      "local": "1. FC Köln",
+      "visita": "Bayern",
+      "gl": 1,
+      "gv": 3
+     },
+     {
+      "fecha": "2024-04-13T13:30:00Z",
+      "local": "Bayern",
+      "visita": "1. FC Köln",
+      "gl": 2,
+      "gv": 0
+     },
+     {
+      "fecha": "2023-11-24T19:30:00Z",
+      "local": "1. FC Köln",
+      "visita": "Bayern",
+      "gl": 0,
+      "gv": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": 559622,
+   "fecha": "2026-11-20T19:45:00Z",
+   "liga": {
+    "id": "FL1",
+    "nombre": "Ligue 1",
+    "pais": "Francia",
+    "logo": "https://crests.football-data.org/FL1.png"
+   },
+   "local": {
+    "id": 531,
+    "nombre": "Troyes",
+    "logo": "https://crests.football-data.org/531.png"
+   },
+   "visitante": {
+    "id": 533,
+    "nombre": "Le Havre",
+    "logo": "https://crests.football-data.org/533.png"
+   },
+   "picks": [
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 76,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 71,
+     "texto": "Troyes gana o empata",
+     "nivel": "media"
+    }
+   ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "doble",
+      "lado": "home",
+      "prob": 71,
+      "texto": "Troyes gana o empata",
+      "nivel": "media"
+     },
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 71,
+      "texto": "Más de 1.5 goles",
+      "nivel": "media"
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "menos35",
+      "lado": null,
+      "prob": 76,
+      "texto": "Menos de 3.5 goles",
+      "nivel": "confiada"
+     }
+    ],
+    "super": []
+   },
+   "nivel_max": "confiada",
+   "analisis": {
+    "percent": {
+     "home": 44.5,
+     "draw": 26.7,
+     "away": 28.8
+    },
+    "mas15": 70.9,
+    "menos35": 76.2,
+    "mas25": 45.1,
+    "ambos": 49.7,
+    "goles_esp": {
+     "home": 1.41,
+     "away": 1.08
+    },
+    "ultimos5": {
+     "home": 27,
+     "away": 0
+    },
+    "forma": {
+     "home": 100,
+     "away": 0
+    },
+    "gf": {
+     "home": 0.7,
+     "away": 0.9
+    },
+    "gc": {
+     "home": 1.7,
+     "away": 2.2
+    },
+    "jugados": {
+     "home": 10,
+     "away": 10
+    },
+    "mercados": {
+     "h": 44.5,
+     "x": 26.7,
+     "a": 28.8,
+     "dc": {
+      "1x": 71.2,
+      "x2": 55.5,
+      "12": 73.3
+     },
+     "dnb": {
+      "h": 60.7,
+      "a": 39.3
+     },
+     "mas": {
+      "0": 91.6,
+      "1": 70.9,
+      "2": 45.1,
+      "3": 23.8,
+      "4": 10.6
+     },
+     "btts": 49.7,
+     "mas_local": {
+      "0": 75.5,
+      "1": 41.0,
+      "2": 16.8
+     },
+     "mas_visita": {
+      "0": 65.9,
+      "1": 29.2,
+      "2": 9.5
+     },
+     "marcadores": [
+      [
+       "1-1",
+       12.6
+      ],
+      [
+       "1-0",
+       11.8
+      ],
+      [
+       "0-1",
+       9.0
+      ],
+      [
+       "2-1",
+       8.9
+      ],
+      [
+       "0-0",
+       8.4
+      ]
+     ]
+    },
+    "mercados_1t": {
+     "h": 48.7,
+     "x": 40.2,
+     "a": 11.1,
+     "dc": {
+      "1x": 88.9,
+      "x2": 51.3,
+      "12": 59.8
+     },
+     "mas": {
+      "0": 67.7,
+      "1": 31.2,
+      "2": 10.6,
+      "3": 2.8,
+      "4": 0.6
+     },
+     "btts": 13.6,
+     "mas_local": {
+      "0": 57.7,
+      "1": 21.3,
+      "2": 5.7
+     },
+     "mas_visita": {
+      "0": 23.5,
+      "1": 3.0,
+      "2": 0.3
+     },
+     "marcadores": [
+      [
+       "0-0",
+       32.3
+      ],
+      [
+       "1-0",
+       27.8
+      ],
+      [
+       "2-0",
+       12.0
+      ],
+      [
+       "0-1",
+       8.7
+      ],
+      [
+       "1-1",
+       7.5
+      ]
+     ],
+     "goles_esp": {
+      "home": 0.86,
+      "away": 0.27
+     },
+     "jugados": {
+      "home": 10,
+      "away": 10
+     }
+    },
+    "penal": {
+     "home": 0,
+     "away": 0,
+     "global": 0
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 564748,
+   "fecha": "2026-11-20T20:00:00Z",
+   "liga": {
+    "id": "PD",
+    "nombre": "LaLiga",
+    "pais": "España",
+    "logo": "https://crests.football-data.org/laliga.png"
+   },
+   "local": {
+    "id": 77,
+    "nombre": "Athletic",
+    "logo": "https://crests.football-data.org/77.png"
+   },
+   "visitante": {
+    "id": 80,
+    "nombre": "Espanyol",
+    "logo": "https://crests.football-data.org/80.png"
+   },
+   "picks": [
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 83,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 77,
+     "texto": "Athletic gana o empata",
+     "nivel": "confiada"
+    }
+   ],
+   "por_nivel": {
+    "media": [],
+    "confiada": [
+     {
+      "mercado": "menos35",
+      "lado": null,
+      "prob": 83,
+      "texto": "Menos de 3.5 goles",
+      "nivel": "confiada"
+     },
+     {
+      "mercado": "doble",
+      "lado": "home",
+      "prob": 77,
+      "texto": "Athletic gana o empata",
+      "nivel": "confiada"
+     }
+    ],
+    "super": []
+   },
+   "nivel_max": "confiada",
+   "analisis": {
+    "percent": {
+     "home": 48.7,
+     "draw": 28.1,
+     "away": 23.2
+    },
+    "mas15": 63.8,
+    "menos35": 82.6,
+    "mas25": 36.9,
+    "ambos": 41.6,
+    "goles_esp": {
+     "home": 1.34,
+     "away": 0.83
+    },
+    "ultimos5": {
+     "home": 53,
+     "away": 33
+    },
+    "forma": {
+     "home": 62,
+     "away": 38
+    },
+    "gf": {
+     "home": 1.36,
+     "away": 1.08
+    },
+    "gc": {
+     "home": 1.0,
+     "away": 1.17
+    },
+    "jugados": {
+     "home": 11,
+     "away": 12
+    },
+    "mercados": {
+     "h": 48.7,
+     "x": 28.1,
+     "a": 23.2,
+     "dc": {
+      "1x": 76.8,
+      "x2": 51.3,
+      "12": 71.9
+     },
+     "dnb": {
+      "h": 67.8,
+      "a": 32.2
+     },
+     "mas": {
+      "0": 88.6,
+      "1": 63.8,
+      "2": 36.9,
+      "3": 17.4,
+      "4": 6.9
+     },
+     "btts": 41.6,
+     "mas_local": {
+      "0": 73.8,
+      "1": 38.7,
+      "2": 15.2
+     },
+     "mas_visita": {
+      "0": 56.3,
+      "1": 20.2,
+      "2": 5.2
+     },
+     "marcadores": [
+      [
+       "1-0",
+       15.3
+      ],
+      [
+       "1-1",
+       12.7
+      ],
+      [
+       "0-0",
+       11.4
+      ],
+      [
+       "2-0",
+       10.3
+      ],
+      [
+       "0-1",
+       9.5
+      ]
+     ]
+    },
+    "mercados_1t": {
+     "h": 30.3,
+     "x": 46.1,
+     "a": 23.6,
+     "dc": {
+      "1x": 76.4,
+      "x2": 69.7,
+      "12": 53.9
+     },
+     "mas": {
+      "0": 63.7,
+      "1": 27.0,
+      "2": 8.3,
+      "3": 2.0,
+      "4": 0.4
+     },
+     "btts": 15.7,
+     "mas_local": {
+      "0": 42.7,
+      "1": 10.8,
+      "2": 1.9
+     },
+     "mas_visita": {
+      "0": 36.7,
+      "1": 7.8,
+      "2": 1.1
+     },
+     "marcadores": [
+      [
+       "0-0",
+       36.3
+      ],
+      [
+       "1-0",
+       20.2
+      ],
+      [
+       "0-1",
+       16.6
+      ],
+      [
+       "1-1",
+       9.2
+      ],
+      [
+       "2-0",
+       5.6
+      ]
+     ],
+     "goles_esp": {
+      "home": 0.56,
+      "away": 0.46
+     },
+     "jugados": {
+      "home": 11,
+      "away": 12
+     }
+    },
+    "penal": {
+     "home": 0,
+     "away": 5,
+     "global": 0
+    },
+    "h2h": [
+     {
+      "fecha": "2026-05-13T17:00:00Z",
+      "local": "Espanyol",
+      "visita": "Athletic",
+      "gl": 2,
+      "gv": 0
+     },
+     {
+      "fecha": "2025-12-22T20:00:00Z",
+      "local": "Athletic",
+      "visita": "Espanyol",
+      "gl": 1,
+      "gv": 2
+     },
+     {
+      "fecha": "2025-02-16T13:00:00Z",
+      "local": "Espanyol",
+      "visita": "Athletic",
+      "gl": 1,
+      "gv": 1
+     },
+     {
+      "fecha": "2024-10-19T12:00:00Z",
+      "local": "Athletic",
+      "visita": "Espanyol",
+      "gl": 4,
+      "gv": 1
+     },
+     {
+      "fecha": "2023-04-08T14:15:00Z",
+      "local": "Espanyol",
+      "visita": "Athletic",
+      "gl": 1,
+      "gv": 2
      }
     ]
    }

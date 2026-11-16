@@ -307,5 +307,82 @@
     "gv": 1
    }
   ]
+ },
+ "565859": {
+  "obtenido": "2026-11-16T20:51:53.200051+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-05-16T13:30:00Z",
+    "local": "Bayern",
+    "visita": "1. FC Köln",
+    "gl": 5,
+    "gv": 1
+   },
+   {
+    "fecha": "2026-01-14T19:30:00Z",
+    "local": "1. FC Köln",
+    "visita": "Bayern",
+    "gl": 1,
+    "gv": 3
+   },
+   {
+    "fecha": "2024-04-13T13:30:00Z",
+    "local": "Bayern",
+    "visita": "1. FC Köln",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "fecha": "2023-11-24T19:30:00Z",
+    "local": "1. FC Köln",
+    "visita": "Bayern",
+    "gl": 0,
+    "gv": 1
+   }
+  ]
+ },
+ "559622": {
+  "obtenido": "2026-11-16T20:51:53.200051+00:00",
+  "h2h": []
+ },
+ "564748": {
+  "obtenido": "2026-11-16T20:51:53.200051+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-05-13T17:00:00Z",
+    "local": "Espanyol",
+    "visita": "Athletic",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-12-22T20:00:00Z",
+    "local": "Athletic",
+    "visita": "Espanyol",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "fecha": "2025-02-16T13:00:00Z",
+    "local": "Espanyol",
+    "visita": "Athletic",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "fecha": "2024-10-19T12:00:00Z",
+    "local": "Athletic",
+    "visita": "Espanyol",
+    "gl": 4,
+    "gv": 1
+   },
+   {
+    "fecha": "2023-04-08T14:15:00Z",
+    "local": "Espanyol",
+    "visita": "Athletic",
+    "gl": 1,
+    "gv": 2
+   }
+  ]
  }
 }

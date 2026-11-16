@@ -12435,6 +12435,99 @@
     }
    ],
    "estado": "pendiente"
+  },
+  {
+   "id": 565859,
+   "fecha": "2026-11-20T19:30:00Z",
+   "liga": "Bundesliga",
+   "local": "Bayern",
+   "visitante": "1. FC Köln",
+   "picks": [
+    {
+     "mercado": "1x2",
+     "lado": "home",
+     "prob": 83,
+     "texto": "Gana: Bayern",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "mas25",
+     "lado": null,
+     "prob": 73,
+     "texto": "Más de 2.5 goles",
+     "nivel": "media"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 94,
+     "texto": "Bayern gana o empata",
+     "nivel": "super"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 89,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 559622,
+   "fecha": "2026-11-20T19:45:00Z",
+   "liga": "Ligue 1",
+   "local": "Troyes",
+   "visitante": "Le Havre",
+   "picks": [
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 76,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 71,
+     "texto": "Troyes gana o empata",
+     "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 71,
+     "texto": "Más de 1.5 goles",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 564748,
+   "fecha": "2026-11-20T20:00:00Z",
+   "liga": "LaLiga",
+   "local": "Athletic",
+   "visitante": "Espanyol",
+   "picks": [
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 83,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 77,
+     "texto": "Athletic gana o empata",
+     "nivel": "confiada"
+    }
+   ],
+   "estado": "pendiente"
   }
  ],
  "resumen": {
