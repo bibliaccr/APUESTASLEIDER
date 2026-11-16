@@ -187,5 +187,125 @@
     "gv": 1
    }
   ]
+ },
+ "555088": {
+  "obtenido": "2026-11-16T02:34:39.624260+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-05-16T21:30:00Z",
+    "local": "Internacional",
+    "visita": "Vasco da Gama",
+    "gl": 4,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-11-28T22:30:00Z",
+    "local": "Vasco da Gama",
+    "visita": "Internacional",
+    "gl": 5,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-07-27T21:30:00Z",
+    "local": "Internacional",
+    "visita": "Vasco da Gama",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "fecha": "2024-11-21T23:00:00Z",
+    "local": "Vasco da Gama",
+    "visita": "Internacional",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "fecha": "2024-07-07T21:00:00Z",
+    "local": "Internacional",
+    "visita": "Vasco da Gama",
+    "gl": 1,
+    "gv": 2
+   }
+  ]
+ },
+ "555089": {
+  "obtenido": "2026-11-16T02:34:39.624260+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-05-17T21:30:00Z",
+    "local": "Bragantino",
+    "visita": "Vitória",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-12-03T22:00:00Z",
+    "local": "Bragantino",
+    "visita": "Vitória",
+    "gl": 4,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-07-20T19:00:00Z",
+    "local": "Vitória",
+    "visita": "Bragantino",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2024-10-19T19:00:00Z",
+    "local": "Vitória",
+    "visita": "Bragantino",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2024-06-23T21:30:00Z",
+    "local": "Bragantino",
+    "visita": "Vitória",
+    "gl": 2,
+    "gv": 1
+   }
+  ]
+ },
+ "555087": {
+  "obtenido": "2026-11-16T02:34:39.624260+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-05-16T22:00:00Z",
+    "local": "Fluminense",
+    "visita": "São Paulo",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-11-27T23:30:00Z",
+    "local": "Fluminense",
+    "visita": "São Paulo",
+    "gl": 6,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-07-27T19:00:00Z",
+    "local": "São Paulo",
+    "visita": "Fluminense",
+    "gl": 3,
+    "gv": 1
+   },
+   {
+    "fecha": "2024-09-01T21:30:00Z",
+    "local": "Fluminense",
+    "visita": "São Paulo",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "fecha": "2024-05-13T23:00:00Z",
+    "local": "São Paulo",
+    "visita": "Fluminense",
+    "gl": 2,
+    "gv": 1
+   }
+  ]
  }
 }
