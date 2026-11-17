@@ -384,5 +384,167 @@
     "gv": 2
    }
   ]
+ },
+ "560643": {
+  "obtenido": "2026-11-17T19:41:25.589790+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-02-11T19:30:00Z",
+    "local": "Man City",
+    "visita": "Fulham",
+    "gl": 3,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-12-02T19:30:00Z",
+    "local": "Fulham",
+    "visita": "Man City",
+    "gl": 4,
+    "gv": 5
+   },
+   {
+    "fecha": "2025-05-25T15:00:00Z",
+    "local": "Fulham",
+    "visita": "Man City",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "fecha": "2024-10-05T14:00:00Z",
+    "local": "Man City",
+    "visita": "Fulham",
+    "gl": 3,
+    "gv": 2
+   },
+   {
+    "fecha": "2024-05-11T11:30:00Z",
+    "local": "Fulham",
+    "visita": "Man City",
+    "gl": 0,
+    "gv": 4
+   }
+  ]
+ },
+ "561944": {
+  "obtenido": "2026-11-17T19:41:25.589790+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-04-11T14:00:00Z",
+    "local": "Southampton",
+    "visita": "Derby County",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-10-04T14:00:00Z",
+    "local": "Derby County",
+    "visita": "Southampton",
+    "gl": 1,
+    "gv": 1
+   }
+  ]
+ },
+ "561948": {
+  "obtenido": "2026-11-17T19:41:25.589790+00:00",
+  "h2h": [
+   {
+    "fecha": "2025-05-03T11:30:00Z",
+    "local": "Norwich",
+    "visita": "Cardiff",
+    "gl": 4,
+    "gv": 2
+   },
+   {
+    "fecha": "2024-11-02T15:00:00Z",
+    "local": "Cardiff",
+    "visita": "Norwich",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "fecha": "2024-02-17T15:00:00Z",
+    "local": "Norwich",
+    "visita": "Cardiff",
+    "gl": 4,
+    "gv": 1
+   },
+   {
+    "fecha": "2023-11-11T15:00:00Z",
+    "local": "Cardiff",
+    "visita": "Norwich",
+    "gl": 2,
+    "gv": 3
+   }
+  ]
+ },
+ "561950": {
+  "obtenido": "2026-11-17T19:41:25.589790+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-04-18T11:30:00Z",
+    "local": "Millwall",
+    "visita": "QPR",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-10-18T11:30:00Z",
+    "local": "QPR",
+    "visita": "Millwall",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "fecha": "2025-02-01T15:00:00Z",
+    "local": "Millwall",
+    "visita": "QPR",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "fecha": "2024-09-21T11:30:00Z",
+    "local": "QPR",
+    "visita": "Millwall",
+    "gl": 1,
+    "gv": 1
+   }
+  ]
+ },
+ "564755": {
+  "obtenido": "2026-11-17T19:41:25.589790+00:00",
+  "h2h": []
+ },
+ "558525": {
+  "obtenido": "2026-11-17T19:41:25.589790+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-03-07T14:00:00Z",
+    "local": "Cagliari",
+    "visita": "Como 1907",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "fecha": "2025-11-08T14:00:00Z",
+    "local": "Como 1907",
+    "visita": "Cagliari",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-05-10T13:00:00Z",
+    "local": "Como 1907",
+    "visita": "Cagliari",
+    "gl": 3,
+    "gv": 1
+   },
+   {
+    "fecha": "2024-08-26T16:30:00Z",
+    "local": "Cagliari",
+    "visita": "Como 1907",
+    "gl": 1,
+    "gv": 1
+   }
+  ]
  }
 }
