@@ -1,42 +1,4 @@
 {
- "555085": {
-  "obtenido": "2026-11-11T02:32:42.307714+00:00",
-  "h2h": [
-   {
-    "fecha": "2026-05-16T21:30:00Z",
-    "local": "Mineiro",
-    "visita": "Mirassol",
-    "gl": 3,
-    "gv": 1
-   },
-   {
-    "fecha": "2025-09-28T00:00:00Z",
-    "local": "Mineiro",
-    "visita": "Mirassol",
-    "gl": 1,
-    "gv": 0
-   },
-   {
-    "fecha": "2025-04-26T21:30:00Z",
-    "local": "Mirassol",
-    "visita": "Mineiro",
-    "gl": 2,
-    "gv": 2
-   }
-  ]
- },
- "554942": {
-  "obtenido": "2026-11-11T02:32:42.307714+00:00",
-  "h2h": [
-   {
-    "fecha": "2026-02-05T23:00:00Z",
-    "local": "Vasco da Gama",
-    "visita": "Chapecoense",
-    "gl": 1,
-    "gv": 1
-   }
-  ]
- },
  "555081": {
   "obtenido": "2026-11-15T02:24:54.888936+00:00",
   "h2h": [
@@ -542,6 +504,176 @@
     "fecha": "2024-08-26T16:30:00Z",
     "local": "Cagliari",
     "visita": "Como 1907",
+    "gl": 1,
+    "gv": 1
+   }
+  ]
+ },
+ "558528": {
+  "obtenido": "2026-11-18T04:01:35.060174+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-01-24T19:45:00Z",
+    "local": "Lecce",
+    "visita": "Lazio",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-11-23T17:00:00Z",
+    "local": "Lazio",
+    "visita": "Lecce",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-05-25T18:45:00Z",
+    "local": "Lazio",
+    "visita": "Lecce",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "fecha": "2024-12-21T19:45:00Z",
+    "local": "Lecce",
+    "visita": "Lazio",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "fecha": "2024-01-14T11:30:00Z",
+    "local": "Lazio",
+    "visita": "Lecce",
+    "gl": 1,
+    "gv": 0
+   }
+  ]
+ },
+ "565857": {
+  "obtenido": "2026-11-18T04:01:35.060174+00:00",
+  "h2h": [
+   {
+    "fecha": "2020-01-19T17:00:00Z",
+    "local": "SC Paderborn",
+    "visita": "Leverkusen",
+    "gl": 1,
+    "gv": 4
+   }
+  ]
+ },
+ "565858": {
+  "obtenido": "2026-11-18T04:01:35.060174+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-04-24T18:30:00Z",
+    "local": "RB Leipzig",
+    "visita": "Union Berlin",
+    "gl": 3,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-12-12T19:30:00Z",
+    "local": "Union Berlin",
+    "visita": "RB Leipzig",
+    "gl": 3,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-02-01T17:30:00Z",
+    "local": "Union Berlin",
+    "visita": "RB Leipzig",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "fecha": "2024-09-14T13:30:00Z",
+    "local": "RB Leipzig",
+    "visita": "Union Berlin",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "fecha": "2024-02-04T16:30:00Z",
+    "local": "RB Leipzig",
+    "visita": "Union Berlin",
+    "gl": 2,
+    "gv": 0
+   }
+  ]
+ },
+ "565862": {
+  "obtenido": "2026-11-18T04:01:35.060174+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-05-03T15:30:00Z",
+    "local": "M'gladbach",
+    "visita": "Dortmund",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-12-19T19:30:00Z",
+    "local": "Dortmund",
+    "visita": "M'gladbach",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-04-20T15:30:00Z",
+    "local": "Dortmund",
+    "visita": "M'gladbach",
+    "gl": 3,
+    "gv": 2
+   },
+   {
+    "fecha": "2024-12-07T17:30:00Z",
+    "local": "M'gladbach",
+    "visita": "Dortmund",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "fecha": "2024-04-13T13:30:00Z",
+    "local": "M'gladbach",
+    "visita": "Dortmund",
+    "gl": 1,
+    "gv": 2
+   }
+  ]
+ },
+ "560642": {
+  "obtenido": "2026-11-18T04:01:35.060174+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-02-10T19:30:00Z",
+    "local": "Chelsea",
+    "visita": "Leeds United",
+    "gl": 2,
+    "gv": 2
+   },
+   {
+    "fecha": "2025-12-03T20:15:00Z",
+    "local": "Leeds United",
+    "visita": "Chelsea",
+    "gl": 3,
+    "gv": 1
+   }
+  ]
+ },
+ "560644": {
+  "obtenido": "2026-11-18T04:01:35.060174+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-04-19T13:00:00Z",
+    "local": "Aston Villa",
+    "visita": "Sunderland",
+    "gl": 4,
+    "gv": 3
+   },
+   {
+    "fecha": "2025-09-21T13:00:00Z",
+    "local": "Sunderland",
+    "visita": "Aston Villa",
     "gl": 1,
     "gv": 1
    }
