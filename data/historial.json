@@ -10603,17 +10603,20 @@
      "lado": "away",
      "prob": 75,
      "texto": "Palmeiras gana o empata",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": false
     },
     {
      "mercado": "mas15",
      "lado": null,
      "prob": 74,
      "texto": "Más de 1.5 goles",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "2-1"
   },
   {
    "id": 555083,
@@ -10627,24 +10630,28 @@
      "lado": null,
      "prob": 81,
      "texto": "Más de 1.5 goles",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": true
     },
     {
      "mercado": "1x2",
      "lado": "home",
      "prob": 68,
      "texto": "Gana: Flamengo",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     },
     {
      "mercado": "doble",
      "lado": "home",
      "prob": 86,
      "texto": "Flamengo gana o empata",
-     "nivel": "super"
+     "nivel": "super",
+     "acierto": true
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "2-1"
   },
   {
    "id": 555080,
@@ -10658,24 +10665,28 @@
      "lado": null,
      "prob": 75,
      "texto": "Menos de 3.5 goles",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": false
     },
     {
      "mercado": "doble",
      "lado": "home",
      "prob": 72,
      "texto": "Corinthians gana o empata",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     },
     {
      "mercado": "mas15",
      "lado": null,
      "prob": 72,
      "texto": "Más de 1.5 goles",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "4-0"
   },
   {
    "id": 555084,
@@ -10689,10 +10700,12 @@
      "lado": null,
      "prob": 74,
      "texto": "Menos de 3.5 goles",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "0-0"
   },
   {
    "id": 555088,
@@ -10742,7 +10755,7 @@
     {
      "mercado": "doble",
      "lado": "away",
-     "prob": 68,
+     "prob": 67,
      "texto": "Bragantino gana o empata",
      "nivel": "media"
     },
@@ -11944,21 +11957,21 @@
     {
      "mercado": "menos35",
      "lado": null,
-     "prob": 79,
+     "prob": 78,
      "texto": "Menos de 3.5 goles",
      "nivel": "confiada"
     },
     {
      "mercado": "doble",
      "lado": "home",
-     "prob": 74,
+     "prob": 73,
      "texto": "Palmeiras gana o empata",
      "nivel": "media"
     },
     {
      "mercado": "mas15",
      "lado": null,
-     "prob": 68,
+     "prob": 69,
      "texto": "Más de 1.5 goles",
      "nivel": "media"
     }
@@ -12223,14 +12236,14 @@
     {
      "mercado": "mas15",
      "lado": null,
-     "prob": 77,
+     "prob": 76,
      "texto": "Más de 1.5 goles",
      "nivel": "confiada"
     },
     {
      "mercado": "menos35",
      "lado": null,
-     "prob": 68,
+     "prob": 70,
      "texto": "Menos de 3.5 goles",
      "nivel": "media"
     }
@@ -12878,7 +12891,7 @@
     {
      "mercado": "doble",
      "lado": "home",
-     "prob": 79,
+     "prob": 78,
      "texto": "Paranaense gana o empata",
      "nivel": "confiada"
     },
@@ -13058,30 +13071,30 @@
  "resumen": {
   "por_nivel": {
    "media": {
-    "total": 446,
-    "aciertos": 327
+    "total": 451,
+    "aciertos": 332
    },
    "confiada": {
-    "total": 322,
-    "aciertos": 242
+    "total": 325,
+    "aciertos": 243
    },
    "super": {
-    "total": 112,
-    "aciertos": 100
+    "total": 113,
+    "aciertos": 101
    }
   },
   "por_mercado": {
    "mas15": {
-    "total": 276,
-    "aciertos": 224
+    "total": 279,
+    "aciertos": 227
    },
    "doble": {
-    "total": 267,
-    "aciertos": 202
+    "total": 270,
+    "aciertos": 204
    },
    "menos35": {
-    "total": 150,
-    "aciertos": 112
+    "total": 152,
+    "aciertos": 113
    },
    "mas25": {
     "total": 79,
@@ -13096,8 +13109,8 @@
     "aciertos": 2
    },
    "1x2": {
-    "total": 33,
-    "aciertos": 29
+    "total": 34,
+    "aciertos": 30
    },
    "btts_no": {
     "total": 4,
