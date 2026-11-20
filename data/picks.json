@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-19T19:25:31.646408+00:00",
+ "generado": "2026-11-20T03:52:12.032303+00:00",
  "niveles": {
   "super": 85,
   "confiada": 75,
@@ -8,768 +8,6 @@
  "llamadas_usadas": 16,
  "avisos": [],
  "partidos": [
-  {
-   "id": 555088,
-   "fecha": "2026-11-19T22:30:00Z",
-   "liga": {
-    "id": "BSA",
-    "nombre": "Brasileirão Serie A",
-    "pais": "Brasil",
-    "logo": "https://crests.football-data.org/bsa.png"
-   },
-   "local": {
-    "id": 1780,
-    "nombre": "Vasco da Gama",
-    "logo": "https://crests.football-data.org/1780.png"
-   },
-   "visitante": {
-    "id": 6684,
-    "nombre": "Internacional",
-    "logo": "https://crests.football-data.org/6684.png"
-   },
-   "picks": [
-    {
-     "mercado": "menos35",
-     "lado": null,
-     "prob": 76,
-     "texto": "Menos de 3.5 goles",
-     "nivel": "confiada"
-    },
-    {
-     "mercado": "doble",
-     "lado": "home",
-     "prob": 72,
-     "texto": "Vasco da Gama gana o empata",
-     "nivel": "media"
-    }
-   ],
-   "por_nivel": {
-    "media": [
-     {
-      "mercado": "doble",
-      "lado": "home",
-      "prob": 72,
-      "texto": "Vasco da Gama gana o empata",
-      "nivel": "media"
-     },
-     {
-      "mercado": "mas15",
-      "lado": null,
-      "prob": 71,
-      "texto": "Más de 1.5 goles",
-      "nivel": "media"
-     }
-    ],
-    "confiada": [
-     {
-      "mercado": "menos35",
-      "lado": null,
-      "prob": 76,
-      "texto": "Menos de 3.5 goles",
-      "nivel": "confiada"
-     }
-    ],
-    "super": []
-   },
-   "nivel_max": "confiada",
-   "analisis": {
-    "percent": {
-     "home": 45.8,
-     "draw": 26.4,
-     "away": 27.8
-    },
-    "mas15": 71.2,
-    "menos35": 75.9,
-    "mas25": 45.5,
-    "ambos": 49.8,
-    "goles_esp": {
-     "home": 1.44,
-     "away": 1.06
-    },
-    "ultimos5": {
-     "home": 60,
-     "away": 47
-    },
-    "forma": {
-     "home": 56,
-     "away": 44
-    },
-    "gf": {
-     "home": 1.32,
-     "away": 1.12
-    },
-    "gc": {
-     "home": 1.47,
-     "away": 1.24
-    },
-    "jugados": {
-     "home": 34,
-     "away": 34
-    },
-    "mercados": {
-     "h": 45.8,
-     "x": 26.4,
-     "a": 27.8,
-     "dc": {
-      "1x": 72.2,
-      "x2": 54.2,
-      "12": 73.6
-     },
-     "dnb": {
-      "h": 62.2,
-      "a": 37.8
-     },
-     "mas": {
-      "0": 91.8,
-      "1": 71.2,
-      "2": 45.5,
-      "3": 24.1,
-      "4": 10.8
-     },
-     "btts": 49.8,
-     "mas_local": {
-      "0": 76.2,
-      "1": 42.1,
-      "2": 17.6
-     },
-     "mas_visita": {
-      "0": 65.3,
-      "1": 28.6,
-      "2": 9.1
-     },
-     "marcadores": [
-      [
-       "1-1",
-       12.5
-      ],
-      [
-       "1-0",
-       11.9
-      ],
-      [
-       "2-1",
-       9.0
-      ],
-      [
-       "0-1",
-       8.7
-      ],
-      [
-       "2-0",
-       8.5
-      ]
-     ]
-    },
-    "mercados_1t": {
-     "h": 29.2,
-     "x": 49.3,
-     "a": 21.4,
-     "dc": {
-      "1x": 78.6,
-      "x2": 70.8,
-      "12": 50.7
-     },
-     "mas": {
-      "0": 59.1,
-      "1": 22.5,
-      "2": 6.2,
-      "3": 1.3,
-      "4": 0.2
-     },
-     "btts": 12.8,
-     "mas_local": {
-      "0": 39.6,
-      "1": 9.1,
-      "2": 1.5
-     },
-     "mas_visita": {
-      "0": 32.3,
-      "1": 5.9,
-      "2": 0.7
-     },
-     "marcadores": [
-      [
-       "0-0",
-       40.9
-      ],
-      [
-       "1-0",
-       20.6
-      ],
-      [
-       "0-1",
-       16.0
-      ],
-      [
-       "1-1",
-       8.0
-      ],
-      [
-       "2-0",
-       5.2
-      ]
-     ],
-     "goles_esp": {
-      "home": 0.5,
-      "away": 0.39
-     },
-     "jugados": {
-      "home": 34,
-      "away": 34
-     }
-    },
-    "penal": {
-     "home": 0,
-     "away": 0,
-     "global": 0
-    },
-    "h2h": [
-     {
-      "fecha": "2026-05-16T21:30:00Z",
-      "local": "Internacional",
-      "visita": "Vasco da Gama",
-      "gl": 4,
-      "gv": 1
-     },
-     {
-      "fecha": "2025-11-28T22:30:00Z",
-      "local": "Vasco da Gama",
-      "visita": "Internacional",
-      "gl": 5,
-      "gv": 1
-     },
-     {
-      "fecha": "2025-07-27T21:30:00Z",
-      "local": "Internacional",
-      "visita": "Vasco da Gama",
-      "gl": 1,
-      "gv": 1
-     },
-     {
-      "fecha": "2024-11-21T23:00:00Z",
-      "local": "Vasco da Gama",
-      "visita": "Internacional",
-      "gl": 0,
-      "gv": 1
-     },
-     {
-      "fecha": "2024-07-07T21:00:00Z",
-      "local": "Internacional",
-      "visita": "Vasco da Gama",
-      "gl": 1,
-      "gv": 2
-     }
-    ]
-   }
-  },
-  {
-   "id": 555089,
-   "fecha": "2026-11-19T22:30:00Z",
-   "liga": {
-    "id": "BSA",
-    "nombre": "Brasileirão Serie A",
-    "pais": "Brasil",
-    "logo": "https://crests.football-data.org/bsa.png"
-   },
-   "local": {
-    "id": 1782,
-    "nombre": "Vitória",
-    "logo": "https://crests.football-data.org/1782.png"
-   },
-   "visitante": {
-    "id": 4286,
-    "nombre": "Bragantino",
-    "logo": "https://crests.football-data.org/4286.png"
-   },
-   "picks": [
-    {
-     "mercado": "menos35",
-     "lado": null,
-     "prob": 80,
-     "texto": "Menos de 3.5 goles",
-     "nivel": "confiada"
-    },
-    {
-     "mercado": "doble",
-     "lado": "away",
-     "prob": 67,
-     "texto": "Bragantino gana o empata",
-     "nivel": "media"
-    }
-   ],
-   "por_nivel": {
-    "media": [
-     {
-      "mercado": "doble",
-      "lado": "away",
-      "prob": 67,
-      "texto": "Bragantino gana o empata",
-      "nivel": "media"
-     },
-     {
-      "mercado": "mas15",
-      "lado": null,
-      "prob": 67,
-      "texto": "Más de 1.5 goles",
-      "nivel": "media"
-     }
-    ],
-    "confiada": [
-     {
-      "mercado": "menos35",
-      "lado": null,
-      "prob": 80,
-      "texto": "Menos de 3.5 goles",
-      "nivel": "confiada"
-     }
-    ],
-    "super": []
-   },
-   "nivel_max": "confiada",
-   "analisis": {
-    "percent": {
-     "home": 32.6,
-     "draw": 28.2,
-     "away": 39.2
-    },
-    "mas15": 67.1,
-    "menos35": 79.8,
-    "mas25": 40.6,
-    "ambos": 46.7,
-    "goles_esp": {
-     "home": 1.09,
-     "away": 1.22
-    },
-    "ultimos5": {
-     "home": 13,
-     "away": 67
-    },
-    "forma": {
-     "home": 17,
-     "away": 83
-    },
-    "gf": {
-     "home": 1.03,
-     "away": 1.29
-    },
-    "gc": {
-     "home": 1.5,
-     "away": 1.15
-    },
-    "jugados": {
-     "home": 34,
-     "away": 34
-    },
-    "mercados": {
-     "h": 32.6,
-     "x": 28.2,
-     "a": 39.2,
-     "dc": {
-      "1x": 60.8,
-      "x2": 67.4,
-      "12": 71.8
-     },
-     "dnb": {
-      "h": 45.4,
-      "a": 54.6
-     },
-     "mas": {
-      "0": 90.1,
-      "1": 67.1,
-      "2": 40.6,
-      "3": 20.2,
-      "4": 8.5
-     },
-     "btts": 46.7,
-     "mas_local": {
-      "0": 66.3,
-      "1": 29.6,
-      "2": 9.7
-     },
-     "mas_visita": {
-      "0": 70.5,
-      "1": 34.5,
-      "2": 12.5
-     },
-     "marcadores": [
-      [
-       "1-1",
-       13.2
-      ],
-      [
-       "0-1",
-       12.1
-      ],
-      [
-       "1-0",
-       10.8
-      ],
-      [
-       "0-0",
-       9.9
-      ],
-      [
-       "1-2",
-       8.1
-      ]
-     ]
-    },
-    "mercados_1t": {
-     "h": 25.0,
-     "x": 41.4,
-     "a": 33.5,
-     "dc": {
-      "1x": 66.5,
-      "x2": 75.0,
-      "12": 58.6
-     },
-     "mas": {
-      "0": 70.5,
-      "1": 34.5,
-      "2": 12.5,
-      "3": 3.6,
-      "4": 0.8
-     },
-     "btts": 20.6,
-     "mas_local": {
-      "0": 41.9,
-      "1": 10.3,
-      "2": 1.8
-     },
-     "mas_visita": {
-      "0": 49.2,
-      "1": 14.8,
-      "2": 3.1
-     },
-     "marcadores": [
-      [
-       "0-0",
-       29.5
-      ],
-      [
-       "0-1",
-       20.0
-      ],
-      [
-       "1-0",
-       16.0
-      ],
-      [
-       "1-1",
-       10.9
-      ],
-      [
-       "0-2",
-       6.8
-      ]
-     ],
-     "goles_esp": {
-      "home": 0.54,
-      "away": 0.68
-     },
-     "jugados": {
-      "home": 34,
-      "away": 34
-     }
-    },
-    "penal": {
-     "home": 5,
-     "away": 0,
-     "global": 0
-    },
-    "h2h": [
-     {
-      "fecha": "2026-05-17T21:30:00Z",
-      "local": "Bragantino",
-      "visita": "Vitória",
-      "gl": 2,
-      "gv": 0
-     },
-     {
-      "fecha": "2025-12-03T22:00:00Z",
-      "local": "Bragantino",
-      "visita": "Vitória",
-      "gl": 4,
-      "gv": 0
-     },
-     {
-      "fecha": "2025-07-20T19:00:00Z",
-      "local": "Vitória",
-      "visita": "Bragantino",
-      "gl": 1,
-      "gv": 0
-     },
-     {
-      "fecha": "2024-10-19T19:00:00Z",
-      "local": "Vitória",
-      "visita": "Bragantino",
-      "gl": 1,
-      "gv": 0
-     },
-     {
-      "fecha": "2024-06-23T21:30:00Z",
-      "local": "Bragantino",
-      "visita": "Vitória",
-      "gl": 2,
-      "gv": 1
-     }
-    ]
-   }
-  },
-  {
-   "id": 555087,
-   "fecha": "2026-11-20T00:30:00Z",
-   "liga": {
-    "id": "BSA",
-    "nombre": "Brasileirão Serie A",
-    "pais": "Brasil",
-    "logo": "https://crests.football-data.org/bsa.png"
-   },
-   "local": {
-    "id": 1776,
-    "nombre": "São Paulo",
-    "logo": "https://crests.football-data.org/1776.png"
-   },
-   "visitante": {
-    "id": 1765,
-    "nombre": "Fluminense",
-    "logo": "https://crests.football-data.org/1765.png"
-   },
-   "picks": [
-    {
-     "mercado": "menos35",
-     "lado": null,
-     "prob": 77,
-     "texto": "Menos de 3.5 goles",
-     "nivel": "confiada"
-    },
-    {
-     "mercado": "doble",
-     "lado": "home",
-     "prob": 66,
-     "texto": "São Paulo gana o empata",
-     "nivel": "media"
-    }
-   ],
-   "por_nivel": {
-    "media": [
-     {
-      "mercado": "mas15",
-      "lado": null,
-      "prob": 70,
-      "texto": "Más de 1.5 goles",
-      "nivel": "media"
-     },
-     {
-      "mercado": "doble",
-      "lado": "home",
-      "prob": 66,
-      "texto": "São Paulo gana o empata",
-      "nivel": "media"
-     }
-    ],
-    "confiada": [
-     {
-      "mercado": "menos35",
-      "lado": null,
-      "prob": 77,
-      "texto": "Menos de 3.5 goles",
-      "nivel": "confiada"
-     }
-    ],
-    "super": []
-   },
-   "nivel_max": "confiada",
-   "analisis": {
-    "percent": {
-     "home": 38.6,
-     "draw": 27.3,
-     "away": 34.1
-    },
-    "mas15": 70.2,
-    "menos35": 76.9,
-    "mas25": 44.3,
-    "ambos": 49.8,
-    "goles_esp": {
-     "home": 1.27,
-     "away": 1.18
-    },
-    "ultimos5": {
-     "home": 53,
-     "away": 40
-    },
-    "forma": {
-     "home": 57,
-     "away": 43
-    },
-    "gf": {
-     "home": 1.15,
-     "away": 1.62
-    },
-    "gc": {
-     "home": 1.15,
-     "away": 1.24
-    },
-    "jugados": {
-     "home": 34,
-     "away": 34
-    },
-    "mercados": {
-     "h": 38.6,
-     "x": 27.3,
-     "a": 34.1,
-     "dc": {
-      "1x": 65.9,
-      "x2": 61.4,
-      "12": 72.7
-     },
-     "dnb": {
-      "h": 53.1,
-      "a": 46.9
-     },
-     "mas": {
-      "0": 91.3,
-      "1": 70.2,
-      "2": 44.3,
-      "3": 23.1,
-      "4": 10.2
-     },
-     "btts": 49.8,
-     "mas_local": {
-      "0": 71.9,
-      "1": 36.3,
-      "2": 13.6
-     },
-     "mas_visita": {
-      "0": 69.2,
-      "1": 32.9,
-      "2": 11.6
-     },
-     "marcadores": [
-      [
-       "1-1",
-       12.9
-      ],
-      [
-       "1-0",
-       11.0
-      ],
-      [
-       "0-1",
-       10.2
-      ],
-      [
-       "0-0",
-       8.7
-      ],
-      [
-       "2-1",
-       8.2
-      ]
-     ]
-    },
-    "mercados_1t": {
-     "h": 25.3,
-     "x": 49.8,
-     "a": 24.9,
-     "dc": {
-      "1x": 75.1,
-      "x2": 74.7,
-      "12": 50.2
-     },
-     "mas": {
-      "0": 58.7,
-      "1": 22.2,
-      "2": 6.0,
-      "3": 1.3,
-      "4": 0.2
-     },
-     "btts": 12.8,
-     "mas_local": {
-      "0": 35.9,
-      "1": 7.4,
-      "2": 1.1
-     },
-     "mas_visita": {
-      "0": 35.6,
-      "1": 7.3,
-      "2": 1.0
-     },
-     "marcadores": [
-      [
-       "0-0",
-       41.3
-      ],
-      [
-       "1-0",
-       18.4
-      ],
-      [
-       "0-1",
-       18.2
-      ],
-      [
-       "1-1",
-       8.1
-      ],
-      [
-       "2-0",
-       4.1
-      ]
-     ],
-     "goles_esp": {
-      "home": 0.44,
-      "away": 0.44
-     },
-     "jugados": {
-      "home": 34,
-      "away": 34
-     }
-    },
-    "penal": {
-     "home": 0,
-     "away": 0,
-     "global": 0
-    },
-    "h2h": [
-     {
-      "fecha": "2026-05-16T22:00:00Z",
-      "local": "Fluminense",
-      "visita": "São Paulo",
-      "gl": 2,
-      "gv": 1
-     },
-     {
-      "fecha": "2025-11-27T23:30:00Z",
-      "local": "Fluminense",
-      "visita": "São Paulo",
-      "gl": 6,
-      "gv": 0
-     },
-     {
-      "fecha": "2025-07-27T19:00:00Z",
-      "local": "São Paulo",
-      "visita": "Fluminense",
-      "gl": 3,
-      "gv": 1
-     },
-     {
-      "fecha": "2024-09-01T21:30:00Z",
-      "local": "Fluminense",
-      "visita": "São Paulo",
-      "gl": 2,
-      "gv": 0
-     },
-     {
-      "fecha": "2024-05-13T23:00:00Z",
-      "local": "São Paulo",
-      "visita": "Fluminense",
-      "gl": 2,
-      "gv": 1
-     }
-    ]
-   }
-  },
   {
    "id": 565859,
    "fecha": "2026-11-20T19:30:00Z",
@@ -9606,7 +8844,36 @@
      "away": 0,
      "global": 0
     },
-    "h2h": []
+    "h2h": [
+     {
+      "fecha": "2023-05-06T18:00:00Z",
+      "local": "Cambuur",
+      "visita": "Utrecht",
+      "gl": 0,
+      "gv": 3
+     },
+     {
+      "fecha": "2022-08-13T18:00:00Z",
+      "local": "Utrecht",
+      "visita": "Cambuur",
+      "gl": 0,
+      "gv": 0
+     },
+     {
+      "fecha": "2022-02-05T15:30:00Z",
+      "local": "Utrecht",
+      "visita": "Cambuur",
+      "gl": 3,
+      "gv": 2
+     },
+     {
+      "fecha": "2021-11-21T19:00:00Z",
+      "local": "Cambuur",
+      "visita": "Utrecht",
+      "gl": 2,
+      "gv": 1
+     }
+    ]
    }
   },
   {
@@ -9677,10 +8944,10 @@
     "percent": {
      "home": 45.8,
      "draw": 27.1,
-     "away": 27.1
+     "away": 27.2
     },
-    "mas15": 68.9,
-    "menos35": 78.1,
+    "mas15": 69.0,
+    "menos35": 78.0,
     "mas25": 42.8,
     "ambos": 47.5,
     "goles_esp": {
@@ -9710,9 +8977,9 @@
     "mercados": {
      "h": 45.8,
      "x": 27.1,
-     "a": 27.1,
+     "a": 27.2,
      "dc": {
-      "1x": 72.9,
+      "1x": 72.8,
       "x2": 54.2,
       "12": 72.9
      },
@@ -9721,15 +8988,15 @@
       "a": 37.2
      },
      "mas": {
-      "0": 90.8,
-      "1": 68.9,
+      "0": 90.9,
+      "1": 69.0,
       "2": 42.8,
-      "3": 21.9,
+      "3": 22.0,
       "4": 9.5
      },
      "btts": 47.5,
      "mas_local": {
-      "0": 75.0,
+      "0": 75.1,
       "1": 40.4,
       "2": 16.4
      },
@@ -9753,7 +9020,7 @@
       ],
       [
        "0-0",
-       9.2
+       9.1
       ],
       [
        "2-1",
@@ -9762,12 +9029,12 @@
      ]
     },
     "mercados_1t": {
-     "h": 34.3,
+     "h": 34.4,
      "x": 46.7,
-     "a": 19.0,
+     "a": 18.9,
      "dc": {
-      "1x": 81.0,
-      "x2": 65.7,
+      "1x": 81.1,
+      "x2": 65.6,
       "12": 53.3
      },
      "mas": {
@@ -9779,13 +9046,13 @@
      },
      "btts": 14.1,
      "mas_local": {
-      "0": 45.1,
-      "1": 12.2,
+      "0": 45.2,
+      "1": 12.3,
       "2": 2.3
      },
      "mas_visita": {
-      "0": 31.2,
-      "1": 5.5,
+      "0": 31.1,
+      "1": 5.4,
       "2": 0.7
      },
      "marcadores": [
@@ -9824,7 +9091,43 @@
      "away": 0,
      "global": 0
     },
-    "h2h": []
+    "h2h": [
+     {
+      "fecha": "2026-05-24T00:00:00Z",
+      "local": "Flamengo",
+      "visita": "Palmeiras",
+      "gl": 0,
+      "gv": 3
+     },
+     {
+      "fecha": "2025-11-29T21:15:00Z",
+      "local": "Palmeiras",
+      "visita": "Flamengo",
+      "gl": 0,
+      "gv": 1
+     },
+     {
+      "fecha": "2025-10-19T19:00:00Z",
+      "local": "Flamengo",
+      "visita": "Palmeiras",
+      "gl": 3,
+      "gv": 2
+     },
+     {
+      "fecha": "2025-05-25T19:00:00Z",
+      "local": "Palmeiras",
+      "visita": "Flamengo",
+      "gl": 0,
+      "gv": 2
+     },
+     {
+      "fecha": "2024-08-11T19:00:00Z",
+      "local": "Flamengo",
+      "visita": "Palmeiras",
+      "gl": 1,
+      "gv": 1
+     }
+    ]
    }
   },
   {
@@ -10042,7 +9345,43 @@
      "away": 0,
      "global": 0
     },
-    "h2h": []
+    "h2h": [
+     {
+      "fecha": "2026-03-06T19:45:00Z",
+      "local": "Napoli",
+      "visita": "Torino",
+      "gl": 2,
+      "gv": 1
+     },
+     {
+      "fecha": "2025-10-18T16:00:00Z",
+      "local": "Torino",
+      "visita": "Napoli",
+      "gl": 1,
+      "gv": 0
+     },
+     {
+      "fecha": "2025-04-27T18:45:00Z",
+      "local": "Napoli",
+      "visita": "Torino",
+      "gl": 2,
+      "gv": 0
+     },
+     {
+      "fecha": "2024-12-01T14:00:00Z",
+      "local": "Torino",
+      "visita": "Napoli",
+      "gl": 0,
+      "gv": 1
+     },
+     {
+      "fecha": "2024-03-08T19:45:00Z",
+      "local": "Napoli",
+      "visita": "Torino",
+      "gl": 1,
+      "gv": 1
+     }
+    ]
    }
   },
   {
@@ -10252,7 +9591,43 @@
      "away": 0,
      "global": 0
     },
-    "h2h": []
+    "h2h": [
+     {
+      "fecha": "2026-04-19T13:00:00Z",
+      "local": "Monaco",
+      "visita": "Auxerre",
+      "gl": 2,
+      "gv": 2
+     },
+     {
+      "fecha": "2025-09-13T19:05:00Z",
+      "local": "Auxerre",
+      "visita": "Monaco",
+      "gl": 1,
+      "gv": 2
+     },
+     {
+      "fecha": "2025-02-01T18:00:00Z",
+      "local": "Monaco",
+      "visita": "Auxerre",
+      "gl": 4,
+      "gv": 2
+     },
+     {
+      "fecha": "2024-09-14T17:00:00Z",
+      "local": "Auxerre",
+      "visita": "Monaco",
+      "gl": 0,
+      "gv": 3
+     },
+     {
+      "fecha": "2023-02-01T20:00:00Z",
+      "local": "Monaco",
+      "visita": "Auxerre",
+      "gl": 3,
+      "gv": 2
+     }
+    ]
    }
   },
   {
@@ -10463,7 +9838,36 @@
      "away": 0,
      "global": 0
     },
-    "h2h": []
+    "h2h": [
+     {
+      "fecha": "2026-04-17T18:45:00Z",
+      "local": "RC Lens",
+      "visita": "Toulouse",
+      "gl": 3,
+      "gv": 2
+     },
+     {
+      "fecha": "2026-01-02T19:45:00Z",
+      "local": "Toulouse",
+      "visita": "RC Lens",
+      "gl": 0,
+      "gv": 3
+     },
+     {
+      "fecha": "2025-05-10T19:00:00Z",
+      "local": "Toulouse",
+      "visita": "RC Lens",
+      "gl": 1,
+      "gv": 1
+     },
+     {
+      "fecha": "2025-01-05T14:00:00Z",
+      "local": "RC Lens",
+      "visita": "Toulouse",
+      "gl": 0,
+      "gv": 1
+     }
+    ]
    }
   },
   {
@@ -11139,7 +10543,36 @@
      "away": 5,
      "global": 0
     },
-    "h2h": []
+    "h2h": [
+     {
+      "fecha": "2026-03-06T20:00:00Z",
+      "local": "Celta",
+      "visita": "Real Madrid",
+      "gl": 1,
+      "gv": 2
+     },
+     {
+      "fecha": "2025-12-07T20:00:00Z",
+      "local": "Real Madrid",
+      "visita": "Celta",
+      "gl": 0,
+      "gv": 2
+     },
+     {
+      "fecha": "2025-05-04T12:00:00Z",
+      "local": "Real Madrid",
+      "visita": "Celta",
+      "gl": 3,
+      "gv": 2
+     },
+     {
+      "fecha": "2024-10-19T19:00:00Z",
+      "local": "Celta",
+      "visita": "Real Madrid",
+      "gl": 1,
+      "gv": 2
+     }
+    ]
    }
   },
   {
@@ -11642,9 +11075,9 @@
      "away": 19.7
     },
     "mas15": 76.3,
-    "menos35": 70.0,
-    "mas25": 52.2,
-    "ambos": 51.5,
+    "menos35": 69.9,
+    "mas25": 52.3,
+    "ambos": 51.6,
     "goles_esp": {
      "home": 1.81,
      "away": 0.96
@@ -11685,18 +11118,18 @@
      "mas": {
       "0": 93.7,
       "1": 76.3,
-      "2": 52.2,
-      "3": 30.0,
+      "2": 52.3,
+      "3": 30.1,
       "4": 14.7
      },
-     "btts": 51.5,
+     "btts": 51.6,
      "mas_local": {
       "0": 83.6,
-      "1": 53.9,
-      "2": 27.1
+      "1": 54.0,
+      "2": 27.2
      },
      "mas_visita": {
-      "0": 61.6,
+      "0": 61.7,
       "1": 24.9,
       "2": 7.3
      },
@@ -11715,7 +11148,7 @@
       ],
       [
        "2-1",
-       9.8
+       9.9
       ],
       [
        "0-0",
@@ -11724,12 +11157,12 @@
      ]
     },
     "mercados_1t": {
-     "h": 42.1,
+     "h": 42.2,
      "x": 40.2,
      "a": 17.6,
      "dc": {
       "1x": 82.4,
-      "x2": 57.9,
+      "x2": 57.8,
       "12": 59.8
      },
      "mas": {
@@ -11739,14 +11172,14 @@
       "3": 3.6,
       "4": 0.8
      },
-     "btts": 18.8,
+     "btts": 18.7,
      "mas_local": {
-      "0": 55.3,
-      "1": 19.3,
+      "0": 55.4,
+      "1": 19.4,
       "2": 4.8
      },
      "mas_visita": {
-      "0": 33.9,
+      "0": 33.8,
       "1": 6.5,
       "2": 0.9
      },
@@ -11765,7 +11198,7 @@
       ],
       [
        "1-1",
-       9.9
+       9.8
       ],
       [
        "2-0",
@@ -11847,14 +11280,14 @@
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
-     "home": 22.7,
+     "home": 22.6,
      "draw": 21.6,
      "away": 55.7
     },
     "mas15": 82.8,
-    "menos35": 60.5,
-    "mas25": 61.8,
-    "ambos": 60.3,
+    "menos35": 60.4,
+    "mas25": 61.9,
+    "ambos": 60.4,
     "goles_esp": {
      "home": 1.2,
      "away": 1.99
@@ -11880,12 +11313,12 @@
      "away": 35
     },
     "mercados": {
-     "h": 22.7,
+     "h": 22.6,
      "x": 21.6,
      "a": 55.7,
      "dc": {
       "1x": 44.3,
-      "x2": 77.3,
+      "x2": 77.4,
       "12": 78.4
      },
      "dnb": {
@@ -11895,19 +11328,19 @@
      "mas": {
       "0": 95.9,
       "1": 82.8,
-      "2": 61.8,
-      "3": 39.5,
+      "2": 61.9,
+      "3": 39.6,
       "4": 21.8
      },
-     "btts": 60.3,
+     "btts": 60.4,
      "mas_local": {
       "0": 69.9,
-      "1": 33.7,
-      "2": 12.0
+      "1": 33.8,
+      "2": 12.1
      },
      "mas_visita": {
-      "0": 86.3,
-      "1": 59.1,
+      "0": 86.4,
+      "1": 59.2,
       "2": 32.1
      },
      "marcadores": [
@@ -11925,7 +11358,7 @@
       ],
       [
        "0-2",
-       8.2
+       8.1
       ],
       [
        "1-3",
@@ -11934,36 +11367,36 @@
      ]
     },
     "mercados_1t": {
-     "h": 25.5,
-     "x": 37.2,
-     "a": 37.2,
+     "h": 25.6,
+     "x": 37.3,
+     "a": 37.1,
      "dc": {
-      "1x": 62.8,
-      "x2": 74.5,
-      "12": 62.8
+      "1x": 62.9,
+      "x2": 74.4,
+      "12": 62.7
      },
      "mas": {
-      "0": 76.5,
-      "1": 42.5,
+      "0": 76.4,
+      "1": 42.4,
       "2": 17.8,
       "3": 5.9,
       "4": 1.6
      },
-     "btts": 26.1,
+     "btts": 26.0,
      "mas_local": {
-      "0": 46.5,
-      "1": 13.0,
+      "0": 46.6,
+      "1": 13.1,
       "2": 2.6
      },
      "mas_visita": {
-      "0": 56.1,
-      "1": 20.0,
-      "2": 5.1
+      "0": 55.9,
+      "1": 19.8,
+      "2": 5.0
      },
      "marcadores": [
       [
        "0-0",
-       23.5
+       23.6
       ],
       [
        "0-1",
@@ -11971,7 +11404,7 @@
       ],
       [
        "1-0",
-       14.7
+       14.8
       ],
       [
        "1-1",
@@ -11979,7 +11412,7 @@
       ],
       [
        "0-2",
-       8.0
+       7.9
       ]
      ],
      "goles_esp": {
@@ -16046,7 +15479,7 @@
      {
       "mercado": "menos35",
       "lado": null,
-      "prob": 66,
+      "prob": 65,
       "texto": "Menos de 3.5 goles",
       "nivel": "media"
      }
@@ -16078,9 +15511,9 @@
      "away": 16.6
     },
     "mas15": 79.6,
-    "menos35": 65.5,
+    "menos35": 65.4,
     "mas25": 57.0,
-    "ambos": 52.8,
+    "ambos": 52.9,
     "goles_esp": {
      "home": 2.03,
      "away": 0.94
@@ -16122,18 +15555,18 @@
       "0": 94.9,
       "1": 79.6,
       "2": 57.0,
-      "3": 34.5,
-      "4": 17.9
+      "3": 34.6,
+      "4": 18.0
      },
-     "btts": 52.8,
+     "btts": 52.9,
      "mas_local": {
       "0": 86.9,
       "1": 60.2,
-      "2": 33.1
+      "2": 33.2
      },
      "mas_visita": {
-      "0": 60.8,
-      "1": 24.1,
+      "0": 60.9,
+      "1": 24.2,
       "2": 6.9
      },
      "marcadores": [
@@ -16160,30 +15593,30 @@
      ]
     },
     "mercados_1t": {
-     "h": 51.9,
+     "h": 52.1,
      "x": 31.7,
-     "a": 16.3,
+     "a": 16.2,
      "dc": {
-      "1x": 83.7,
-      "x2": 48.1,
+      "1x": 83.8,
+      "x2": 47.9,
       "12": 68.3
      },
      "mas": {
       "0": 81.2,
-      "1": 49.7,
+      "1": 49.8,
       "2": 23.5,
       "3": 8.9,
       "4": 2.8
      },
-     "btts": 27.5,
+     "btts": 27.4,
      "mas_local": {
-      "0": 68.6,
-      "1": 32.2,
+      "0": 68.7,
+      "1": 32.3,
       "2": 11.2
      },
      "mas_visita": {
-      "0": 40.0,
-      "1": 9.4,
+      "0": 39.9,
+      "1": 9.3,
       "2": 1.5
      },
      "marcadores": [
@@ -16197,11 +15630,11 @@
       ],
       [
        "2-0",
-       12.6
+       12.7
       ],
       [
        "1-1",
-       11.2
+       11.1
       ],
       [
        "0-1",
@@ -16924,14 +16357,14 @@
     {
      "mercado": "doble",
      "lado": "home",
-     "prob": 82,
+     "prob": 83,
      "texto": "Fluminense gana o empata",
      "nivel": "confiada"
     },
     {
      "mercado": "mas15",
      "lado": null,
-     "prob": 77,
+     "prob": 76,
      "texto": "Más de 1.5 goles",
      "nivel": "confiada"
     }
@@ -16950,14 +16383,14 @@
      {
       "mercado": "doble",
       "lado": "home",
-      "prob": 82,
+      "prob": 83,
       "texto": "Fluminense gana o empata",
       "nivel": "confiada"
      },
      {
       "mercado": "mas15",
       "lado": null,
-      "prob": 77,
+      "prob": 76,
       "texto": "Más de 1.5 goles",
       "nivel": "confiada"
      }
@@ -16967,147 +16400,147 @@
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
-     "home": 60.2,
-     "draw": 22.1,
-     "away": 17.7
+     "home": 60.4,
+     "draw": 22.2,
+     "away": 17.4
     },
-    "mas15": 76.6,
-    "menos35": 69.5,
-    "mas25": 52.7,
-    "ambos": 50.5,
+    "mas15": 76.0,
+    "menos35": 70.4,
+    "mas25": 51.8,
+    "ambos": 49.6,
     "goles_esp": {
-     "home": 1.88,
-     "away": 0.91
+     "home": 1.86,
+     "away": 0.88
     },
     "ultimos5": {
-     "home": 40,
+     "home": 60,
      "away": 53
     },
     "forma": {
-     "home": 43,
-     "away": 57
+     "home": 53,
+     "away": 47
     },
     "gf": {
-     "home": 1.62,
+     "home": 1.6,
      "away": 1.11
     },
     "gc": {
-     "home": 1.24,
+     "home": 1.2,
      "away": 1.37
     },
     "jugados": {
-     "home": 34,
+     "home": 35,
      "away": 35
     },
     "mercados": {
-     "h": 60.2,
-     "x": 22.1,
-     "a": 17.7,
+     "h": 60.4,
+     "x": 22.2,
+     "a": 17.4,
      "dc": {
-      "1x": 82.3,
-      "x2": 39.8,
-      "12": 77.9
+      "1x": 82.6,
+      "x2": 39.6,
+      "12": 77.8
      },
      "dnb": {
-      "h": 77.3,
-      "a": 22.7
+      "h": 77.7,
+      "a": 22.3
      },
      "mas": {
-      "0": 93.8,
-      "1": 76.6,
-      "2": 52.7,
-      "3": 30.5,
-      "4": 15.0
+      "0": 93.6,
+      "1": 76.0,
+      "2": 51.8,
+      "3": 29.6,
+      "4": 14.4
      },
-     "btts": 50.5,
+     "btts": 49.6,
      "mas_local": {
-      "0": 84.7,
-      "1": 56.0,
-      "2": 29.1
+      "0": 84.5,
+      "1": 55.6,
+      "2": 28.6
      },
      "mas_visita": {
-      "0": 59.6,
-      "1": 23.0,
-      "2": 6.4
+      "0": 58.7,
+      "1": 22.2,
+      "2": 6.0
      },
      "marcadores": [
       [
        "1-0",
-       11.6
+       11.9
       ],
       [
        "2-0",
-       10.9
+       11.1
       ],
       [
        "1-1",
-       10.5
+       10.6
       ],
       [
        "2-1",
-       9.9
+       9.8
       ],
       [
        "3-0",
-       6.8
+       6.9
       ]
      ]
     },
     "mercados_1t": {
-     "h": 38.6,
-     "x": 44.6,
-     "a": 16.8,
+     "h": 39.3,
+     "x": 44.4,
+     "a": 16.3,
      "dc": {
-      "1x": 83.2,
-      "x2": 61.4,
-      "12": 55.4
+      "1x": 83.7,
+      "x2": 60.7,
+      "12": 55.6
      },
      "mas": {
-      "0": 64.5,
+      "0": 64.6,
       "1": 27.8,
       "2": 8.7,
       "3": 2.1,
       "4": 0.4
      },
-     "btts": 14.8,
+     "btts": 14.6,
      "mas_local": {
-      "0": 49.5,
-      "1": 15.0,
-      "2": 3.2
+      "0": 50.0,
+      "1": 15.3,
+      "2": 3.3
      },
      "mas_visita": {
-      "0": 29.8,
-      "1": 5.0,
-      "2": 0.6
+      "0": 29.1,
+      "1": 4.7,
+      "2": 0.5
      },
      "marcadores": [
       [
        "0-0",
-       35.5
+       35.4
       ],
       [
        "1-0",
-       24.2
+       24.6
       ],
       [
        "0-1",
-       12.6
-      ],
-      [
-       "1-1",
-       8.6
+       12.2
       ],
       [
        "2-0",
-       8.3
+       8.5
+      ],
+      [
+       "1-1",
+       8.5
       ]
      ],
      "goles_esp": {
-      "home": 0.68,
-      "away": 0.35
+      "home": 0.69,
+      "away": 0.34
      },
      "jugados": {
-      "home": 34,
+      "home": 35,
       "away": 35
      }
     },
@@ -17140,18 +16573,19 @@
    },
    "picks": [
     {
-     "mercado": "doble",
-     "lado": "home",
-     "prob": 77,
-     "texto": "Bragantino gana o empata",
-     "nivel": "confiada"
-    },
-    {
      "mercado": "mas15",
      "lado": null,
      "prob": 74,
      "texto": "Más de 1.5 goles",
      "nivel": "media"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 71,
+     "texto": "Bragantino gana o empata",
+     "nivel": "media",
+     "ajuste": "Se restaron 5 puntos al porcentaje porque su forma reciente es peor que la del rival."
     }
    ],
    "por_nivel": {
@@ -17162,14 +16596,450 @@
       "prob": 74,
       "texto": "Más de 1.5 goles",
       "nivel": "media"
+     },
+     {
+      "mercado": "doble",
+      "lado": "home",
+      "prob": 71,
+      "texto": "Bragantino gana o empata",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque su forma reciente es peor que la del rival."
+     }
+    ],
+    "confiada": [],
+    "super": []
+   },
+   "nivel_max": "media",
+   "analisis": {
+    "percent": {
+     "home": 51.4,
+     "draw": 24.8,
+     "away": 23.8
+    },
+    "mas15": 74.0,
+    "menos35": 72.8,
+    "mas25": 49.1,
+    "ambos": 51.2,
+    "goles_esp": {
+     "home": 1.62,
+     "away": 1.02
+    },
+    "ultimos5": {
+     "home": 47,
+     "away": 80
+    },
+    "forma": {
+     "home": 37,
+     "away": 63
+    },
+    "gf": {
+     "home": 1.29,
+     "away": 1.34
+    },
+    "gc": {
+     "home": 1.17,
+     "away": 1.46
+    },
+    "jugados": {
+     "home": 35,
+     "away": 35
+    },
+    "mercados": {
+     "h": 51.4,
+     "x": 24.8,
+     "a": 23.8,
+     "dc": {
+      "1x": 76.2,
+      "x2": 48.6,
+      "12": 75.2
+     },
+     "dnb": {
+      "h": 68.4,
+      "a": 31.6
+     },
+     "mas": {
+      "0": 92.8,
+      "1": 74.0,
+      "2": 49.1,
+      "3": 27.2,
+      "4": 12.8
+     },
+     "btts": 51.2,
+     "mas_local": {
+      "0": 80.2,
+      "1": 48.2,
+      "2": 22.2
+     },
+     "mas_visita": {
+      "0": 63.8,
+      "1": 27.1,
+      "2": 8.4
+     },
+     "marcadores": [
+      [
+       "1-1",
+       11.8
+      ],
+      [
+       "1-0",
+       11.6
+      ],
+      [
+       "2-1",
+       9.6
+      ],
+      [
+       "2-0",
+       9.4
+      ],
+      [
+       "0-1",
+       7.3
+      ]
+     ]
+    },
+    "mercados_1t": {
+     "h": 41.0,
+     "x": 42.6,
+     "a": 16.4,
+     "dc": {
+      "1x": 83.6,
+      "x2": 59.0,
+      "12": 57.4
+     },
+     "mas": {
+      "0": 66.9,
+      "1": 30.3,
+      "2": 10.1,
+      "3": 2.6,
+      "4": 0.6
+     },
+     "btts": 16.0,
+     "mas_local": {
+      "0": 52.4,
+      "1": 17.1,
+      "2": 4.0
+     },
+     "mas_visita": {
+      "0": 30.5,
+      "1": 5.2,
+      "2": 0.6
+     },
+     "marcadores": [
+      [
+       "0-0",
+       33.1
+      ],
+      [
+       "1-0",
+       24.6
+      ],
+      [
+       "0-1",
+       12.0
+      ],
+      [
+       "2-0",
+       9.1
+      ],
+      [
+       "1-1",
+       8.9
+      ]
+     ],
+     "goles_esp": {
+      "home": 0.74,
+      "away": 0.36
+     },
+     "jugados": {
+      "home": 35,
+      "away": 35
+     }
+    },
+    "penal": {
+     "home": 5,
+     "away": 0,
+     "global": 0
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 558519,
+   "fecha": "2026-11-23T19:45:00Z",
+   "liga": {
+    "id": "SA",
+    "nombre": "Serie A",
+    "pais": "Italia",
+    "logo": "https://crests.football-data.org/c111.png"
+   },
+   "local": {
+    "id": 5911,
+    "nombre": "Monza",
+    "logo": "https://crests.football-data.org/5911.png"
+   },
+   "visitante": {
+    "id": 99,
+    "nombre": "Fiorentina",
+    "logo": "https://crests.football-data.org/99.png"
+   },
+   "picks": [
+    {
+     "mercado": "mas25",
+     "lado": null,
+     "prob": 77,
+     "texto": "Más de 2.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "btts_si",
+     "lado": null,
+     "prob": 76,
+     "texto": "Ambos equipos marcan",
+     "nivel": "confiada"
+    }
+   ],
+   "por_nivel": {
+    "media": [],
+    "confiada": [
+     {
+      "mercado": "mas25",
+      "lado": null,
+      "prob": 77,
+      "texto": "Más de 2.5 goles",
+      "nivel": "confiada"
+     },
+     {
+      "mercado": "btts_si",
+      "lado": null,
+      "prob": 76,
+      "texto": "Ambos equipos marcan",
+      "nivel": "confiada"
+     }
+    ],
+    "super": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 91,
+      "texto": "Más de 1.5 goles",
+      "nivel": "super"
+     }
+    ]
+   },
+   "nivel_max": "confiada",
+   "analisis": {
+    "percent": {
+     "home": 42.1,
+     "draw": 20.4,
+     "away": 37.5
+    },
+    "mas15": 91.4,
+    "menos35": 41.8,
+    "mas25": 77.3,
+    "ambos": 75.6,
+    "goles_esp": {
+     "home": 2.1,
+     "away": 1.98
+    },
+    "ultimos5": {
+     "home": 20,
+     "away": 33
+    },
+    "forma": {
+     "home": 38,
+     "away": 62
+    },
+    "gf": {
+     "home": 1.55,
+     "away": 1.55
+    },
+    "gc": {
+     "home": 2.27,
+     "away": 2.27
+    },
+    "jugados": {
+     "home": 11,
+     "away": 11
+    },
+    "mercados": {
+     "h": 42.1,
+     "x": 20.4,
+     "a": 37.5,
+     "dc": {
+      "1x": 62.5,
+      "x2": 57.9,
+      "12": 79.6
+     },
+     "dnb": {
+      "h": 52.9,
+      "a": 47.1
+     },
+     "mas": {
+      "0": 98.3,
+      "1": 91.4,
+      "2": 77.3,
+      "3": 58.2,
+      "4": 38.7
+     },
+     "btts": 75.6,
+     "mas_local": {
+      "0": 87.8,
+      "1": 62.0,
+      "2": 35.0
+     },
+     "mas_visita": {
+      "0": 86.2,
+      "1": 58.9,
+      "2": 31.8
+     },
+     "marcadores": [
+      [
+       "2-1",
+       7.4
+      ],
+      [
+       "2-2",
+       7.3
+      ],
+      [
+       "1-1",
+       7.0
+      ],
+      [
+       "1-2",
+       7.0
+      ],
+      [
+       "3-1",
+       5.2
+      ]
+     ]
+    },
+    "mercados_1t": {
+     "h": 41.3,
+     "x": 34.3,
+     "a": 24.4,
+     "dc": {
+      "1x": 75.6,
+      "x2": 58.7,
+      "12": 65.7
+     },
+     "mas": {
+      "0": 80.4,
+      "1": 48.5,
+      "2": 22.5,
+      "3": 8.3,
+      "4": 2.5
+     },
+     "btts": 30.1,
+     "mas_local": {
+      "0": 61.9,
+      "1": 25.1,
+      "2": 7.4
+     },
+     "mas_visita": {
+      "0": 48.7,
+      "1": 14.4,
+      "2": 3.0
+     },
+     "marcadores": [
+      [
+       "0-0",
+       19.6
+      ],
+      [
+       "1-0",
+       18.9
+      ],
+      [
+       "0-1",
+       13.0
+      ],
+      [
+       "1-1",
+       12.6
+      ],
+      [
+       "2-0",
+       9.1
+      ]
+     ],
+     "goles_esp": {
+      "home": 0.97,
+      "away": 0.67
+     },
+     "jugados": {
+      "home": 11,
+      "away": 11
+     }
+    },
+    "penal": {
+     "home": 5,
+     "away": 0,
+     "global": 0
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 560649,
+   "fecha": "2026-11-23T20:00:00Z",
+   "liga": {
+    "id": "PL",
+    "nombre": "Premier League",
+    "pais": "Inglaterra",
+    "logo": "https://crests.football-data.org/PL.png"
+   },
+   "local": {
+    "id": 402,
+    "nombre": "Brentford",
+    "logo": "https://crests.football-data.org/402.png"
+   },
+   "visitante": {
+    "id": 62,
+    "nombre": "Everton",
+    "logo": "https://crests.football-data.org/62.png"
+   },
+   "picks": [
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 79,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 74,
+     "texto": "Brentford gana o empata",
+     "nivel": "media"
+    }
+   ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "doble",
+      "lado": "home",
+      "prob": 74,
+      "texto": "Brentford gana o empata",
+      "nivel": "media"
+     },
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 68,
+      "texto": "Más de 1.5 goles",
+      "nivel": "media"
      }
     ],
     "confiada": [
      {
-      "mercado": "doble",
-      "lado": "home",
-      "prob": 77,
-      "texto": "Bragantino gana o empata",
+      "mercado": "menos35",
+      "lado": null,
+      "prob": 79,
+      "texto": "Menos de 3.5 goles",
       "nivel": "confiada"
      }
     ],
@@ -17178,148 +17048,1020 @@
    "nivel_max": "confiada",
    "analisis": {
     "percent": {
-     "home": 52.7,
-     "draw": 24.6,
+     "home": 47.1,
+     "draw": 27.1,
+     "away": 25.8
+    },
+    "mas15": 68.3,
+    "menos35": 78.7,
+    "mas25": 42.0,
+    "ambos": 46.5,
+    "goles_esp": {
+     "home": 1.4,
+     "away": 0.96
+    },
+    "ultimos5": {
+     "home": 33,
+     "away": 47
+    },
+    "forma": {
+     "home": 42,
+     "away": 58
+    },
+    "gf": {
+     "home": 1.6,
+     "away": 1.2
+    },
+    "gc": {
+     "home": 1.1,
+     "away": 1.0
+    },
+    "jugados": {
+     "home": 10,
+     "away": 10
+    },
+    "mercados": {
+     "h": 47.1,
+     "x": 27.1,
+     "a": 25.8,
+     "dc": {
+      "1x": 74.2,
+      "x2": 52.9,
+      "12": 72.9
+     },
+     "dnb": {
+      "h": 64.6,
+      "a": 35.4
+     },
+     "mas": {
+      "0": 90.6,
+      "1": 68.3,
+      "2": 42.0,
+      "3": 21.3,
+      "4": 9.1
+     },
+     "btts": 46.5,
+     "mas_local": {
+      "0": 75.4,
+      "1": 40.9,
+      "2": 16.7
+     },
+     "mas_visita": {
+      "0": 61.7,
+      "1": 25.0,
+      "2": 7.3
+     },
+     "marcadores": [
+      [
+       "1-0",
+       13.2
+      ],
+      [
+       "1-1",
+       12.7
+      ],
+      [
+       "0-0",
+       9.4
+      ],
+      [
+       "2-0",
+       9.3
+      ],
+      [
+       "0-1",
+       9.1
+      ]
+     ]
+    },
+    "mercados_1t": {
+     "h": 34.1,
+     "x": 52.4,
+     "a": 13.5,
+     "dc": {
+      "1x": 86.5,
+      "x2": 65.9,
+      "12": 47.6
+     },
+     "mas": {
+      "0": 53.7,
+      "1": 18.0,
+      "2": 4.3,
+      "3": 0.8,
+      "4": 0.1
+     },
+     "btts": 8.8,
+     "mas_local": {
+      "0": 41.0,
+      "1": 9.9,
+      "2": 1.7
+     },
+     "mas_visita": {
+      "0": 21.5,
+      "1": 2.5,
+      "2": 0.2
+     },
+     "marcadores": [
+      [
+       "0-0",
+       46.3
+      ],
+      [
+       "1-0",
+       24.4
+      ],
+      [
+       "0-1",
+       11.2
+      ],
+      [
+       "2-0",
+       6.4
+      ],
+      [
+       "1-1",
+       5.9
+      ]
+     ],
+     "goles_esp": {
+      "home": 0.53,
+      "away": 0.24
+     },
+     "jugados": {
+      "home": 10,
+      "away": 10
+     }
+    },
+    "penal": {
+     "home": 0,
+     "away": 0,
+     "global": 0
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 564757,
+   "fecha": "2026-11-23T20:00:00Z",
+   "liga": {
+    "id": "PD",
+    "nombre": "LaLiga",
+    "pais": "España",
+    "logo": "https://crests.football-data.org/laliga.png"
+   },
+   "local": {
+    "id": 88,
+    "nombre": "Levante",
+    "logo": "https://crests.football-data.org/88.png"
+   },
+   "visitante": {
+    "id": 285,
+    "nombre": "Elche",
+    "logo": "https://crests.football-data.org/285.png"
+   },
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 79,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 71,
+     "texto": "Levante gana o empata",
+     "nivel": "media"
+    }
+   ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "doble",
+      "lado": "home",
+      "prob": 71,
+      "texto": "Levante gana o empata",
+      "nivel": "media"
+     },
+     {
+      "mercado": "menos35",
+      "lado": null,
+      "prob": 66,
+      "texto": "Menos de 3.5 goles",
+      "nivel": "media"
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 79,
+      "texto": "Más de 1.5 goles",
+      "nivel": "confiada"
+     }
+    ],
+    "super": []
+   },
+   "nivel_max": "confiada",
+   "analisis": {
+    "percent": {
+     "home": 47.3,
+     "draw": 23.9,
+     "away": 28.8
+    },
+    "mas15": 79.4,
+    "menos35": 65.7,
+    "mas25": 56.7,
+    "ambos": 58.6,
+    "goles_esp": {
+     "home": 1.69,
+     "away": 1.27
+    },
+    "ultimos5": {
+     "home": 33,
+     "away": 33
+    },
+    "forma": {
+     "home": 50,
+     "away": 50
+    },
+    "gf": {
+     "home": 1.33,
+     "away": 1.17
+    },
+    "gc": {
+     "home": 1.75,
+     "away": 1.67
+    },
+    "jugados": {
+     "home": 12,
+     "away": 12
+    },
+    "mercados": {
+     "h": 47.3,
+     "x": 23.9,
+     "a": 28.8,
+     "dc": {
+      "1x": 71.2,
+      "x2": 52.7,
+      "12": 76.1
+     },
+     "dnb": {
+      "h": 62.2,
+      "a": 37.8
+     },
+     "mas": {
+      "0": 94.8,
+      "1": 79.4,
+      "2": 56.7,
+      "3": 34.3,
+      "4": 17.8
+     },
+     "btts": 58.6,
+     "mas_local": {
+      "0": 81.5,
+      "1": 50.4,
+      "2": 24.0
+     },
+     "mas_visita": {
+      "0": 71.8,
+      "1": 36.2,
+      "2": 13.5
+     },
+     "marcadores": [
+      [
+       "1-1",
+       11.1
+      ],
+      [
+       "2-1",
+       9.4
+      ],
+      [
+       "1-0",
+       8.8
+      ],
+      [
+       "2-0",
+       7.4
+      ],
+      [
+       "1-2",
+       7.1
+      ]
+     ]
+    },
+    "mercados_1t": {
+     "h": 35.8,
+     "x": 40.8,
+     "a": 23.4,
+     "dc": {
+      "1x": 76.6,
+      "x2": 64.2,
+      "12": 59.2
+     },
+     "mas": {
+      "0": 71.1,
+      "1": 35.2,
+      "2": 13.0,
+      "3": 3.8,
+      "4": 0.9
+     },
+     "btts": 20.9,
+     "mas_local": {
+      "0": 51.3,
+      "1": 16.3,
+      "2": 3.7
+     },
+     "mas_visita": {
+      "0": 40.6,
+      "1": 9.7,
+      "2": 1.6
+     },
+     "marcadores": [
+      [
+       "0-0",
+       28.9
+      ],
+      [
+       "1-0",
+       20.8
+      ],
+      [
+       "0-1",
+       15.1
+      ],
+      [
+       "1-1",
+       10.9
+      ],
+      [
+       "2-0",
+       7.5
+      ]
+     ],
+     "goles_esp": {
+      "home": 0.72,
+      "away": 0.52
+     },
+     "jugados": {
+      "home": 12,
+      "away": 12
+     }
+    },
+    "penal": {
+     "home": 0,
+     "away": 0,
+     "global": 0
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 555097,
+   "fecha": "2026-11-23T22:30:00Z",
+   "liga": {
+    "id": "BSA",
+    "nombre": "Brasileirão Serie A",
+    "pais": "Brasil",
+    "logo": "https://crests.football-data.org/bsa.png"
+   },
+   "local": {
+    "id": 6684,
+    "nombre": "Internacional",
+    "logo": "https://crests.football-data.org/6684.png"
+   },
+   "visitante": {
+    "id": 1782,
+    "nombre": "Vitória",
+    "logo": "https://crests.football-data.org/1782.png"
+   },
+   "picks": [
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 79,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 77,
+     "texto": "Internacional gana o empata",
+     "nivel": "confiada"
+    }
+   ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 68,
+      "texto": "Más de 1.5 goles",
+      "nivel": "media"
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "menos35",
+      "lado": null,
+      "prob": 79,
+      "texto": "Menos de 3.5 goles",
+      "nivel": "confiada"
+     },
+     {
+      "mercado": "doble",
+      "lado": "home",
+      "prob": 77,
+      "texto": "Internacional gana o empata",
+      "nivel": "confiada"
+     }
+    ],
+    "super": []
+   },
+   "nivel_max": "confiada",
+   "analisis": {
+    "percent": {
+     "home": 50.6,
+     "draw": 26.6,
      "away": 22.7
     },
-    "mas15": 73.8,
-    "menos35": 73.0,
-    "mas25": 48.8,
-    "ambos": 50.6,
+    "mas15": 67.8,
+    "menos35": 79.2,
+    "mas25": 41.4,
+    "ambos": 44.9,
     "goles_esp": {
-     "home": 1.64,
+     "home": 1.46,
+     "away": 0.88
+    },
+    "ultimos5": {
+     "home": 40,
+     "away": 33
+    },
+    "forma": {
+     "home": 55,
+     "away": 45
+    },
+    "gf": {
+     "home": 1.11,
+     "away": 1.06
+    },
+    "gc": {
+     "home": 1.26,
+     "away": 1.49
+    },
+    "jugados": {
+     "home": 35,
+     "away": 35
+    },
+    "mercados": {
+     "h": 50.6,
+     "x": 26.6,
+     "a": 22.7,
+     "dc": {
+      "1x": 77.3,
+      "x2": 49.4,
+      "12": 73.4
+     },
+     "dnb": {
+      "h": 69.0,
+      "a": 31.0
+     },
+     "mas": {
+      "0": 90.3,
+      "1": 67.8,
+      "2": 41.4,
+      "3": 20.8,
+      "4": 8.8
+     },
+     "btts": 44.9,
+     "mas_local": {
+      "0": 76.7,
+      "1": 42.8,
+      "2": 18.0
+     },
+     "mas_visita": {
+      "0": 58.5,
+      "1": 22.0,
+      "2": 6.0
+     },
+     "marcadores": [
+      [
+       "1-0",
+       14.1
+      ],
+      [
+       "1-1",
+       12.4
+      ],
+      [
+       "2-0",
+       10.3
+      ],
+      [
+       "0-0",
+       9.7
+      ],
+      [
+       "2-1",
+       9.0
+      ]
+     ]
+    },
+    "mercados_1t": {
+     "h": 33.5,
+     "x": 44.2,
+     "a": 22.3,
+     "dc": {
+      "1x": 77.7,
+      "x2": 66.5,
+      "12": 55.8
+     },
+     "mas": {
+      "0": 66.2,
+      "1": 29.6,
+      "2": 9.7,
+      "3": 2.5,
+      "4": 0.5
+     },
+     "btts": 17.1,
+     "mas_local": {
+      "0": 46.6,
+      "1": 13.1,
+      "2": 2.6
+     },
+     "mas_visita": {
+      "0": 36.8,
+      "1": 7.8,
+      "2": 1.1
+     },
+     "marcadores": [
+      [
+       "0-0",
+       33.8
+      ],
+      [
+       "1-0",
+       21.2
+      ],
+      [
+       "0-1",
+       15.5
+      ],
+      [
+       "1-1",
+       9.7
+      ],
+      [
+       "2-0",
+       6.7
+      ]
+     ],
+     "goles_esp": {
+      "home": 0.63,
+      "away": 0.46
+     },
+     "jugados": {
+      "home": 35,
+      "away": 35
+     }
+    },
+    "penal": {
+     "home": 0,
+     "away": 0,
+     "global": 0
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 555093,
+   "fecha": "2026-11-23T23:00:00Z",
+   "liga": {
+    "id": "BSA",
+    "nombre": "Brasileirão Serie A",
+    "pais": "Brasil",
+    "logo": "https://crests.football-data.org/bsa.png"
+   },
+   "local": {
+    "id": 1770,
+    "nombre": "Botafogo",
+    "logo": "https://crests.football-data.org/1770.png"
+   },
+   "visitante": {
+    "id": 1776,
+    "nombre": "São Paulo",
+    "logo": "https://crests.football-data.org/1776.png"
+   },
+   "picks": [
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 76,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 68,
+     "texto": "Botafogo gana o empata",
+     "nivel": "media"
+    }
+   ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 71,
+      "texto": "Más de 1.5 goles",
+      "nivel": "media"
+     },
+     {
+      "mercado": "doble",
+      "lado": "home",
+      "prob": 68,
+      "texto": "Botafogo gana o empata",
+      "nivel": "media"
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "menos35",
+      "lado": null,
+      "prob": 76,
+      "texto": "Menos de 3.5 goles",
+      "nivel": "confiada"
+     }
+    ],
+    "super": []
+   },
+   "nivel_max": "confiada",
+   "analisis": {
+    "percent": {
+     "home": 40.8,
+     "draw": 26.9,
+     "away": 32.3
+    },
+    "mas15": 71.1,
+    "menos35": 75.9,
+    "mas25": 45.4,
+    "ambos": 50.5,
+    "goles_esp": {
+     "home": 1.34,
+     "away": 1.16
+    },
+    "ultimos5": {
+     "home": 40,
+     "away": 33
+    },
+    "forma": {
+     "home": 55,
+     "away": 45
+    },
+    "gf": {
+     "home": 1.31,
+     "away": 1.11
+    },
+    "gc": {
+     "home": 1.63,
+     "away": 1.14
+    },
+    "jugados": {
+     "home": 35,
+     "away": 35
+    },
+    "mercados": {
+     "h": 40.8,
+     "x": 26.9,
+     "a": 32.3,
+     "dc": {
+      "1x": 67.7,
+      "x2": 59.2,
+      "12": 73.1
+     },
+     "dnb": {
+      "h": 55.9,
+      "a": 44.1
+     },
+     "mas": {
+      "0": 91.7,
+      "1": 71.1,
+      "2": 45.4,
+      "3": 24.1,
+      "4": 10.8
+     },
+     "btts": 50.5,
+     "mas_local": {
+      "0": 73.7,
+      "1": 38.6,
+      "2": 15.1
+     },
+     "mas_visita": {
+      "0": 68.5,
+      "1": 32.2,
+      "2": 11.1
+     },
+     "marcadores": [
+      [
+       "1-1",
+       12.8
+      ],
+      [
+       "1-0",
+       11.0
+      ],
+      [
+       "0-1",
+       9.6
+      ],
+      [
+       "2-1",
+       8.5
+      ],
+      [
+       "0-0",
+       8.3
+      ]
+     ]
+    },
+    "mercados_1t": {
+     "h": 28.4,
+     "x": 43.5,
+     "a": 28.0,
+     "dc": {
+      "1x": 72.0,
+      "x2": 71.6,
+      "12": 56.5
+     },
+     "mas": {
+      "0": 67.6,
+      "1": 31.1,
+      "2": 10.5,
+      "3": 2.8,
+      "4": 0.6
+     },
+     "btts": 18.6,
+     "mas_local": {
+      "0": 43.3,
+      "1": 11.1,
+      "2": 2.0
+     },
+     "mas_visita": {
+      "0": 42.9,
+      "1": 10.9,
+      "2": 1.9
+     },
+     "marcadores": [
+      [
+       "0-0",
+       32.4
+      ],
+      [
+       "1-0",
+       18.4
+      ],
+      [
+       "0-1",
+       18.2
+      ],
+      [
+       "1-1",
+       10.3
+      ],
+      [
+       "2-0",
+       5.2
+      ]
+     ],
+     "goles_esp": {
+      "home": 0.57,
+      "away": 0.56
+     },
+     "jugados": {
+      "home": 35,
+      "away": 35
+     }
+    },
+    "penal": {
+     "home": 0,
+     "away": 0,
+     "global": 0
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 555099,
+   "fecha": "2026-11-24T00:00:00Z",
+   "liga": {
+    "id": "BSA",
+    "nombre": "Brasileirão Serie A",
+    "pais": "Brasil",
+    "logo": "https://crests.football-data.org/bsa.png"
+   },
+   "local": {
+    "id": 6685,
+    "nombre": "Santos",
+    "logo": "https://crests.football-data.org/6685.png"
+   },
+   "visitante": {
+    "id": 1767,
+    "nombre": "Grêmio",
+    "logo": "https://crests.football-data.org/1767.png"
+   },
+   "picks": [
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 78,
+     "texto": "Santos gana o empata",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 75,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    }
+   ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "menos35",
+      "lado": null,
+      "prob": 72,
+      "texto": "Menos de 3.5 goles",
+      "nivel": "media"
+     }
+    ],
+    "confiada": [
+     {
+      "mercado": "doble",
+      "lado": "home",
+      "prob": 78,
+      "texto": "Santos gana o empata",
+      "nivel": "confiada"
+     },
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 75,
+      "texto": "Más de 1.5 goles",
+      "nivel": "confiada"
+     }
+    ],
+    "super": []
+   },
+   "nivel_max": "confiada",
+   "analisis": {
+    "percent": {
+     "home": 53.7,
+     "draw": 24.2,
+     "away": 22.2
+    },
+    "mas15": 74.6,
+    "menos35": 72.0,
+    "mas25": 49.9,
+    "ambos": 51.1,
+    "goles_esp": {
+     "home": 1.68,
      "away": 0.99
     },
     "ultimos5": {
-     "home": 67,
-     "away": 60
+     "home": 53,
+     "away": 47
     },
     "forma": {
      "home": 53,
      "away": 47
     },
     "gf": {
-     "home": 1.29,
-     "away": 1.32
+     "home": 1.46,
+     "away": 1.09
     },
     "gc": {
-     "home": 1.15,
-     "away": 1.47
+     "home": 1.4,
+     "away": 1.34
     },
     "jugados": {
-     "home": 34,
-     "away": 34
+     "home": 35,
+     "away": 35
     },
     "mercados": {
-     "h": 52.7,
-     "x": 24.6,
-     "a": 22.7,
+     "h": 53.7,
+     "x": 24.2,
+     "a": 22.2,
      "dc": {
-      "1x": 77.3,
-      "x2": 47.3,
-      "12": 75.4
+      "1x": 77.8,
+      "x2": 46.3,
+      "12": 75.8
      },
      "dnb": {
-      "h": 69.9,
-      "a": 30.1
+      "h": 70.8,
+      "a": 29.2
      },
      "mas": {
-      "0": 92.8,
-      "1": 73.8,
-      "2": 48.8,
-      "3": 27.0,
-      "4": 12.6
+      "0": 93.1,
+      "1": 74.6,
+      "2": 49.9,
+      "3": 28.0,
+      "4": 13.3
      },
-     "btts": 50.6,
+     "btts": 51.1,
      "mas_local": {
-      "0": 80.6,
-      "1": 48.8,
-      "2": 22.7
+      "0": 81.4,
+      "1": 50.1,
+      "2": 23.8
      },
      "mas_visita": {
-      "0": 62.7,
-      "1": 25.9,
+      "0": 62.8,
+      "1": 26.0,
       "2": 7.8
      },
      "marcadores": [
       [
        "1-0",
-       11.9
+       11.6
       ],
       [
        "1-1",
-       11.7
+       11.5
       ],
       [
        "2-0",
-       9.7
+       9.8
       ],
       [
        "2-1",
-       9.6
+       9.7
       ],
       [
        "0-0",
-       7.2
+       6.9
       ]
      ]
     },
     "mercados_1t": {
-     "h": 43.2,
-     "x": 42.0,
-     "a": 14.7,
+     "h": 37.9,
+     "x": 43.3,
+     "a": 18.8,
      "dc": {
-      "1x": 85.3,
-      "x2": 56.8,
-      "12": 58.0
+      "1x": 81.2,
+      "x2": 62.1,
+      "12": 56.7
      },
      "mas": {
-      "0": 67.1,
-      "1": 30.5,
-      "2": 10.2,
-      "3": 2.7,
-      "4": 0.6
+      "0": 66.7,
+      "1": 30.1,
+      "2": 9.9,
+      "3": 2.6,
+      "4": 0.5
      },
-     "btts": 15.4,
+     "btts": 16.6,
      "mas_local": {
-      "0": 54.0,
-      "1": 18.3,
-      "2": 4.4
+      "0": 50.2,
+      "1": 15.5,
+      "2": 3.4
      },
      "mas_visita": {
-      "0": 28.4,
-      "1": 4.5,
-      "2": 0.5
+      "0": 33.1,
+      "1": 6.2,
+      "2": 0.8
      },
      "marcadores": [
       [
        "0-0",
-       32.9
+       33.3
       ],
       [
        "1-0",
-       25.6
+       23.2
       ],
       [
        "0-1",
-       11.0
-      ],
-      [
-       "2-0",
-       9.9
+       13.4
       ],
       [
        "1-1",
-       8.6
+       9.3
+      ],
+      [
+       "2-0",
+       8.1
       ]
      ],
      "goles_esp": {
-      "home": 0.78,
-      "away": 0.33
+      "home": 0.7,
+      "away": 0.4
      },
      "jugados": {
-      "home": 34,
-      "away": 34
+      "home": 35,
+      "away": 35
      }
     },
     "penal": {
