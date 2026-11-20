@@ -1,68 +1,6 @@
 {
  "partidos": [
   {
-   "id": 558864,
-   "fecha": "2026-10-18T14:45:00Z",
-   "liga": "Eredivisie",
-   "local": "Groningen",
-   "visitante": "Ajax",
-   "picks": [
-    {
-     "mercado": "mas25",
-     "lado": null,
-     "prob": 78,
-     "texto": "Más de 2.5 goles",
-     "nivel": "confiada",
-     "acierto": true
-    },
-    {
-     "mercado": "btts_si",
-     "lado": null,
-     "prob": 74,
-     "texto": "Ambos equipos marcan",
-     "nivel": "media",
-     "acierto": true
-    },
-    {
-     "mercado": "doble",
-     "lado": "away",
-     "prob": 73,
-     "texto": "Ajax gana o empata",
-     "nivel": "media",
-     "acierto": true
-    },
-    {
-     "mercado": "mas15",
-     "lado": null,
-     "prob": 92,
-     "texto": "Más de 1.5 goles",
-     "nivel": "super",
-     "acierto": true
-    }
-   ],
-   "estado": "resuelto",
-   "marcador": "2-5"
-  },
-  {
-   "id": 559657,
-   "fecha": "2026-10-18T15:15:00Z",
-   "liga": "Ligue 1",
-   "local": "Lorient",
-   "visitante": "Monaco",
-   "picks": [
-    {
-     "mercado": "menos35",
-     "lado": null,
-     "prob": 77,
-     "texto": "Menos de 3.5 goles",
-     "nivel": "confiada",
-     "acierto": true
-    }
-   ],
-   "estado": "resuelto",
-   "marcador": "1-0"
-  },
-  {
    "id": 559658,
    "fecha": "2026-10-18T15:15:00Z",
    "liga": "Ligue 1",
@@ -13102,43 +13040,105 @@
     }
    ],
    "estado": "pendiente"
+  },
+  {
+   "id": 575395,
+   "fecha": "2026-11-24T17:45:00Z",
+   "liga": "Champions League",
+   "local": "Galatasaray",
+   "visitante": "Aston Villa",
+   "picks": [
+    {
+     "mercado": "mas25",
+     "lado": null,
+     "prob": 74,
+     "texto": "Más de 2.5 goles",
+     "nivel": "media"
+    },
+    {
+     "mercado": "btts_si",
+     "lado": null,
+     "prob": 72,
+     "texto": "Ambos equipos marcan",
+     "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 88,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 575396,
+   "fecha": "2026-11-24T17:45:00Z",
+   "liga": "Champions League",
+   "local": "Bodø/Glimt",
+   "visitante": "LASK",
+   "picks": [
+    {
+     "mercado": "mas25",
+     "lado": null,
+     "prob": 70,
+     "texto": "Más de 2.5 goles",
+     "nivel": "media"
+    },
+    {
+     "mercado": "btts_si",
+     "lado": null,
+     "prob": 68,
+     "texto": "Ambos equipos marcan",
+     "nivel": "media"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 85,
+     "texto": "Más de 1.5 goles",
+     "nivel": "super"
+    }
+   ],
+   "estado": "pendiente"
   }
  ],
  "resumen": {
   "por_nivel": {
    "media": {
-    "total": 448,
-    "aciertos": 327
+    "total": 446,
+    "aciertos": 325
    },
    "confiada": {
-    "total": 326,
-    "aciertos": 244
+    "total": 324,
+    "aciertos": 242
    },
    "super": {
-    "total": 112,
-    "aciertos": 100
+    "total": 111,
+    "aciertos": 99
    }
   },
   "por_mercado": {
-   "mas25": {
-    "total": 78,
-    "aciertos": 53
-   },
-   "btts_si": {
-    "total": 63,
-    "aciertos": 42
+   "mas15": {
+    "total": 277,
+    "aciertos": 224
    },
    "doble": {
-    "total": 270,
-    "aciertos": 202
+    "total": 269,
+    "aciertos": 201
    },
-   "mas15": {
-    "total": 278,
-    "aciertos": 225
+   "mas25": {
+    "total": 77,
+    "aciertos": 52
+   },
+   "btts_si": {
+    "total": 62,
+    "aciertos": 41
    },
    "menos35": {
-    "total": 153,
-    "aciertos": 114
+    "total": 152,
+    "aciertos": 113
    },
    "menos25": {
     "total": 6,

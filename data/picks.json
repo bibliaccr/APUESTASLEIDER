@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-20T03:52:12.032303+00:00",
+ "generado": "2026-11-20T19:00:03.745290+00:00",
  "niveles": {
   "super": 85,
   "confiada": 75,
@@ -10768,7 +10768,22 @@
      "away": 0,
      "global": 0
     },
-    "h2h": []
+    "h2h": [
+     {
+      "fecha": "2026-01-31T17:45:00Z",
+      "local": "Zwolle",
+      "visita": "Telstar",
+      "gl": 4,
+      "gv": 1
+     },
+     {
+      "fecha": "2025-08-15T18:00:00Z",
+      "local": "Telstar",
+      "visita": "Zwolle",
+      "gl": 0,
+      "gv": 2
+     }
+    ]
    }
   },
   {
@@ -11001,7 +11016,43 @@
      "away": 0,
      "global": 0
     },
-    "h2h": []
+    "h2h": [
+     {
+      "fecha": "2026-01-18T11:15:00Z",
+      "local": "Heerenveen",
+      "visita": "Groningen",
+      "gl": 0,
+      "gv": 2
+     },
+     {
+      "fecha": "2025-08-16T19:00:00Z",
+      "local": "Groningen",
+      "visita": "Heerenveen",
+      "gl": 2,
+      "gv": 1
+     },
+     {
+      "fecha": "2025-01-25T20:15:00Z",
+      "local": "Groningen",
+      "visita": "Heerenveen",
+      "gl": 1,
+      "gv": 0
+     },
+     {
+      "fecha": "2024-09-22T10:15:00Z",
+      "local": "Heerenveen",
+      "visita": "Groningen",
+      "gl": 2,
+      "gv": 1
+     },
+     {
+      "fecha": "2023-03-19T11:15:00Z",
+      "local": "Groningen",
+      "visita": "Heerenveen",
+      "gl": 0,
+      "gv": 2
+     }
+    ]
    }
   },
   {
@@ -11219,7 +11270,43 @@
      "away": 5,
      "global": 0
     },
-    "h2h": []
+    "h2h": [
+     {
+      "fecha": "2026-05-25T23:00:00Z",
+      "local": "Coritiba",
+      "visita": "Bahia",
+      "gl": 3,
+      "gv": 2
+     },
+     {
+      "fecha": "2023-09-14T23:00:00Z",
+      "local": "Coritiba",
+      "visita": "Bahia",
+      "gl": 2,
+      "gv": 4
+     },
+     {
+      "fecha": "2023-05-07T19:00:00Z",
+      "local": "Bahia",
+      "visita": "Coritiba",
+      "gl": 3,
+      "gv": 1
+     },
+     {
+      "fecha": "2020-11-16T21:00:00Z",
+      "local": "Coritiba",
+      "visita": "Bahia",
+      "gl": 1,
+      "gv": 2
+     },
+     {
+      "fecha": "2020-08-12T23:30:00Z",
+      "local": "Bahia",
+      "visita": "Coritiba",
+      "gl": 1,
+      "gv": 0
+     }
+    ]
    }
   },
   {
@@ -11429,7 +11516,15 @@
      "away": 0,
      "global": 0
     },
-    "h2h": []
+    "h2h": [
+     {
+      "fecha": "2026-05-24T19:00:00Z",
+      "local": "Cruzeiro",
+      "visita": "Chapecoense",
+      "gl": 2,
+      "gv": 1
+     }
+    ]
    }
   },
   {
@@ -11654,7 +11749,43 @@
      "away": 5,
      "global": 0
     },
-    "h2h": []
+    "h2h": [
+     {
+      "fecha": "2025-01-12T11:15:00Z",
+      "local": "Twente",
+      "visita": "Willem II",
+      "gl": 6,
+      "gv": 2
+     },
+     {
+      "fecha": "2024-11-02T15:30:00Z",
+      "local": "Willem II",
+      "visita": "Twente",
+      "gl": 0,
+      "gv": 1
+     },
+     {
+      "fecha": "2022-01-22T20:00:00Z",
+      "local": "Willem II",
+      "visita": "Twente",
+      "gl": 0,
+      "gv": 1
+     },
+     {
+      "fecha": "2021-10-17T14:45:00Z",
+      "local": "Twente",
+      "visita": "Willem II",
+      "gl": 1,
+      "gv": 1
+     },
+     {
+      "fecha": "2021-03-06T17:45:00Z",
+      "local": "Twente",
+      "visita": "Willem II",
+      "gl": 1,
+      "gv": 1
+     }
+    ]
    }
   },
   {
@@ -11872,7 +12003,36 @@
      "away": 0,
      "global": 0
     },
-    "h2h": []
+    "h2h": [
+     {
+      "fecha": "2025-05-25T18:45:00Z",
+      "local": "Venezia FC",
+      "visita": "Juventus",
+      "gl": 2,
+      "gv": 3
+     },
+     {
+      "fecha": "2024-12-14T19:45:00Z",
+      "local": "Juventus",
+      "visita": "Venezia FC",
+      "gl": 2,
+      "gv": 2
+     },
+     {
+      "fecha": "2022-05-01T10:30:00Z",
+      "local": "Juventus",
+      "visita": "Venezia FC",
+      "gl": 2,
+      "gv": 1
+     },
+     {
+      "fecha": "2021-12-11T17:00:00Z",
+      "local": "Venezia FC",
+      "visita": "Juventus",
+      "gl": 1,
+      "gv": 1
+     }
+    ]
    }
   },
   {
@@ -18068,6 +18228,452 @@
      "home": 0,
      "away": 0,
      "global": 0
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 575395,
+   "fecha": "2026-11-24T17:45:00Z",
+   "liga": {
+    "id": "CL",
+    "nombre": "Champions League",
+    "pais": "Europa",
+    "logo": "https://crests.football-data.org/CL.png"
+   },
+   "local": {
+    "id": 610,
+    "nombre": "Galatasaray",
+    "logo": "https://crests.football-data.org/610.png"
+   },
+   "visitante": {
+    "id": 58,
+    "nombre": "Aston Villa",
+    "logo": "https://crests.football-data.org/58.png"
+   },
+   "picks": [
+    {
+     "mercado": "mas25",
+     "lado": null,
+     "prob": 74,
+     "texto": "Más de 2.5 goles",
+     "nivel": "media",
+     "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+    },
+    {
+     "mercado": "btts_si",
+     "lado": null,
+     "prob": 72,
+     "texto": "Ambos equipos marcan",
+     "nivel": "media",
+     "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+    }
+   ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "mas25",
+      "lado": null,
+      "prob": 74,
+      "texto": "Más de 2.5 goles",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     },
+     {
+      "mercado": "btts_si",
+      "lado": null,
+      "prob": 72,
+      "texto": "Ambos equipos marcan",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "confiada": [],
+    "super": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 88,
+      "texto": "Más de 1.5 goles",
+      "nivel": "super",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ]
+   },
+   "nivel_max": "media",
+   "analisis": {
+    "percent": {
+     "home": 37.1,
+     "draw": 20.0,
+     "away": 42.9
+    },
+    "mas15": 92.5,
+    "menos35": 38.8,
+    "mas25": 79.5,
+    "ambos": 77.4,
+    "goles_esp": {
+     "home": 2.04,
+     "away": 2.2
+    },
+    "ultimos5": {
+     "home": 50,
+     "away": 75
+    },
+    "forma": {
+     "home": 40,
+     "away": 60
+    },
+    "gf": {
+     "home": 2.0,
+     "away": 3.0
+    },
+    "gc": {
+     "home": 2.25,
+     "away": 1.5
+    },
+    "jugados": {
+     "home": 4,
+     "away": 4
+    },
+    "mercados": {
+     "h": 37.1,
+     "x": 20.0,
+     "a": 42.9,
+     "dc": {
+      "1x": 57.1,
+      "x2": 62.9,
+      "12": 80.0
+     },
+     "dnb": {
+      "h": 46.4,
+      "a": 53.6
+     },
+     "mas": {
+      "0": 98.6,
+      "1": 92.5,
+      "2": 79.5,
+      "3": 61.2,
+      "4": 41.8
+     },
+     "btts": 77.4,
+     "mas_local": {
+      "0": 87.1,
+      "1": 60.6,
+      "2": 33.5
+     },
+     "mas_visita": {
+      "0": 88.9,
+      "1": 64.5,
+      "2": 37.7
+     },
+     "marcadores": [
+      [
+       "2-2",
+       7.3
+      ],
+      [
+       "1-2",
+       7.1
+      ],
+      [
+       "2-1",
+       6.6
+      ],
+      [
+       "1-1",
+       6.5
+      ],
+      [
+       "2-3",
+       5.3
+      ]
+     ]
+    },
+    "mercados_1t": {
+     "h": 32.5,
+     "x": 29.4,
+     "a": 38.1,
+     "dc": {
+      "1x": 61.9,
+      "x2": 67.5,
+      "12": 70.6
+     },
+     "mas": {
+      "0": 88.5,
+      "1": 63.5,
+      "2": 36.6,
+      "3": 17.3,
+      "4": 6.8
+     },
+     "btts": 43.5,
+     "mas_local": {
+      "0": 64.1,
+      "1": 27.3,
+      "2": 8.5
+     },
+     "mas_visita": {
+      "0": 67.8,
+      "1": 31.4,
+      "2": 10.7
+     },
+     "marcadores": [
+      [
+       "1-1",
+       13.4
+      ],
+      [
+       "0-1",
+       13.1
+      ],
+      [
+       "1-0",
+       11.8
+      ],
+      [
+       "0-0",
+       11.5
+      ],
+      [
+       "1-2",
+       7.6
+      ]
+     ],
+     "goles_esp": {
+      "home": 1.02,
+      "away": 1.13
+     },
+     "jugados": {
+      "home": 4,
+      "away": 4
+     }
+    },
+    "penal": {
+     "home": 0,
+     "away": 0,
+     "global": 5
+    },
+    "h2h": []
+   }
+  },
+  {
+   "id": 575396,
+   "fecha": "2026-11-24T17:45:00Z",
+   "liga": {
+    "id": "CL",
+    "nombre": "Champions League",
+    "pais": "Europa",
+    "logo": "https://crests.football-data.org/CL.png"
+   },
+   "local": {
+    "id": 5721,
+    "nombre": "Bodø/Glimt",
+    "logo": "https://crests.football-data.org/5721.png"
+   },
+   "visitante": {
+    "id": 2016,
+    "nombre": "LASK",
+    "logo": "https://crests.football-data.org/2016.png"
+   },
+   "picks": [
+    {
+     "mercado": "mas25",
+     "lado": null,
+     "prob": 70,
+     "texto": "Más de 2.5 goles",
+     "nivel": "media",
+     "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+    },
+    {
+     "mercado": "btts_si",
+     "lado": null,
+     "prob": 68,
+     "texto": "Ambos equipos marcan",
+     "nivel": "media",
+     "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+    }
+   ],
+   "por_nivel": {
+    "media": [
+     {
+      "mercado": "mas25",
+      "lado": null,
+      "prob": 70,
+      "texto": "Más de 2.5 goles",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     },
+     {
+      "mercado": "btts_si",
+      "lado": null,
+      "prob": 68,
+      "texto": "Ambos equipos marcan",
+      "nivel": "media",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ],
+    "confiada": [],
+    "super": [
+     {
+      "mercado": "mas15",
+      "lado": null,
+      "prob": 85,
+      "texto": "Más de 1.5 goles",
+      "nivel": "super",
+      "ajuste": "Se restaron 5 puntos al porcentaje porque hay pocos partidos jugados esta temporada."
+     }
+    ]
+   },
+   "nivel_max": "media",
+   "analisis": {
+    "percent": {
+     "home": 37.3,
+     "draw": 21.0,
+     "away": 41.7
+    },
+    "mas15": 90.0,
+    "menos35": 45.5,
+    "mas25": 74.5,
+    "ambos": 73.4,
+    "goles_esp": {
+     "home": 1.89,
+     "away": 2.0
+    },
+    "ultimos5": {
+     "home": 33,
+     "away": 50
+    },
+    "forma": {
+     "home": 40,
+     "away": 60
+    },
+    "gf": {
+     "home": 1.0,
+     "away": 2.5
+    },
+    "gc": {
+     "home": 2.25,
+     "away": 2.25
+    },
+    "jugados": {
+     "home": 4,
+     "away": 4
+    },
+    "mercados": {
+     "h": 37.3,
+     "x": 21.0,
+     "a": 41.7,
+     "dc": {
+      "1x": 58.3,
+      "x2": 62.7,
+      "12": 79.0
+     },
+     "dnb": {
+      "h": 47.3,
+      "a": 52.7
+     },
+     "mas": {
+      "0": 98.0,
+      "1": 90.0,
+      "2": 74.5,
+      "3": 54.5,
+      "4": 34.9
+     },
+     "btts": 73.4,
+     "mas_local": {
+      "0": 84.9,
+      "1": 56.3,
+      "2": 29.3
+     },
+     "mas_visita": {
+      "0": 86.5,
+      "1": 59.4,
+      "2": 32.3
+     },
+     "marcadores": [
+      [
+       "1-1",
+       7.7
+      ],
+      [
+       "1-2",
+       7.7
+      ],
+      [
+       "2-1",
+       7.3
+      ],
+      [
+       "2-2",
+       7.3
+      ],
+      [
+       "1-3",
+       5.2
+      ]
+     ]
+    },
+    "mercados_1t": {
+     "h": 36.6,
+     "x": 36.6,
+     "a": 26.8,
+     "dc": {
+      "1x": 73.2,
+      "x2": 63.4,
+      "12": 63.4
+     },
+     "mas": {
+      "0": 77.6,
+      "1": 44.1,
+      "2": 19.0,
+      "3": 6.5,
+      "4": 1.8
+     },
+     "btts": 27.4,
+     "mas_local": {
+      "0": 56.5,
+      "1": 20.3,
+      "2": 5.2
+     },
+     "mas_visita": {
+      "0": 48.6,
+      "1": 14.4,
+      "2": 3.0
+     },
+     "marcadores": [
+      [
+       "0-0",
+       22.4
+      ],
+      [
+       "1-0",
+       18.6
+      ],
+      [
+       "0-1",
+       14.9
+      ],
+      [
+       "1-1",
+       12.4
+      ],
+      [
+       "2-0",
+       7.7
+      ]
+     ],
+     "goles_esp": {
+      "home": 0.83,
+      "away": 0.67
+     },
+     "jugados": {
+      "home": 4,
+      "away": 4
+     }
+    },
+    "penal": {
+     "home": 0,
+     "away": 0,
+     "global": 5
     },
     "h2h": []
    }
