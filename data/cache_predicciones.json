@@ -1565,5 +1565,181 @@
     "gv": 1
    }
   ]
+ },
+ "564749": {
+  "obtenido": "2026-11-21T03:45:43.060662+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-02-28T15:15:00Z",
+    "local": "Barça",
+    "visita": "Villarreal",
+    "gl": 4,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-12-21T15:15:00Z",
+    "local": "Villarreal",
+    "visita": "Barça",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "fecha": "2025-05-18T17:00:00Z",
+    "local": "Barça",
+    "visita": "Villarreal",
+    "gl": 2,
+    "gv": 3
+   },
+   {
+    "fecha": "2024-09-22T16:30:00Z",
+    "local": "Villarreal",
+    "visita": "Barça",
+    "gl": 1,
+    "gv": 5
+   },
+   {
+    "fecha": "2024-01-27T17:30:00Z",
+    "local": "Barça",
+    "visita": "Villarreal",
+    "gl": 3,
+    "gv": 5
+   }
+  ]
+ },
+ "558830": {
+  "obtenido": "2026-11-21T03:45:43.060662+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-02-22T15:45:00Z",
+    "local": "AZ",
+    "visita": "Sparta",
+    "gl": 3,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-11-02T13:30:00Z",
+    "local": "Sparta",
+    "visita": "AZ",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-01-26T15:45:00Z",
+    "local": "AZ",
+    "visita": "Sparta",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "fecha": "2024-11-24T13:30:00Z",
+    "local": "Sparta",
+    "visita": "AZ",
+    "gl": 1,
+    "gv": 2
+   }
+  ]
+ },
+ "560646": {
+  "obtenido": "2026-11-21T03:45:43.060662+00:00",
+  "h2h": []
+ },
+ "558522": {
+  "obtenido": "2026-11-21T03:45:43.060662+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-02-23T19:45:00Z",
+    "local": "Bologna",
+    "visita": "Udinese",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-11-22T14:00:00Z",
+    "local": "Udinese",
+    "visita": "Bologna",
+    "gl": 0,
+    "gv": 3
+   },
+   {
+    "fecha": "2025-04-28T16:30:00Z",
+    "local": "Udinese",
+    "visita": "Bologna",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "fecha": "2024-08-18T16:30:00Z",
+    "local": "Bologna",
+    "visita": "Udinese",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "fecha": "2024-04-28T13:00:00Z",
+    "local": "Bologna",
+    "visita": "Udinese",
+    "gl": 1,
+    "gv": 1
+   }
+  ]
+ },
+ "558524": {
+  "obtenido": "2026-11-21T03:45:43.060662+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-04-12T10:30:00Z",
+    "local": "Genoa",
+    "visita": "Sassuolo",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-11-03T17:30:00Z",
+    "local": "Sassuolo",
+    "visita": "Genoa",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "fecha": "2024-05-12T13:00:00Z",
+    "local": "Genoa",
+    "visita": "Sassuolo",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "fecha": "2023-12-22T17:30:00Z",
+    "local": "Sassuolo",
+    "visita": "Genoa",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "fecha": "2022-01-06T15:30:00Z",
+    "local": "Sassuolo",
+    "visita": "Genoa",
+    "gl": 1,
+    "gv": 1
+   }
+  ]
+ },
+ "559625": {
+  "obtenido": "2026-11-21T03:45:43.060662+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-01-25T16:15:00Z",
+    "local": "Paris FC",
+    "visita": "Angers SCO",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-08-17T15:15:00Z",
+    "local": "Angers SCO",
+    "visita": "Paris FC",
+    "gl": 1,
+    "gv": 0
+   }
+  ]
  }
 }
