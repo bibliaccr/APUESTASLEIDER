@@ -1,166 +1,4 @@
 {
- "560643": {
-  "obtenido": "2026-11-17T19:41:25.589790+00:00",
-  "h2h": [
-   {
-    "fecha": "2026-02-11T19:30:00Z",
-    "local": "Man City",
-    "visita": "Fulham",
-    "gl": 3,
-    "gv": 0
-   },
-   {
-    "fecha": "2025-12-02T19:30:00Z",
-    "local": "Fulham",
-    "visita": "Man City",
-    "gl": 4,
-    "gv": 5
-   },
-   {
-    "fecha": "2025-05-25T15:00:00Z",
-    "local": "Fulham",
-    "visita": "Man City",
-    "gl": 0,
-    "gv": 2
-   },
-   {
-    "fecha": "2024-10-05T14:00:00Z",
-    "local": "Man City",
-    "visita": "Fulham",
-    "gl": 3,
-    "gv": 2
-   },
-   {
-    "fecha": "2024-05-11T11:30:00Z",
-    "local": "Fulham",
-    "visita": "Man City",
-    "gl": 0,
-    "gv": 4
-   }
-  ]
- },
- "561944": {
-  "obtenido": "2026-11-17T19:41:25.589790+00:00",
-  "h2h": [
-   {
-    "fecha": "2026-04-11T14:00:00Z",
-    "local": "Southampton",
-    "visita": "Derby County",
-    "gl": 2,
-    "gv": 1
-   },
-   {
-    "fecha": "2025-10-04T14:00:00Z",
-    "local": "Derby County",
-    "visita": "Southampton",
-    "gl": 1,
-    "gv": 1
-   }
-  ]
- },
- "561948": {
-  "obtenido": "2026-11-17T19:41:25.589790+00:00",
-  "h2h": [
-   {
-    "fecha": "2025-05-03T11:30:00Z",
-    "local": "Norwich",
-    "visita": "Cardiff",
-    "gl": 4,
-    "gv": 2
-   },
-   {
-    "fecha": "2024-11-02T15:00:00Z",
-    "local": "Cardiff",
-    "visita": "Norwich",
-    "gl": 2,
-    "gv": 1
-   },
-   {
-    "fecha": "2024-02-17T15:00:00Z",
-    "local": "Norwich",
-    "visita": "Cardiff",
-    "gl": 4,
-    "gv": 1
-   },
-   {
-    "fecha": "2023-11-11T15:00:00Z",
-    "local": "Cardiff",
-    "visita": "Norwich",
-    "gl": 2,
-    "gv": 3
-   }
-  ]
- },
- "561950": {
-  "obtenido": "2026-11-17T19:41:25.589790+00:00",
-  "h2h": [
-   {
-    "fecha": "2026-04-18T11:30:00Z",
-    "local": "Millwall",
-    "visita": "QPR",
-    "gl": 2,
-    "gv": 0
-   },
-   {
-    "fecha": "2025-10-18T11:30:00Z",
-    "local": "QPR",
-    "visita": "Millwall",
-    "gl": 1,
-    "gv": 2
-   },
-   {
-    "fecha": "2025-02-01T15:00:00Z",
-    "local": "Millwall",
-    "visita": "QPR",
-    "gl": 2,
-    "gv": 1
-   },
-   {
-    "fecha": "2024-09-21T11:30:00Z",
-    "local": "QPR",
-    "visita": "Millwall",
-    "gl": 1,
-    "gv": 1
-   }
-  ]
- },
- "564755": {
-  "obtenido": "2026-11-17T19:41:25.589790+00:00",
-  "h2h": []
- },
- "558525": {
-  "obtenido": "2026-11-17T19:41:25.589790+00:00",
-  "h2h": [
-   {
-    "fecha": "2026-03-07T14:00:00Z",
-    "local": "Cagliari",
-    "visita": "Como 1907",
-    "gl": 1,
-    "gv": 2
-   },
-   {
-    "fecha": "2025-11-08T14:00:00Z",
-    "local": "Como 1907",
-    "visita": "Cagliari",
-    "gl": 0,
-    "gv": 0
-   },
-   {
-    "fecha": "2025-05-10T13:00:00Z",
-    "local": "Como 1907",
-    "visita": "Cagliari",
-    "gl": 3,
-    "gv": 1
-   },
-   {
-    "fecha": "2024-08-26T16:30:00Z",
-    "local": "Cagliari",
-    "visita": "Como 1907",
-    "gl": 1,
-    "gv": 1
-   }
-  ]
- },
  "558528": {
   "obtenido": "2026-11-18T04:01:35.060174+00:00",
   "h2h": [
@@ -2068,5 +1906,124 @@
  "575408": {
   "obtenido": "2026-11-24T06:46:41.189644+00:00",
   "h2h": []
+ },
+ "575409": {
+  "obtenido": "2026-11-24T21:02:02.936399+00:00",
+  "h2h": []
+ },
+ "575412": {
+  "obtenido": "2026-11-24T21:02:02.936399+00:00",
+  "h2h": []
+ },
+ "561962": {
+  "obtenido": "2026-11-24T21:02:02.936399+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-04-21T18:45:00Z",
+    "local": "Stoke",
+    "visita": "Millwall",
+    "gl": 1,
+    "gv": 3
+   },
+   {
+    "fecha": "2025-10-21T18:45:00Z",
+    "local": "Millwall",
+    "visita": "Stoke",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-03-15T12:30:00Z",
+    "local": "Millwall",
+    "visita": "Stoke",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2024-11-09T12:30:00Z",
+    "local": "Stoke",
+    "visita": "Millwall",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "fecha": "2023-12-23T15:00:00Z",
+    "local": "Stoke",
+    "visita": "Millwall",
+    "gl": 0,
+    "gv": 0
+   }
+  ]
+ },
+ "555091": {
+  "obtenido": "2026-11-24T21:02:02.936399+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-05-24T21:30:00Z",
+    "local": "Corinthians",
+    "visita": "Mineiro",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-10-18T21:30:00Z",
+    "local": "Corinthians",
+    "visita": "Mineiro",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-05-25T00:00:00Z",
+    "local": "Mineiro",
+    "visita": "Corinthians",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "fecha": "2024-07-28T22:00:00Z",
+    "local": "Mineiro",
+    "visita": "Corinthians",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "fecha": "2024-04-14T19:00:00Z",
+    "local": "Corinthians",
+    "visita": "Mineiro",
+    "gl": 0,
+    "gv": 0
+   }
+  ]
+ },
+ "555108": {
+  "obtenido": "2026-11-24T21:02:02.936399+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-05-31T23:30:00Z",
+    "local": "Clube do Remo",
+    "visita": "São Paulo",
+    "gl": 1,
+    "gv": 0
+   }
+  ]
+ },
+ "558820": {
+  "obtenido": "2026-11-24T21:02:02.936399+00:00",
+  "h2h": [
+   {
+    "fecha": "2025-02-15T20:00:00Z",
+    "local": "Willem II",
+    "visita": "Groningen",
+    "gl": 1,
+    "gv": 3
+   },
+   {
+    "fecha": "2024-11-30T17:45:00Z",
+    "local": "Groningen",
+    "visita": "Willem II",
+    "gl": 2,
+    "gv": 0
+   }
+  ]
  }
 }
