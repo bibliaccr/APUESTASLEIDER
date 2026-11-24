@@ -1,49 +1,6 @@
 {
  "partidos": [
   {
-   "id": 565830,
-   "fecha": "2026-10-24T13:30:00Z",
-   "liga": "Bundesliga",
-   "local": "Mainz",
-   "visitante": "Bremen",
-   "picks": [
-    {
-     "mercado": "doble",
-     "lado": "home",
-     "prob": 77,
-     "texto": "Mainz gana o empata",
-     "nivel": "confiada",
-     "acierto": false
-    },
-    {
-     "mercado": "mas25",
-     "lado": null,
-     "prob": 73,
-     "texto": "Más de 2.5 goles",
-     "nivel": "media",
-     "acierto": true
-    },
-    {
-     "mercado": "btts_si",
-     "lado": null,
-     "prob": 66,
-     "texto": "Ambos equipos marcan",
-     "nivel": "media",
-     "acierto": true
-    },
-    {
-     "mercado": "mas15",
-     "lado": null,
-     "prob": 87,
-     "texto": "Más de 1.5 goles",
-     "nivel": "super",
-     "acierto": true
-    }
-   ],
-   "estado": "resuelto",
-   "marcador": "2-3"
-  },
-  {
    "id": 565831,
    "fecha": "2026-10-24T13:30:00Z",
    "liga": "Bundesliga",
@@ -12084,24 +12041,28 @@
      "lado": null,
      "prob": 79,
      "texto": "Menos de 3.5 goles",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": false
     },
     {
      "mercado": "doble",
      "lado": "home",
      "prob": 77,
      "texto": "Internacional gana o empata",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": false
     },
     {
      "mercado": "mas15",
      "lado": null,
      "prob": 68,
      "texto": "Más de 1.5 goles",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "2-5"
   },
   {
    "id": 555093,
@@ -12115,24 +12076,28 @@
      "lado": null,
      "prob": 76,
      "texto": "Menos de 3.5 goles",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": true
     },
     {
      "mercado": "doble",
      "lado": "home",
      "prob": 68,
      "texto": "Botafogo gana o empata",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     },
     {
      "mercado": "mas15",
      "lado": null,
      "prob": 71,
      "texto": "Más de 1.5 goles",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "1-1"
   },
   {
    "id": 555099,
@@ -12146,24 +12111,28 @@
      "lado": "home",
      "prob": 78,
      "texto": "Santos gana o empata",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": false
     },
     {
      "mercado": "mas15",
      "lado": null,
      "prob": 75,
      "texto": "Más de 1.5 goles",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": true
     },
     {
      "mercado": "menos35",
      "lado": null,
      "prob": 72,
      "texto": "Menos de 3.5 goles",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "0-2"
   },
   {
    "id": 575395,
@@ -12688,7 +12657,7 @@
     {
      "mercado": "1x2",
      "lado": "away",
-     "prob": 71,
+     "prob": 72,
      "texto": "Gana: Palmeiras",
      "nivel": "media"
     },
@@ -13108,7 +13077,7 @@
     {
      "mercado": "doble",
      "lado": "home",
-     "prob": 71,
+     "prob": 70,
      "texto": "Mineiro gana o empata",
      "nivel": "media"
     },
@@ -13130,17 +13099,17 @@
    "visitante": "Clube do Remo",
    "picks": [
     {
-     "mercado": "doble",
-     "lado": "home",
-     "prob": 80,
-     "texto": "São Paulo gana o empata",
-     "nivel": "confiada"
-    },
-    {
      "mercado": "menos35",
      "lado": null,
      "prob": 76,
      "texto": "Menos de 3.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 75,
+     "texto": "São Paulo gana o empata",
      "nivel": "confiada"
     },
     {
@@ -13407,43 +13376,67 @@
     }
    ],
    "estado": "pendiente"
+  },
+  {
+   "id": 555105,
+   "fecha": "2026-11-27T23:00:00Z",
+   "liga": "Brasileirão Serie A",
+   "local": "Fluminense",
+   "visitante": "Cruzeiro",
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 81,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 75,
+     "texto": "Fluminense gana o empata",
+     "nivel": "confiada"
+    }
+   ],
+   "estado": "pendiente"
   }
  ],
  "resumen": {
   "por_nivel": {
    "media": {
-    "total": 485,
-    "aciertos": 351
+    "total": 487,
+    "aciertos": 353
    },
    "confiada": {
-    "total": 388,
-    "aciertos": 291
+    "total": 392,
+    "aciertos": 293
    },
    "super": {
-    "total": 144,
-    "aciertos": 126
+    "total": 143,
+    "aciertos": 125
    }
   },
   "por_mercado": {
    "doble": {
-    "total": 306,
-    "aciertos": 237
-   },
-   "mas25": {
-    "total": 94,
-    "aciertos": 63
-   },
-   "btts_si": {
-    "total": 72,
-    "aciertos": 47
-   },
-   "mas15": {
-    "total": 318,
-    "aciertos": 251
+    "total": 308,
+    "aciertos": 238
    },
    "menos35": {
-    "total": 169,
-    "aciertos": 123
+    "total": 172,
+    "aciertos": 125
+   },
+   "mas25": {
+    "total": 93,
+    "aciertos": 62
+   },
+   "btts_si": {
+    "total": 71,
+    "aciertos": 46
+   },
+   "mas15": {
+    "total": 320,
+    "aciertos": 253
    },
    "1x2": {
     "total": 48,
