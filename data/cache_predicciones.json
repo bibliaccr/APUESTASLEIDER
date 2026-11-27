@@ -1,188 +1,4 @@
 {
- "558832": {
-  "obtenido": "2026-11-20T19:00:03.745290+00:00",
-  "h2h": [
-   {
-    "fecha": "2026-01-31T17:45:00Z",
-    "local": "Zwolle",
-    "visita": "Telstar",
-    "gl": 4,
-    "gv": 1
-   },
-   {
-    "fecha": "2025-08-15T18:00:00Z",
-    "local": "Telstar",
-    "visita": "Zwolle",
-    "gl": 0,
-    "gv": 2
-   }
-  ]
- },
- "558834": {
-  "obtenido": "2026-11-20T19:00:03.745290+00:00",
-  "h2h": [
-   {
-    "fecha": "2026-01-18T11:15:00Z",
-    "local": "Heerenveen",
-    "visita": "Groningen",
-    "gl": 0,
-    "gv": 2
-   },
-   {
-    "fecha": "2025-08-16T19:00:00Z",
-    "local": "Groningen",
-    "visita": "Heerenveen",
-    "gl": 2,
-    "gv": 1
-   },
-   {
-    "fecha": "2025-01-25T20:15:00Z",
-    "local": "Groningen",
-    "visita": "Heerenveen",
-    "gl": 1,
-    "gv": 0
-   },
-   {
-    "fecha": "2024-09-22T10:15:00Z",
-    "local": "Heerenveen",
-    "visita": "Groningen",
-    "gl": 2,
-    "gv": 1
-   },
-   {
-    "fecha": "2023-03-19T11:15:00Z",
-    "local": "Groningen",
-    "visita": "Heerenveen",
-    "gl": 0,
-    "gv": 2
-   }
-  ]
- },
- "555092": {
-  "obtenido": "2026-11-20T19:00:03.745290+00:00",
-  "h2h": [
-   {
-    "fecha": "2026-05-25T23:00:00Z",
-    "local": "Coritiba",
-    "visita": "Bahia",
-    "gl": 3,
-    "gv": 2
-   },
-   {
-    "fecha": "2023-09-14T23:00:00Z",
-    "local": "Coritiba",
-    "visita": "Bahia",
-    "gl": 2,
-    "gv": 4
-   },
-   {
-    "fecha": "2023-05-07T19:00:00Z",
-    "local": "Bahia",
-    "visita": "Coritiba",
-    "gl": 3,
-    "gv": 1
-   },
-   {
-    "fecha": "2020-11-16T21:00:00Z",
-    "local": "Coritiba",
-    "visita": "Bahia",
-    "gl": 1,
-    "gv": 2
-   },
-   {
-    "fecha": "2020-08-12T23:30:00Z",
-    "local": "Bahia",
-    "visita": "Coritiba",
-    "gl": 1,
-    "gv": 0
-   }
-  ]
- },
- "555095": {
-  "obtenido": "2026-11-20T19:00:03.745290+00:00",
-  "h2h": [
-   {
-    "fecha": "2026-05-24T19:00:00Z",
-    "local": "Cruzeiro",
-    "visita": "Chapecoense",
-    "gl": 2,
-    "gv": 1
-   }
-  ]
- },
- "558828": {
-  "obtenido": "2026-11-20T19:00:03.745290+00:00",
-  "h2h": [
-   {
-    "fecha": "2025-01-12T11:15:00Z",
-    "local": "Twente",
-    "visita": "Willem II",
-    "gl": 6,
-    "gv": 2
-   },
-   {
-    "fecha": "2024-11-02T15:30:00Z",
-    "local": "Willem II",
-    "visita": "Twente",
-    "gl": 0,
-    "gv": 1
-   },
-   {
-    "fecha": "2022-01-22T20:00:00Z",
-    "local": "Willem II",
-    "visita": "Twente",
-    "gl": 0,
-    "gv": 1
-   },
-   {
-    "fecha": "2021-10-17T14:45:00Z",
-    "local": "Twente",
-    "visita": "Willem II",
-    "gl": 1,
-    "gv": 1
-   },
-   {
-    "fecha": "2021-03-06T17:45:00Z",
-    "local": "Twente",
-    "visita": "Willem II",
-    "gl": 1,
-    "gv": 1
-   }
-  ]
- },
- "558521": {
-  "obtenido": "2026-11-20T19:00:03.745290+00:00",
-  "h2h": [
-   {
-    "fecha": "2025-05-25T18:45:00Z",
-    "local": "Venezia FC",
-    "visita": "Juventus",
-    "gl": 2,
-    "gv": 3
-   },
-   {
-    "fecha": "2024-12-14T19:45:00Z",
-    "local": "Juventus",
-    "visita": "Venezia FC",
-    "gl": 2,
-    "gv": 2
-   },
-   {
-    "fecha": "2022-05-01T10:30:00Z",
-    "local": "Juventus",
-    "visita": "Venezia FC",
-    "gl": 2,
-    "gv": 1
-   },
-   {
-    "fecha": "2021-12-11T17:00:00Z",
-    "local": "Venezia FC",
-    "visita": "Juventus",
-    "gl": 1,
-    "gv": 1
-   }
-  ]
- },
  "564749": {
   "obtenido": "2026-11-21T03:45:43.060662+00:00",
   "h2h": [
@@ -1999,6 +1815,189 @@
     "local": "Stuttgart",
     "visita": "Frankfurt",
     "gl": 3,
+    "gv": 0
+   }
+  ]
+ },
+ "558826": {
+  "obtenido": "2026-11-27T19:51:06.383068+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-05-10T14:45:00Z",
+    "local": "Go Ahead",
+    "visita": "PSV",
+    "gl": 1,
+    "gv": 4
+   },
+   {
+    "fecha": "2025-10-18T16:45:00Z",
+    "local": "PSV",
+    "visita": "Go Ahead",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-03-01T17:45:00Z",
+    "local": "Go Ahead",
+    "visita": "PSV",
+    "gl": 3,
+    "gv": 2
+   }
+  ]
+ },
+ "558518": {
+  "obtenido": "2026-11-27T19:51:06.383068+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-02-28T19:45:00Z",
+    "local": "Inter",
+    "visita": "Genoa",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-12-14T17:00:00Z",
+    "local": "Genoa",
+    "visita": "Inter",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "fecha": "2025-02-22T19:45:00Z",
+    "local": "Inter",
+    "visita": "Genoa",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2024-08-17T16:30:00Z",
+    "local": "Genoa",
+    "visita": "Inter",
+    "gl": 2,
+    "gv": 2
+   },
+   {
+    "fecha": "2024-03-04T19:45:00Z",
+    "local": "Inter",
+    "visita": "Genoa",
+    "gl": 2,
+    "gv": 1
+   }
+  ]
+ },
+ "559617": {
+  "obtenido": "2026-11-27T19:51:06.383068+00:00",
+  "h2h": []
+ },
+ "559620": {
+  "obtenido": "2026-11-27T19:51:06.383068+00:00",
+  "h2h": [
+   {
+    "fecha": "2023-04-30T13:00:00Z",
+    "local": "Troyes",
+    "visita": "Nice",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "fecha": "2022-10-09T13:00:00Z",
+    "local": "Nice",
+    "visita": "Troyes",
+    "gl": 3,
+    "gv": 2
+   },
+   {
+    "fecha": "2022-04-24T13:00:00Z",
+    "local": "Nice",
+    "visita": "Troyes",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2021-10-17T11:00:00Z",
+    "local": "Troyes",
+    "visita": "Nice",
+    "gl": 1,
+    "gv": 0
+   }
+  ]
+ },
+ "559614": {
+  "obtenido": "2026-11-27T19:51:06.383068+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-05-02T15:00:00Z",
+    "local": "PSG",
+    "visita": "Lorient",
+    "gl": 2,
+    "gv": 2
+   },
+   {
+    "fecha": "2025-10-29T18:00:00Z",
+    "local": "Lorient",
+    "visita": "PSG",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "fecha": "2024-04-24T17:00:00Z",
+    "local": "Lorient",
+    "visita": "PSG",
+    "gl": 1,
+    "gv": 4
+   },
+   {
+    "fecha": "2023-08-12T19:00:00Z",
+    "local": "PSG",
+    "visita": "Lorient",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "fecha": "2023-04-30T15:05:00Z",
+    "local": "PSG",
+    "visita": "Lorient",
+    "gl": 1,
+    "gv": 3
+   }
+  ]
+ },
+ "564762": {
+  "obtenido": "2026-11-27T19:51:06.383068+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-04-21T19:30:00Z",
+    "local": "Real Madrid",
+    "visita": "Alavés",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-12-14T20:00:00Z",
+    "local": "Alavés",
+    "visita": "Real Madrid",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "fecha": "2025-04-13T14:15:00Z",
+    "local": "Alavés",
+    "visita": "Real Madrid",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "fecha": "2024-09-24T19:00:00Z",
+    "local": "Real Madrid",
+    "visita": "Alavés",
+    "gl": 3,
+    "gv": 2
+   },
+   {
+    "fecha": "2024-05-14T19:30:00Z",
+    "local": "Real Madrid",
+    "visita": "Alavés",
+    "gl": 5,
     "gv": 0
    }
   ]
