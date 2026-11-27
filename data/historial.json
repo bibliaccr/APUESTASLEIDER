@@ -1,84 +1,6 @@
 {
  "partidos": [
   {
-   "id": 558550,
-   "fecha": "2026-10-28T17:30:00Z",
-   "liga": "Serie A",
-   "local": "Venezia FC",
-   "visitante": "Inter",
-   "picks": [
-    {
-     "mercado": "1x2",
-     "lado": "away",
-     "prob": 76,
-     "texto": "Gana: Inter",
-     "nivel": "confiada",
-     "acierto": true
-    },
-    {
-     "mercado": "mas25",
-     "lado": null,
-     "prob": 73,
-     "texto": "Más de 2.5 goles",
-     "nivel": "media",
-     "acierto": false
-    },
-    {
-     "mercado": "doble",
-     "lado": "away",
-     "prob": 90,
-     "texto": "Inter gana o empata",
-     "nivel": "super",
-     "acierto": true
-    },
-    {
-     "mercado": "mas15",
-     "lado": null,
-     "prob": 89,
-     "texto": "Más de 1.5 goles",
-     "nivel": "super",
-     "acierto": true
-    }
-   ],
-   "estado": "resuelto",
-   "marcador": "0-2"
-  },
-  {
-   "id": 558553,
-   "fecha": "2026-10-28T17:30:00Z",
-   "liga": "Serie A",
-   "local": "Parma",
-   "visitante": "Udinese",
-   "picks": [
-    {
-     "mercado": "mas15",
-     "lado": null,
-     "prob": 75,
-     "texto": "Más de 1.5 goles",
-     "nivel": "confiada",
-     "acierto": false
-    },
-    {
-     "mercado": "doble",
-     "lado": "away",
-     "prob": 66,
-     "texto": "Udinese gana o empata",
-     "nivel": "media",
-     "acierto": true
-    },
-    {
-     "mercado": "menos35",
-     "lado": null,
-     "prob": 71,
-     "texto": "Menos de 3.5 goles",
-     "nivel": "media",
-     "acierto": true
-    }
-   ],
-   "estado": "resuelto",
-   "marcador": "0-0"
-  },
-  {
    "id": 558552,
    "fecha": "2026-10-28T19:45:00Z",
    "liga": "Serie A",
@@ -10841,24 +10763,28 @@
      "lado": null,
      "prob": 76,
      "texto": "Menos de 3.5 goles",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": false
     },
     {
      "mercado": "doble",
      "lado": "home",
      "prob": 75,
      "texto": "São Paulo gana o empata",
-     "nivel": "confiada"
+     "nivel": "confiada",
+     "acierto": true
     },
     {
      "mercado": "mas15",
      "lado": null,
      "prob": 71,
      "texto": "Más de 1.5 goles",
-     "nivel": "media"
+     "nivel": "media",
+     "acierto": true
     }
    ],
-   "estado": "pendiente"
+   "estado": "resuelto",
+   "marcador": "3-1"
   },
   {
    "id": 558820,
@@ -13323,7 +13249,7 @@
     {
      "mercado": "mas15",
      "lado": null,
-     "prob": 67,
+     "prob": 66,
      "texto": "Más de 1.5 goles",
      "nivel": "media"
     }
@@ -13371,7 +13297,7 @@
     {
      "mercado": "doble",
      "lado": "home",
-     "prob": 71,
+     "prob": 72,
      "texto": "Mineiro gana o empata",
      "nivel": "media"
     },
@@ -13491,47 +13417,102 @@
     }
    ],
    "estado": "pendiente"
+  },
+  {
+   "id": 567359,
+   "fecha": "2026-11-30T20:15:00Z",
+   "liga": "Primeira Liga",
+   "local": "Casa Pia",
+   "visitante": "Braga",
+   "picks": [
+    {
+     "mercado": "doble",
+     "lado": "away",
+     "prob": 86,
+     "texto": "Braga gana o empata",
+     "nivel": "super"
+    },
+    {
+     "mercado": "menos35",
+     "lado": null,
+     "prob": 81,
+     "texto": "Menos de 3.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 65,
+     "texto": "Más de 1.5 goles",
+     "nivel": "media"
+    }
+   ],
+   "estado": "pendiente"
+  },
+  {
+   "id": 567360,
+   "fecha": "2026-11-30T20:15:00Z",
+   "liga": "Primeira Liga",
+   "local": "SL Benfica",
+   "visitante": "Famalicão",
+   "picks": [
+    {
+     "mercado": "mas15",
+     "lado": null,
+     "prob": 84,
+     "texto": "Más de 1.5 goles",
+     "nivel": "confiada"
+    },
+    {
+     "mercado": "doble",
+     "lado": "home",
+     "prob": 81,
+     "texto": "SL Benfica gana o empata",
+     "nivel": "confiada"
+    }
+   ],
+   "estado": "pendiente"
   }
  ],
  "resumen": {
   "por_nivel": {
    "media": {
-    "total": 433,
-    "aciertos": 315
+    "total": 431,
+    "aciertos": 314
    },
    "confiada": {
     "total": 351,
     "aciertos": 268
    },
    "super": {
-    "total": 134,
-    "aciertos": 112
+    "total": 132,
+    "aciertos": 110
    }
   },
   "por_mercado": {
-   "1x2": {
-    "total": 48,
-    "aciertos": 39
-   },
-   "mas25": {
-    "total": 90,
-    "aciertos": 61
-   },
-   "doble": {
-    "total": 274,
-    "aciertos": 214
-   },
-   "mas15": {
-    "total": 285,
-    "aciertos": 226
-   },
    "menos35": {
     "total": 148,
-    "aciertos": 109
+    "aciertos": 108
+   },
+   "doble": {
+    "total": 273,
+    "aciertos": 213
+   },
+   "mas15": {
+    "total": 284,
+    "aciertos": 226
+   },
+   "mas25": {
+    "total": 89,
+    "aciertos": 61
    },
    "btts_si": {
     "total": 66,
     "aciertos": 41
+   },
+   "1x2": {
+    "total": 47,
+    "aciertos": 38
    },
    "btts_no": {
     "total": 3,

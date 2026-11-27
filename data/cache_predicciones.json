@@ -1,223 +1,4 @@
 {
- "558835": {
-  "obtenido": "2026-11-20T03:52:12.032303+00:00",
-  "h2h": [
-   {
-    "fecha": "2023-05-06T18:00:00Z",
-    "local": "Cambuur",
-    "visita": "Utrecht",
-    "gl": 0,
-    "gv": 3
-   },
-   {
-    "fecha": "2022-08-13T18:00:00Z",
-    "local": "Utrecht",
-    "visita": "Cambuur",
-    "gl": 0,
-    "gv": 0
-   },
-   {
-    "fecha": "2022-02-05T15:30:00Z",
-    "local": "Utrecht",
-    "visita": "Cambuur",
-    "gl": 3,
-    "gv": 2
-   },
-   {
-    "fecha": "2021-11-21T19:00:00Z",
-    "local": "Cambuur",
-    "visita": "Utrecht",
-    "gl": 2,
-    "gv": 1
-   }
-  ]
- },
- "555098": {
-  "obtenido": "2026-11-20T03:52:12.032303+00:00",
-  "h2h": [
-   {
-    "fecha": "2026-05-24T00:00:00Z",
-    "local": "Flamengo",
-    "visita": "Palmeiras",
-    "gl": 0,
-    "gv": 3
-   },
-   {
-    "fecha": "2025-11-29T21:15:00Z",
-    "local": "Palmeiras",
-    "visita": "Flamengo",
-    "gl": 0,
-    "gv": 1
-   },
-   {
-    "fecha": "2025-10-19T19:00:00Z",
-    "local": "Flamengo",
-    "visita": "Palmeiras",
-    "gl": 3,
-    "gv": 2
-   },
-   {
-    "fecha": "2025-05-25T19:00:00Z",
-    "local": "Palmeiras",
-    "visita": "Flamengo",
-    "gl": 0,
-    "gv": 2
-   },
-   {
-    "fecha": "2024-08-11T19:00:00Z",
-    "local": "Flamengo",
-    "visita": "Palmeiras",
-    "gl": 1,
-    "gv": 1
-   }
-  ]
- },
- "558527": {
-  "obtenido": "2026-11-20T03:52:12.032303+00:00",
-  "h2h": [
-   {
-    "fecha": "2026-03-06T19:45:00Z",
-    "local": "Napoli",
-    "visita": "Torino",
-    "gl": 2,
-    "gv": 1
-   },
-   {
-    "fecha": "2025-10-18T16:00:00Z",
-    "local": "Torino",
-    "visita": "Napoli",
-    "gl": 1,
-    "gv": 0
-   },
-   {
-    "fecha": "2025-04-27T18:45:00Z",
-    "local": "Napoli",
-    "visita": "Torino",
-    "gl": 2,
-    "gv": 0
-   },
-   {
-    "fecha": "2024-12-01T14:00:00Z",
-    "local": "Torino",
-    "visita": "Napoli",
-    "gl": 0,
-    "gv": 1
-   },
-   {
-    "fecha": "2024-03-08T19:45:00Z",
-    "local": "Napoli",
-    "visita": "Torino",
-    "gl": 1,
-    "gv": 1
-   }
-  ]
- },
- "559621": {
-  "obtenido": "2026-11-20T03:52:12.032303+00:00",
-  "h2h": [
-   {
-    "fecha": "2026-04-19T13:00:00Z",
-    "local": "Monaco",
-    "visita": "Auxerre",
-    "gl": 2,
-    "gv": 2
-   },
-   {
-    "fecha": "2025-09-13T19:05:00Z",
-    "local": "Auxerre",
-    "visita": "Monaco",
-    "gl": 1,
-    "gv": 2
-   },
-   {
-    "fecha": "2025-02-01T18:00:00Z",
-    "local": "Monaco",
-    "visita": "Auxerre",
-    "gl": 4,
-    "gv": 2
-   },
-   {
-    "fecha": "2024-09-14T17:00:00Z",
-    "local": "Auxerre",
-    "visita": "Monaco",
-    "gl": 0,
-    "gv": 3
-   },
-   {
-    "fecha": "2023-02-01T20:00:00Z",
-    "local": "Monaco",
-    "visita": "Auxerre",
-    "gl": 3,
-    "gv": 2
-   }
-  ]
- },
- "559623": {
-  "obtenido": "2026-11-20T03:52:12.032303+00:00",
-  "h2h": [
-   {
-    "fecha": "2026-04-17T18:45:00Z",
-    "local": "RC Lens",
-    "visita": "Toulouse",
-    "gl": 3,
-    "gv": 2
-   },
-   {
-    "fecha": "2026-01-02T19:45:00Z",
-    "local": "Toulouse",
-    "visita": "RC Lens",
-    "gl": 0,
-    "gv": 3
-   },
-   {
-    "fecha": "2025-05-10T19:00:00Z",
-    "local": "Toulouse",
-    "visita": "RC Lens",
-    "gl": 1,
-    "gv": 1
-   },
-   {
-    "fecha": "2025-01-05T14:00:00Z",
-    "local": "RC Lens",
-    "visita": "Toulouse",
-    "gl": 0,
-    "gv": 1
-   }
-  ]
- },
- "564754": {
-  "obtenido": "2026-11-20T03:52:12.032303+00:00",
-  "h2h": [
-   {
-    "fecha": "2026-03-06T20:00:00Z",
-    "local": "Celta",
-    "visita": "Real Madrid",
-    "gl": 1,
-    "gv": 2
-   },
-   {
-    "fecha": "2025-12-07T20:00:00Z",
-    "local": "Real Madrid",
-    "visita": "Celta",
-    "gl": 0,
-    "gv": 2
-   },
-   {
-    "fecha": "2025-05-04T12:00:00Z",
-    "local": "Real Madrid",
-    "visita": "Celta",
-    "gl": 3,
-    "gv": 2
-   },
-   {
-    "fecha": "2024-10-19T19:00:00Z",
-    "local": "Celta",
-    "visita": "Real Madrid",
-    "gl": 1,
-    "gv": 2
-   }
-  ]
- },
  "558832": {
   "obtenido": "2026-11-20T19:00:03.745290+00:00",
   "h2h": [
@@ -2007,6 +1788,218 @@
     "visita": "Santa Clara",
     "gl": 0,
     "gv": 2
+   }
+  ]
+ },
+ "567362": {
+  "obtenido": "2026-11-27T04:47:43.877742+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-01-31T18:00:00Z",
+    "local": "Rio Ave",
+    "visita": "Arouca",
+    "gl": 0,
+    "gv": 3
+   },
+   {
+    "fecha": "2025-08-23T19:30:00Z",
+    "local": "Arouca",
+    "visita": "Rio Ave",
+    "gl": 3,
+    "gv": 3
+   },
+   {
+    "fecha": "2025-02-10T20:15:00Z",
+    "local": "Arouca",
+    "visita": "Rio Ave",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "fecha": "2024-09-01T17:00:00Z",
+    "local": "Rio Ave",
+    "visita": "Arouca",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2024-04-19T19:15:00Z",
+    "local": "Rio Ave",
+    "visita": "Arouca",
+    "gl": 1,
+    "gv": 1
+   }
+  ]
+ },
+ "559612": {
+  "obtenido": "2026-11-27T04:47:43.877742+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-03-20T19:45:00Z",
+    "local": "RC Lens",
+    "visita": "Angers SCO",
+    "gl": 5,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-11-30T16:15:00Z",
+    "local": "Angers SCO",
+    "visita": "RC Lens",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "fecha": "2025-01-26T16:15:00Z",
+    "local": "RC Lens",
+    "visita": "Angers SCO",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2024-08-18T15:00:00Z",
+    "local": "Angers SCO",
+    "visita": "RC Lens",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "fecha": "2023-03-18T20:00:00Z",
+    "local": "RC Lens",
+    "visita": "Angers SCO",
+    "gl": 3,
+    "gv": 0
+   }
+  ]
+ },
+ "558514": {
+  "obtenido": "2026-11-27T04:47:43.877742+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-03-01T17:00:00Z",
+    "local": "Torino",
+    "visita": "Lazio",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-10-04T13:00:00Z",
+    "local": "Lazio",
+    "visita": "Torino",
+    "gl": 3,
+    "gv": 3
+   },
+   {
+    "fecha": "2025-03-31T18:45:00Z",
+    "local": "Lazio",
+    "visita": "Torino",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "fecha": "2024-09-29T10:30:00Z",
+    "local": "Torino",
+    "visita": "Lazio",
+    "gl": 2,
+    "gv": 3
+   },
+   {
+    "fecha": "2024-02-22T19:45:00Z",
+    "local": "Torino",
+    "visita": "Lazio",
+    "gl": 0,
+    "gv": 2
+   }
+  ]
+ },
+ "560653": {
+  "obtenido": "2026-11-27T04:47:43.877742+00:00",
+  "h2h": [
+   {
+    "fecha": "2025-02-15T15:00:00Z",
+    "local": "Aston Villa",
+    "visita": "Ipswich Town",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "fecha": "2024-09-29T13:00:00Z",
+    "local": "Ipswich Town",
+    "visita": "Aston Villa",
+    "gl": 2,
+    "gv": 2
+   }
+  ]
+ },
+ "564759": {
+  "obtenido": "2026-11-27T04:47:43.877742+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-04-22T17:00:00Z",
+    "local": "Elche",
+    "visita": "Atleti",
+    "gl": 3,
+    "gv": 2
+   },
+   {
+    "fecha": "2025-08-23T17:30:00Z",
+    "local": "Atleti",
+    "visita": "Elche",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "fecha": "2023-05-14T14:15:00Z",
+    "local": "Elche",
+    "visita": "Atleti",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2022-12-29T20:30:00Z",
+    "local": "Atleti",
+    "visita": "Elche",
+    "gl": 2,
+    "gv": 0
+   }
+  ]
+ },
+ "565870": {
+  "obtenido": "2026-11-27T04:47:43.877742+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-05-16T13:30:00Z",
+    "local": "Frankfurt",
+    "visita": "Stuttgart",
+    "gl": 2,
+    "gv": 2
+   },
+   {
+    "fecha": "2026-01-13T17:30:00Z",
+    "local": "Stuttgart",
+    "visita": "Frankfurt",
+    "gl": 3,
+    "gv": 2
+   },
+   {
+    "fecha": "2025-03-29T17:30:00Z",
+    "local": "Frankfurt",
+    "visita": "Stuttgart",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2024-11-10T16:30:00Z",
+    "local": "Stuttgart",
+    "visita": "Frankfurt",
+    "gl": 2,
+    "gv": 3
+   },
+   {
+    "fecha": "2024-04-13T16:30:00Z",
+    "local": "Stuttgart",
+    "visita": "Frankfurt",
+    "gl": 3,
+    "gv": 0
    }
   ]
  }
