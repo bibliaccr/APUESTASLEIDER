@@ -1,137 +1,4 @@
 {
- "565864": {
-  "obtenido": "2026-11-21T17:54:45.801360+00:00",
-  "h2h": [
-   {
-    "fecha": "2026-02-07T14:30:00Z",
-    "local": "Mainz",
-    "visita": "Augsburg",
-    "gl": 2,
-    "gv": 0
-   },
-   {
-    "fecha": "2025-09-20T13:30:00Z",
-    "local": "Augsburg",
-    "visita": "Mainz",
-    "gl": 1,
-    "gv": 4
-   },
-   {
-    "fecha": "2025-02-08T14:30:00Z",
-    "local": "Mainz",
-    "visita": "Augsburg",
-    "gl": 0,
-    "gv": 0
-   },
-   {
-    "fecha": "2024-09-20T18:30:00Z",
-    "local": "Augsburg",
-    "visita": "Mainz",
-    "gl": 2,
-    "gv": 3
-   },
-   {
-    "fecha": "2024-02-17T14:30:00Z",
-    "local": "Mainz",
-    "visita": "Augsburg",
-    "gl": 1,
-    "gv": 0
-   }
-  ]
- },
- "564750": {
-  "obtenido": "2026-11-21T17:54:45.801360+00:00",
-  "h2h": []
- },
- "559626": {
-  "obtenido": "2026-11-21T17:54:45.801360+00:00",
-  "h2h": [
-   {
-    "fecha": "2026-01-24T16:00:00Z",
-    "local": "Stade Rennais",
-    "visita": "Lorient",
-    "gl": 0,
-    "gv": 2
-   },
-   {
-    "fecha": "2025-08-24T13:00:00Z",
-    "local": "Lorient",
-    "visita": "Stade Rennais",
-    "gl": 4,
-    "gv": 0
-   },
-   {
-    "fecha": "2024-03-03T16:05:00Z",
-    "local": "Stade Rennais",
-    "visita": "Lorient",
-    "gl": 1,
-    "gv": 2
-   },
-   {
-    "fecha": "2023-10-22T11:00:00Z",
-    "local": "Lorient",
-    "visita": "Stade Rennais",
-    "gl": 2,
-    "gv": 1
-   },
-   {
-    "fecha": "2023-01-27T20:00:00Z",
-    "local": "Lorient",
-    "visita": "Stade Rennais",
-    "gl": 2,
-    "gv": 1
-   }
-  ]
- },
- "560645": {
-  "obtenido": "2026-11-21T17:54:45.801360+00:00",
-  "h2h": [
-   {
-    "fecha": "2026-05-03T14:30:00Z",
-    "local": "Man United",
-    "visita": "Liverpool",
-    "gl": 3,
-    "gv": 2
-   },
-   {
-    "fecha": "2025-10-19T15:30:00Z",
-    "local": "Liverpool",
-    "visita": "Man United",
-    "gl": 1,
-    "gv": 2
-   },
-   {
-    "fecha": "2025-01-05T16:30:00Z",
-    "local": "Liverpool",
-    "visita": "Man United",
-    "gl": 2,
-    "gv": 2
-   },
-   {
-    "fecha": "2024-09-01T15:00:00Z",
-    "local": "Man United",
-    "visita": "Liverpool",
-    "gl": 0,
-    "gv": 3
-   }
-  ]
- },
- "564752": {
-  "obtenido": "2026-11-21T17:54:45.801360+00:00",
-  "h2h": []
- },
- "555090": {
-  "obtenido": "2026-11-21T17:54:45.801360+00:00",
-  "h2h": [
-   {
-    "fecha": "2026-05-24T19:00:00Z",
-    "local": "Clube do Remo",
-    "visita": "Paranaense",
-    "gl": 1,
-    "gv": 2
-   }
-  ]
- },
  "558836": {
   "obtenido": "2026-11-22T02:50:32.967148+00:00",
   "h2h": [
@@ -2047,6 +1914,239 @@
     "fecha": "2024-04-15T19:00:00Z",
     "local": "Osasuna",
     "visita": "Valencia",
+    "gl": 0,
+    "gv": 1
+   }
+  ]
+ },
+ "558821": {
+  "obtenido": "2026-11-28T18:43:37.879725+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-04-25T16:45:00Z",
+    "local": "Heerenveen",
+    "visita": "Sittard",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-11-08T19:00:00Z",
+    "local": "Sittard",
+    "visita": "Heerenveen",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-02-01T19:00:00Z",
+    "local": "Heerenveen",
+    "visita": "Sittard",
+    "gl": 2,
+    "gv": 2
+   },
+   {
+    "fecha": "2024-11-02T20:00:00Z",
+    "local": "Sittard",
+    "visita": "Heerenveen",
+    "gl": 3,
+    "gv": 0
+   },
+   {
+    "fecha": "2024-02-03T17:45:00Z",
+    "local": "Sittard",
+    "visita": "Heerenveen",
+    "gl": 3,
+    "gv": 3
+   }
+  ]
+ },
+ "558824": {
+  "obtenido": "2026-11-28T18:43:37.879725+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-03-22T13:30:00Z",
+    "local": "Feyenoord",
+    "visita": "Ajax",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-12-14T13:30:00Z",
+    "local": "Ajax",
+    "visita": "Feyenoord",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-02-02T13:30:00Z",
+    "local": "Ajax",
+    "visita": "Feyenoord",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "fecha": "2024-10-30T17:00:00Z",
+    "local": "Feyenoord",
+    "visita": "Ajax",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "fecha": "2024-04-07T12:30:00Z",
+    "local": "Feyenoord",
+    "visita": "Ajax",
+    "gl": 6,
+    "gv": 0
+   }
+  ]
+ },
+ "558509": {
+  "obtenido": "2026-11-28T18:43:37.879725+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-01-17T17:00:00Z",
+    "local": "Napoli",
+    "visita": "Sassuolo",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-08-23T16:30:00Z",
+    "local": "Sassuolo",
+    "visita": "Napoli",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "fecha": "2024-02-28T17:00:00Z",
+    "local": "Sassuolo",
+    "visita": "Napoli",
+    "gl": 1,
+    "gv": 6
+   },
+   {
+    "fecha": "2023-08-27T18:45:00Z",
+    "local": "Napoli",
+    "visita": "Sassuolo",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "fecha": "2023-02-17T19:45:00Z",
+    "local": "Sassuolo",
+    "visita": "Napoli",
+    "gl": 0,
+    "gv": 2
+   }
+  ]
+ },
+ "559619": {
+  "obtenido": "2026-11-28T18:43:37.879725+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-03-13T19:45:00Z",
+    "local": "Marseille",
+    "visita": "Auxerre",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2025-11-01T20:05:00Z",
+    "local": "Auxerre",
+    "visita": "Marseille",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-02-22T20:05:00Z",
+    "local": "Auxerre",
+    "visita": "Marseille",
+    "gl": 3,
+    "gv": 0
+   },
+   {
+    "fecha": "2024-11-08T19:45:00Z",
+    "local": "Marseille",
+    "visita": "Auxerre",
+    "gl": 1,
+    "gv": 3
+   },
+   {
+    "fecha": "2023-04-30T18:45:00Z",
+    "local": "Marseille",
+    "visita": "Auxerre",
+    "gl": 2,
+    "gv": 1
+   }
+  ]
+ },
+ "560657": {
+  "obtenido": "2026-11-28T18:43:37.879725+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-05-09T14:00:00Z",
+    "local": "Fulham",
+    "visita": "Bournemouth",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-10-03T19:00:00Z",
+    "local": "Bournemouth",
+    "visita": "Fulham",
+    "gl": 3,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-04-14T19:00:00Z",
+    "local": "Bournemouth",
+    "visita": "Fulham",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "fecha": "2024-12-29T15:00:00Z",
+    "local": "Fulham",
+    "visita": "Bournemouth",
+    "gl": 2,
+    "gv": 2
+   },
+   {
+    "fecha": "2024-02-10T15:00:00Z",
+    "local": "Fulham",
+    "visita": "Bournemouth",
+    "gl": 3,
+    "gv": 1
+   }
+  ]
+ },
+ "560659": {
+  "obtenido": "2026-11-28T18:43:37.879725+00:00",
+  "h2h": [
+   {
+    "fecha": "2026-05-02T14:00:00Z",
+    "local": "Newcastle",
+    "visita": "Brighton Hove",
+    "gl": 3,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-10-18T14:00:00Z",
+    "local": "Brighton Hove",
+    "visita": "Newcastle",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "fecha": "2025-05-04T13:00:00Z",
+    "local": "Brighton Hove",
+    "visita": "Newcastle",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "fecha": "2024-10-19T14:00:00Z",
+    "local": "Newcastle",
+    "visita": "Brighton Hove",
     "gl": 0,
     "gv": 1
    }
